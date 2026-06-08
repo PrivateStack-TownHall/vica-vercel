@@ -1,0 +1,26 @@
+@import "tailwindcss";
+:root {
+  --navy-900: #0d1b2a;
+  --navy-700: #1b2d4a;
+  --navy-500: #2e4a7d;
+  --navy-300: #5477a6;
+  --navy-100: #ebeef7;
+
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --info: #38afda;
+
+  --slate-900: #0f172a;
+  --slate-700: #334155;
+  --slate-500: #64748b;
+  --slate-300: #cbd5e1;
+  --slate-100: #f1f5f9;
+
+  --background: #ffffff;
+  --foreground: #0f172a;
+}
+
+.bg-vica-gradient {
+  background: linear-gradient(135deg, #0d1b2a 0%, #1b2d4a 45%, #2e4a7d 100%);
+}
