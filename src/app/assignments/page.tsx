@@ -1,7 +1,112 @@
-import React from "react";
+"use client";
 
-const Assignment = () => {
-  return <div>Assignment</div>;
-};
+import { useMemo, useState } from "react";
 
-export default Assignment;
+import { AnimatePresence, motion } from "framer-motion";
+
+import PageHeader from "@/components/shared/PageHeader";
+import SearchBox from "@/components/shared/SearchBox";
+import ViewSwitcher from "@/components/shared/ViewSwitcher";
+
+import AssignmentGrid from "@/features/assignments/components/AssignmentGrid";
+import AssignmentTable from "@/features/assignments/components/AssignmentTable";
+
+import { ASSIGNMENTS } from "@/features/assignments/constants/assignments.constants";
+
+export default function AssignmentsPage() {
+  const [search, setSearch] = useState("");
+
+  const [view, setView] = useState<"grid" | "table">("grid");
+
+  const filteredAssignments = useMemo(() => {
+    return ASSIGNMENTS.filter((assignment) =>
+      [assignment.title, assignment.program, assignment.module]
+        .join(" ")
+        .toLowerCase()
+        .includes(search.toLowerCase()),
+    );
+  }, [search]);
+
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.3 }}
+    >
+      <PageHeader
+        title="Assignments"
+        description="Explore coding challenges and project assignments."
+        breadcrumbs={[
+          {
+            label: "Home",
+            href: "/",
+          },
+          {
+            label: "Assignments",
+          },
+        ]}
+      />
+
+      <motion.div
+        initial={{
+          opacity: 0,
+          y: 12,
+        }}
+        animate={{
+          opacity: 1,
+          y: 0,
+        }}
+        transition={{
+          delay: 0.1,
+          duration: 0.3,
+        }}
+        className="
+          mb-8
+          flex
+          flex-col
+          gap-4
+          md:flex-row
+          md:items-center
+          md:justify-between
+        "
+      >
+        <div className="flex-1">
+          <SearchBox
+            value={search}
+            onChange={setSearch}
+            placeholder="Search Assignments..."
+          />
+        </div>
+
+        <ViewSwitcher view={view} onChange={setView} />
+      </motion.div>
+
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={view}
+          initial={{
+            opacity: 0,
+            y: 16,
+          }}
+          animate={{
+            opacity: 1,
+            y: 0,
+          }}
+          exit={{
+            opacity: 0,
+            y: -16,
+          }}
+          transition={{
+            duration: 0.25,
+          }}
+        >
+          {view === "grid" ? (
+            <AssignmentGrid assignments={filteredAssignments} />
+          ) : (
+            <AssignmentTable assignments={filteredAssignments} />
+          )}
+        </motion.div>
+      </AnimatePresence>
+    </motion.div>
+  );
+}
