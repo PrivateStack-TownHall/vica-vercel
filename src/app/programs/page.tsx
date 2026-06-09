@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import PageHeader from "@/components/shared/PageHeader";
 import SearchBox from "@/components/shared/SearchBox";
 
-import ProgramViewSwitcher from "@/features/programs/components/ProgramViewSwitcher";
+import ViewSwitcher from "@/components/shared/ViewSwitcher";
 import ProgramGrid from "@/features/programs/components/ProgramGrid";
 
 import { PROGRAMS } from "@/constants/mockData";
@@ -76,7 +76,7 @@ export default function ProgramsPage() {
           />
         </div>
 
-        <ProgramViewSwitcher view={view} onChange={setView} />
+        <ViewSwitcher view={view} onChange={setView} />
       </motion.div>
 
       {/* Content */}

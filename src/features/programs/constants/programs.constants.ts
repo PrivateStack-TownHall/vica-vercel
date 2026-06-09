@@ -1,4 +1,6 @@
-export const PROGRAMS = [
+import { Program } from "../types/program.type";
+
+export const PROGRAMS: Program[] = [
    {
       id: "full-stack-js",
       title: "Full Stack JavaScript",
