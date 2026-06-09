@@ -1,36 +1,252 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VICA
 
-## Getting Started
+**Vincent's Coding Academy**
 
-First, run the development server:
+VICA is a modern Learning Management System (LMS) designed for developers, coding bootcamps, mentors, and self-paced learners. The platform focuses on delivering structured learning materials through Programs, Modules, Lessons, Assignments, and Resources with a clean, developer-friendly interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Live Demo
+
+https://vica-navy.vercel.app/
+
+---
+
+## Vision
+
+Build a modern and scalable learning platform where educational content can be managed directly from GitHub repositories while providing a premium learning experience similar to Linear, Raycast, GitBook, and modern developer documentation platforms.
+
+---
+
+## Core Features
+
+### Programs
+
+Learning paths that organize educational content into structured curriculums.
+
+Examples:
+
+* Full Stack JavaScript
+* Front End Development
+* Back End Development
+
+---
+
+### Modules
+
+Each Program contains multiple Modules that group related learning materials.
+
+Examples:
+
+* JavaScript Fundamentals
+* React Fundamentals
+* Express.js
+* Database Design
+
+---
+
+### Lessons
+
+Lessons are markdown-based learning materials.
+
+Features:
+
+* Grid View
+* Table View
+* Search
+* Markdown Rendering
+* GitHub Content Integration (planned)
+
+---
+
+### Assignments
+
+Coding challenges and practical exercises for students.
+
+Features:
+
+* Grid View
+* Table View
+* Markdown-Based Assignments
+* GitHub Content Integration (planned)
+
+---
+
+### Resources
+
+Downloadable learning assets.
+
+Supported Resource Types:
+
+* PDF
+* PPT / PPTX
+* DOCX
+* XLSX
+* ZIP
+* PNG
+* JPG
+* Figma Files
+* Starter Projects
+
+Features:
+
+* Asset Library Interface
+* Resource Icons by File Type
+* Download Support
+* Resource Details Dialog (planned)
+
+---
+
+## Content Structure
+
+VICA is designed around a hierarchical learning model.
+
+```txt
+Program
+ └── Module
+      ├── Lessons
+      ├── Assignments
+      └── Resources
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Example:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```txt
+Front End
+│
+├── React Fundamentals
+│   ├── Lessons
+│   ├── Assignments
+│   └── Resources
+│
+├── State Management
+│   ├── Lessons
+│   ├── Assignments
+│   └── Resources
+│
+└── Next.js
+    ├── Lessons
+    ├── Assignments
+    └── Resources
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## GitHub-Driven Architecture
 
-To learn more about Next.js, take a look at the following resources:
+VICA is designed to consume educational content directly from GitHub repositories.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Example repository structure:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```txt
+Front End
+│
+├── 1 - React Fundamentals
+│   ├── lessons
+│   │   ├── Variables
+│   │   │   └── README.md
+│   │   └── Components
+│   │       └── README.md
+│   │
+│   ├── assignments
+│   │   └── Build Todo App
+│   │       └── README.md
+│   │
+│   └── resources
+│       └── Starter Project
+│
+└── 2 - State Management
+```
 
-## Deploy on Vercel
+This architecture allows educators to manage learning materials directly from GitHub while VICA automatically displays them through a user-friendly interface.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech Stack
+
+### Frontend
+
+* Next.js 16
+* TypeScript
+* Tailwind CSS v4
+* Shadcn UI
+* Framer Motion
+* Lucide React
+* React Icons
+
+### State Management
+
+* Zustand
+
+### Data Fetching
+
+* TanStack Query
+* Axios
+
+### Forms
+
+* React Hook Form
+* Zod
+
+### Future Integrations
+
+* GitHub API
+* Markdown Rendering
+* Authentication & Authorization
+* Progress Tracking
+* Certificates
+* AI Learning Assistant
+
+---
+
+## Design Principles
+
+VICA follows several core design principles:
+
+* Developer First
+* Modern UI
+* High Readability
+* Minimal Visual Noise
+* Dark Mode Friendly
+* Responsive Design
+* Windows Explorer Inspired Navigation
+* GitBook Inspired Learning Experience
+
+---
+
+## Current Development Status
+
+### Completed
+
+* Layout System
+* Navigation
+* Programs
+* Modules
+* Lessons
+* Assignments
+* Resources
+* Grid View
+* Table View
+* Search
+* Design System
+
+### In Progress
+
+* Markdown Viewer
+* Lesson Detail Pages
+* Assignment Detail Pages
+
+### Planned
+
+* GitHub Integration
+* Resource Download System
+* Authentication
+* Learning Progress Tracking
+* Certificates
+* AI Features
+
+---
+
+## Author
+
+Vincent Guizot
+
+Built with ❤️ for developers and lifelong learners.
