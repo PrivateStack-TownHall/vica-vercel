@@ -10,7 +10,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "VICA",
+  title: "VICA - Learning Portal",
   description: "Vincent's Coding Academy",
 
   icons: {

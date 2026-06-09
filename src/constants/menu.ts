@@ -1,10 +1,11 @@
 import {
    House,
    GraduationCap,
-   BookMarked,
+   FolderOpen,
+   FileText,
    ClipboardCheck,
+   Package,
    Settings,
-   Package
 } from "lucide-react";
 
 export const MENUS = [
@@ -14,30 +15,42 @@ export const MENUS = [
       href: "/",
       icon: House,
    },
+
    {
       label: "Programs",
       description: "Learning Paths",
       href: "/programs",
       icon: GraduationCap,
    },
+
+   {
+      label: "Modules",
+      description: "Course Modules",
+      href: "/modules",
+      icon: FolderOpen,
+   },
+
    {
       label: "Lessons",
-      description: "Study Materials",
+      description: "Learning Content",
       href: "/lessons",
-      icon: BookMarked,
+      icon: FileText,
    },
+
    {
       label: "Assignments",
-      description: "Challenges",
+      description: "Coding Challenges",
       href: "/assignments",
       icon: ClipboardCheck,
    },
+
    {
       label: "Resources",
-      description: "Materials",
+      description: "Downloads & Assets",
       href: "/resources",
       icon: Package,
    },
+
    {
       label: "Settings",
       description: "Preferences",

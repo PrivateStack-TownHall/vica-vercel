@@ -12,6 +12,7 @@ export default function MainLayout({
         <Navbar />
         <div className=" flex h-full">
           <Leftbar />
+
           <div className="flex flex-1 flex-col">
             <main className="flex-1 overflow-auto p-8">{children}</main>
           </div>

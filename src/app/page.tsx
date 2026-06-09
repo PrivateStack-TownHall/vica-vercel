@@ -1,160 +1,210 @@
-import {
-  BookOpen,
-  ClipboardCheck,
-  FolderKanban,
-  GraduationCap,
-} from "lucide-react";
+"use client";
 
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { motion } from "framer-motion";
+
+import {
+  ASSIGNMENTS,
+  ICONS,
+  LESSONS,
+  PROGRAMS,
+} from "@/features/home/constants/home.constants";
+
+import { Hero, Overview, Section } from "@/features/home";
+
+const sectionVariants = {
+  hidden: {
+    opacity: 0,
+    y: 20,
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+  },
+};
 
 export default function HomePage() {
+  const ProgramIcon = ICONS.program;
+  const LessonIcon = ICONS.lesson;
+  const AssignmentIcon = ICONS.assignment;
+
   return (
-    <div className="space-y-8">
+    <motion.div initial="hidden" animate="visible" className="space-y-8">
       {/* Hero */}
-      <Card className="border-[#D9E2F2]">
-        <CardContent className="p-10">
-          <Badge className="mb-4">Vincent's Coding Academy</Badge>
-
-          <h1 className="mb-4 text-6xl font-bold tracking-tight text-[#0D1B2A]">
-            Build. Code. Grow.
-          </h1>
-
-          <p className="max-w-3xl text-lg text-slate-600">
-            Explore structured learning paths, lessons, assignments, and
-            resources designed for modern software developers.
-          </p>
-
-          <div className="mt-8">
-            <Button>Browse Programs</Button>
-          </div>
-        </CardContent>
-      </Card>
+      <motion.div
+        variants={sectionVariants}
+        transition={{
+          duration: 0.4,
+        }}
+      >
+        <Hero />
+      </motion.div>
 
       {/* Programs */}
-      <section>
-        <h2 className="mb-4 text-2xl font-bold">Programs</h2>
+      <motion.div
+        variants={sectionVariants}
+        transition={{
+          delay: 0.1,
+          duration: 0.4,
+        }}
+      >
+        <Section title="Programs">
+          <div className="grid grid-cols-2 gap-2 md:grid-cols-5 xl:grid-cols-6">
+            {PROGRAMS.map((item, index) => (
+              <motion.div
+                key={item}
+                initial={{
+                  opacity: 0,
+                  scale: 0.95,
+                }}
+                animate={{
+                  opacity: 1,
+                  scale: 1,
+                }}
+                transition={{
+                  delay: 0.15 + index * 0.03,
+                }}
+                whileHover={{
+                  scale: 1.05,
+                }}
+                whileTap={{
+                  scale: 0.97,
+                }}
+                className="
+                  flex
+                  cursor-pointer
+                  flex-col
+                  items-center
+                  rounded-xl
+                  p-2
+                  transition-all
+                  hover:bg-[#DCE7FF]
+                "
+              >
+                <ProgramIcon size={72} className="mb-1 text-[#5477A6]" />
 
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-          {[
-            "Full Stack JS",
-            "React Development",
-            "Node.js Backend",
-            "Go Backend",
-          ].map((item) => (
-            <Card
-              key={item}
-              className="cursor-pointer transition-all hover:-translate-y-1 hover:shadow-lg"
-            >
-              <CardContent className="flex flex-col items-center p-8">
-                <FolderKanban size={56} className="mb-4 text-[#5477A6]" />
-
-                <h3 className="font-semibold">{item}</h3>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </section>
+                <h3 className="line-clamp-2 text-center text-sm font-medium text-slate-700">
+                  {item}
+                </h3>
+              </motion.div>
+            ))}
+          </div>
+        </Section>
+      </motion.div>
 
       {/* Lessons */}
-      <section>
-        <h2 className="mb-4 text-2xl font-bold">Latest Lessons</h2>
-
-        <div className="grid gap-4 md:grid-cols-2">
-          {[
-            "React State Management",
-            "TypeScript Generics",
-            "REST API Design",
-            "JWT Authentication",
-          ].map((item) => (
-            <Card key={item}>
-              <CardContent className="flex items-center gap-4 p-5">
-                <BookOpen className="text-[#5477A6]" />
+      <motion.div
+        variants={sectionVariants}
+        transition={{
+          delay: 0.2,
+          duration: 0.4,
+        }}
+      >
+        <Section title="Latest Lessons">
+          <div className="grid grid-cols-2 gap-2">
+            {LESSONS.map((item, index) => (
+              <motion.div
+                key={item}
+                initial={{
+                  opacity: 0,
+                  x: -10,
+                }}
+                animate={{
+                  opacity: 1,
+                  x: 0,
+                }}
+                transition={{
+                  delay: 0.25 + index * 0.03,
+                }}
+                whileHover={{
+                  x: 4,
+                }}
+                className="
+                  flex
+                  cursor-pointer
+                  items-center
+                  gap-4
+                  rounded-xl
+                  p-3
+                  transition-all
+                  hover:bg-[#DCE7FF]
+                "
+              >
+                <LessonIcon size={40} className="text-[#5477A6]" />
 
                 <div>
                   <p className="font-medium">{item}</p>
 
                   <p className="text-sm text-slate-500">Lesson</p>
                 </div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </section>
+              </motion.div>
+            ))}
+          </div>
+        </Section>
+      </motion.div>
 
       {/* Assignments */}
-      <section>
-        <h2 className="mb-4 text-2xl font-bold">Latest Assignments</h2>
-
-        <div className="grid gap-4 md:grid-cols-2">
-          {[
-            "Build Todo App",
-            "Create REST API",
-            "Portfolio Website",
-            "Authentication Challenge",
-          ].map((item) => (
-            <Card key={item}>
-              <CardContent className="flex items-center gap-4 p-5">
-                <ClipboardCheck className="text-[#5477A6]" />
+      <motion.div
+        variants={sectionVariants}
+        transition={{
+          delay: 0.3,
+          duration: 0.4,
+        }}
+      >
+        <Section title="Latest Assignments">
+          <div className="grid grid-cols-2 gap-2">
+            {ASSIGNMENTS.map((item, index) => (
+              <motion.div
+                key={item}
+                initial={{
+                  opacity: 0,
+                  x: -10,
+                }}
+                animate={{
+                  opacity: 1,
+                  x: 0,
+                }}
+                transition={{
+                  delay: 0.35 + index * 0.03,
+                }}
+                whileHover={{
+                  x: 4,
+                }}
+                className="
+                  flex
+                  cursor-pointer
+                  items-center
+                  gap-4
+                  rounded-xl
+                  p-3
+                  transition-all
+                  hover:bg-[#DCE7FF]
+                "
+              >
+                <AssignmentIcon size={40} className="text-[#5477A6]" />
 
                 <div>
                   <p className="font-medium">{item}</p>
 
                   <p className="text-sm text-slate-500">Assignment</p>
                 </div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </section>
+              </motion.div>
+            ))}
+          </div>
+        </Section>
+      </motion.div>
 
       {/* Overview */}
-      <section>
-        <h2 className="mb-4 text-2xl font-bold">Platform Overview</h2>
-
-        <div className="grid gap-4 md:grid-cols-4">
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-sm">Programs</CardTitle>
-            </CardHeader>
-
-            <CardContent>
-              <p className="text-4xl font-bold">12</p>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-sm">Modules</CardTitle>
-            </CardHeader>
-
-            <CardContent>
-              <p className="text-4xl font-bold">48</p>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-sm">Lessons</CardTitle>
-            </CardHeader>
-
-            <CardContent>
-              <p className="text-4xl font-bold">180</p>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-sm">Assignments</CardTitle>
-            </CardHeader>
-
-            <CardContent>
-              <p className="text-4xl font-bold">90</p>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-    </div>
+      <motion.div
+        variants={sectionVariants}
+        transition={{
+          delay: 0.4,
+          duration: 0.4,
+        }}
+      >
+        <Section title="Platform Overview">
+          <Overview />
+        </Section>
+      </motion.div>
+    </motion.div>
   );
 }
