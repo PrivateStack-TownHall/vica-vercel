@@ -1,5 +1,7 @@
 # VICA
 
+![Logo](./public/images/logo.png)
+
 **Vincent's Coding Academy**
 
 VICA is a modern Learning Management System (LMS) designed for developers, coding bootcamps, mentors, and self-paced learners. The platform focuses on delivering structured learning materials through Programs, Modules, Lessons, Assignments, and Resources with a clean, developer-friendly interface.
