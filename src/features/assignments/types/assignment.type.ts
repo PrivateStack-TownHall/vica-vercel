@@ -1,13 +1,12 @@
 export interface Assignment {
    id: string;
 
-   title: string;
    slug: string;
 
+   title: string;
    description: string;
 
-   program: string;
-   module: string;
+   githubPath: string;
 
    createdAt: string;
    updatedAt: string;

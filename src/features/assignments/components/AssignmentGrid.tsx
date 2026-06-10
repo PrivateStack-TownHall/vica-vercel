@@ -28,8 +28,8 @@ export default function AssignmentGrid({ assignments }: AssignmentGridProps) {
         <AssignmentCard
           key={assignment.id}
           title={assignment.title}
-          program={assignment.program}
-          module={assignment.module}
+          program={"assignment.program"}
+          module={"assignment.module"}
           onClick={() => router.push(`/assignments/${assignment.slug}`)}
         />
       ))}

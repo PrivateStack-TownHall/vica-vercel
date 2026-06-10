@@ -72,9 +72,9 @@ export default function AssignmentTable({ assignments }: AssignmentTableProps) {
                 </div>
               </TableCell>
 
-              <TableCell>{assignment.program}</TableCell>
+              <TableCell>{"assignment.program"}</TableCell>
 
-              <TableCell>{assignment.module}</TableCell>
+              <TableCell>{"assignment.module"}</TableCell>
 
               <TableCell>{assignment.createdAt}</TableCell>
 
