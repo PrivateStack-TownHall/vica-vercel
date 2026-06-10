@@ -76,16 +76,20 @@ export default function ModuleTable({ modules }: ModuleTableProps) {
               </TableCell>
 
               <TableCell>
-                <Badge variant="outline">{module.program}</Badge>
+                <Badge variant="outline">{"module.program"}</Badge>
               </TableCell>
-
-              <TableCell className="text-center">{module.lessons}</TableCell>
 
               <TableCell className="text-center">
-                {module.assignments}
+                {module.lessons.length}
               </TableCell>
 
-              <TableCell className="text-center">{module.resources}</TableCell>
+              <TableCell className="text-center">
+                {module.assignments.length}
+              </TableCell>
+
+              <TableCell className="text-center">
+                {module.resources.length}
+              </TableCell>
 
               <TableCell>{module.updatedAt}</TableCell>
             </TableRow>
