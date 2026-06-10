@@ -1,5 +1,7 @@
 "use client";
 
+import { useRouter } from "next/navigation";
+
 import { Resource } from "../types/resource.type";
 
 import ResourceCard from "./ResourceCard";
@@ -9,6 +11,8 @@ interface ResourceGridProps {
 }
 
 export default function ResourceGrid({ resources }: ResourceGridProps) {
+  const router = useRouter();
+
   return (
     <div
       className="
@@ -21,7 +25,14 @@ export default function ResourceGrid({ resources }: ResourceGridProps) {
       "
     >
       {resources.map((resource) => (
-        <ResourceCard key={resource.id} {...resource} />
+        <ResourceCard
+          key={resource.id}
+          title={resource.title}
+          description={resource.description}
+          type={resource.type}
+          size={resource.size}
+          onClick={() => router.push(`/resources/${resource.slug}`)}
+        />
       ))}
     </div>
   );
