@@ -1,0 +1,184 @@
+{
+   "users": [
+      {
+         "id": 1,
+         "name": "Admin Byte",
+         "email": "admin@byteburger.com",
+         "password": "admin123",
+         "role": "admin"
+      },
+      {
+         "id": 2,
+         "name": "John Member",
+         "email": "john@byteburger.com",
+         "password": "john123",
+         "role": "member"
+      },
+      {
+         "id": 3,
+         "name": "Lisa Member",
+         "email": "lisa@byteburger.com",
+         "password": "lisa123",
+         "role": "member"
+      }
+   ],
+   "products": [
+      {
+         "id": 1,
+         "name": "Byte Classic Burger",
+         "price": 45000,
+         "category": "burger",
+         "stock": 20,
+         "rating": 4.8,
+         "image": "/img/burger1.jpg",
+         "description": "Burger klasik beef premium."
+      },
+      {
+         "id": 2,
+         "name": "AI Cheese Burger",
+         "price": 55000,
+         "category": "burger",
+         "stock": 12,
+         "rating": 4.9,
+         "image": "/img/burger2.jpg",
+         "description": "Keju meleleh edisi AI."
+      },
+      {
+         "id": 3,
+         "name": "Quantum Fries",
+         "price": 25000,
+         "category": "snack",
+         "stock": 40,
+         "rating": 4.6,
+         "image": "/img/fries.jpg",
+         "description": "Kentang bumbu renyah."
+      },
+      {
+         "id": 4,
+         "name": "Neural Nuggets",
+         "price": 30000,
+         "category": "snack",
+         "stock": 35,
+         "rating": 4.4,
+         "image": "/img/nuggets.jpg",
+         "description": "Nugget ayam crispy."
+      },
+      {
+         "id": 5,
+         "name": "Fusion Hotdog",
+         "price": 38000,
+         "category": "hotdog",
+         "stock": 18,
+         "rating": 4.5,
+         "image": "/img/hotdog.jpg",
+         "description": "Hotdog saus fusion Asia."
+      },
+      {
+         "id": 6,
+         "name": "Binary Beef Burger",
+         "price": 60000,
+         "category": "burger",
+         "stock": 10,
+         "rating": 4.7,
+         "image": "/img/burger3.jpg",
+         "description": "Daging double patty."
+      },
+      {
+         "id": 7,
+         "name": "Quantum Soda",
+         "price": 15000,
+         "category": "drink",
+         "stock": 50,
+         "rating": 4.3,
+         "image": "/img/soda.jpg",
+         "description": "Minuman bersoda segar."
+      },
+      {
+         "id": 8,
+         "name": "Zero Sugar Tea",
+         "price": 12000,
+         "category": "drink",
+         "stock": 40,
+         "rating": 4.1,
+         "image": "/img/tea.jpg",
+         "description": "Teh tanpa gula sehat."
+      },
+      {
+         "id": 9,
+         "name": "Crispy Onion Rings",
+         "price": 20000,
+         "category": "snack",
+         "stock": 30,
+         "rating": 4.6,
+         "image": "/img/onion.jpg",
+         "description": "Onion rings renyah."
+      },
+      {
+         "id": 10,
+         "name": "Mega Chicken Burger",
+         "price": 50000,
+         "category": "burger",
+         "stock": 14,
+         "rating": 4.8,
+         "image": "/img/chickenburger.jpg",
+         "description": "Burger ayam crunchy."
+      },
+      {
+         "id": 11,
+         "name": "Cheese Loaded Fries",
+         "price": 28000,
+         "category": "snack",
+         "stock": 25,
+         "rating": 4.7,
+         "image": "/img/cheesefries.jpg",
+         "description": "Kentang dengan keju lumer."
+      },
+      {
+         "id": 12,
+         "name": "Meta Milkshake",
+         "price": 30000,
+         "category": "drink",
+         "stock": 22,
+         "rating": 4.9,
+         "image": "/img/milkshake.jpg",
+         "description": "Milkshake creamy edisi Meta."
+      }
+   ],
+   "cart": [
+      {
+         "id": 1,
+         "userId": 2,
+         "productId": 1,
+         "qty": 2
+      },
+      {
+         "id": 2,
+         "userId": 2,
+         "productId": 11,
+         "qty": 1
+      }
+   ],
+   "orders": [
+      {
+         "id": 1,
+         "userId": 2,
+         "items": [
+            {
+               "productId": 1,
+               "name": "Byte Classic Burger",
+               "qty": 2,
+               "price": 45000
+            },
+            {
+               "productId": 11,
+               "name": "Cheese Loaded Fries",
+               "qty": 1,
+               "price": 28000
+            }
+         ],
+         "total": 118000,
+         "status": "completed",
+         "createdAt": "2025-11-17T10:00:00+07:00"
+      }
+   ]
+}
