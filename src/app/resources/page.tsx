@@ -20,7 +20,7 @@ export default function ResourcesPage() {
 
   const filteredResources = useMemo(() => {
     return RESOURCES.filter((resource) =>
-      [resource.title, resource.program, resource.module]
+      [resource.title, resource.description, resource.type]
         .join(" ")
         .toLowerCase()
         .includes(search.toLowerCase()),
@@ -28,7 +28,17 @@ export default function ResourcesPage() {
   }, [search]);
 
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+    <motion.div
+      initial={{
+        opacity: 0,
+      }}
+      animate={{
+        opacity: 1,
+      }}
+      transition={{
+        duration: 0.3,
+      }}
+    >
       <PageHeader
         title="Resources"
         description="Explore downloadable learning resources and assets."
@@ -43,7 +53,29 @@ export default function ResourcesPage() {
         ]}
       />
 
-      <div className="mb-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+      <motion.div
+        initial={{
+          opacity: 0,
+          y: 12,
+        }}
+        animate={{
+          opacity: 1,
+          y: 0,
+        }}
+        transition={{
+          delay: 0.1,
+          duration: 0.3,
+        }}
+        className="
+          mb-8
+          flex
+          flex-col
+          gap-4
+          md:flex-row
+          md:items-center
+          md:justify-between
+        "
+      >
         <div className="flex-1">
           <SearchBox
             value={search}
@@ -53,7 +85,7 @@ export default function ResourcesPage() {
         </div>
 
         <ViewSwitcher view={view} onChange={setView} />
-      </div>
+      </motion.div>
 
       <AnimatePresence mode="wait">
         <motion.div
@@ -69,6 +101,9 @@ export default function ResourcesPage() {
           exit={{
             opacity: 0,
             y: -16,
+          }}
+          transition={{
+            duration: 0.25,
           }}
         >
           {view === "grid" ? (

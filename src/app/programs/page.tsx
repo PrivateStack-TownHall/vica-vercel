@@ -10,7 +10,7 @@ import SearchBox from "@/components/shared/SearchBox";
 import ViewSwitcher from "@/components/shared/ViewSwitcher";
 import ProgramGrid from "@/features/programs/components/ProgramGrid";
 
-import { PROGRAMS } from "@/constants/mockData";
+import { PROGRAMS } from "@/features/programs/constants/programs.constants";
 import ProgramTable from "@/features/programs/components/ProgramTable";
 
 export default function ProgramsPage() {

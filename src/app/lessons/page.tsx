@@ -20,7 +20,7 @@ export default function LessonsPage() {
 
   const filteredLessons = useMemo(() => {
     return LESSONS.filter((lesson) =>
-      [lesson.title, lesson.program, lesson.module]
+      [lesson.title, lesson.description]
         .join(" ")
         .toLowerCase()
         .includes(search.toLowerCase()),

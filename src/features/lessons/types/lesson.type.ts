@@ -1,13 +1,13 @@
 export interface Lesson {
    id: string;
 
-   title: string;
    slug: string;
 
+   title: string;
    description: string;
-
-   program: string;
-   module: string;
+   programTitle: string;
+   moduleTitle: string;
+   githubPath: string;
 
    createdAt: string;
    updatedAt: string;

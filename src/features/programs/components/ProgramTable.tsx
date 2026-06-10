@@ -13,16 +13,7 @@ import {
 
 import { Folder } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-
-interface Program {
-  id: string;
-  title: string;
-  level: string;
-  modules: number;
-  lessons: number;
-  assignments: number;
-  resources: number;
-}
+import { Program } from "../types/program.type";
 
 interface ProgramTableProps {
   programs: Program[];
@@ -109,9 +100,9 @@ export default function ProgramTable({ programs }: ProgramTableProps) {
               </TableCell>
 
               <TableCell className="text-center font-medium">
-                {program.modules}
+                {program.modules.length} modules
               </TableCell>
-
+              {/* 
               <TableCell className="text-center font-medium">
                 {program.lessons}
               </TableCell>
@@ -122,7 +113,7 @@ export default function ProgramTable({ programs }: ProgramTableProps) {
 
               <TableCell className="text-center font-medium">
                 {program.resources}
-              </TableCell>
+              </TableCell> */}
             </TableRow>
           ))}
         </TableBody>

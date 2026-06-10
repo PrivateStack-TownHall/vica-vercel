@@ -27,8 +27,8 @@ export default function LessonGrid({ lessons }: LessonGridProps) {
           key={lesson.id}
           title={lesson.title}
           description={lesson.description}
-          program={lesson.program}
-          module={lesson.module}
+          program={"lesson.program"}
+          module={"lesson.module"}
           createdAt={lesson.createdAt}
           onClick={() => router.push(`/lessons/${lesson.slug}`)}
         />

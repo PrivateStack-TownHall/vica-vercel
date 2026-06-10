@@ -1,273 +1,139 @@
 import { Module } from "../types/module.type";
 
+import { LESSONS } from "@/features/lessons/constants/lessons.constants";
+import { ASSIGNMENTS } from "@/features/assignments/constants/assignments.constants";
+import { RESOURCES } from "@/features/resources/constants/resources.constants";
+
 export const MODULES: Module[] = [
-   // Full Stack JavaScript
    {
       id: "mod-001",
-      title: "JavaScript Fundamentals",
+
       slug: "javascript-fundamentals",
-      program: "Full Stack JavaScript",
-      lessons: 12,
-      assignments: 3,
-      resources: 5,
+
+      title: "1 - JavaScript Fundamentals",
+
+      description:
+         "Learn variables, functions, arrays, objects, loops, and modern JavaScript fundamentals.",
+
+      programSlug: "full-stack-javascript",
+
+      programTitle: "Full Stack JavaScript",
+
+      githubPath:
+         "Programs/Full Stack JavaScript/1 - JavaScript Fundamentals",
+
+      lessons: [
+         LESSONS[0],
+         LESSONS[1],
+         LESSONS[2],
+      ],
+
+      assignments: [
+         ASSIGNMENTS[0],
+         ASSIGNMENTS[1],
+      ],
+
+      resources: [],
+
       createdAt: "2026-01-01",
+
       updatedAt: "2026-01-05",
    },
+
    {
       id: "mod-002",
-      title: "JavaScript OOP",
+
       slug: "javascript-oop",
-      program: "Full Stack JavaScript",
-      lessons: 10,
-      assignments: 2,
-      resources: 4,
+
+      title: "2 - JavaScript OOP",
+
+      description:
+         "Object-oriented programming concepts including classes, inheritance, encapsulation, and polymorphism.",
+
+      programSlug: "full-stack-javascript",
+
+      programTitle: "Full Stack JavaScript",
+
+      githubPath:
+         "Programs/Full Stack JavaScript/2 - JavaScript OOP",
+
+      lessons: [],
+
+      assignments: [],
+
+      resources: [],
+
       createdAt: "2026-01-02",
+
       updatedAt: "2026-01-06",
    },
+
    {
       id: "mod-003",
-      title: "Asynchronous JavaScript",
-      slug: "asynchronous-javascript",
-      program: "Full Stack JavaScript",
-      lessons: 8,
-      assignments: 2,
-      resources: 3,
-      createdAt: "2026-01-03",
-      updatedAt: "2026-01-07",
-   },
-   {
-      id: "mod-004",
-      title: "Node.js Fundamentals",
-      slug: "nodejs-fundamentals",
-      program: "Full Stack JavaScript",
-      lessons: 14,
-      assignments: 4,
-      resources: 6,
-      createdAt: "2026-01-04",
-      updatedAt: "2026-01-08",
-   },
-   {
-      id: "mod-005",
-      title: "Express.js",
-      slug: "expressjs",
-      program: "Full Stack JavaScript",
-      lessons: 11,
-      assignments: 3,
-      resources: 5,
-      createdAt: "2026-01-05",
-      updatedAt: "2026-01-09",
-   },
-   {
-      id: "mod-006",
-      title: "PostgreSQL",
-      slug: "postgresql",
-      program: "Full Stack JavaScript",
-      lessons: 9,
-      assignments: 2,
-      resources: 4,
-      createdAt: "2026-01-06",
-      updatedAt: "2026-01-10",
-   },
-   {
-      id: "mod-007",
-      title: "React Fundamentals",
-      slug: "react-fundamentals",
-      program: "Full Stack JavaScript",
-      lessons: 16,
-      assignments: 4,
-      resources: 7,
-      createdAt: "2026-01-07",
-      updatedAt: "2026-01-11",
-   },
-   {
-      id: "mod-008",
-      title: "Deployment & DevOps",
-      slug: "deployment-devops",
-      program: "Full Stack JavaScript",
-      lessons: 7,
-      assignments: 2,
-      resources: 3,
-      createdAt: "2026-01-08",
-      updatedAt: "2026-01-12",
-   },
 
-   // Front End
-   {
-      id: "mod-009",
-      title: "HTML Fundamentals",
-      slug: "html-fundamentals",
-      program: "Front End",
-      lessons: 8,
-      assignments: 2,
-      resources: 4,
-      createdAt: "2026-01-09",
-      updatedAt: "2026-01-13",
-   },
-   {
-      id: "mod-010",
-      title: "CSS Fundamentals",
-      slug: "css-fundamentals",
-      program: "Front End",
-      lessons: 10,
-      assignments: 3,
-      resources: 5,
-      createdAt: "2026-01-10",
-      updatedAt: "2026-01-14",
-   },
-   {
-      id: "mod-011",
-      title: "Responsive Web Design",
-      slug: "responsive-web-design",
-      program: "Front End",
-      lessons: 9,
-      assignments: 2,
-      resources: 4,
-      createdAt: "2026-01-11",
-      updatedAt: "2026-01-15",
-   },
-   {
-      id: "mod-012",
-      title: "JavaScript for Front End",
-      slug: "javascript-for-front-end",
-      program: "Front End",
-      lessons: 12,
-      assignments: 3,
-      resources: 5,
-      createdAt: "2026-01-12",
-      updatedAt: "2026-01-16",
-   },
-   {
-      id: "mod-013",
-      title: "React Fundamentals",
-      slug: "react-fundamentals-fe",
-      program: "Front End",
-      lessons: 15,
-      assignments: 4,
-      resources: 6,
+      slug: "react-fundamentals",
+
+      title: "5 - React Fundamentals",
+
+      description:
+         "Learn React components, props, state, hooks, and component architecture.",
+
+      programSlug: "front-end",
+
+      programTitle: "Front End",
+
+      githubPath:
+         "Programs/Front End/5 - React Fundamentals",
+
+      lessons: [
+         LESSONS[3],
+      ],
+
+      assignments: [
+         ASSIGNMENTS[2],
+      ],
+
+      resources: [
+         RESOURCES[0],
+         RESOURCES[1],
+      ],
+
       createdAt: "2026-01-13",
+
       updatedAt: "2026-01-17",
    },
-   {
-      id: "mod-014",
-      title: "React Router",
-      slug: "react-router",
-      program: "Front End",
-      lessons: 6,
-      assignments: 2,
-      resources: 3,
-      createdAt: "2026-01-14",
-      updatedAt: "2026-01-18",
-   },
-   {
-      id: "mod-015",
-      title: "Redux Toolkit",
-      slug: "redux-toolkit",
-      program: "Front End",
-      lessons: 8,
-      assignments: 2,
-      resources: 4,
-      createdAt: "2026-01-15",
-      updatedAt: "2026-01-19",
-   },
-   {
-      id: "mod-016",
-      title: "Next.js",
-      slug: "nextjs",
-      program: "Front End",
-      lessons: 14,
-      assignments: 4,
-      resources: 6,
-      createdAt: "2026-01-16",
-      updatedAt: "2026-01-20",
-   },
 
-   // Back End
    {
-      id: "mod-017",
-      title: "Node.js Fundamentals",
-      slug: "nodejs-fundamentals-be",
-      program: "Back End",
-      lessons: 12,
-      assignments: 3,
-      resources: 5,
-      createdAt: "2026-01-17",
-      updatedAt: "2026-01-21",
-   },
-   {
-      id: "mod-018",
-      title: "Express.js",
+      id: "mod-004",
+
       slug: "expressjs-backend",
-      program: "Back End",
-      lessons: 10,
-      assignments: 3,
-      resources: 4,
+
+      title: "1 - Express.js",
+
+      description:
+         "Build REST APIs using Express.js.",
+
+      programSlug: "back-end",
+
+      programTitle: "Back End",
+
+      githubPath:
+         "Programs/Back End/1 - Express.js",
+
+      lessons: [
+         LESSONS[4],
+      ],
+
+      assignments: [
+         ASSIGNMENTS[3],
+      ],
+
+      resources: [
+         RESOURCES[4],
+      ],
+
       createdAt: "2026-01-18",
+
       updatedAt: "2026-01-22",
-   },
-   {
-      id: "mod-019",
-      title: "REST API Design",
-      slug: "rest-api-design",
-      program: "Back End",
-      lessons: 9,
-      assignments: 2,
-      resources: 4,
-      createdAt: "2026-01-19",
-      updatedAt: "2026-01-23",
-   },
-   {
-      id: "mod-020",
-      title: "Authentication & JWT",
-      slug: "authentication-jwt",
-      program: "Back End",
-      lessons: 8,
-      assignments: 2,
-      resources: 3,
-      createdAt: "2026-01-20",
-      updatedAt: "2026-01-24",
-   },
-   {
-      id: "mod-021",
-      title: "PostgreSQL",
-      slug: "postgresql-backend",
-      program: "Back End",
-      lessons: 11,
-      assignments: 3,
-      resources: 5,
-      createdAt: "2026-01-21",
-      updatedAt: "2026-01-25",
-   },
-   {
-      id: "mod-022",
-      title: "MongoDB",
-      slug: "mongodb",
-      program: "Back End",
-      lessons: 9,
-      assignments: 2,
-      resources: 4,
-      createdAt: "2026-01-22",
-      updatedAt: "2026-01-26",
-   },
-   {
-      id: "mod-023",
-      title: "Testing API",
-      slug: "testing-api",
-      program: "Back End",
-      lessons: 7,
-      assignments: 2,
-      resources: 3,
-      createdAt: "2026-01-23",
-      updatedAt: "2026-01-27",
-   },
-   {
-      id: "mod-024",
-      title: "Deployment",
-      slug: "backend-deployment",
-      program: "Back End",
-      lessons: 6,
-      assignments: 2,
-      resources: 3,
-      createdAt: "2026-01-24",
-      updatedAt: "2026-01-28",
    },
 ];

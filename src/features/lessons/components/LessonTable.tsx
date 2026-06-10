@@ -70,9 +70,9 @@ export default function LessonTable({ lessons }: LessonTableProps) {
                 </div>
               </TableCell>
 
-              <TableCell>{lesson.program}</TableCell>
+              <TableCell>{"lesson.program"}</TableCell>
 
-              <TableCell>{lesson.module}</TableCell>
+              <TableCell>{"lesson.module"}</TableCell>
 
               <TableCell>{lesson.createdAt}</TableCell>
 

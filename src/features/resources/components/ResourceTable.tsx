@@ -1,5 +1,7 @@
 "use client";
 
+import { useRouter } from "next/navigation";
+
 import {
   Table,
   TableBody,
@@ -10,14 +12,25 @@ import {
 } from "@/components/ui/table";
 
 import { Resource } from "../types/resource.type";
+import { getResourceIcon } from "../utils/getResourceIcon";
 
-export default function ResourceTable({
-  resources,
-}: {
+interface ResourceTableProps {
   resources: Resource[];
-}) {
+}
+
+export default function ResourceTable({ resources }: ResourceTableProps) {
+  const router = useRouter();
+
   return (
-    <div className="overflow-hidden rounded-2xl border bg-white">
+    <div
+      className="
+        overflow-hidden
+        rounded-2xl
+        border
+        border-[#D9E2F2]
+        bg-white
+      "
+    >
       <Table>
         <TableHeader>
           <TableRow>
@@ -27,30 +40,54 @@ export default function ResourceTable({
 
             <TableHead>Size</TableHead>
 
-            <TableHead>Program</TableHead>
-
-            <TableHead>Module</TableHead>
-
             <TableHead>Created</TableHead>
           </TableRow>
         </TableHeader>
 
         <TableBody>
-          {resources.map((resource) => (
-            <TableRow key={resource.id}>
-              <TableCell>{resource.title}</TableCell>
+          {resources.map((resource) => {
+            const { Icon, color } = getResourceIcon(resource.type);
 
-              <TableCell>{resource.type.toUpperCase()}</TableCell>
+            return (
+              <TableRow
+                key={resource.id}
+                className="cursor-pointer"
+                onClick={() => router.push(`/resources/${resource.slug}`)}
+              >
+                <TableCell>
+                  <div className="flex items-center gap-3">
+                    <Icon size={32} className={color} />
 
-              <TableCell>{resource.size}</TableCell>
+                    <div>
+                      <p
+                        className="
+                          font-medium
+                          text-[#0D1B2A]
+                        "
+                      >
+                        {resource.title}
+                      </p>
 
-              <TableCell>{resource.program}</TableCell>
+                      <p
+                        className="
+                          text-xs
+                          text-slate-500
+                        "
+                      >
+                        {resource.description}
+                      </p>
+                    </div>
+                  </div>
+                </TableCell>
 
-              <TableCell>{resource.module}</TableCell>
+                <TableCell>{resource.type.toUpperCase()}</TableCell>
 
-              <TableCell>{resource.createdAt}</TableCell>
-            </TableRow>
-          ))}
+                <TableCell>{resource.size}</TableCell>
+
+                <TableCell>{resource.createdAt}</TableCell>
+              </TableRow>
+            );
+          })}
         </TableBody>
       </Table>
     </div>

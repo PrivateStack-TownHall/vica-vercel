@@ -11,19 +11,13 @@ export type ResourceType =
 
 export interface Resource {
    id: string;
-
-   title: string;
    slug: string;
-
+   description: string;
+   title: string;
    type: ResourceType;
-
    size: string;
-
-   program: string;
-   module: string;
-
+   githubPath: string;
+   downloadUrl?: string;
    createdAt: string;
    updatedAt: string;
-
-   downloadUrl: string;
 }

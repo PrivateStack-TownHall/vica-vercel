@@ -8,7 +8,7 @@ export default function MainLayout({
 }) {
   return (
     <div className="bg-vica-gradient flex min-h-screen items-center justify-center p-6">
-      <div className="vica-shell h-[90vh] w-[100vw] lg:w-[75vw] overflow-hidden rounded-xl">
+      <div className="vica-shell h-[90vh] w-[100vw] md:w-[90vw] lg:w-[75vw] overflow-hidden rounded-xl">
         <Navbar />
         <div className=" flex h-full">
           <Leftbar />

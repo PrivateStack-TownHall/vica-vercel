@@ -1,15 +1,19 @@
+import { Module } from "@/features/modules/types/module.type"
+
 export interface Program {
    id: string;
 
+   slug: string;
+
    title: string;
+   description: string;
 
    level: string;
 
-   lessons: number;
+   githubPath: string;
 
-   assignments: number;
+   modules: Module[];
 
-   resources: number;
-   modules: number;
-
+   createdAt: string;
+   updatedAt: string;
 }
