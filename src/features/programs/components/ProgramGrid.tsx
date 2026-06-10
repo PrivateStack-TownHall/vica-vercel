@@ -3,11 +3,7 @@
 import { useRouter } from "next/navigation";
 
 import ProgramFolderCard from "./ProgramFolderCard";
-
-interface Program {
-  id: string;
-  title: string;
-}
+import { Program } from "../types/program.type";
 
 interface ProgramGridProps {
   programs: Program[];
@@ -30,7 +26,7 @@ export default function ProgramGrid({ programs }: ProgramGridProps) {
         <ProgramFolderCard
           key={program.id}
           title={program.title}
-          onClick={() => router.push(`/programs/${program.id}`)}
+          onClick={() => router.push(`/programs/${program.slug}`)}
         />
       ))}
     </div>
