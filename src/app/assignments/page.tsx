@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 
-import { AnimatePresence, motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 import PageHeader from "@/components/shared/PageHeader";
 import SearchBox from "@/components/shared/SearchBox";
@@ -20,7 +20,7 @@ export default function AssignmentsPage() {
 
   const filteredAssignments = useMemo(() => {
     return ASSIGNMENTS.filter((assignment) =>
-      [assignment.title, assignment.program, assignment.module]
+      [assignment.title, assignment.description]
         .join(" ")
         .toLowerCase()
         .includes(search.toLowerCase()),
