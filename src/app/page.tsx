@@ -1,13 +1,12 @@
 "use client";
 
+import { useRouter } from "next/navigation";
+
 import { motion } from "framer-motion";
 
-import {
-  ASSIGNMENTS,
-  ICONS,
-  LESSONS,
-  PROGRAMS,
-} from "@/features/home/constants/home.constants";
+import { Folder, FileText, ClipboardCheck } from "lucide-react";
+
+import { data } from "@/lib/data";
 
 import { Hero, Overview, Section } from "@/features/home";
 
@@ -23,13 +22,16 @@ const sectionVariants = {
 };
 
 export default function HomePage() {
-  const ProgramIcon = ICONS.program;
-  const LessonIcon = ICONS.lesson;
-  const AssignmentIcon = ICONS.assignment;
+  const router = useRouter();
+
+  const programs = data.programs.slice(0, 12);
+
+  const lessons = data.lessons.slice(0, 8);
+
+  const assignments = data.assignments.slice(0, 8);
 
   return (
     <motion.div initial="hidden" animate="visible" className="space-y-8">
-      {/* Hero */}
       <motion.div
         variants={sectionVariants}
         transition={{
@@ -39,7 +41,6 @@ export default function HomePage() {
         <Hero />
       </motion.div>
 
-      {/* Programs */}
       <motion.div
         variants={sectionVariants}
         transition={{
@@ -48,10 +49,18 @@ export default function HomePage() {
         }}
       >
         <Section title="Programs">
-          <div className="grid grid-cols-2 gap-2 md:grid-cols-5 xl:grid-cols-6">
-            {PROGRAMS.map((item, index) => (
+          <div
+            className="
+              grid
+              grid-cols-2
+              gap-2
+              md:grid-cols-5
+              xl:grid-cols-6
+            "
+          >
+            {programs.map((program, index) => (
               <motion.div
-                key={item}
+                key={program.id}
                 initial={{
                   opacity: 0,
                   scale: 0.95,
@@ -69,21 +78,36 @@ export default function HomePage() {
                 whileTap={{
                   scale: 0.97,
                 }}
+                onClick={() => router.push(`/programs/${program.slug}`)}
                 className="
-                  flex
-                  cursor-pointer
-                  flex-col
-                  items-center
-                  rounded-xl
-                  p-2
-                  transition-all
-                  hover:bg-[#DCE7FF]
-                "
+                    flex
+                    cursor-pointer
+                    flex-col
+                    items-center
+                    rounded-xl
+                    p-2
+                    transition-all
+                    hover:bg-[#DCE7FF]
+                  "
               >
-                <ProgramIcon size={72} className="mb-1 text-[#5477A6]" />
+                <Folder
+                  size={72}
+                  className="
+                      mb-1
+                      text-[#5477A6]
+                    "
+                />
 
-                <h3 className="line-clamp-2 text-center text-sm font-medium text-slate-700">
-                  {item}
+                <h3
+                  className="
+                      line-clamp-2
+                      text-center
+                      text-sm
+                      font-medium
+                      text-slate-700
+                    "
+                >
+                  {program.title}
                 </h3>
               </motion.div>
             ))}
@@ -91,7 +115,6 @@ export default function HomePage() {
         </Section>
       </motion.div>
 
-      {/* Lessons */}
       <motion.div
         variants={sectionVariants}
         transition={{
@@ -100,10 +123,16 @@ export default function HomePage() {
         }}
       >
         <Section title="Latest Lessons">
-          <div className="grid grid-cols-2 gap-2">
-            {LESSONS.map((item, index) => (
+          <div
+            className="
+              grid
+              grid-cols-2
+              gap-2
+            "
+          >
+            {lessons.map((lesson, index) => (
               <motion.div
-                key={item}
+                key={lesson.id}
                 initial={{
                   opacity: 0,
                   x: -10,
@@ -118,23 +147,36 @@ export default function HomePage() {
                 whileHover={{
                   x: 4,
                 }}
+                onClick={() => router.push(`/lessons/${lesson.slug}`)}
                 className="
-                  flex
-                  cursor-pointer
-                  items-center
-                  gap-4
-                  rounded-xl
-                  p-3
-                  transition-all
-                  hover:bg-[#DCE7FF]
-                "
+                    flex
+                    cursor-pointer
+                    items-center
+                    gap-4
+                    rounded-xl
+                    p-3
+                    transition-all
+                    hover:bg-[#DCE7FF]
+                  "
               >
-                <LessonIcon size={40} className="text-[#5477A6]" />
+                <FileText
+                  size={40}
+                  className="
+                      text-[#5477A6]
+                    "
+                />
 
                 <div>
-                  <p className="font-medium">{item}</p>
+                  <p className="font-medium">{lesson.title}</p>
 
-                  <p className="text-sm text-slate-500">Lesson</p>
+                  <p
+                    className="
+                        text-sm
+                        text-slate-500
+                      "
+                  >
+                    Lesson
+                  </p>
                 </div>
               </motion.div>
             ))}
@@ -142,7 +184,6 @@ export default function HomePage() {
         </Section>
       </motion.div>
 
-      {/* Assignments */}
       <motion.div
         variants={sectionVariants}
         transition={{
@@ -151,10 +192,16 @@ export default function HomePage() {
         }}
       >
         <Section title="Latest Assignments">
-          <div className="grid grid-cols-2 gap-2">
-            {ASSIGNMENTS.map((item, index) => (
+          <div
+            className="
+              grid
+              grid-cols-2
+              gap-2
+            "
+          >
+            {assignments.map((assignment, index) => (
               <motion.div
-                key={item}
+                key={assignment.id}
                 initial={{
                   opacity: 0,
                   x: -10,
@@ -169,23 +216,36 @@ export default function HomePage() {
                 whileHover={{
                   x: 4,
                 }}
+                onClick={() => router.push(`/assignments/${assignment.slug}`)}
                 className="
-                  flex
-                  cursor-pointer
-                  items-center
-                  gap-4
-                  rounded-xl
-                  p-3
-                  transition-all
-                  hover:bg-[#DCE7FF]
-                "
+                    flex
+                    cursor-pointer
+                    items-center
+                    gap-4
+                    rounded-xl
+                    p-3
+                    transition-all
+                    hover:bg-[#DCE7FF]
+                  "
               >
-                <AssignmentIcon size={40} className="text-[#5477A6]" />
+                <ClipboardCheck
+                  size={40}
+                  className="
+                      text-[#5477A6]
+                    "
+                />
 
                 <div>
-                  <p className="font-medium">{item}</p>
+                  <p className="font-medium">{assignment.title}</p>
 
-                  <p className="text-sm text-slate-500">Assignment</p>
+                  <p
+                    className="
+                        text-sm
+                        text-slate-500
+                      "
+                  >
+                    Assignment
+                  </p>
                 </div>
               </motion.div>
             ))}
@@ -193,7 +253,6 @@ export default function HomePage() {
         </Section>
       </motion.div>
 
-      {/* Overview */}
       <motion.div
         variants={sectionVariants}
         transition={{
