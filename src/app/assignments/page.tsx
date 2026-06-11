@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 import PageHeader from "@/components/shared/PageHeader";
 import SearchBox from "@/components/shared/SearchBox";
@@ -11,31 +11,63 @@ import ViewSwitcher from "@/components/shared/ViewSwitcher";
 import AssignmentGrid from "@/features/assignments/components/AssignmentGrid";
 import AssignmentTable from "@/features/assignments/components/AssignmentTable";
 
-import { ASSIGNMENTS } from "@/features/assignments/constants/assignments.constants";
+import { useAssignments } from "@/features/assignments/hooks/useAssignments";
+
+import LoadingState from "@/components/shared/LoadingState";
+import ErrorState from "@/components/shared/ErrorState";
+import EmptyState from "@/components/shared/EmptyState";
+
+import { Assignment } from "@/features/assignments/types/assignment.type";
 
 export default function AssignmentsPage() {
   const [search, setSearch] = useState("");
 
   const [view, setView] = useState<"grid" | "table">("grid");
 
+  const {
+    data: assignments = [],
+    isLoading,
+    isError,
+    error,
+  } = useAssignments();
+
   const filteredAssignments = useMemo(() => {
-    return ASSIGNMENTS.filter((assignment) =>
+    return assignments.filter((assignment: Assignment) =>
       [assignment.title, assignment.description]
         .join(" ")
         .toLowerCase()
         .includes(search.toLowerCase()),
     );
-  }, [search]);
+  }, [assignments, search]);
+
+  if (isLoading) {
+    return <LoadingState title="Loading assignments..." />;
+  }
+
+  if (isError) {
+    return (
+      <ErrorState
+        title="Failed to load assignments"
+        description={error instanceof Error ? error.message : "Unknown error"}
+      />
+    );
+  }
 
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.3 }}
+      initial={{
+        opacity: 0,
+      }}
+      animate={{
+        opacity: 1,
+      }}
+      transition={{
+        duration: 0.3,
+      }}
     >
       <PageHeader
         title="Assignments"
-        description="Explore coding challenges and project assignments."
+        description="Explore assignments and challenges."
         breadcrumbs={[
           {
             label: "Home",
@@ -81,32 +113,39 @@ export default function AssignmentsPage() {
         <ViewSwitcher view={view} onChange={setView} />
       </motion.div>
 
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={view}
-          initial={{
-            opacity: 0,
-            y: 16,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          exit={{
-            opacity: 0,
-            y: -16,
-          }}
-          transition={{
-            duration: 0.25,
-          }}
-        >
-          {view === "grid" ? (
-            <AssignmentGrid assignments={filteredAssignments} />
-          ) : (
-            <AssignmentTable assignments={filteredAssignments} />
-          )}
-        </motion.div>
-      </AnimatePresence>
+      {filteredAssignments.length === 0 ? (
+        <EmptyState
+          title="No assignments found"
+          description="Try another keyword."
+        />
+      ) : (
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={view}
+            initial={{
+              opacity: 0,
+              y: 16,
+            }}
+            animate={{
+              opacity: 1,
+              y: 0,
+            }}
+            exit={{
+              opacity: 0,
+              y: -16,
+            }}
+            transition={{
+              duration: 0.25,
+            }}
+          >
+            {view === "grid" ? (
+              <AssignmentGrid assignments={filteredAssignments} />
+            ) : (
+              <AssignmentTable assignments={filteredAssignments} />
+            )}
+          </motion.div>
+        </AnimatePresence>
+      )}
     </motion.div>
   );
 }

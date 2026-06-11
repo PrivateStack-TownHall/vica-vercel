@@ -9,7 +9,6 @@ import { Assignment } from "@/features/assignments/types/assignment.type";
 
 interface AssignmentContentProps {
   assignment: Assignment;
-
   markdown: string;
 }
 
@@ -31,8 +30,8 @@ export default function AssignmentContent({
       className="space-y-8"
     >
       <PageHeader
-        title={assignment.title}
-        description={assignment.description}
+        title={""}
+        description={""}
         breadcrumbs={[
           {
             label: "Home",
@@ -48,10 +47,7 @@ export default function AssignmentContent({
         ]}
       />
 
-      <div
-        className="
-        "
-      >
+      <div>
         <MarkdownViewer content={markdown} />
       </div>
     </motion.div>
