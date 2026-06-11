@@ -1,3 +1,5 @@
+// app/resources/[slug]/ResourceContent.tsx
+
 "use client";
 
 import { motion } from "framer-motion";
@@ -51,65 +53,59 @@ export default function ResourceContent({ resource }: ResourceContentProps) {
 
       <div
         className="
-    grid
-    gap-8
-    lg:grid-cols-2
-  "
+          grid
+          gap-8
+          lg:grid-cols-2
+        "
       >
-        {/* LEFT */}
         <div
           className="
-      flex
-      flex-col
-      items-center
-      justify-center
-      text-center
-    "
+            flex
+            flex-col
+            items-center
+            justify-center
+            text-center
+          "
         >
           <Icon size={120} className={`mb-6 ${color}`} />
 
           <h2
             className="
-        mb-3
-        text-3xl
-        font-bold
-        text-[#0D1B2A]
-      "
+              mb-3
+              text-3xl
+              font-bold
+              text-[#0D1B2A]
+            "
           >
             {resource.title}
           </h2>
 
           <p
             className="
-        max-w-xl
-        text-slate-600
-      "
+              max-w-xl
+              text-slate-600
+            "
           >
             {resource.description}
           </p>
         </div>
 
-        {/* RIGHT */}
-        <div
-          className="
-     
-    "
-        >
+        <div>
           <div
             className="
-        mb-6
-        grid
-        gap-4
-        md:grid-cols-3
-      "
+              mb-6
+              grid
+              gap-4
+              md:grid-cols-3
+            "
           >
             <div
               className="
-          rounded-xl
-          p-4
-          text-center
-          bg-white
-        "
+                rounded-xl
+                bg-white
+                p-4
+                text-center
+              "
             >
               <p className="mb-2 text-sm text-slate-500">Type</p>
 
@@ -118,11 +114,11 @@ export default function ResourceContent({ resource }: ResourceContentProps) {
 
             <div
               className="
-          rounded-xl
-          p-4
-          text-center
-          bg-white
-        "
+                rounded-xl
+                bg-white
+                p-4
+                text-center
+              "
             >
               <HardDrive size={18} className="mx-auto mb-2" />
 
@@ -133,34 +129,45 @@ export default function ResourceContent({ resource }: ResourceContentProps) {
 
             <div
               className="
-          rounded-xl
-          p-4
-          text-center
-          bg-white
-        "
+                rounded-xl
+                bg-white
+                p-4
+                text-center
+              "
             >
               <Calendar size={18} className="mx-auto mb-2" />
 
               <p className="mb-1 text-sm text-slate-500">Created</p>
 
-              <p className="font-semibold">{resource.createdAt}</p>
+              <p className="font-semibold">{resource.createdAt || "-"}</p>
             </div>
           </div>
 
-          {resource.downloadUrl && (
+          {resource.downloadUrl ? (
             <Button
               asChild
               size="lg"
               className="
-          bg-[#5477A6]
-          hover:bg-[#45658E]
-          text-white
-        "
+                bg-[#5477A6]
+                text-white
+                hover:bg-[#45658E]
+              "
             >
-              <a href={resource.downloadUrl} target="_blank" rel="noreferrer">
-                <Download className="mr-2 size-4" />
+              <a
+                href={`/download?url=${encodeURIComponent(
+                  resource.downloadUrl ?? "",
+                )}`}
+                target="_blank"
+                rel="noreferrer"
+                download
+              >
+                <Download className="mr-2 h-4 w-4" />
                 Download Resource
               </a>
+            </Button>
+          ) : (
+            <Button size="lg" disabled>
+              Resource Not Available
             </Button>
           )}
         </div>
