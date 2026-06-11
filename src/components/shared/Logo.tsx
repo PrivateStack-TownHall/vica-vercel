@@ -6,11 +6,14 @@ export default function Logo() {
     <Link href="/" className="flex items-center gap-3">
       <Image
         src="/images/logo-white.png"
-        alt="VICA Logo"
-        width={128}
-        height={128}
-        priority
-        className="rounded"
+        alt="Logo"
+        width={100}
+        height={100}
+        style={{
+          width: "auto",
+          height: "40px",
+        }}
+        loading="eager"
       />
     </Link>
   );
