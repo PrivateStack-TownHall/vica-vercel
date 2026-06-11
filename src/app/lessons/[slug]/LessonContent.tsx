@@ -9,7 +9,6 @@ import { Lesson } from "@/features/lessons/types/lesson.type";
 
 interface LessonContentProps {
   lesson: Lesson;
-
   markdown: string;
 }
 
@@ -48,11 +47,7 @@ export default function LessonContent({
         ]}
       />
 
-      <div
-        className="
-         
-        "
-      >
+      <div>
         <MarkdownViewer content={markdown} />
       </div>
     </motion.div>

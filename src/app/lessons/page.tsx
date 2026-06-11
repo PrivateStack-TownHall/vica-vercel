@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 import PageHeader from "@/components/shared/PageHeader";
 import SearchBox from "@/components/shared/SearchBox";
@@ -11,21 +11,42 @@ import ViewSwitcher from "@/components/shared/ViewSwitcher";
 import LessonGrid from "@/features/lessons/components/LessonGrid";
 import LessonTable from "@/features/lessons/components/LessonTable";
 
-import { LESSONS } from "@/features/lessons/constants/lessons.constants";
+import { useLessons } from "@/features/lessons/hooks/useLessons";
+
+import LoadingState from "@/components/shared/LoadingState";
+import ErrorState from "@/components/shared/ErrorState";
+import EmptyState from "@/components/shared/EmptyState";
+
+import { Lesson } from "@/features/lessons/types/lesson.type";
 
 export default function LessonsPage() {
   const [search, setSearch] = useState("");
 
   const [view, setView] = useState<"grid" | "table">("grid");
 
+  const { data: lessons = [], isLoading, isError, error } = useLessons();
+
   const filteredLessons = useMemo(() => {
-    return LESSONS.filter((lesson) =>
+    return lessons.filter((lesson: Lesson) =>
       [lesson.title, lesson.description]
         .join(" ")
         .toLowerCase()
         .includes(search.toLowerCase()),
     );
-  }, [search]);
+  }, [lessons, search]);
+
+  if (isLoading) {
+    return <LoadingState title="Loading lessons..." />;
+  }
+
+  if (isError) {
+    return (
+      <ErrorState
+        title="Failed to load lessons"
+        description={error instanceof Error ? error.message : "Unknown error"}
+      />
+    );
+  }
 
   return (
     <motion.div
@@ -87,32 +108,39 @@ export default function LessonsPage() {
         <ViewSwitcher view={view} onChange={setView} />
       </motion.div>
 
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={view}
-          initial={{
-            opacity: 0,
-            y: 16,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          exit={{
-            opacity: 0,
-            y: -16,
-          }}
-          transition={{
-            duration: 0.25,
-          }}
-        >
-          {view === "grid" ? (
-            <LessonGrid lessons={filteredLessons} />
-          ) : (
-            <LessonTable lessons={filteredLessons} />
-          )}
-        </motion.div>
-      </AnimatePresence>
+      {filteredLessons.length === 0 ? (
+        <EmptyState
+          title="No lessons found"
+          description="Try another keyword."
+        />
+      ) : (
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={view}
+            initial={{
+              opacity: 0,
+              y: 16,
+            }}
+            animate={{
+              opacity: 1,
+              y: 0,
+            }}
+            exit={{
+              opacity: 0,
+              y: -16,
+            }}
+            transition={{
+              duration: 0.25,
+            }}
+          >
+            {view === "grid" ? (
+              <LessonGrid lessons={filteredLessons} />
+            ) : (
+              <LessonTable lessons={filteredLessons} />
+            )}
+          </motion.div>
+        </AnimatePresence>
+      )}
     </motion.div>
   );
 }
