@@ -1,14 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-
-import { ClipboardCheck } from "lucide-react";
+import { ClipboardList } from "lucide-react";
 
 interface AssignmentCardProps {
   title: string;
+  description: string;
 
   program: string;
   module: string;
+
+  createdAt: string;
 
   onClick?: () => void;
 }
@@ -53,13 +55,13 @@ export default function AssignmentCard({
         {program}
       </p>
 
-      <ClipboardCheck size={40} className="mb-3 text-[#5477A6]" />
+      <ClipboardList size={40} className="mb-3 text-[#5477A6]" />
 
       <h3
         className="
           mb-2
-          min-h-[40px]
           line-clamp-2
+          min-h-[40px]
           text-sm
           font-semibold
           text-[#0D1B2A]

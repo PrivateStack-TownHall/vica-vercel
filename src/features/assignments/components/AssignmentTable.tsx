@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 
-import { FileCheck } from "lucide-react";
+import { ClipboardList } from "lucide-react";
 
 import {
   Table,
@@ -41,10 +41,6 @@ export default function AssignmentTable({ assignments }: AssignmentTableProps) {
             <TableHead>Program</TableHead>
 
             <TableHead>Module</TableHead>
-
-            <TableHead>Created</TableHead>
-
-            <TableHead>Updated</TableHead>
           </TableRow>
         </TableHeader>
 
@@ -54,31 +50,25 @@ export default function AssignmentTable({ assignments }: AssignmentTableProps) {
               key={assignment.id}
               onClick={() => router.push(`/assignments/${assignment.slug}`)}
               className="
-                cursor-pointer
-                hover:bg-[#EDF2FF]
-              "
+                  cursor-pointer
+                  hover:bg-[#EDF2FF]
+                "
             >
               <TableCell>
                 <div className="flex items-center gap-3">
-                  <FileCheck size={18} className="text-[#5477A6]" />
+                  <ClipboardList size={18} className="text-[#5477A6]" />
 
                   <div>
                     <p className="font-medium">{assignment.title}</p>
 
-                    <p className="text-xs text-slate-500">
-                      Markdown Assignment
-                    </p>
+                    <p className="text-xs text-slate-500">Assignment</p>
                   </div>
                 </div>
               </TableCell>
 
-              <TableCell>{"assignment.program"}</TableCell>
+              <TableCell>{assignment.programSlug}</TableCell>
 
-              <TableCell>{"assignment.module"}</TableCell>
-
-              <TableCell>{assignment.createdAt}</TableCell>
-
-              <TableCell>{assignment.updatedAt}</TableCell>
+              <TableCell>{assignment.moduleSlug}</TableCell>
             </TableRow>
           ))}
         </TableBody>
