@@ -55,7 +55,7 @@ export default function ResourceContent({ resource }: ResourceContentProps) {
         className="
           grid
           gap-8
-          lg:grid-cols-2
+          grid-cols-2
         "
       >
         <div

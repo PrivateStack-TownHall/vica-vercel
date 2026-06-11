@@ -15,7 +15,7 @@ export default function ProgramViewSwitcher({
   onChange,
 }: ProgramViewSwitcherProps) {
   return (
-    <div className="flex items-center gap-2">
+    <div className="md:flex items-center gap-2 hidden">
       <Button
         type="button"
         // variant={view === "grid" ? "default" : "outline"}

@@ -260,9 +260,9 @@ export default function HomePage() {
           duration: 0.4,
         }}
       >
-        <Section title="Platform Overview">
+        {/* <Section title="Platform Overview">
           <Overview />
-        </Section>
+        </Section> */}
       </motion.div>
     </motion.div>
   );
