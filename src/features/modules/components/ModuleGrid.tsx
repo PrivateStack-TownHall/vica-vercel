@@ -26,10 +26,10 @@ export default function ModuleGrid({ modules }: ModuleGridProps) {
         <ModuleFolderCard
           key={module.id}
           title={module.title}
-          program={"module.program"}
-          lessons={module.lessons.length}
-          assignments={module.assignments.length}
-          resources={module.resources.length}
+          program={module.programSlug}
+          lessons={module.lessons?.length ?? 0}
+          assignments={module.assignments?.length ?? 0}
+          resources={module.resources?.length ?? 0}
           onClick={() => router.push(`/modules/${module.slug}`)}
         />
       ))}
