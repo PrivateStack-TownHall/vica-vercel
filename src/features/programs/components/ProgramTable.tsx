@@ -2,6 +2,10 @@
 
 import { useRouter } from "next/navigation";
 
+import { Folder } from "lucide-react";
+
+import { Badge } from "@/components/ui/badge";
+
 import {
   Table,
   TableBody,
@@ -11,8 +15,6 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
-import { Folder } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
 import { Program } from "../types/program.type";
 
 interface ProgramTableProps {
@@ -25,13 +27,13 @@ export default function ProgramTable({ programs }: ProgramTableProps) {
   return (
     <div
       className="
-      overflow-hidden
-      rounded-md
-      border
-      border-[#D9E2F2]
-      bg-white
-      shadow-sm
-    "
+        overflow-hidden
+        rounded-md
+        border
+        border-[#D9E2F2]
+        bg-white
+        shadow-sm
+      "
     >
       <Table>
         <TableHeader>
@@ -47,18 +49,6 @@ export default function ProgramTable({ programs }: ProgramTableProps) {
             <TableHead className="text-center font-semibold text-[#0D1B2A]">
               Modules
             </TableHead>
-
-            <TableHead className="text-center font-semibold text-[#0D1B2A]">
-              Lessons
-            </TableHead>
-
-            <TableHead className="text-center font-semibold text-[#0D1B2A]">
-              Assignments
-            </TableHead>
-
-            <TableHead className="text-center font-semibold text-[#0D1B2A]">
-              Resources
-            </TableHead>
           </TableRow>
         </TableHeader>
 
@@ -66,12 +56,12 @@ export default function ProgramTable({ programs }: ProgramTableProps) {
           {programs.map((program) => (
             <TableRow
               key={program.id}
-              onClick={() => router.push(`/programs/${program.id}`)}
+              onClick={() => router.push(`/programs/${program.slug}`)}
               className="
-              cursor-pointer
-              transition-all
-              hover:bg-[#EDF2FF]
-            "
+                cursor-pointer
+                transition-all
+                hover:bg-[#EDF2FF]
+              "
             >
               <TableCell>
                 <div className="flex items-center gap-3">
@@ -91,29 +81,17 @@ export default function ProgramTable({ programs }: ProgramTableProps) {
                 <Badge
                   variant="outline"
                   className="
-                  border-[#5477A6]
-                  text-[#5477A6]
-                "
+                    border-[#5477A6]
+                    text-[#5477A6]
+                  "
                 >
-                  {program.level}
+                  {program.level ?? "-"}
                 </Badge>
               </TableCell>
 
               <TableCell className="text-center font-medium">
-                {program.modules.length} modules
+                {program.modules?.length ?? 0} modules
               </TableCell>
-              {/* 
-              <TableCell className="text-center font-medium">
-                {program.lessons}
-              </TableCell>
-
-              <TableCell className="text-center font-medium">
-                {program.assignments}
-              </TableCell>
-
-              <TableCell className="text-center font-medium">
-                {program.resources}
-              </TableCell> */}
             </TableRow>
           ))}
         </TableBody>

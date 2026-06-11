@@ -1,19 +1,18 @@
-import { Module } from "@/features/modules/types/module.type"
+import { Module } from "@/features/modules/types/module.type";
 
 export interface Program {
    id: string;
-
    slug: string;
 
    title: string;
-   description: string;
-
-   level: string;
 
    githubPath: string;
 
-   modules: Module[];
+   description?: string;
+   level?: string;
 
-   createdAt: string;
-   updatedAt: string;
+   modules?: Module[];
+
+   createdAt?: string;
+   updatedAt?: string;
 }
