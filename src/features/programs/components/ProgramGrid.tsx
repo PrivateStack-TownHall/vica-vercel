@@ -16,8 +16,8 @@ export default function ProgramGrid({ programs }: ProgramGridProps) {
     <div
       className="
         grid
-        grid-cols-2
         gap-6
+        grid-cols-2
         md:grid-cols-4
         xl:grid-cols-6
       "
