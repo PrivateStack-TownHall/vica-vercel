@@ -1,0 +1,970 @@
+{
+  "programs": [
+    {
+      "id": "back-end",
+      "slug": "back-end",
+      "title": "Back End",
+      "githubPath": "Back End"
+    },
+    {
+      "id": "front-end",
+      "slug": "front-end",
+      "title": "Front End",
+      "githubPath": "Front End"
+    },
+    {
+      "id": "javascript",
+      "slug": "javascript",
+      "title": "JavaScript",
+      "githubPath": "JavaScript"
+    },
+    {
+      "id": "typescript",
+      "slug": "typescript",
+      "title": "TypeScript",
+      "githubPath": "TypeScript"
+    },
+    {
+      "id": "web-design",
+      "slug": "web-design",
+      "title": "Web Design",
+      "githubPath": "Web Design"
+    }
+  ],
+  "modules": [
+    {
+      "id": "back-end-1---nodejs-and-expressjs",
+      "slug": "back-end-1---nodejs-and-expressjs",
+      "title": "1 - Nodejs and Expressjs",
+      "programSlug": "back-end",
+      "githubPath": "Back End/1 - Nodejs and Expressjs"
+    },
+    {
+      "id": "back-end-10---render-deployment",
+      "slug": "back-end-10---render-deployment",
+      "title": "10 - Render Deployment",
+      "programSlug": "back-end",
+      "githubPath": "Back End/10 - Render Deployment"
+    },
+    {
+      "id": "back-end-11---study-case-part-1",
+      "slug": "back-end-11---study-case-part-1",
+      "title": "11 - Study Case Part 1",
+      "programSlug": "back-end",
+      "githubPath": "Back End/11 - Study Case Part 1"
+    },
+    {
+      "id": "back-end-12---study-case-part-2",
+      "slug": "back-end-12---study-case-part-2",
+      "title": "12 - Study Case Part 2",
+      "programSlug": "back-end",
+      "githubPath": "Back End/12 - Study Case Part 2"
+    },
+    {
+      "id": "back-end-2---database-introduction",
+      "slug": "back-end-2---database-introduction",
+      "title": "2 - Database Introduction",
+      "programSlug": "back-end",
+      "githubPath": "Back End/2 - Database Introduction"
+    },
+    {
+      "id": "back-end-3---postgressql-and-sequelize",
+      "slug": "back-end-3---postgressql-and-sequelize",
+      "title": "3 - PostgresSQL and Sequelize",
+      "programSlug": "back-end",
+      "githubPath": "Back End/3 - PostgresSQL and Sequelize"
+    },
+    {
+      "id": "back-end-4---entity-relational-diagram",
+      "slug": "back-end-4---entity-relational-diagram",
+      "title": "4 - Entity Relational Diagram",
+      "programSlug": "back-end",
+      "githubPath": "Back End/4 - Entity Relational Diagram"
+    },
+    {
+      "id": "back-end-5---crud-study-case-part-1",
+      "slug": "back-end-5---crud-study-case-part-1",
+      "title": "5 - CRUD Study Case Part 1",
+      "programSlug": "back-end",
+      "githubPath": "Back End/5 - CRUD Study Case Part 1"
+    },
+    {
+      "id": "back-end-6---crud-study-case-part-2",
+      "slug": "back-end-6---crud-study-case-part-2",
+      "title": "6 - CRUD Study Case Part 2",
+      "programSlug": "back-end",
+      "githubPath": "Back End/6 - CRUD Study Case Part 2"
+    },
+    {
+      "id": "back-end-7---advanced-query",
+      "slug": "back-end-7---advanced-query",
+      "title": "7 - Advanced Query",
+      "programSlug": "back-end",
+      "githubPath": "Back End/7 - Advanced Query"
+    },
+    {
+      "id": "back-end-8---auth-and-rbac",
+      "slug": "back-end-8---auth-and-rbac",
+      "title": "8 - Auth and RBAC",
+      "programSlug": "back-end",
+      "githubPath": "Back End/8 - Auth and RBAC"
+    },
+    {
+      "id": "back-end-9---cors-multer-etc",
+      "slug": "back-end-9---cors-multer-etc",
+      "title": "9 - CORS Multer Etc",
+      "programSlug": "back-end",
+      "githubPath": "Back End/9 - CORS Multer Etc"
+    },
+    {
+      "id": "front-end-1---react-components",
+      "slug": "front-end-1---react-components",
+      "title": "1 - React Components",
+      "programSlug": "front-end",
+      "githubPath": "Front End/1 - React Components"
+    },
+    {
+      "id": "front-end-10---vercel-deployment",
+      "slug": "front-end-10---vercel-deployment",
+      "title": "10 - Vercel Deployment",
+      "programSlug": "front-end",
+      "githubPath": "Front End/10 - Vercel Deployment"
+    },
+    {
+      "id": "front-end-11---study-case-part-1",
+      "slug": "front-end-11---study-case-part-1",
+      "title": "11 - Study Case Part 1",
+      "programSlug": "front-end",
+      "githubPath": "Front End/11 - Study Case Part 1"
+    },
+    {
+      "id": "front-end-12---study-case-part-2",
+      "slug": "front-end-12---study-case-part-2",
+      "title": "12 - Study Case Part 2",
+      "programSlug": "front-end",
+      "githubPath": "Front End/12 - Study Case Part 2"
+    },
+    {
+      "id": "front-end-2---event-handlers",
+      "slug": "front-end-2---event-handlers",
+      "title": "2 - Event Handlers",
+      "programSlug": "front-end",
+      "githubPath": "Front End/2 - Event Handlers"
+    },
+    {
+      "id": "front-end-3---tailwindcss",
+      "slug": "front-end-3---tailwindcss",
+      "title": "3 - TailwindCSS",
+      "programSlug": "front-end",
+      "githubPath": "Front End/3 - TailwindCSS"
+    },
+    {
+      "id": "front-end-4---react-hooks-and-fetch-api",
+      "slug": "front-end-4---react-hooks-and-fetch-api",
+      "title": "4 - React Hooks and Fetch API",
+      "programSlug": "front-end",
+      "githubPath": "Front End/4 - React Hooks and Fetch API"
+    },
+    {
+      "id": "front-end-5---react-router-dom",
+      "slug": "front-end-5---react-router-dom",
+      "title": "5 - React Router DOM",
+      "programSlug": "front-end",
+      "githubPath": "Front End/5 - React Router DOM"
+    },
+    {
+      "id": "front-end-6---crud-study-case",
+      "slug": "front-end-6---crud-study-case",
+      "title": "6 - CRUD Study Case",
+      "programSlug": "front-end",
+      "githubPath": "Front End/6 - CRUD Study Case"
+    },
+    {
+      "id": "front-end-7---advanced-hooks",
+      "slug": "front-end-7---advanced-hooks",
+      "title": "7 - Advanced Hooks",
+      "programSlug": "front-end",
+      "githubPath": "Front End/7 - Advanced Hooks"
+    },
+    {
+      "id": "front-end-8---auth-and-rbac",
+      "slug": "front-end-8---auth-and-rbac",
+      "title": "8 - Auth and RBAC",
+      "programSlug": "front-end",
+      "githubPath": "Front End/8 - Auth and RBAC"
+    },
+    {
+      "id": "front-end-9---shadcnui-tanstackquery-zod-reacthookform",
+      "slug": "front-end-9---shadcnui-tanstackquery-zod-reacthookform",
+      "title": "9 - ShadcnUi TanStackQuery Zod ReactHookForm",
+      "programSlug": "front-end",
+      "githubPath": "Front End/9 - ShadcnUi TanStackQuery Zod ReactHookForm"
+    },
+    {
+      "id": "javascript-1---introduction-to-javascript",
+      "slug": "javascript-1---introduction-to-javascript",
+      "title": "1 - Introduction To JavaScript",
+      "programSlug": "javascript",
+      "githubPath": "JavaScript/1 - Introduction To JavaScript"
+    },
+    {
+      "id": "javascript-2---variables-data-type",
+      "slug": "javascript-2---variables-data-type",
+      "title": "2 - Variables Data Type",
+      "programSlug": "javascript",
+      "githubPath": "JavaScript/2 - Variables Data Type"
+    },
+    {
+      "id": "typescript-1---introduction-to-typescript",
+      "slug": "typescript-1---introduction-to-typescript",
+      "title": "1 - Introduction To TypeScript",
+      "programSlug": "typescript",
+      "githubPath": "TypeScript/1 - Introduction To TypeScript"
+    },
+    {
+      "id": "typescript-2---variable-data-type",
+      "slug": "typescript-2---variable-data-type",
+      "title": "2 - Variable Data Type",
+      "programSlug": "typescript",
+      "githubPath": "TypeScript/2 - Variable Data Type"
+    },
+    {
+      "id": "web-design-1---web-design-1",
+      "slug": "web-design-1---web-design-1",
+      "title": "1 - Web Design 1",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/1 - Web Design 1"
+    },
+    {
+      "id": "web-design-2---web-design-2",
+      "slug": "web-design-2---web-design-2",
+      "title": "2 - Web Design 2",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/2 - Web Design 2"
+    },
+    {
+      "id": "web-design-3---web-design-3",
+      "slug": "web-design-3---web-design-3",
+      "title": "3 - Web Design 3",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/3 - Web Design 3"
+    },
+    {
+      "id": "web-design-4---web-design-4",
+      "slug": "web-design-4---web-design-4",
+      "title": "4 - Web Design 4",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/4 - Web Design 4"
+    },
+    {
+      "id": "web-design-5---web-design-5",
+      "slug": "web-design-5---web-design-5",
+      "title": "5 - Web Design 5",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/5 - Web Design 5"
+    },
+    {
+      "id": "web-design-6---web-design-6",
+      "slug": "web-design-6---web-design-6",
+      "title": "6 - Web Design 6",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/6 - Web Design 6"
+    },
+    {
+      "id": "web-design-7---study-case-part-1",
+      "slug": "web-design-7---study-case-part-1",
+      "title": "7 - Study Case Part 1",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/7 - Study Case Part 1"
+    },
+    {
+      "id": "web-design-8---study-case-part-2",
+      "slug": "web-design-8---study-case-part-2",
+      "title": "8 - Study Case Part 2",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/8 - Study Case Part 2"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "back-end-1---nodejs-and-expressjs-library---ejs",
+      "slug": "back-end-1---nodejs-and-expressjs-library---ejs",
+      "title": "library - ejs",
+      "programSlug": "back-end",
+      "moduleSlug": "back-end-1---nodejs-and-expressjs",
+      "githubPath": "Back End/1 - Nodejs and Expressjs/lessons/library - ejs"
+    },
+    {
+      "id": "back-end-2---database-introduction-m-ployee",
+      "slug": "back-end-2---database-introduction-m-ployee",
+      "title": "M-ployee",
+      "programSlug": "back-end",
+      "moduleSlug": "back-end-2---database-introduction",
+      "githubPath": "Back End/2 - Database Introduction/lessons/M-ployee"
+    },
+    {
+      "id": "front-end-1---react-components-byte-burger",
+      "slug": "front-end-1---react-components-byte-burger",
+      "title": "byte-burger",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-1---react-components",
+      "githubPath": "Front End/1 - React Components/lessons/byte-burger"
+    },
+    {
+      "id": "front-end-2---event-handlers-quantum-mart",
+      "slug": "front-end-2---event-handlers-quantum-mart",
+      "title": "quantum-mart",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-2---event-handlers",
+      "githubPath": "Front End/2 - Event Handlers/lessons/quantum-mart"
+    },
+    {
+      "id": "front-end-3---tailwindcss-inventory-master",
+      "slug": "front-end-3---tailwindcss-inventory-master",
+      "title": "inventory-master",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-3---tailwindcss",
+      "githubPath": "Front End/3 - TailwindCSS/lessons/inventory-master"
+    },
+    {
+      "id": "front-end-4---react-hooks-and-fetch-api-pineapple-stack",
+      "slug": "front-end-4---react-hooks-and-fetch-api-pineapple-stack",
+      "title": "pineapple-stack",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-4---react-hooks-and-fetch-api",
+      "githubPath": "Front End/4 - React Hooks and Fetch API/lessons/pineapple-stack"
+    },
+    {
+      "id": "typescript-1---introduction-to-typescript-mvc",
+      "slug": "typescript-1---introduction-to-typescript-mvc",
+      "title": "mvc",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-1---introduction-to-typescript",
+      "githubPath": "TypeScript/1 - Introduction To TypeScript/lessons/mvc"
+    },
+    {
+      "id": "typescript-1---introduction-to-typescript-oop",
+      "slug": "typescript-1---introduction-to-typescript-oop",
+      "title": "oop",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-1---introduction-to-typescript",
+      "githubPath": "TypeScript/1 - Introduction To TypeScript/lessons/oop"
+    },
+    {
+      "id": "typescript-2---variable-data-type-mvc",
+      "slug": "typescript-2---variable-data-type-mvc",
+      "title": "mvc",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-2---variable-data-type",
+      "githubPath": "TypeScript/2 - Variable Data Type/lessons/mvc"
+    },
+    {
+      "id": "typescript-2---variable-data-type-oop",
+      "slug": "typescript-2---variable-data-type-oop",
+      "title": "oop",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-2---variable-data-type",
+      "githubPath": "TypeScript/2 - Variable Data Type/lessons/oop"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "back-end-1---nodejs-and-expressjs-theory",
+      "slug": "back-end-1---nodejs-and-expressjs-theory",
+      "title": "theory",
+      "programSlug": "back-end",
+      "moduleSlug": "back-end-1---nodejs-and-expressjs",
+      "githubPath": "Back End/1 - Nodejs and Expressjs/assignments/theory"
+    },
+    {
+      "id": "back-end-2---database-introduction-employees-apps",
+      "slug": "back-end-2---database-introduction-employees-apps",
+      "title": "employees-apps",
+      "programSlug": "back-end",
+      "moduleSlug": "back-end-2---database-introduction",
+      "githubPath": "Back End/2 - Database Introduction/assignments/employees-apps"
+    },
+    {
+      "id": "front-end-1---react-components-theory",
+      "slug": "front-end-1---react-components-theory",
+      "title": "theory",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-1---react-components",
+      "githubPath": "Front End/1 - React Components/assignments/theory"
+    },
+    {
+      "id": "front-end-2---event-handlers-book-store",
+      "slug": "front-end-2---event-handlers-book-store",
+      "title": "book-store",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-2---event-handlers",
+      "githubPath": "Front End/2 - Event Handlers/assignments/book-store"
+    },
+    {
+      "id": "front-end-3---tailwindcss-theory",
+      "slug": "front-end-3---tailwindcss-theory",
+      "title": "theory",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-3---tailwindcss",
+      "githubPath": "Front End/3 - TailwindCSS/assignments/theory"
+    },
+    {
+      "id": "front-end-6---crud-study-case-medieval-airbnb",
+      "slug": "front-end-6---crud-study-case-medieval-airbnb",
+      "title": "medieval-airbnb",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-6---crud-study-case",
+      "githubPath": "Front End/6 - CRUD Study Case/assignments/medieval-airbnb"
+    },
+    {
+      "id": "javascript-1---introduction-to-javascript-async",
+      "slug": "javascript-1---introduction-to-javascript-async",
+      "title": "async",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-1---introduction-to-javascript",
+      "githubPath": "JavaScript/1 - Introduction To JavaScript/assignments/async"
+    },
+    {
+      "id": "javascript-1---introduction-to-javascript-back-end",
+      "slug": "javascript-1---introduction-to-javascript-back-end",
+      "title": "back-end",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-1---introduction-to-javascript",
+      "githubPath": "JavaScript/1 - Introduction To JavaScript/assignments/back-end"
+    },
+    {
+      "id": "javascript-1---introduction-to-javascript-front-end",
+      "slug": "javascript-1---introduction-to-javascript-front-end",
+      "title": "front-end",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-1---introduction-to-javascript",
+      "githubPath": "JavaScript/1 - Introduction To JavaScript/assignments/front-end"
+    },
+    {
+      "id": "javascript-1---introduction-to-javascript-full-stack",
+      "slug": "javascript-1---introduction-to-javascript-full-stack",
+      "title": "full-stack",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-1---introduction-to-javascript",
+      "githubPath": "JavaScript/1 - Introduction To JavaScript/assignments/full-stack"
+    },
+    {
+      "id": "javascript-1---introduction-to-javascript-js-basic",
+      "slug": "javascript-1---introduction-to-javascript-js-basic",
+      "title": "js-basic",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-1---introduction-to-javascript",
+      "githubPath": "JavaScript/1 - Introduction To JavaScript/assignments/js-basic"
+    },
+    {
+      "id": "javascript-1---introduction-to-javascript-mvc",
+      "slug": "javascript-1---introduction-to-javascript-mvc",
+      "title": "mvc",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-1---introduction-to-javascript",
+      "githubPath": "JavaScript/1 - Introduction To JavaScript/assignments/mvc"
+    },
+    {
+      "id": "javascript-1---introduction-to-javascript-oop",
+      "slug": "javascript-1---introduction-to-javascript-oop",
+      "title": "oop",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-1---introduction-to-javascript",
+      "githubPath": "JavaScript/1 - Introduction To JavaScript/assignments/oop"
+    },
+    {
+      "id": "javascript-2---variables-data-type-async",
+      "slug": "javascript-2---variables-data-type-async",
+      "title": "async",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-2---variables-data-type",
+      "githubPath": "JavaScript/2 - Variables Data Type/assignments/async"
+    },
+    {
+      "id": "javascript-2---variables-data-type-back-end",
+      "slug": "javascript-2---variables-data-type-back-end",
+      "title": "back-end",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-2---variables-data-type",
+      "githubPath": "JavaScript/2 - Variables Data Type/assignments/back-end"
+    },
+    {
+      "id": "javascript-2---variables-data-type-front-end",
+      "slug": "javascript-2---variables-data-type-front-end",
+      "title": "front-end",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-2---variables-data-type",
+      "githubPath": "JavaScript/2 - Variables Data Type/assignments/front-end"
+    },
+    {
+      "id": "javascript-2---variables-data-type-full-stack",
+      "slug": "javascript-2---variables-data-type-full-stack",
+      "title": "full-stack",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-2---variables-data-type",
+      "githubPath": "JavaScript/2 - Variables Data Type/assignments/full-stack"
+    },
+    {
+      "id": "javascript-2---variables-data-type-js-basic",
+      "slug": "javascript-2---variables-data-type-js-basic",
+      "title": "js-basic",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-2---variables-data-type",
+      "githubPath": "JavaScript/2 - Variables Data Type/assignments/js-basic"
+    },
+    {
+      "id": "javascript-2---variables-data-type-mvc",
+      "slug": "javascript-2---variables-data-type-mvc",
+      "title": "mvc",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-2---variables-data-type",
+      "githubPath": "JavaScript/2 - Variables Data Type/assignments/mvc"
+    },
+    {
+      "id": "javascript-2---variables-data-type-oop",
+      "slug": "javascript-2---variables-data-type-oop",
+      "title": "oop",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-2---variables-data-type",
+      "githubPath": "JavaScript/2 - Variables Data Type/assignments/oop"
+    },
+    {
+      "id": "typescript-1---introduction-to-typescript-async",
+      "slug": "typescript-1---introduction-to-typescript-async",
+      "title": "async",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-1---introduction-to-typescript",
+      "githubPath": "TypeScript/1 - Introduction To TypeScript/assignments/async"
+    },
+    {
+      "id": "typescript-1---introduction-to-typescript-back-end",
+      "slug": "typescript-1---introduction-to-typescript-back-end",
+      "title": "back-end",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-1---introduction-to-typescript",
+      "githubPath": "TypeScript/1 - Introduction To TypeScript/assignments/back-end"
+    },
+    {
+      "id": "typescript-1---introduction-to-typescript-front-end",
+      "slug": "typescript-1---introduction-to-typescript-front-end",
+      "title": "front-end",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-1---introduction-to-typescript",
+      "githubPath": "TypeScript/1 - Introduction To TypeScript/assignments/front-end"
+    },
+    {
+      "id": "typescript-1---introduction-to-typescript-full-stack",
+      "slug": "typescript-1---introduction-to-typescript-full-stack",
+      "title": "full-stack",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-1---introduction-to-typescript",
+      "githubPath": "TypeScript/1 - Introduction To TypeScript/assignments/full-stack"
+    },
+    {
+      "id": "typescript-1---introduction-to-typescript-mvc",
+      "slug": "typescript-1---introduction-to-typescript-mvc",
+      "title": "mvc",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-1---introduction-to-typescript",
+      "githubPath": "TypeScript/1 - Introduction To TypeScript/assignments/mvc"
+    },
+    {
+      "id": "typescript-1---introduction-to-typescript-oop",
+      "slug": "typescript-1---introduction-to-typescript-oop",
+      "title": "oop",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-1---introduction-to-typescript",
+      "githubPath": "TypeScript/1 - Introduction To TypeScript/assignments/oop"
+    },
+    {
+      "id": "typescript-1---introduction-to-typescript-ts-basic",
+      "slug": "typescript-1---introduction-to-typescript-ts-basic",
+      "title": "ts-basic",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-1---introduction-to-typescript",
+      "githubPath": "TypeScript/1 - Introduction To TypeScript/assignments/ts-basic"
+    },
+    {
+      "id": "typescript-2---variable-data-type-async",
+      "slug": "typescript-2---variable-data-type-async",
+      "title": "async",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-2---variable-data-type",
+      "githubPath": "TypeScript/2 - Variable Data Type/assignments/async"
+    },
+    {
+      "id": "typescript-2---variable-data-type-back-end",
+      "slug": "typescript-2---variable-data-type-back-end",
+      "title": "back-end",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-2---variable-data-type",
+      "githubPath": "TypeScript/2 - Variable Data Type/assignments/back-end"
+    },
+    {
+      "id": "typescript-2---variable-data-type-front-end",
+      "slug": "typescript-2---variable-data-type-front-end",
+      "title": "front-end",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-2---variable-data-type",
+      "githubPath": "TypeScript/2 - Variable Data Type/assignments/front-end"
+    },
+    {
+      "id": "typescript-2---variable-data-type-full-stack",
+      "slug": "typescript-2---variable-data-type-full-stack",
+      "title": "full-stack",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-2---variable-data-type",
+      "githubPath": "TypeScript/2 - Variable Data Type/assignments/full-stack"
+    },
+    {
+      "id": "typescript-2---variable-data-type-mvc",
+      "slug": "typescript-2---variable-data-type-mvc",
+      "title": "mvc",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-2---variable-data-type",
+      "githubPath": "TypeScript/2 - Variable Data Type/assignments/mvc"
+    },
+    {
+      "id": "typescript-2---variable-data-type-oop",
+      "slug": "typescript-2---variable-data-type-oop",
+      "title": "oop",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-2---variable-data-type",
+      "githubPath": "TypeScript/2 - Variable Data Type/assignments/oop"
+    },
+    {
+      "id": "typescript-2---variable-data-type-ts-basic",
+      "slug": "typescript-2---variable-data-type-ts-basic",
+      "title": "ts-basic",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-2---variable-data-type",
+      "githubPath": "TypeScript/2 - Variable Data Type/assignments/ts-basic"
+    }
+  ],
+  "resources": [
+    {
+      "id": "back-end1---nodejs-and-expressjsresourcesreadmemd",
+      "slug": "back-end1---nodejs-and-expressjsresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "back-end",
+      "moduleSlug": "back-end-1---nodejs-and-expressjs",
+      "githubPath": "Back End/1 - Nodejs and Expressjs/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Back%20End/1%20-%20Nodejs%20and%20Expressjs/resources/README.md"
+    },
+    {
+      "id": "back-end10---render-deploymentresourcesreadmemd",
+      "slug": "back-end10---render-deploymentresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "back-end",
+      "moduleSlug": "back-end-10---render-deployment",
+      "githubPath": "Back End/10 - Render Deployment/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Back%20End/10%20-%20Render%20Deployment/resources/README.md"
+    },
+    {
+      "id": "back-end11---study-case-part-1resourcesreadmemd",
+      "slug": "back-end11---study-case-part-1resourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "back-end",
+      "moduleSlug": "back-end-11---study-case-part-1",
+      "githubPath": "Back End/11 - Study Case Part 1/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Back%20End/11%20-%20Study%20Case%20Part%201/resources/README.md"
+    },
+    {
+      "id": "back-end12---study-case-part-2resourcesreadmemd",
+      "slug": "back-end12---study-case-part-2resourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "back-end",
+      "moduleSlug": "back-end-12---study-case-part-2",
+      "githubPath": "Back End/12 - Study Case Part 2/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Back%20End/12%20-%20Study%20Case%20Part%202/resources/README.md"
+    },
+    {
+      "id": "back-end2---database-introductionresourcesreadmemd",
+      "slug": "back-end2---database-introductionresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "back-end",
+      "moduleSlug": "back-end-2---database-introduction",
+      "githubPath": "Back End/2 - Database Introduction/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Back%20End/2%20-%20Database%20Introduction/resources/README.md"
+    },
+    {
+      "id": "back-end3---postgressql-and-sequelizeresourcesreadmemd",
+      "slug": "back-end3---postgressql-and-sequelizeresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "back-end",
+      "moduleSlug": "back-end-3---postgressql-and-sequelize",
+      "githubPath": "Back End/3 - PostgresSQL and Sequelize/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Back%20End/3%20-%20PostgresSQL%20and%20Sequelize/resources/README.md"
+    },
+    {
+      "id": "back-end4---entity-relational-diagramresourcesreadmemd",
+      "slug": "back-end4---entity-relational-diagramresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "back-end",
+      "moduleSlug": "back-end-4---entity-relational-diagram",
+      "githubPath": "Back End/4 - Entity Relational Diagram/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Back%20End/4%20-%20Entity%20Relational%20Diagram/resources/README.md"
+    },
+    {
+      "id": "back-end5---crud-study-case-part-1resourcesreadmemd",
+      "slug": "back-end5---crud-study-case-part-1resourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "back-end",
+      "moduleSlug": "back-end-5---crud-study-case-part-1",
+      "githubPath": "Back End/5 - CRUD Study Case Part 1/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Back%20End/5%20-%20CRUD%20Study%20Case%20Part%201/resources/README.md"
+    },
+    {
+      "id": "back-end6---crud-study-case-part-2resourcesreadmemd",
+      "slug": "back-end6---crud-study-case-part-2resourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "back-end",
+      "moduleSlug": "back-end-6---crud-study-case-part-2",
+      "githubPath": "Back End/6 - CRUD Study Case Part 2/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Back%20End/6%20-%20CRUD%20Study%20Case%20Part%202/resources/README.md"
+    },
+    {
+      "id": "back-end7---advanced-queryresourcesreadmemd",
+      "slug": "back-end7---advanced-queryresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "back-end",
+      "moduleSlug": "back-end-7---advanced-query",
+      "githubPath": "Back End/7 - Advanced Query/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Back%20End/7%20-%20Advanced%20Query/resources/README.md"
+    },
+    {
+      "id": "back-end8---auth-and-rbacresourcesreadmemd",
+      "slug": "back-end8---auth-and-rbacresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "back-end",
+      "moduleSlug": "back-end-8---auth-and-rbac",
+      "githubPath": "Back End/8 - Auth and RBAC/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Back%20End/8%20-%20Auth%20and%20RBAC/resources/README.md"
+    },
+    {
+      "id": "back-end9---cors-multer-etcresourcesreadmemd",
+      "slug": "back-end9---cors-multer-etcresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "back-end",
+      "moduleSlug": "back-end-9---cors-multer-etc",
+      "githubPath": "Back End/9 - CORS Multer Etc/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Back%20End/9%20-%20CORS%20Multer%20Etc/resources/README.md"
+    },
+    {
+      "id": "front-end1---react-componentsresourcesreadmemd",
+      "slug": "front-end1---react-componentsresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-1---react-components",
+      "githubPath": "Front End/1 - React Components/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Front%20End/1%20-%20React%20Components/resources/README.md"
+    },
+    {
+      "id": "front-end10---vercel-deploymentresourcesreadmemd",
+      "slug": "front-end10---vercel-deploymentresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-10---vercel-deployment",
+      "githubPath": "Front End/10 - Vercel Deployment/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Front%20End/10%20-%20Vercel%20Deployment/resources/README.md"
+    },
+    {
+      "id": "front-end11---study-case-part-1resourcesreadmemd",
+      "slug": "front-end11---study-case-part-1resourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-11---study-case-part-1",
+      "githubPath": "Front End/11 - Study Case Part 1/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Front%20End/11%20-%20Study%20Case%20Part%201/resources/README.md"
+    },
+    {
+      "id": "front-end12---study-case-part-2resourcesreadmemd",
+      "slug": "front-end12---study-case-part-2resourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-12---study-case-part-2",
+      "githubPath": "Front End/12 - Study Case Part 2/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Front%20End/12%20-%20Study%20Case%20Part%202/resources/README.md"
+    },
+    {
+      "id": "front-end2---event-handlersresourcesreadmemd",
+      "slug": "front-end2---event-handlersresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-2---event-handlers",
+      "githubPath": "Front End/2 - Event Handlers/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Front%20End/2%20-%20Event%20Handlers/resources/README.md"
+    },
+    {
+      "id": "front-end3---tailwindcssresourcesreadmemd",
+      "slug": "front-end3---tailwindcssresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-3---tailwindcss",
+      "githubPath": "Front End/3 - TailwindCSS/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Front%20End/3%20-%20TailwindCSS/resources/README.md"
+    },
+    {
+      "id": "front-end4---react-hooks-and-fetch-apiresourcesreadmemd",
+      "slug": "front-end4---react-hooks-and-fetch-apiresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-4---react-hooks-and-fetch-api",
+      "githubPath": "Front End/4 - React Hooks and Fetch API/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Front%20End/4%20-%20React%20Hooks%20and%20Fetch%20API/resources/README.md"
+    },
+    {
+      "id": "front-end5---react-router-domresourcesreadmemd",
+      "slug": "front-end5---react-router-domresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-5---react-router-dom",
+      "githubPath": "Front End/5 - React Router DOM/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Front%20End/5%20-%20React%20Router%20DOM/resources/README.md"
+    },
+    {
+      "id": "front-end6---crud-study-caseresourcesreadmemd",
+      "slug": "front-end6---crud-study-caseresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-6---crud-study-case",
+      "githubPath": "Front End/6 - CRUD Study Case/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Front%20End/6%20-%20CRUD%20Study%20Case/resources/README.md"
+    },
+    {
+      "id": "front-end7---advanced-hooksresourcesreadmemd",
+      "slug": "front-end7---advanced-hooksresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-7---advanced-hooks",
+      "githubPath": "Front End/7 - Advanced Hooks/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Front%20End/7%20-%20Advanced%20Hooks/resources/README.md"
+    },
+    {
+      "id": "front-end8---auth-and-rbacresourcesreadmemd",
+      "slug": "front-end8---auth-and-rbacresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-8---auth-and-rbac",
+      "githubPath": "Front End/8 - Auth and RBAC/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Front%20End/8%20-%20Auth%20and%20RBAC/resources/README.md"
+    },
+    {
+      "id": "front-end9---shadcnui-tanstackquery-zod-reacthookformresourcesreadmemd",
+      "slug": "front-end9---shadcnui-tanstackquery-zod-reacthookformresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "front-end",
+      "moduleSlug": "front-end-9---shadcnui-tanstackquery-zod-reacthookform",
+      "githubPath": "Front End/9 - ShadcnUi TanStackQuery Zod ReactHookForm/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Front%20End/9%20-%20ShadcnUi%20TanStackQuery%20Zod%20ReactHookForm/resources/README.md"
+    },
+    {
+      "id": "javascript1---introduction-to-javascriptresourcesreadmemd",
+      "slug": "javascript1---introduction-to-javascriptresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-1---introduction-to-javascript",
+      "githubPath": "JavaScript/1 - Introduction To JavaScript/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/JavaScript/1%20-%20Introduction%20To%20JavaScript/resources/README.md"
+    },
+    {
+      "id": "javascript2---variables-data-typeresourcesreadmemd",
+      "slug": "javascript2---variables-data-typeresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-2---variables-data-type",
+      "githubPath": "JavaScript/2 - Variables Data Type/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/JavaScript/2%20-%20Variables%20Data%20Type/resources/README.md"
+    },
+    {
+      "id": "typescript1---introduction-to-typescriptresourcesreadmemd",
+      "slug": "typescript1---introduction-to-typescriptresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-1---introduction-to-typescript",
+      "githubPath": "TypeScript/1 - Introduction To TypeScript/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/TypeScript/1%20-%20Introduction%20To%20TypeScript/resources/README.md"
+    },
+    {
+      "id": "typescript2---variable-data-typeresourcesreadmemd",
+      "slug": "typescript2---variable-data-typeresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-2---variable-data-type",
+      "githubPath": "TypeScript/2 - Variable Data Type/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/TypeScript/2%20-%20Variable%20Data%20Type/resources/README.md"
+    },
+    {
+      "id": "web-design1---web-design-1resourcesreadmemd",
+      "slug": "web-design1---web-design-1resourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-1---web-design-1",
+      "githubPath": "Web Design/1 - Web Design 1/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/1%20-%20Web%20Design%201/resources/README.md"
+    },
+    {
+      "id": "web-design2---web-design-2resourcesreadmemd",
+      "slug": "web-design2---web-design-2resourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-2---web-design-2",
+      "githubPath": "Web Design/2 - Web Design 2/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/2%20-%20Web%20Design%202/resources/README.md"
+    },
+    {
+      "id": "web-design3---web-design-3resourcesreadmemd",
+      "slug": "web-design3---web-design-3resourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-3---web-design-3",
+      "githubPath": "Web Design/3 - Web Design 3/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/3%20-%20Web%20Design%203/resources/README.md"
+    },
+    {
+      "id": "web-design4---web-design-4resourcesreadmemd",
+      "slug": "web-design4---web-design-4resourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-4---web-design-4",
+      "githubPath": "Web Design/4 - Web Design 4/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/4%20-%20Web%20Design%204/resources/README.md"
+    },
+    {
+      "id": "web-design5---web-design-5resourcesreadmemd",
+      "slug": "web-design5---web-design-5resourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-5---web-design-5",
+      "githubPath": "Web Design/5 - Web Design 5/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/5%20-%20Web%20Design%205/resources/README.md"
+    },
+    {
+      "id": "web-design6---web-design-6resourcesreadmemd",
+      "slug": "web-design6---web-design-6resourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-6---web-design-6",
+      "githubPath": "Web Design/6 - Web Design 6/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/6%20-%20Web%20Design%206/resources/README.md"
+    },
+    {
+      "id": "web-design7---study-case-part-1resourcesreadmemd",
+      "slug": "web-design7---study-case-part-1resourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-7---study-case-part-1",
+      "githubPath": "Web Design/7 - Study Case Part 1/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/7%20-%20Study%20Case%20Part%201/resources/README.md"
+    },
+    {
+      "id": "web-design8---study-case-part-2resourcesreadmemd",
+      "slug": "web-design8---study-case-part-2resourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-8---study-case-part-2",
+      "githubPath": "Web Design/8 - Study Case Part 2/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/8%20-%20Study%20Case%20Part%202/resources/README.md"
+    }
+  ]
+}

@@ -32,19 +32,15 @@ export default function ModuleContent({ module }: ModuleContentProps) {
     >
       <PageHeader
         title={module.title}
-        description={module.description}
+        description={module.description ?? ""}
         breadcrumbs={[
           {
             label: "Home",
             href: "/",
           },
           {
-            label: "Programs",
-            href: "/programs",
-          },
-          {
-            label: module.programTitle,
-            href: `/programs/${module.programSlug}`,
+            label: "Modules",
+            href: "/modules",
           },
           {
             label: module.title,
@@ -53,30 +49,37 @@ export default function ModuleContent({ module }: ModuleContentProps) {
       />
 
       <Tabs defaultValue="lessons" className="w-full">
-        <TabsList className="mb-6 grid w-full grid-cols-3">
+        <TabsList
+          className="
+            mb-6
+            grid
+            w-full
+            grid-cols-3
+          "
+        >
           <TabsTrigger value="lessons">
-            Lessons ({module.lessons.length})
+            Lessons ({module.lessons?.length ?? 0})
           </TabsTrigger>
 
           <TabsTrigger value="assignments">
-            Assignments ({module.assignments.length})
+            Assignments ({module.assignments?.length ?? 0})
           </TabsTrigger>
 
           <TabsTrigger value="resources">
-            Resources ({module.resources.length})
+            Resources ({module.resources?.length ?? 0})
           </TabsTrigger>
         </TabsList>
 
         <TabsContent value="lessons">
-          <LessonGrid lessons={module.lessons} />
+          <LessonGrid lessons={module.lessons ?? []} />
         </TabsContent>
 
         <TabsContent value="assignments">
-          <AssignmentGrid assignments={module.assignments} />
+          <AssignmentGrid assignments={module.assignments ?? []} />
         </TabsContent>
 
         <TabsContent value="resources">
-          <ResourceGrid resources={module.resources} />
+          <ResourceGrid resources={module.resources ?? []} />
         </TabsContent>
       </Tabs>
     </motion.div>

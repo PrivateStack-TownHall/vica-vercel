@@ -37,14 +37,8 @@ export default function LessonTable({ lessons }: LessonTableProps) {
         <TableHeader>
           <TableRow className="bg-[#F8FAFF]">
             <TableHead>Lesson</TableHead>
-
             <TableHead>Program</TableHead>
-
             <TableHead>Module</TableHead>
-
-            <TableHead>Created</TableHead>
-
-            <TableHead>Updated</TableHead>
           </TableRow>
         </TableHeader>
 
@@ -70,13 +64,9 @@ export default function LessonTable({ lessons }: LessonTableProps) {
                 </div>
               </TableCell>
 
-              <TableCell>{"lesson.program"}</TableCell>
+              <TableCell>{lesson.programSlug ?? "-"}</TableCell>
 
-              <TableCell>{"lesson.module"}</TableCell>
-
-              <TableCell>{lesson.createdAt}</TableCell>
-
-              <TableCell>{lesson.updatedAt}</TableCell>
+              <TableCell>{lesson.moduleSlug ?? "-"}</TableCell>
             </TableRow>
           ))}
         </TableBody>

@@ -8,24 +8,51 @@ import PageHeader from "@/components/shared/PageHeader";
 import SearchBox from "@/components/shared/SearchBox";
 import ViewSwitcher from "@/components/shared/ViewSwitcher";
 
+import LoadingState from "@/components/shared/LoadingState";
+import ErrorState from "@/components/shared/ErrorState";
+import EmptyState from "@/components/shared/EmptyState";
+
 import ResourceGrid from "@/features/resources/components/ResourceGrid";
 import ResourceTable from "@/features/resources/components/ResourceTable";
 
-import { RESOURCES } from "@/features/resources/constants/resources.constants";
+import { useResources } from "@/features/resources/hooks/useResources";
+
+import { Resource } from "@/features/resources/types/resource.type";
 
 export default function ResourcesPage() {
   const [search, setSearch] = useState("");
 
   const [view, setView] = useState<"grid" | "table">("grid");
 
+  const { data: resources = [], isLoading, isError, error } = useResources();
+
   const filteredResources = useMemo(() => {
-    return RESOURCES.filter((resource) =>
-      [resource.title, resource.description, resource.type]
+    return resources.filter((resource: Resource) =>
+      [
+        resource.title,
+        resource.description,
+        resource.type,
+        resource.programSlug,
+        resource.moduleSlug,
+      ]
         .join(" ")
         .toLowerCase()
         .includes(search.toLowerCase()),
     );
-  }, [search]);
+  }, [resources, search]);
+
+  if (isLoading) {
+    return <LoadingState title="Loading resources..." />;
+  }
+
+  if (isError) {
+    return (
+      <ErrorState
+        title="Failed to load resources"
+        description={error instanceof Error ? error.message : "Unknown error"}
+      />
+    );
+  }
 
   return (
     <motion.div
@@ -87,32 +114,39 @@ export default function ResourcesPage() {
         <ViewSwitcher view={view} onChange={setView} />
       </motion.div>
 
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={view}
-          initial={{
-            opacity: 0,
-            y: 16,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          exit={{
-            opacity: 0,
-            y: -16,
-          }}
-          transition={{
-            duration: 0.25,
-          }}
-        >
-          {view === "grid" ? (
-            <ResourceGrid resources={filteredResources} />
-          ) : (
-            <ResourceTable resources={filteredResources} />
-          )}
-        </motion.div>
-      </AnimatePresence>
+      {filteredResources.length === 0 ? (
+        <EmptyState
+          title="No resources found"
+          description="Try another keyword."
+        />
+      ) : (
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={view}
+            initial={{
+              opacity: 0,
+              y: 16,
+            }}
+            animate={{
+              opacity: 1,
+              y: 0,
+            }}
+            exit={{
+              opacity: 0,
+              y: -16,
+            }}
+            transition={{
+              duration: 0.25,
+            }}
+          >
+            {view === "grid" ? (
+              <ResourceGrid resources={filteredResources} />
+            ) : (
+              <ResourceTable resources={filteredResources} />
+            )}
+          </motion.div>
+        </AnimatePresence>
+      )}
     </motion.div>
   );
 }

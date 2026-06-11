@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 
 import MainLayout from "@/components/layouts/MainLayout";
+import AppProvider from "@/providers/AppProvider";
 
 import "./globals.css";
 
@@ -28,7 +29,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={manrope.className}>
-        <MainLayout>{children}</MainLayout>
+        <AppProvider>
+          <MainLayout>{children}</MainLayout>
+        </AppProvider>
       </body>
     </html>
   );

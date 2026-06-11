@@ -1,45 +1,30 @@
-import fs from "fs/promises";
-import path from "path";
-
 import { notFound } from "next/navigation";
 
 import AssignmentContent from "./AssignmentContent";
 
-import { ASSIGNMENTS } from "@/features/assignments/constants/assignments.constants";
+import {
+  getAssignments,
+  getAssignmentMarkdown,
+} from "@/features/assignments/api/assignment.api";
 
-interface AssignmentDetailPageProps {
+interface AssignmentPageProps {
   params: Promise<{
     slug: string;
   }>;
 }
 
-export async function generateStaticParams() {
-  return ASSIGNMENTS.map((assignment) => ({
-    slug: assignment.slug,
-  }));
-}
-
-export default async function AssignmentDetailPage({
-  params,
-}: AssignmentDetailPageProps) {
+export default async function AssignmentPage({ params }: AssignmentPageProps) {
   const { slug } = await params;
 
-  const assignment = ASSIGNMENTS.find((item) => item.slug === slug);
+  const assignments = await getAssignments();
+
+  const assignment = assignments.find((item) => item.slug === slug);
 
   if (!assignment) {
     notFound();
   }
 
-  const markdownPath = path.join(
-    process.cwd(),
-    "src",
-    "contents",
-    "assignments",
-    slug,
-    "README.md",
-  );
-
-  const markdown = await fs.readFile(markdownPath, "utf8");
+  const markdown = await getAssignmentMarkdown(assignment.githubPath);
 
   return <AssignmentContent assignment={assignment} markdown={markdown} />;
 }

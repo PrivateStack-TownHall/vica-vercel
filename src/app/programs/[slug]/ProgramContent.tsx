@@ -28,7 +28,7 @@ export default function ProgramContent({ program }: ProgramContentProps) {
     >
       <PageHeader
         title={program.title}
-        description={program.description}
+        description={program.description ?? ""}
         breadcrumbs={[
           {
             label: "Home",
@@ -44,20 +44,18 @@ export default function ProgramContent({ program }: ProgramContentProps) {
         ]}
       />
 
-      {/* Stats nanti bisa diaktifkan lagi */}
-      {/*
-      <ProgramStats
-        modules={program.modules.length}
-        lessons={...}
-        assignments={...}
-        resources={...}
-      />
-      */}
-
       <section>
-        <h2 className="mb-4 text-2xl font-bold">Modules</h2>
+        <h2
+          className="
+            mb-4
+            text-2xl
+            font-bold
+          "
+        >
+          Modules
+        </h2>
 
-        <ProgramModules modules={program.modules} />
+        <ProgramModules modules={program.modules ?? []} />
       </section>
     </motion.div>
   );

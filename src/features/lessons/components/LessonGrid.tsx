@@ -18,7 +18,7 @@ export default function LessonGrid({ lessons }: LessonGridProps) {
       className="
         grid
         gap-4
-        md:grid-cols-2
+        md:grid-cols-3
         xl:grid-cols-6
       "
     >
@@ -26,10 +26,10 @@ export default function LessonGrid({ lessons }: LessonGridProps) {
         <LessonCard
           key={lesson.id}
           title={lesson.title}
-          description={lesson.description}
-          program={"lesson.program"}
-          module={"lesson.module"}
-          createdAt={lesson.createdAt}
+          description={lesson.description ?? ""}
+          program={lesson.programSlug}
+          module={lesson.moduleSlug}
+          createdAt={lesson.createdAt ?? ""}
           onClick={() => router.push(`/lessons/${lesson.slug}`)}
         />
       ))}

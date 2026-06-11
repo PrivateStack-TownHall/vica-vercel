@@ -29,6 +29,8 @@ export default function ResourceGrid({ resources }: ResourceGridProps) {
           key={resource.id}
           title={resource.title}
           description={resource.description}
+          program={resource.programSlug}
+          module={resource.moduleSlug}
           type={resource.type}
           size={resource.size}
           onClick={() => router.push(`/resources/${resource.slug}`)}

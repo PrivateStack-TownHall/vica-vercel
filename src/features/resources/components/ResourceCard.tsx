@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 
+import { Download } from "lucide-react";
+
 import { ResourceType } from "../types/resource.type";
 import { getResourceIcon } from "../utils/getResourceIcon";
 
@@ -10,6 +12,10 @@ interface ResourceCardProps {
   description: string;
   type: ResourceType;
   size: string;
+  program: string;
+  module: string;
+  downloadUrl?: string;
+
   onClick?: () => void;
 }
 
@@ -18,6 +24,9 @@ export default function ResourceCard({
   description,
   type,
   size,
+  program,
+  module,
+  downloadUrl,
   onClick,
 }: ResourceCardProps) {
   const { Icon, color } = getResourceIcon(type);
@@ -43,6 +52,18 @@ export default function ResourceCard({
         hover:bg-[#EDF2FF]
       "
     >
+      <p
+        className="
+          mb-2
+          text-[10px]
+          font-semibold
+          uppercase
+          tracking-wider
+          text-[#5477A6]
+        "
+      >
+        {program}
+      </p>
       <Icon size={42} className={`mb-3 ${color}`} />
 
       <h3
@@ -68,15 +89,57 @@ export default function ResourceCard({
       >
         {description}
       </p>
-
       <p
         className="
+          line-clamp-1
           text-xs
-          text-slate-400
+          text-slate-500
         "
       >
-        {type.toUpperCase()} • {size}
+        {module}
       </p>
+      <div
+        className="
+          flex
+          items-center
+          justify-between
+          gap-2
+        "
+      >
+        <p
+          className="
+            text-xs
+            text-slate-400
+          "
+        >
+          {type.toUpperCase()} • {size}
+        </p>
+
+        {downloadUrl && (
+          <a
+            href={`/download?url=${encodeURIComponent(downloadUrl)}`}
+            target="_blank"
+            rel="noreferrer"
+            download
+            onClick={(e) => e.stopPropagation()}
+            className="
+              flex
+              items-center
+              gap-1
+              rounded-md
+              px-2
+              py-1
+              text-xs
+              font-medium
+              text-[#5477A6]
+              hover:bg-[#DCE7FF]
+            "
+          >
+            <Download size={14} />
+            Download
+          </a>
+        )}
+      </div>
     </motion.div>
   );
 }

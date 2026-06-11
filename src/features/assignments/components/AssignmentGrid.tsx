@@ -17,10 +17,8 @@ export default function AssignmentGrid({ assignments }: AssignmentGridProps) {
     <div
       className="
         grid
-        grid-cols-2
-        gap-3
+        gap-4
         md:grid-cols-3
-        lg:grid-cols-4
         xl:grid-cols-6
       "
     >
@@ -28,8 +26,10 @@ export default function AssignmentGrid({ assignments }: AssignmentGridProps) {
         <AssignmentCard
           key={assignment.id}
           title={assignment.title}
-          program={"assignment.program"}
-          module={"assignment.module"}
+          description={assignment.description ?? ""}
+          program={assignment.programSlug}
+          module={assignment.moduleSlug}
+          createdAt={assignment.createdAt ?? ""}
           onClick={() => router.push(`/assignments/${assignment.slug}`)}
         />
       ))}

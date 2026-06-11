@@ -1,24 +1,20 @@
-import { Lesson } from "@/features/lessons/types/lesson.type"
-import { Assignment } from "@/features/assignments/types/assignment.type"
-import { Resource } from "@/features/resources/types/resource.type"
-
 export interface Module {
    id: string;
-
    slug: string;
 
    title: string;
-   description: string;
-
-   programSlug: string;
-   programTitle: string;
 
    githubPath: string;
 
-   lessons: Lesson[];
-   assignments: Assignment[];
-   resources: Resource[];
+   programSlug: string;
 
-   createdAt: string;
-   updatedAt: string;
+   description?: string;
+   programTitle?: string;
+
+   lessons?: any[];
+   assignments?: any[];
+   resources?: any[];
+
+   createdAt?: string;
+   updatedAt?: string;
 }

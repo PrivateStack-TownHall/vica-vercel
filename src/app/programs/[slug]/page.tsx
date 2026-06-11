@@ -2,7 +2,9 @@ import { notFound } from "next/navigation";
 
 import ProgramContent from "./ProgramContent";
 
-import { PROGRAMS } from "@/features/programs/constants/programs.constants";
+import { getPrograms } from "@/features/programs/api/program.api";
+
+import { data } from "@/lib/data";
 
 interface ProgramDetailPageProps {
   params: Promise<{
@@ -10,22 +12,27 @@ interface ProgramDetailPageProps {
   }>;
 }
 
-export function generateStaticParams() {
-  return PROGRAMS.map((program) => ({
-    slug: program.slug,
-  }));
-}
-
 export default async function ProgramDetailPage({
   params,
 }: ProgramDetailPageProps) {
   const { slug } = await params;
 
-  const program = PROGRAMS.find((item) => item.slug === slug);
+  const programs = await getPrograms();
+
+  const program = programs.find((item) => item.slug === slug);
 
   if (!program) {
     notFound();
   }
 
-  return <ProgramContent program={program} />;
+  const modules = data.modules.filter((module) => module.programSlug === slug);
+
+  return (
+    <ProgramContent
+      program={{
+        ...program,
+        modules,
+      }}
+    />
+  );
 }
