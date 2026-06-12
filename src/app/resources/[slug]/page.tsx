@@ -1,5 +1,3 @@
-// app/resources/[slug]/page.tsx
-
 import { notFound } from "next/navigation";
 
 import ResourceContent from "./ResourceContent";

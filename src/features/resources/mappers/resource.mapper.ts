@@ -1,5 +1,3 @@
-// features/resources/mappers/resource.mapper.ts
-
 import {
    Resource,
    ResourceType,

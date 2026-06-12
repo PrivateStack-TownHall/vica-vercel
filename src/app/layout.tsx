@@ -15,9 +15,9 @@ export const metadata: Metadata = {
   description: "Vincent's Coding Academy",
 
   icons: {
-    icon: "/images/logo.png",
-    shortcut: "/images/logo.png",
-    apple: "/images/logo.png",
+    icon: "/images/icon-logo.png",
+    shortcut: "/images/icon-logo.png",
+    apple: "/images/icon-logo.png",
   },
 };
 

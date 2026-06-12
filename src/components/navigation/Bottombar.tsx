@@ -10,7 +10,7 @@ import {
   ClipboardCheck,
   FolderKanban,
   Package,
-  Settings,
+  LifeBuoy,
   Menu,
 } from "lucide-react";
 
@@ -59,9 +59,9 @@ export default function Bottombar() {
       icon: Package,
     },
     {
-      label: "Settings",
-      href: "/settings",
-      icon: Settings,
+      label: "Support",
+      href: "/support",
+      icon: LifeBuoy,
     },
   ];
 

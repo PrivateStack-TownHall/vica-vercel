@@ -1,5 +1,3 @@
-// features/resources/api/resource.api.ts
-
 import { data } from "@/lib/data";
 
 import {

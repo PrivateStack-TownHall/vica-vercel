@@ -17,19 +17,13 @@ export function mapAssignment(
    return {
       id: slug,
       slug,
-
       title: item.name,
-
       githubPath: item.path,
-
       programSlug: slugify(programTitle),
       moduleSlug: slugify(moduleTitle),
-
       programTitle,
       moduleTitle,
-
       description: "",
-
       createdAt: "",
       updatedAt: "",
    };

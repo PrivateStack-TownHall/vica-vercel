@@ -66,7 +66,6 @@ export default function ModuleFolderCard({
         className="
           mb-5
           line-clamp-2
-          text-lg
           font-semibold
           text-[#0D1B2A]
         "
@@ -79,25 +78,25 @@ export default function ModuleFolderCard({
         className="
           flex
           items-center
-          gap-5
+          gap-3
           text-sm
           text-slate-500
         "
       >
         <div className="flex items-center gap-2">
-          <BookOpen size={16} className="text-[#5477A6]" />
+          <BookOpen size={12} className="text-[#5477A6]" />
 
           <span>{lessons}</span>
         </div>
 
         <div className="flex items-center gap-2">
-          <ClipboardCheck size={16} className="text-[#5477A6]" />
+          <ClipboardCheck size={12} className="text-[#5477A6]" />
 
           <span>{assignments}</span>
         </div>
 
         <div className="flex items-center gap-2">
-          <Package size={16} className="text-[#5477A6]" />
+          <Package size={12} className="text-[#5477A6]" />
 
           <span>{resources}</span>
         </div>

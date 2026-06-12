@@ -5,56 +5,58 @@ import {
    FileText,
    ClipboardCheck,
    Package,
-   Settings,
+   LifeBuoy,
 } from "lucide-react";
+
+import { ROUTES } from "./routes"
 
 export const MENUS = [
    {
       label: "Home",
       description: "Overview",
-      href: "/",
+      href: ROUTES.HOME,
       icon: House,
    },
 
    {
       label: "Programs",
       description: "Learning Paths",
-      href: "/programs",
+      href: ROUTES.PROGRAMS,
       icon: GraduationCap,
    },
 
    {
       label: "Modules",
       description: "Course Modules",
-      href: "/modules",
+      href: ROUTES.MODULES,
       icon: FolderOpen,
    },
 
    {
       label: "Lessons",
       description: "Learning Content",
-      href: "/lessons",
+      href: ROUTES.LESSONS,
       icon: FileText,
    },
 
    {
       label: "Assignments",
       description: "Coding Challenges",
-      href: "/assignments",
+      href: ROUTES.ASSIGNMENTS,
       icon: ClipboardCheck,
    },
 
    {
       label: "Resources",
       description: "Downloads & Assets",
-      href: "/resources",
+      href: ROUTES.RESOURCES,
       icon: Package,
    },
 
    {
-      label: "Settings",
-      description: "Preferences",
-      href: "/settings",
-      icon: Settings,
+      label: "Supports",
+      description: "Help Center",
+      href: ROUTES.SUPPORT,
+      icon: LifeBuoy,
    },
 ] as const;

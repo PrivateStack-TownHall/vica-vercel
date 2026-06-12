@@ -80,15 +80,15 @@ export default function ModuleTable({ modules }: ModuleTableProps) {
               </TableCell>
 
               <TableCell className="text-center">
-                {module.lessons.length}
+                {module.lessons?.length || 0}
               </TableCell>
 
               <TableCell className="text-center">
-                {module.assignments.length}
+                {module.assignments?.length || 0}
               </TableCell>
 
               <TableCell className="text-center">
-                {module.resources.length}
+                {module.resources?.length || 0}
               </TableCell>
 
               <TableCell>{module.updatedAt}</TableCell>

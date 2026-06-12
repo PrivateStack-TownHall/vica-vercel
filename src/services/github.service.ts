@@ -1,5 +1,3 @@
-// src/services/github.service.ts
-
 import axios from "@/lib/axios";
 
 console.log("========== ENV ==========");
@@ -29,13 +27,13 @@ const GITHUB_BRANCH =
   process.env.NEXT_PUBLIC_GITHUB_BRANCH ||
   "main";
 
-console.log("========== GITHUB CONST ==========");
+// console.log("========== GITHUB CONST ==========");
 
-console.log({
-  GITHUB_OWNER,
-  GITHUB_REPO,
-  GITHUB_BRANCH,
-});
+// console.log({
+//   GITHUB_OWNER,
+//   GITHUB_REPO,
+//   GITHUB_BRANCH,
+// });
 const BASE_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents`;
 
 class GithubService {

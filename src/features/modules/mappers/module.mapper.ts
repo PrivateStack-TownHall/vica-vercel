@@ -14,27 +14,16 @@ export function mapModule(
 ): Module {
    return {
       id: `${programSlug}-${slugify(item.name)}`,
-
       slug: `${programSlug}-${slugify(item.name)}`,
-
       title: item.name,
-
       description: "",
-
       githubPath: item.path,
-
       programSlug,
-
       programTitle,
-
       lessons: [],
-
       assignments: [],
-
       resources: [],
-
       createdAt: "",
-
       updatedAt: "",
    };
 }

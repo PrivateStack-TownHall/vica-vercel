@@ -1,5 +1,3 @@
-// features/lessons/types/lesson.type.ts
-
 export interface Lesson {
    id: string;
    slug: string;

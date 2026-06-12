@@ -15,12 +15,9 @@ export function mapProgram(
       slug: slugify(item.name),
       title: item.name,
       githubPath: item.path,
-
       description: "",
       level: "",
-
       modules: [],
-
       createdAt: "",
       updatedAt: "",
    };

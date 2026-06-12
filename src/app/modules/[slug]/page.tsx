@@ -10,17 +10,12 @@ import { mapLesson } from "@/features/lessons/mappers/lesson.mapper";
 import { mapAssignment } from "@/features/assignments/mappers/assignment.mapper";
 import { mapResource } from "@/features/resources/mappers/resource.mapper";
 
+import slugify from "@/utils/slugify";
+
 interface ModuleDetailPageProps {
   params: Promise<{
     slug: string;
   }>;
-}
-
-function slugify(text: string) {
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, "")
-    .replace(/\s+/g, "-");
 }
 
 export default async function ModuleDetailPage({
