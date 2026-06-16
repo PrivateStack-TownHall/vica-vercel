@@ -201,88 +201,256 @@
       "githubPath": "Front End/9 - ShadcnUi TanStackQuery Zod ReactHookForm"
     },
     {
-      "id": "javascript-1---introduction-to-javascript",
-      "slug": "javascript-1---introduction-to-javascript",
-      "title": "1 - Introduction To JavaScript",
+      "id": "javascript-1---git-dan-github",
+      "slug": "javascript-1---git-dan-github",
+      "title": "1 - Git dan GitHub",
       "programSlug": "javascript",
-      "githubPath": "JavaScript/1 - Introduction To JavaScript"
+      "githubPath": "JavaScript/1 - Git dan GitHub"
     },
     {
-      "id": "javascript-2---variables-data-type",
-      "slug": "javascript-2---variables-data-type",
-      "title": "2 - Variables Data Type",
+      "id": "javascript-10---es6-modern-javascript",
+      "slug": "javascript-10---es6-modern-javascript",
+      "title": "10 - ES6 Modern JavaScript",
       "programSlug": "javascript",
-      "githubPath": "JavaScript/2 - Variables Data Type"
+      "githubPath": "JavaScript/10 - ES6 Modern JavaScript"
     },
     {
-      "id": "typescript-1---introduction-to-typescript",
-      "slug": "typescript-1---introduction-to-typescript",
-      "title": "1 - Introduction To TypeScript",
+      "id": "javascript-11---array-methods",
+      "slug": "javascript-11---array-methods",
+      "title": "11 - Array Methods",
+      "programSlug": "javascript",
+      "githubPath": "JavaScript/11 - Array Methods"
+    },
+    {
+      "id": "javascript-12---mini-project-javascript",
+      "slug": "javascript-12---mini-project-javascript",
+      "title": "12 - Mini Project JavaScript",
+      "programSlug": "javascript",
+      "githubPath": "JavaScript/12 - Mini Project JavaScript"
+    },
+    {
+      "id": "javascript-2---algoritma-pseudocode",
+      "slug": "javascript-2---algoritma-pseudocode",
+      "title": "2 - Algoritma Pseudocode",
+      "programSlug": "javascript",
+      "githubPath": "JavaScript/2 - Algoritma Pseudocode"
+    },
+    {
+      "id": "javascript-3---variabel-dan-tipe-data",
+      "slug": "javascript-3---variabel-dan-tipe-data",
+      "title": "3 - Variabel dan Tipe Data",
+      "programSlug": "javascript",
+      "githubPath": "JavaScript/3 - Variabel dan Tipe Data"
+    },
+    {
+      "id": "javascript-4---operator-dan-expression",
+      "slug": "javascript-4---operator-dan-expression",
+      "title": "4 - Operator dan Expression",
+      "programSlug": "javascript",
+      "githubPath": "JavaScript/4 - Operator dan Expression"
+    },
+    {
+      "id": "javascript-5---conditional-statement",
+      "slug": "javascript-5---conditional-statement",
+      "title": "5 - Conditional Statement",
+      "programSlug": "javascript",
+      "githubPath": "JavaScript/5 - Conditional Statement"
+    },
+    {
+      "id": "javascript-6---looping",
+      "slug": "javascript-6---looping",
+      "title": "6 - Looping",
+      "programSlug": "javascript",
+      "githubPath": "JavaScript/6 - Looping"
+    },
+    {
+      "id": "javascript-7---function",
+      "slug": "javascript-7---function",
+      "title": "7 - Function",
+      "programSlug": "javascript",
+      "githubPath": "JavaScript/7 - Function"
+    },
+    {
+      "id": "javascript-8---array",
+      "slug": "javascript-8---array",
+      "title": "8 - Array",
+      "programSlug": "javascript",
+      "githubPath": "JavaScript/8 - Array"
+    },
+    {
+      "id": "javascript-9---object",
+      "slug": "javascript-9---object",
+      "title": "9 - Object",
+      "programSlug": "javascript",
+      "githubPath": "JavaScript/9 - Object"
+    },
+    {
+      "id": "typescript-1---pengenalan-typescript",
+      "slug": "typescript-1---pengenalan-typescript",
+      "title": "1 - Pengenalan TypeScript",
       "programSlug": "typescript",
-      "githubPath": "TypeScript/1 - Introduction To TypeScript"
+      "githubPath": "TypeScript/1 - Pengenalan TypeScript"
     },
     {
-      "id": "typescript-2---variable-data-type",
-      "slug": "typescript-2---variable-data-type",
-      "title": "2 - Variable Data Type",
+      "id": "typescript-10---class-dan-oop-dasar",
+      "slug": "typescript-10---class-dan-oop-dasar",
+      "title": "10 - Class dan OOP Dasar",
       "programSlug": "typescript",
-      "githubPath": "TypeScript/2 - Variable Data Type"
+      "githubPath": "TypeScript/10 - Class dan OOP Dasar"
     },
     {
-      "id": "web-design-1---web-design-1",
-      "slug": "web-design-1---web-design-1",
-      "title": "1 - Web Design 1",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/1 - Web Design 1"
+      "id": "typescript-11---generic-dasar",
+      "slug": "typescript-11---generic-dasar",
+      "title": "11 - Generic Dasar",
+      "programSlug": "typescript",
+      "githubPath": "TypeScript/11 - Generic Dasar"
     },
     {
-      "id": "web-design-2---web-design-2",
-      "slug": "web-design-2---web-design-2",
-      "title": "2 - Web Design 2",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/2 - Web Design 2"
+      "id": "typescript-12---mini-project-typescript",
+      "slug": "typescript-12---mini-project-typescript",
+      "title": "12 - Mini Project TypeScript",
+      "programSlug": "typescript",
+      "githubPath": "TypeScript/12 - Mini Project TypeScript"
     },
     {
-      "id": "web-design-3---web-design-3",
-      "slug": "web-design-3---web-design-3",
-      "title": "3 - Web Design 3",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/3 - Web Design 3"
+      "id": "typescript-2---basic-types",
+      "slug": "typescript-2---basic-types",
+      "title": "2 - Basic Types",
+      "programSlug": "typescript",
+      "githubPath": "TypeScript/2 - Basic Types"
     },
     {
-      "id": "web-design-4---web-design-4",
-      "slug": "web-design-4---web-design-4",
-      "title": "4 - Web Design 4",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/4 - Web Design 4"
+      "id": "typescript-3---variable-dan-type-annotation",
+      "slug": "typescript-3---variable-dan-type-annotation",
+      "title": "3 - Variable dan Type Annotation",
+      "programSlug": "typescript",
+      "githubPath": "TypeScript/3 - Variable dan Type Annotation"
     },
     {
-      "id": "web-design-5---web-design-5",
-      "slug": "web-design-5---web-design-5",
-      "title": "5 - Web Design 5",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/5 - Web Design 5"
+      "id": "typescript-4---function-pada-typescript",
+      "slug": "typescript-4---function-pada-typescript",
+      "title": "4 - Function pada TypeScript",
+      "programSlug": "typescript",
+      "githubPath": "TypeScript/4 - Function pada TypeScript"
     },
     {
-      "id": "web-design-6---web-design-6",
-      "slug": "web-design-6---web-design-6",
-      "title": "6 - Web Design 6",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/6 - Web Design 6"
+      "id": "typescript-5---array-dan-tuple",
+      "slug": "typescript-5---array-dan-tuple",
+      "title": "5 - Array dan Tuple",
+      "programSlug": "typescript",
+      "githubPath": "TypeScript/5 - Array dan Tuple"
     },
     {
-      "id": "web-design-7---study-case-part-1",
-      "slug": "web-design-7---study-case-part-1",
-      "title": "7 - Study Case Part 1",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/7 - Study Case Part 1"
+      "id": "typescript-6---object-type",
+      "slug": "typescript-6---object-type",
+      "title": "6 - Object Type",
+      "programSlug": "typescript",
+      "githubPath": "TypeScript/6 - Object Type"
     },
     {
-      "id": "web-design-8---study-case-part-2",
-      "slug": "web-design-8---study-case-part-2",
-      "title": "8 - Study Case Part 2",
+      "id": "typescript-7---type-alias",
+      "slug": "typescript-7---type-alias",
+      "title": "7 - Type Alias",
+      "programSlug": "typescript",
+      "githubPath": "TypeScript/7 - Type Alias"
+    },
+    {
+      "id": "typescript-8---interface",
+      "slug": "typescript-8---interface",
+      "title": "8 - Interface",
+      "programSlug": "typescript",
+      "githubPath": "TypeScript/8 - Interface"
+    },
+    {
+      "id": "typescript-9---enum-dan-utility-types",
+      "slug": "typescript-9---enum-dan-utility-types",
+      "title": "9 - Enum dan Utility Types",
+      "programSlug": "typescript",
+      "githubPath": "TypeScript/9 - Enum dan Utility Types"
+    },
+    {
+      "id": "web-design-1---pengenalan-web-design-html-dan-css",
+      "slug": "web-design-1---pengenalan-web-design-html-dan-css",
+      "title": "1 - Pengenalan Web Design HTML dan CSS",
       "programSlug": "web-design",
-      "githubPath": "Web Design/8 - Study Case Part 2"
+      "githubPath": "Web Design/1 - Pengenalan Web Design HTML dan CSS"
+    },
+    {
+      "id": "web-design-10---bootstrap-dan-tailwind-css",
+      "slug": "web-design-10---bootstrap-dan-tailwind-css",
+      "title": "10 - Bootstrap dan Tailwind CSS",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/10 - Bootstrap dan Tailwind CSS"
+    },
+    {
+      "id": "web-design-11---study-case-landing-page-website",
+      "slug": "web-design-11---study-case-landing-page-website",
+      "title": "11 - Study Case Landing Page Website",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/11 - Study Case Landing Page Website"
+    },
+    {
+      "id": "web-design-12---study-case-company-profile-website-dan-presentasi-project",
+      "slug": "web-design-12---study-case-company-profile-website-dan-presentasi-project",
+      "title": "12 - Study Case Company Profile Website dan Presentasi Project",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/12 - Study Case Company Profile Website dan Presentasi Project"
+    },
+    {
+      "id": "web-design-2---struktur-html-dan-semantic-elements",
+      "slug": "web-design-2---struktur-html-dan-semantic-elements",
+      "title": "2 - Struktur HTML dan Semantic Elements",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/2 - Struktur HTML dan Semantic Elements"
+    },
+    {
+      "id": "web-design-3---css-selector-dan-styling-dasar",
+      "slug": "web-design-3---css-selector-dan-styling-dasar",
+      "title": "3 - CSS Selector dan Styling Dasar",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/3 - CSS Selector dan Styling Dasar"
+    },
+    {
+      "id": "web-design-4---typography-color-dan-background",
+      "slug": "web-design-4---typography-color-dan-background",
+      "title": "4 - Typography, Color, dan Background",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/4 - Typography, Color, dan Background"
+    },
+    {
+      "id": "web-design-5---box-model-margin-padding-dan-border",
+      "slug": "web-design-5---box-model-margin-padding-dan-border",
+      "title": "5 - Box Model, Margin, Padding, dan Border",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/5 - Box Model, Margin, Padding, dan Border"
+    },
+    {
+      "id": "web-design-6---layout-1-kolom-2-kolom-dan-multi-kolom",
+      "slug": "web-design-6---layout-1-kolom-2-kolom-dan-multi-kolom",
+      "title": "6 - Layout 1 Kolom, 2 Kolom, dan Multi Kolom",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/6 - Layout 1 Kolom, 2 Kolom, dan Multi Kolom"
+    },
+    {
+      "id": "web-design-7---css-flexbox-dan-grid-layout",
+      "slug": "web-design-7---css-flexbox-dan-grid-layout",
+      "title": "7 - CSS Flexbox dan Grid Layout",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/7 - CSS Flexbox dan Grid Layout"
+    },
+    {
+      "id": "web-design-8---responsive-web-design-dan-media-query",
+      "slug": "web-design-8---responsive-web-design-dan-media-query",
+      "title": "8 - Responsive Web Design dan Media Query",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/8 - Responsive Web Design dan Media Query"
+    },
+    {
+      "id": "web-design-9---form-table-dan-navigation-design",
+      "slug": "web-design-9---form-table-dan-navigation-design",
+      "title": "9 - Form, Table, dan Navigation Design",
+      "programSlug": "web-design",
+      "githubPath": "Web Design/9 - Form, Table, dan Navigation Design"
     }
   ],
   "lessons": [
@@ -335,36 +503,36 @@
       "githubPath": "Front End/4 - React Hooks and Fetch API/lessons/pineapple-stack"
     },
     {
-      "id": "typescript-1---introduction-to-typescript-mvc",
-      "slug": "typescript-1---introduction-to-typescript-mvc",
+      "id": "typescript-1---pengenalan-typescript-mvc",
+      "slug": "typescript-1---pengenalan-typescript-mvc",
       "title": "mvc",
       "programSlug": "typescript",
-      "moduleSlug": "typescript-1---introduction-to-typescript",
-      "githubPath": "TypeScript/1 - Introduction To TypeScript/lessons/mvc"
+      "moduleSlug": "typescript-1---pengenalan-typescript",
+      "githubPath": "TypeScript/1 - Pengenalan TypeScript/lessons/mvc"
     },
     {
-      "id": "typescript-1---introduction-to-typescript-oop",
-      "slug": "typescript-1---introduction-to-typescript-oop",
+      "id": "typescript-1---pengenalan-typescript-oop",
+      "slug": "typescript-1---pengenalan-typescript-oop",
       "title": "oop",
       "programSlug": "typescript",
-      "moduleSlug": "typescript-1---introduction-to-typescript",
-      "githubPath": "TypeScript/1 - Introduction To TypeScript/lessons/oop"
+      "moduleSlug": "typescript-1---pengenalan-typescript",
+      "githubPath": "TypeScript/1 - Pengenalan TypeScript/lessons/oop"
     },
     {
-      "id": "typescript-2---variable-data-type-mvc",
-      "slug": "typescript-2---variable-data-type-mvc",
+      "id": "typescript-2---basic-types-mvc",
+      "slug": "typescript-2---basic-types-mvc",
       "title": "mvc",
       "programSlug": "typescript",
-      "moduleSlug": "typescript-2---variable-data-type",
-      "githubPath": "TypeScript/2 - Variable Data Type/lessons/mvc"
+      "moduleSlug": "typescript-2---basic-types",
+      "githubPath": "TypeScript/2 - Basic Types/lessons/mvc"
     },
     {
-      "id": "typescript-2---variable-data-type-oop",
-      "slug": "typescript-2---variable-data-type-oop",
+      "id": "typescript-2---basic-types-oop",
+      "slug": "typescript-2---basic-types-oop",
       "title": "oop",
       "programSlug": "typescript",
-      "moduleSlug": "typescript-2---variable-data-type",
-      "githubPath": "TypeScript/2 - Variable Data Type/lessons/oop"
+      "moduleSlug": "typescript-2---basic-types",
+      "githubPath": "TypeScript/2 - Basic Types/lessons/oop"
     }
   ],
   "assignments": [
@@ -415,230 +583,6 @@
       "programSlug": "front-end",
       "moduleSlug": "front-end-6---crud-study-case",
       "githubPath": "Front End/6 - CRUD Study Case/assignments/medieval-airbnb"
-    },
-    {
-      "id": "javascript-1---introduction-to-javascript-async",
-      "slug": "javascript-1---introduction-to-javascript-async",
-      "title": "async",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-1---introduction-to-javascript",
-      "githubPath": "JavaScript/1 - Introduction To JavaScript/assignments/async"
-    },
-    {
-      "id": "javascript-1---introduction-to-javascript-back-end",
-      "slug": "javascript-1---introduction-to-javascript-back-end",
-      "title": "back-end",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-1---introduction-to-javascript",
-      "githubPath": "JavaScript/1 - Introduction To JavaScript/assignments/back-end"
-    },
-    {
-      "id": "javascript-1---introduction-to-javascript-front-end",
-      "slug": "javascript-1---introduction-to-javascript-front-end",
-      "title": "front-end",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-1---introduction-to-javascript",
-      "githubPath": "JavaScript/1 - Introduction To JavaScript/assignments/front-end"
-    },
-    {
-      "id": "javascript-1---introduction-to-javascript-full-stack",
-      "slug": "javascript-1---introduction-to-javascript-full-stack",
-      "title": "full-stack",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-1---introduction-to-javascript",
-      "githubPath": "JavaScript/1 - Introduction To JavaScript/assignments/full-stack"
-    },
-    {
-      "id": "javascript-1---introduction-to-javascript-js-basic",
-      "slug": "javascript-1---introduction-to-javascript-js-basic",
-      "title": "js-basic",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-1---introduction-to-javascript",
-      "githubPath": "JavaScript/1 - Introduction To JavaScript/assignments/js-basic"
-    },
-    {
-      "id": "javascript-1---introduction-to-javascript-mvc",
-      "slug": "javascript-1---introduction-to-javascript-mvc",
-      "title": "mvc",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-1---introduction-to-javascript",
-      "githubPath": "JavaScript/1 - Introduction To JavaScript/assignments/mvc"
-    },
-    {
-      "id": "javascript-1---introduction-to-javascript-oop",
-      "slug": "javascript-1---introduction-to-javascript-oop",
-      "title": "oop",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-1---introduction-to-javascript",
-      "githubPath": "JavaScript/1 - Introduction To JavaScript/assignments/oop"
-    },
-    {
-      "id": "javascript-2---variables-data-type-async",
-      "slug": "javascript-2---variables-data-type-async",
-      "title": "async",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-2---variables-data-type",
-      "githubPath": "JavaScript/2 - Variables Data Type/assignments/async"
-    },
-    {
-      "id": "javascript-2---variables-data-type-back-end",
-      "slug": "javascript-2---variables-data-type-back-end",
-      "title": "back-end",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-2---variables-data-type",
-      "githubPath": "JavaScript/2 - Variables Data Type/assignments/back-end"
-    },
-    {
-      "id": "javascript-2---variables-data-type-front-end",
-      "slug": "javascript-2---variables-data-type-front-end",
-      "title": "front-end",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-2---variables-data-type",
-      "githubPath": "JavaScript/2 - Variables Data Type/assignments/front-end"
-    },
-    {
-      "id": "javascript-2---variables-data-type-full-stack",
-      "slug": "javascript-2---variables-data-type-full-stack",
-      "title": "full-stack",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-2---variables-data-type",
-      "githubPath": "JavaScript/2 - Variables Data Type/assignments/full-stack"
-    },
-    {
-      "id": "javascript-2---variables-data-type-js-basic",
-      "slug": "javascript-2---variables-data-type-js-basic",
-      "title": "js-basic",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-2---variables-data-type",
-      "githubPath": "JavaScript/2 - Variables Data Type/assignments/js-basic"
-    },
-    {
-      "id": "javascript-2---variables-data-type-mvc",
-      "slug": "javascript-2---variables-data-type-mvc",
-      "title": "mvc",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-2---variables-data-type",
-      "githubPath": "JavaScript/2 - Variables Data Type/assignments/mvc"
-    },
-    {
-      "id": "javascript-2---variables-data-type-oop",
-      "slug": "javascript-2---variables-data-type-oop",
-      "title": "oop",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-2---variables-data-type",
-      "githubPath": "JavaScript/2 - Variables Data Type/assignments/oop"
-    },
-    {
-      "id": "typescript-1---introduction-to-typescript-async",
-      "slug": "typescript-1---introduction-to-typescript-async",
-      "title": "async",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-1---introduction-to-typescript",
-      "githubPath": "TypeScript/1 - Introduction To TypeScript/assignments/async"
-    },
-    {
-      "id": "typescript-1---introduction-to-typescript-back-end",
-      "slug": "typescript-1---introduction-to-typescript-back-end",
-      "title": "back-end",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-1---introduction-to-typescript",
-      "githubPath": "TypeScript/1 - Introduction To TypeScript/assignments/back-end"
-    },
-    {
-      "id": "typescript-1---introduction-to-typescript-front-end",
-      "slug": "typescript-1---introduction-to-typescript-front-end",
-      "title": "front-end",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-1---introduction-to-typescript",
-      "githubPath": "TypeScript/1 - Introduction To TypeScript/assignments/front-end"
-    },
-    {
-      "id": "typescript-1---introduction-to-typescript-full-stack",
-      "slug": "typescript-1---introduction-to-typescript-full-stack",
-      "title": "full-stack",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-1---introduction-to-typescript",
-      "githubPath": "TypeScript/1 - Introduction To TypeScript/assignments/full-stack"
-    },
-    {
-      "id": "typescript-1---introduction-to-typescript-mvc",
-      "slug": "typescript-1---introduction-to-typescript-mvc",
-      "title": "mvc",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-1---introduction-to-typescript",
-      "githubPath": "TypeScript/1 - Introduction To TypeScript/assignments/mvc"
-    },
-    {
-      "id": "typescript-1---introduction-to-typescript-oop",
-      "slug": "typescript-1---introduction-to-typescript-oop",
-      "title": "oop",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-1---introduction-to-typescript",
-      "githubPath": "TypeScript/1 - Introduction To TypeScript/assignments/oop"
-    },
-    {
-      "id": "typescript-1---introduction-to-typescript-ts-basic",
-      "slug": "typescript-1---introduction-to-typescript-ts-basic",
-      "title": "ts-basic",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-1---introduction-to-typescript",
-      "githubPath": "TypeScript/1 - Introduction To TypeScript/assignments/ts-basic"
-    },
-    {
-      "id": "typescript-2---variable-data-type-async",
-      "slug": "typescript-2---variable-data-type-async",
-      "title": "async",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-2---variable-data-type",
-      "githubPath": "TypeScript/2 - Variable Data Type/assignments/async"
-    },
-    {
-      "id": "typescript-2---variable-data-type-back-end",
-      "slug": "typescript-2---variable-data-type-back-end",
-      "title": "back-end",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-2---variable-data-type",
-      "githubPath": "TypeScript/2 - Variable Data Type/assignments/back-end"
-    },
-    {
-      "id": "typescript-2---variable-data-type-front-end",
-      "slug": "typescript-2---variable-data-type-front-end",
-      "title": "front-end",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-2---variable-data-type",
-      "githubPath": "TypeScript/2 - Variable Data Type/assignments/front-end"
-    },
-    {
-      "id": "typescript-2---variable-data-type-full-stack",
-      "slug": "typescript-2---variable-data-type-full-stack",
-      "title": "full-stack",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-2---variable-data-type",
-      "githubPath": "TypeScript/2 - Variable Data Type/assignments/full-stack"
-    },
-    {
-      "id": "typescript-2---variable-data-type-mvc",
-      "slug": "typescript-2---variable-data-type-mvc",
-      "title": "mvc",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-2---variable-data-type",
-      "githubPath": "TypeScript/2 - Variable Data Type/assignments/mvc"
-    },
-    {
-      "id": "typescript-2---variable-data-type-oop",
-      "slug": "typescript-2---variable-data-type-oop",
-      "title": "oop",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-2---variable-data-type",
-      "githubPath": "TypeScript/2 - Variable Data Type/assignments/oop"
-    },
-    {
-      "id": "typescript-2---variable-data-type-ts-basic",
-      "slug": "typescript-2---variable-data-type-ts-basic",
-      "title": "ts-basic",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-2---variable-data-type",
-      "githubPath": "TypeScript/2 - Variable Data Type/assignments/ts-basic"
     }
   ],
   "resources": [
@@ -859,112 +803,328 @@
       "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Front%20End/9%20-%20ShadcnUi%20TanStackQuery%20Zod%20ReactHookForm/resources/README.md"
     },
     {
-      "id": "javascript1---introduction-to-javascriptresourcesreadmemd",
-      "slug": "javascript1---introduction-to-javascriptresourcesreadmemd",
+      "id": "javascript1---git-dan-githubresourcesreadmemd",
+      "slug": "javascript1---git-dan-githubresourcesreadmemd",
       "title": "README.md",
       "programSlug": "javascript",
-      "moduleSlug": "javascript-1---introduction-to-javascript",
-      "githubPath": "JavaScript/1 - Introduction To JavaScript/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/JavaScript/1%20-%20Introduction%20To%20JavaScript/resources/README.md"
+      "moduleSlug": "javascript-1---git-dan-github",
+      "githubPath": "JavaScript/1 - Git dan GitHub/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/JavaScript/1%20-%20Git%20dan%20GitHub/resources/README.md"
     },
     {
-      "id": "javascript2---variables-data-typeresourcesreadmemd",
-      "slug": "javascript2---variables-data-typeresourcesreadmemd",
+      "id": "javascript10---es6-modern-javascriptresourcesreadmemd",
+      "slug": "javascript10---es6-modern-javascriptresourcesreadmemd",
       "title": "README.md",
       "programSlug": "javascript",
-      "moduleSlug": "javascript-2---variables-data-type",
-      "githubPath": "JavaScript/2 - Variables Data Type/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/JavaScript/2%20-%20Variables%20Data%20Type/resources/README.md"
+      "moduleSlug": "javascript-10---es6-modern-javascript",
+      "githubPath": "JavaScript/10 - ES6 Modern JavaScript/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/JavaScript/10%20-%20ES6%20Modern%20JavaScript/resources/README.md"
     },
     {
-      "id": "typescript1---introduction-to-typescriptresourcesreadmemd",
-      "slug": "typescript1---introduction-to-typescriptresourcesreadmemd",
+      "id": "javascript11---array-methodsresourcesreadmemd",
+      "slug": "javascript11---array-methodsresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-11---array-methods",
+      "githubPath": "JavaScript/11 - Array Methods/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/JavaScript/11%20-%20Array%20Methods/resources/README.md"
+    },
+    {
+      "id": "javascript12---mini-project-javascriptresourcesreadmemd",
+      "slug": "javascript12---mini-project-javascriptresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-12---mini-project-javascript",
+      "githubPath": "JavaScript/12 - Mini Project JavaScript/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/JavaScript/12%20-%20Mini%20Project%20JavaScript/resources/README.md"
+    },
+    {
+      "id": "javascript2---algoritma-pseudocoderesourcesreadmemd",
+      "slug": "javascript2---algoritma-pseudocoderesourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-2---algoritma-pseudocode",
+      "githubPath": "JavaScript/2 - Algoritma Pseudocode/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/JavaScript/2%20-%20Algoritma%20Pseudocode/resources/README.md"
+    },
+    {
+      "id": "javascript3---variabel-dan-tipe-dataresourcesreadmemd",
+      "slug": "javascript3---variabel-dan-tipe-dataresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-3---variabel-dan-tipe-data",
+      "githubPath": "JavaScript/3 - Variabel dan Tipe Data/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/JavaScript/3%20-%20Variabel%20dan%20Tipe%20Data/resources/README.md"
+    },
+    {
+      "id": "javascript4---operator-dan-expressionresourcesreadmemd",
+      "slug": "javascript4---operator-dan-expressionresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-4---operator-dan-expression",
+      "githubPath": "JavaScript/4 - Operator dan Expression/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/JavaScript/4%20-%20Operator%20dan%20Expression/resources/README.md"
+    },
+    {
+      "id": "javascript5---conditional-statementresourcesreadmemd",
+      "slug": "javascript5---conditional-statementresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-5---conditional-statement",
+      "githubPath": "JavaScript/5 - Conditional Statement/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/JavaScript/5%20-%20Conditional%20Statement/resources/README.md"
+    },
+    {
+      "id": "javascript6---loopingresourcesreadmemd",
+      "slug": "javascript6---loopingresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-6---looping",
+      "githubPath": "JavaScript/6 - Looping/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/JavaScript/6%20-%20Looping/resources/README.md"
+    },
+    {
+      "id": "javascript7---functionresourcesreadmemd",
+      "slug": "javascript7---functionresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-7---function",
+      "githubPath": "JavaScript/7 - Function/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/JavaScript/7%20-%20Function/resources/README.md"
+    },
+    {
+      "id": "javascript8---arrayresourcesreadmemd",
+      "slug": "javascript8---arrayresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-8---array",
+      "githubPath": "JavaScript/8 - Array/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/JavaScript/8%20-%20Array/resources/README.md"
+    },
+    {
+      "id": "javascript9---objectresourcesreadmemd",
+      "slug": "javascript9---objectresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "javascript",
+      "moduleSlug": "javascript-9---object",
+      "githubPath": "JavaScript/9 - Object/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/JavaScript/9%20-%20Object/resources/README.md"
+    },
+    {
+      "id": "typescript1---pengenalan-typescriptresourcesreadmemd",
+      "slug": "typescript1---pengenalan-typescriptresourcesreadmemd",
       "title": "README.md",
       "programSlug": "typescript",
-      "moduleSlug": "typescript-1---introduction-to-typescript",
-      "githubPath": "TypeScript/1 - Introduction To TypeScript/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/TypeScript/1%20-%20Introduction%20To%20TypeScript/resources/README.md"
+      "moduleSlug": "typescript-1---pengenalan-typescript",
+      "githubPath": "TypeScript/1 - Pengenalan TypeScript/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/TypeScript/1%20-%20Pengenalan%20TypeScript/resources/README.md"
     },
     {
-      "id": "typescript2---variable-data-typeresourcesreadmemd",
-      "slug": "typescript2---variable-data-typeresourcesreadmemd",
+      "id": "typescript10---class-dan-oop-dasarresourcesreadmemd",
+      "slug": "typescript10---class-dan-oop-dasarresourcesreadmemd",
       "title": "README.md",
       "programSlug": "typescript",
-      "moduleSlug": "typescript-2---variable-data-type",
-      "githubPath": "TypeScript/2 - Variable Data Type/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/TypeScript/2%20-%20Variable%20Data%20Type/resources/README.md"
+      "moduleSlug": "typescript-10---class-dan-oop-dasar",
+      "githubPath": "TypeScript/10 - Class dan OOP Dasar/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/TypeScript/10%20-%20Class%20dan%20OOP%20Dasar/resources/README.md"
     },
     {
-      "id": "web-design1---web-design-1resourcesreadmemd",
-      "slug": "web-design1---web-design-1resourcesreadmemd",
+      "id": "typescript11---generic-dasarresourcesreadmemd",
+      "slug": "typescript11---generic-dasarresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-1---web-design-1",
-      "githubPath": "Web Design/1 - Web Design 1/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/1%20-%20Web%20Design%201/resources/README.md"
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-11---generic-dasar",
+      "githubPath": "TypeScript/11 - Generic Dasar/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/TypeScript/11%20-%20Generic%20Dasar/resources/README.md"
     },
     {
-      "id": "web-design2---web-design-2resourcesreadmemd",
-      "slug": "web-design2---web-design-2resourcesreadmemd",
+      "id": "typescript12---mini-project-typescriptresourcesreadmemd",
+      "slug": "typescript12---mini-project-typescriptresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-2---web-design-2",
-      "githubPath": "Web Design/2 - Web Design 2/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/2%20-%20Web%20Design%202/resources/README.md"
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-12---mini-project-typescript",
+      "githubPath": "TypeScript/12 - Mini Project TypeScript/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/TypeScript/12%20-%20Mini%20Project%20TypeScript/resources/README.md"
     },
     {
-      "id": "web-design3---web-design-3resourcesreadmemd",
-      "slug": "web-design3---web-design-3resourcesreadmemd",
+      "id": "typescript2---basic-typesresourcesreadmemd",
+      "slug": "typescript2---basic-typesresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-3---web-design-3",
-      "githubPath": "Web Design/3 - Web Design 3/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/3%20-%20Web%20Design%203/resources/README.md"
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-2---basic-types",
+      "githubPath": "TypeScript/2 - Basic Types/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/TypeScript/2%20-%20Basic%20Types/resources/README.md"
     },
     {
-      "id": "web-design4---web-design-4resourcesreadmemd",
-      "slug": "web-design4---web-design-4resourcesreadmemd",
+      "id": "typescript3---variable-dan-type-annotationresourcesreadmemd",
+      "slug": "typescript3---variable-dan-type-annotationresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-4---web-design-4",
-      "githubPath": "Web Design/4 - Web Design 4/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/4%20-%20Web%20Design%204/resources/README.md"
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-3---variable-dan-type-annotation",
+      "githubPath": "TypeScript/3 - Variable dan Type Annotation/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/TypeScript/3%20-%20Variable%20dan%20Type%20Annotation/resources/README.md"
     },
     {
-      "id": "web-design5---web-design-5resourcesreadmemd",
-      "slug": "web-design5---web-design-5resourcesreadmemd",
+      "id": "typescript4---function-pada-typescriptresourcesreadmemd",
+      "slug": "typescript4---function-pada-typescriptresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-5---web-design-5",
-      "githubPath": "Web Design/5 - Web Design 5/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/5%20-%20Web%20Design%205/resources/README.md"
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-4---function-pada-typescript",
+      "githubPath": "TypeScript/4 - Function pada TypeScript/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/TypeScript/4%20-%20Function%20pada%20TypeScript/resources/README.md"
     },
     {
-      "id": "web-design6---web-design-6resourcesreadmemd",
-      "slug": "web-design6---web-design-6resourcesreadmemd",
+      "id": "typescript5---array-dan-tupleresourcesreadmemd",
+      "slug": "typescript5---array-dan-tupleresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-6---web-design-6",
-      "githubPath": "Web Design/6 - Web Design 6/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/6%20-%20Web%20Design%206/resources/README.md"
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-5---array-dan-tuple",
+      "githubPath": "TypeScript/5 - Array dan Tuple/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/TypeScript/5%20-%20Array%20dan%20Tuple/resources/README.md"
     },
     {
-      "id": "web-design7---study-case-part-1resourcesreadmemd",
-      "slug": "web-design7---study-case-part-1resourcesreadmemd",
+      "id": "typescript6---object-typeresourcesreadmemd",
+      "slug": "typescript6---object-typeresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-7---study-case-part-1",
-      "githubPath": "Web Design/7 - Study Case Part 1/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/7%20-%20Study%20Case%20Part%201/resources/README.md"
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-6---object-type",
+      "githubPath": "TypeScript/6 - Object Type/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/TypeScript/6%20-%20Object%20Type/resources/README.md"
     },
     {
-      "id": "web-design8---study-case-part-2resourcesreadmemd",
-      "slug": "web-design8---study-case-part-2resourcesreadmemd",
+      "id": "typescript7---type-aliasresourcesreadmemd",
+      "slug": "typescript7---type-aliasresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-7---type-alias",
+      "githubPath": "TypeScript/7 - Type Alias/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/TypeScript/7%20-%20Type%20Alias/resources/README.md"
+    },
+    {
+      "id": "typescript8---interfaceresourcesreadmemd",
+      "slug": "typescript8---interfaceresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-8---interface",
+      "githubPath": "TypeScript/8 - Interface/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/TypeScript/8%20-%20Interface/resources/README.md"
+    },
+    {
+      "id": "typescript9---enum-dan-utility-typesresourcesreadmemd",
+      "slug": "typescript9---enum-dan-utility-typesresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "typescript",
+      "moduleSlug": "typescript-9---enum-dan-utility-types",
+      "githubPath": "TypeScript/9 - Enum dan Utility Types/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/TypeScript/9%20-%20Enum%20dan%20Utility%20Types/resources/README.md"
+    },
+    {
+      "id": "web-design1---pengenalan-web-design-html-dan-cssresourcesreadmemd",
+      "slug": "web-design1---pengenalan-web-design-html-dan-cssresourcesreadmemd",
       "title": "README.md",
       "programSlug": "web-design",
-      "moduleSlug": "web-design-8---study-case-part-2",
-      "githubPath": "Web Design/8 - Study Case Part 2/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/8%20-%20Study%20Case%20Part%202/resources/README.md"
+      "moduleSlug": "web-design-1---pengenalan-web-design-html-dan-css",
+      "githubPath": "Web Design/1 - Pengenalan Web Design HTML dan CSS/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/1%20-%20Pengenalan%20Web%20Design%20HTML%20dan%20CSS/resources/README.md"
+    },
+    {
+      "id": "web-design10---bootstrap-dan-tailwind-cssresourcesreadmemd",
+      "slug": "web-design10---bootstrap-dan-tailwind-cssresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-10---bootstrap-dan-tailwind-css",
+      "githubPath": "Web Design/10 - Bootstrap dan Tailwind CSS/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/10%20-%20Bootstrap%20dan%20Tailwind%20CSS/resources/README.md"
+    },
+    {
+      "id": "web-design11---study-case-landing-page-websiteresourcesreadmemd",
+      "slug": "web-design11---study-case-landing-page-websiteresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-11---study-case-landing-page-website",
+      "githubPath": "Web Design/11 - Study Case Landing Page Website/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/11%20-%20Study%20Case%20Landing%20Page%20Website/resources/README.md"
+    },
+    {
+      "id": "web-design12---study-case-company-profile-website-dan-presentasi-projectresourcesreadmemd",
+      "slug": "web-design12---study-case-company-profile-website-dan-presentasi-projectresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-12---study-case-company-profile-website-dan-presentasi-project",
+      "githubPath": "Web Design/12 - Study Case Company Profile Website dan Presentasi Project/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/12%20-%20Study%20Case%20Company%20Profile%20Website%20dan%20Presentasi%20Project/resources/README.md"
+    },
+    {
+      "id": "web-design2---struktur-html-dan-semantic-elementsresourcesreadmemd",
+      "slug": "web-design2---struktur-html-dan-semantic-elementsresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-2---struktur-html-dan-semantic-elements",
+      "githubPath": "Web Design/2 - Struktur HTML dan Semantic Elements/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/2%20-%20Struktur%20HTML%20dan%20Semantic%20Elements/resources/README.md"
+    },
+    {
+      "id": "web-design3---css-selector-dan-styling-dasarresourcesreadmemd",
+      "slug": "web-design3---css-selector-dan-styling-dasarresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-3---css-selector-dan-styling-dasar",
+      "githubPath": "Web Design/3 - CSS Selector dan Styling Dasar/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/3%20-%20CSS%20Selector%20dan%20Styling%20Dasar/resources/README.md"
+    },
+    {
+      "id": "web-design4---typography-color-dan-backgroundresourcesreadmemd",
+      "slug": "web-design4---typography-color-dan-backgroundresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-4---typography-color-dan-background",
+      "githubPath": "Web Design/4 - Typography, Color, dan Background/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/4%20-%20Typography%2C%20Color%2C%20dan%20Background/resources/README.md"
+    },
+    {
+      "id": "web-design5---box-model-margin-padding-dan-borderresourcesreadmemd",
+      "slug": "web-design5---box-model-margin-padding-dan-borderresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-5---box-model-margin-padding-dan-border",
+      "githubPath": "Web Design/5 - Box Model, Margin, Padding, dan Border/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/5%20-%20Box%20Model%2C%20Margin%2C%20Padding%2C%20dan%20Border/resources/README.md"
+    },
+    {
+      "id": "web-design6---layout-1-kolom-2-kolom-dan-multi-kolomresourcesreadmemd",
+      "slug": "web-design6---layout-1-kolom-2-kolom-dan-multi-kolomresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-6---layout-1-kolom-2-kolom-dan-multi-kolom",
+      "githubPath": "Web Design/6 - Layout 1 Kolom, 2 Kolom, dan Multi Kolom/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/6%20-%20Layout%201%20Kolom%2C%202%20Kolom%2C%20dan%20Multi%20Kolom/resources/README.md"
+    },
+    {
+      "id": "web-design7---css-flexbox-dan-grid-layoutresourcesreadmemd",
+      "slug": "web-design7---css-flexbox-dan-grid-layoutresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-7---css-flexbox-dan-grid-layout",
+      "githubPath": "Web Design/7 - CSS Flexbox dan Grid Layout/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/7%20-%20CSS%20Flexbox%20dan%20Grid%20Layout/resources/README.md"
+    },
+    {
+      "id": "web-design8---responsive-web-design-dan-media-queryresourcesreadmemd",
+      "slug": "web-design8---responsive-web-design-dan-media-queryresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-8---responsive-web-design-dan-media-query",
+      "githubPath": "Web Design/8 - Responsive Web Design dan Media Query/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/8%20-%20Responsive%20Web%20Design%20dan%20Media%20Query/resources/README.md"
+    },
+    {
+      "id": "web-design9---form-table-dan-navigation-designresourcesreadmemd",
+      "slug": "web-design9---form-table-dan-navigation-designresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "web-design",
+      "moduleSlug": "web-design-9---form-table-dan-navigation-design",
+      "githubPath": "Web Design/9 - Form, Table, dan Navigation Design/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/vincent-guizot/Syllabus/master/Web%20Design/9%20-%20Form%2C%20Table%2C%20dan%20Navigation%20Design/resources/README.md"
     }
   ]
 }
