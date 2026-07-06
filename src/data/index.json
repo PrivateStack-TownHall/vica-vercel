@@ -1,1361 +1,1131 @@
 {
   "programs": [
     {
-      "id": "gitbook",
-      "slug": "gitbook",
-      "title": ".gitbook",
-      "githubPath": ".gitbook"
+      "id": "0---roadmap",
+      "slug": "0---roadmap",
+      "title": "0 - Roadmap",
+      "githubPath": "0 - Roadmap"
     },
     {
-      "id": "back-end",
-      "slug": "back-end",
-      "title": "Back End",
-      "githubPath": "Back End"
+      "id": "1---javascript",
+      "slug": "1---javascript",
+      "title": "1 - JavaScript",
+      "githubPath": "1 - JavaScript"
     },
     {
-      "id": "front-end",
-      "slug": "front-end",
-      "title": "Front End",
-      "githubPath": "Front End"
+      "id": "2---back-end",
+      "slug": "2---back-end",
+      "title": "2 - Back End",
+      "githubPath": "2 - Back End"
     },
     {
-      "id": "javascript",
-      "slug": "javascript",
-      "title": "JavaScript",
-      "githubPath": "JavaScript"
+      "id": "3---front-end",
+      "slug": "3---front-end",
+      "title": "3 - Front End",
+      "githubPath": "3 - Front End"
     },
     {
-      "id": "typescript",
-      "slug": "typescript",
-      "title": "TypeScript",
-      "githubPath": "TypeScript"
+      "id": "4---typescript",
+      "slug": "4---typescript",
+      "title": "4 - TypeScript",
+      "githubPath": "4 - TypeScript"
     },
     {
-      "id": "web-design",
-      "slug": "web-design",
-      "title": "Web Design",
-      "githubPath": "Web Design"
-    },
-    {
-      "id": "javascript",
-      "slug": "javascript",
-      "title": "javascript",
-      "githubPath": "javascript"
-    },
-    {
-      "id": "typescript",
-      "slug": "typescript",
-      "title": "typescript",
-      "githubPath": "typescript"
+      "id": "5---web-design",
+      "slug": "5---web-design",
+      "title": "5 - Web Design",
+      "githubPath": "5 - Web Design"
     }
   ],
   "modules": [
     {
-      "id": "gitbook-assets",
-      "slug": "gitbook-assets",
-      "title": "assets",
-      "programSlug": "gitbook",
-      "githubPath": ".gitbook/assets"
+      "id": "0---roadmap-career-path",
+      "slug": "0---roadmap-career-path",
+      "title": "Career Path",
+      "programSlug": "0---roadmap",
+      "githubPath": "0 - Roadmap/Career Path"
     },
     {
-      "id": "back-end-1---nodejs-and-expressjs",
-      "slug": "back-end-1---nodejs-and-expressjs",
-      "title": "1 - Nodejs and Expressjs",
-      "programSlug": "back-end",
-      "githubPath": "Back End/1 - Nodejs and Expressjs"
+      "id": "0---roadmap-installations",
+      "slug": "0---roadmap-installations",
+      "title": "Installations",
+      "programSlug": "0---roadmap",
+      "githubPath": "0 - Roadmap/Installations"
     },
     {
-      "id": "back-end-10---render-deployment",
-      "slug": "back-end-10---render-deployment",
-      "title": "10 - Render Deployment",
-      "programSlug": "back-end",
-      "githubPath": "Back End/10 - Render Deployment"
+      "id": "0---roadmap-technology-stack",
+      "slug": "0---roadmap-technology-stack",
+      "title": "Technology Stack",
+      "programSlug": "0---roadmap",
+      "githubPath": "0 - Roadmap/Technology Stack"
     },
     {
-      "id": "back-end-11---study-case-part-1",
-      "slug": "back-end-11---study-case-part-1",
-      "title": "11 - Study Case Part 1",
-      "programSlug": "back-end",
-      "githubPath": "Back End/11 - Study Case Part 1"
-    },
-    {
-      "id": "back-end-12---study-case-part-2",
-      "slug": "back-end-12---study-case-part-2",
-      "title": "12 - Study Case Part 2",
-      "programSlug": "back-end",
-      "githubPath": "Back End/12 - Study Case Part 2"
-    },
-    {
-      "id": "back-end-2---database-introduction",
-      "slug": "back-end-2---database-introduction",
-      "title": "2 - Database Introduction",
-      "programSlug": "back-end",
-      "githubPath": "Back End/2 - Database Introduction"
-    },
-    {
-      "id": "back-end-3---postgressql-and-sequelize",
-      "slug": "back-end-3---postgressql-and-sequelize",
-      "title": "3 - PostgresSQL and Sequelize",
-      "programSlug": "back-end",
-      "githubPath": "Back End/3 - PostgresSQL and Sequelize"
-    },
-    {
-      "id": "back-end-4---entity-relational-diagram",
-      "slug": "back-end-4---entity-relational-diagram",
-      "title": "4 - Entity Relational Diagram",
-      "programSlug": "back-end",
-      "githubPath": "Back End/4 - Entity Relational Diagram"
-    },
-    {
-      "id": "back-end-5---crud-study-case-part-1",
-      "slug": "back-end-5---crud-study-case-part-1",
-      "title": "5 - CRUD Study Case Part 1",
-      "programSlug": "back-end",
-      "githubPath": "Back End/5 - CRUD Study Case Part 1"
-    },
-    {
-      "id": "back-end-6---crud-study-case-part-2",
-      "slug": "back-end-6---crud-study-case-part-2",
-      "title": "6 - CRUD Study Case Part 2",
-      "programSlug": "back-end",
-      "githubPath": "Back End/6 - CRUD Study Case Part 2"
-    },
-    {
-      "id": "back-end-7---advanced-query",
-      "slug": "back-end-7---advanced-query",
-      "title": "7 - Advanced Query",
-      "programSlug": "back-end",
-      "githubPath": "Back End/7 - Advanced Query"
-    },
-    {
-      "id": "back-end-8---auth-and-rbac",
-      "slug": "back-end-8---auth-and-rbac",
-      "title": "8 - Auth and RBAC",
-      "programSlug": "back-end",
-      "githubPath": "Back End/8 - Auth and RBAC"
-    },
-    {
-      "id": "back-end-9---cors-multer-etc",
-      "slug": "back-end-9---cors-multer-etc",
-      "title": "9 - CORS Multer Etc",
-      "programSlug": "back-end",
-      "githubPath": "Back End/9 - CORS Multer Etc"
-    },
-    {
-      "id": "front-end-1---react-components",
-      "slug": "front-end-1---react-components",
-      "title": "1 - React Components",
-      "programSlug": "front-end",
-      "githubPath": "Front End/1 - React Components"
-    },
-    {
-      "id": "front-end-10---vercel-deployment",
-      "slug": "front-end-10---vercel-deployment",
-      "title": "10 - Vercel Deployment",
-      "programSlug": "front-end",
-      "githubPath": "Front End/10 - Vercel Deployment"
-    },
-    {
-      "id": "front-end-11---study-case-part-1",
-      "slug": "front-end-11---study-case-part-1",
-      "title": "11 - Study Case Part 1",
-      "programSlug": "front-end",
-      "githubPath": "Front End/11 - Study Case Part 1"
-    },
-    {
-      "id": "front-end-12---study-case-part-2",
-      "slug": "front-end-12---study-case-part-2",
-      "title": "12 - Study Case Part 2",
-      "programSlug": "front-end",
-      "githubPath": "Front End/12 - Study Case Part 2"
-    },
-    {
-      "id": "front-end-2---event-handlers",
-      "slug": "front-end-2---event-handlers",
-      "title": "2 - Event Handlers",
-      "programSlug": "front-end",
-      "githubPath": "Front End/2 - Event Handlers"
-    },
-    {
-      "id": "front-end-3---tailwindcss",
-      "slug": "front-end-3---tailwindcss",
-      "title": "3 - TailwindCSS",
-      "programSlug": "front-end",
-      "githubPath": "Front End/3 - TailwindCSS"
-    },
-    {
-      "id": "front-end-4---react-hooks-and-fetch-api",
-      "slug": "front-end-4---react-hooks-and-fetch-api",
-      "title": "4 - React Hooks and Fetch API",
-      "programSlug": "front-end",
-      "githubPath": "Front End/4 - React Hooks and Fetch API"
-    },
-    {
-      "id": "front-end-5---react-router-dom",
-      "slug": "front-end-5---react-router-dom",
-      "title": "5 - React Router DOM",
-      "programSlug": "front-end",
-      "githubPath": "Front End/5 - React Router DOM"
-    },
-    {
-      "id": "front-end-6---crud-study-case",
-      "slug": "front-end-6---crud-study-case",
-      "title": "6 - CRUD Study Case",
-      "programSlug": "front-end",
-      "githubPath": "Front End/6 - CRUD Study Case"
-    },
-    {
-      "id": "front-end-7---advanced-hooks",
-      "slug": "front-end-7---advanced-hooks",
-      "title": "7 - Advanced Hooks",
-      "programSlug": "front-end",
-      "githubPath": "Front End/7 - Advanced Hooks"
-    },
-    {
-      "id": "front-end-8---auth-and-rbac",
-      "slug": "front-end-8---auth-and-rbac",
-      "title": "8 - Auth and RBAC",
-      "programSlug": "front-end",
-      "githubPath": "Front End/8 - Auth and RBAC"
-    },
-    {
-      "id": "front-end-9---shadcnui-tanstackquery-zod-reacthookform",
-      "slug": "front-end-9---shadcnui-tanstackquery-zod-reacthookform",
-      "title": "9 - ShadcnUi TanStackQuery Zod ReactHookForm",
-      "programSlug": "front-end",
-      "githubPath": "Front End/9 - ShadcnUi TanStackQuery Zod ReactHookForm"
-    },
-    {
-      "id": "javascript-10---es6-modern-javascript",
-      "slug": "javascript-10---es6-modern-javascript",
+      "id": "1---javascript-10---es6-modern-javascript",
+      "slug": "1---javascript-10---es6-modern-javascript",
       "title": "10 - ES6 Modern JavaScript",
-      "programSlug": "javascript",
-      "githubPath": "JavaScript/10 - ES6 Modern JavaScript"
+      "programSlug": "1---javascript",
+      "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript"
     },
     {
-      "id": "javascript-11---array-methods",
-      "slug": "javascript-11---array-methods",
+      "id": "1---javascript-11---array-methods",
+      "slug": "1---javascript-11---array-methods",
       "title": "11 - Array Methods",
-      "programSlug": "javascript",
-      "githubPath": "JavaScript/11 - Array Methods"
+      "programSlug": "1---javascript",
+      "githubPath": "1 - JavaScript/11 - Array Methods"
     },
     {
-      "id": "javascript-12---mini-project-javascript",
-      "slug": "javascript-12---mini-project-javascript",
+      "id": "1---javascript-12---mini-project-javascript",
+      "slug": "1---javascript-12---mini-project-javascript",
       "title": "12 - Mini Project JavaScript",
-      "programSlug": "javascript",
-      "githubPath": "JavaScript/12 - Mini Project JavaScript"
+      "programSlug": "1---javascript",
+      "githubPath": "1 - JavaScript/12 - Mini Project JavaScript"
     },
     {
-      "id": "javascript-1a---git-dan-github",
-      "slug": "javascript-1a---git-dan-github",
+      "id": "1---javascript-1a---git-dan-github",
+      "slug": "1---javascript-1a---git-dan-github",
       "title": "1a - Git dan GitHub",
-      "programSlug": "javascript",
-      "githubPath": "JavaScript/1a - Git dan GitHub"
+      "programSlug": "1---javascript",
+      "githubPath": "1 - JavaScript/1a - Git dan GitHub"
     },
     {
-      "id": "javascript-1b---introduction-to-javascript",
-      "slug": "javascript-1b---introduction-to-javascript",
+      "id": "1---javascript-1b---introduction-to-javascript",
+      "slug": "1---javascript-1b---introduction-to-javascript",
       "title": "1b - Introduction To JavaScript",
-      "programSlug": "javascript",
-      "githubPath": "JavaScript/1b - Introduction To JavaScript"
+      "programSlug": "1---javascript",
+      "githubPath": "1 - JavaScript/1b - Introduction To JavaScript"
     },
     {
-      "id": "javascript-2a---algoritma-pseudocode",
-      "slug": "javascript-2a---algoritma-pseudocode",
+      "id": "1---javascript-2a---algoritma-pseudocode",
+      "slug": "1---javascript-2a---algoritma-pseudocode",
       "title": "2a - Algoritma Pseudocode",
-      "programSlug": "javascript",
-      "githubPath": "JavaScript/2a - Algoritma Pseudocode"
+      "programSlug": "1---javascript",
+      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode"
     },
     {
-      "id": "javascript-2b---variables-data-type",
-      "slug": "javascript-2b---variables-data-type",
+      "id": "1---javascript-2b---variables-data-type",
+      "slug": "1---javascript-2b---variables-data-type",
       "title": "2b - Variables Data Type",
-      "programSlug": "javascript",
-      "githubPath": "JavaScript/2b - Variables Data Type"
+      "programSlug": "1---javascript",
+      "githubPath": "1 - JavaScript/2b - Variables Data Type"
     },
     {
-      "id": "javascript-3---variabel-dan-tipe-data",
-      "slug": "javascript-3---variabel-dan-tipe-data",
-      "title": "3 - Variabel dan Tipe Data",
-      "programSlug": "javascript",
-      "githubPath": "JavaScript/3 - Variabel dan Tipe Data"
+      "id": "1---javascript-3---variables-dan-tipe-data-tambahan",
+      "slug": "1---javascript-3---variables-dan-tipe-data-tambahan",
+      "title": "3 - Variables dan Tipe Data (tambahan)",
+      "programSlug": "1---javascript",
+      "githubPath": "1 - JavaScript/3 - Variables dan Tipe Data (tambahan)"
     },
     {
-      "id": "javascript-4---operator-dan-expression",
-      "slug": "javascript-4---operator-dan-expression",
+      "id": "1---javascript-4---operator-dan-expression",
+      "slug": "1---javascript-4---operator-dan-expression",
       "title": "4 - Operator dan Expression",
-      "programSlug": "javascript",
-      "githubPath": "JavaScript/4 - Operator dan Expression"
+      "programSlug": "1---javascript",
+      "githubPath": "1 - JavaScript/4 - Operator dan Expression"
     },
     {
-      "id": "javascript-5---conditional-statement",
-      "slug": "javascript-5---conditional-statement",
+      "id": "1---javascript-5---conditional-statement",
+      "slug": "1---javascript-5---conditional-statement",
       "title": "5 - Conditional Statement",
-      "programSlug": "javascript",
-      "githubPath": "JavaScript/5 - Conditional Statement"
+      "programSlug": "1---javascript",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement"
     },
     {
-      "id": "javascript-6---looping",
-      "slug": "javascript-6---looping",
+      "id": "1---javascript-6---looping",
+      "slug": "1---javascript-6---looping",
       "title": "6 - Looping",
-      "programSlug": "javascript",
-      "githubPath": "JavaScript/6 - Looping"
+      "programSlug": "1---javascript",
+      "githubPath": "1 - JavaScript/6 - Looping"
     },
     {
-      "id": "javascript-7---function",
-      "slug": "javascript-7---function",
+      "id": "1---javascript-7---function",
+      "slug": "1---javascript-7---function",
       "title": "7 - Function",
-      "programSlug": "javascript",
-      "githubPath": "JavaScript/7 - Function"
+      "programSlug": "1---javascript",
+      "githubPath": "1 - JavaScript/7 - Function"
     },
     {
-      "id": "javascript-8---array",
-      "slug": "javascript-8---array",
+      "id": "1---javascript-8---array",
+      "slug": "1---javascript-8---array",
       "title": "8 - Array",
-      "programSlug": "javascript",
-      "githubPath": "JavaScript/8 - Array"
+      "programSlug": "1---javascript",
+      "githubPath": "1 - JavaScript/8 - Array"
     },
     {
-      "id": "javascript-9---object",
-      "slug": "javascript-9---object",
+      "id": "1---javascript-9---object",
+      "slug": "1---javascript-9---object",
       "title": "9 - Object",
-      "programSlug": "javascript",
-      "githubPath": "JavaScript/9 - Object"
+      "programSlug": "1---javascript",
+      "githubPath": "1 - JavaScript/9 - Object"
     },
     {
-      "id": "typescript-1---pengenalan-typescript",
-      "slug": "typescript-1---pengenalan-typescript",
+      "id": "2---back-end-1---nodejs-and-expressjs",
+      "slug": "2---back-end-1---nodejs-and-expressjs",
+      "title": "1 - Nodejs and Expressjs",
+      "programSlug": "2---back-end",
+      "githubPath": "2 - Back End/1 - Nodejs and Expressjs"
+    },
+    {
+      "id": "2---back-end-10---render-deployment",
+      "slug": "2---back-end-10---render-deployment",
+      "title": "10 - Render Deployment",
+      "programSlug": "2---back-end",
+      "githubPath": "2 - Back End/10 - Render Deployment"
+    },
+    {
+      "id": "2---back-end-11---study-case-part-1",
+      "slug": "2---back-end-11---study-case-part-1",
+      "title": "11 - Study Case Part 1",
+      "programSlug": "2---back-end",
+      "githubPath": "2 - Back End/11 - Study Case Part 1"
+    },
+    {
+      "id": "2---back-end-12---study-case-part-2",
+      "slug": "2---back-end-12---study-case-part-2",
+      "title": "12 - Study Case Part 2",
+      "programSlug": "2---back-end",
+      "githubPath": "2 - Back End/12 - Study Case Part 2"
+    },
+    {
+      "id": "2---back-end-2---database-introduction",
+      "slug": "2---back-end-2---database-introduction",
+      "title": "2 - Database Introduction",
+      "programSlug": "2---back-end",
+      "githubPath": "2 - Back End/2 - Database Introduction"
+    },
+    {
+      "id": "2---back-end-3---postgressql-and-sequelize",
+      "slug": "2---back-end-3---postgressql-and-sequelize",
+      "title": "3 - PostgresSQL and Sequelize",
+      "programSlug": "2---back-end",
+      "githubPath": "2 - Back End/3 - PostgresSQL and Sequelize"
+    },
+    {
+      "id": "2---back-end-4---entity-relational-diagram",
+      "slug": "2---back-end-4---entity-relational-diagram",
+      "title": "4 - Entity Relational Diagram",
+      "programSlug": "2---back-end",
+      "githubPath": "2 - Back End/4 - Entity Relational Diagram"
+    },
+    {
+      "id": "2---back-end-5---crud-study-case-part-1",
+      "slug": "2---back-end-5---crud-study-case-part-1",
+      "title": "5 - CRUD Study Case Part 1",
+      "programSlug": "2---back-end",
+      "githubPath": "2 - Back End/5 - CRUD Study Case Part 1"
+    },
+    {
+      "id": "2---back-end-6---crud-study-case-part-2",
+      "slug": "2---back-end-6---crud-study-case-part-2",
+      "title": "6 - CRUD Study Case Part 2",
+      "programSlug": "2---back-end",
+      "githubPath": "2 - Back End/6 - CRUD Study Case Part 2"
+    },
+    {
+      "id": "2---back-end-7---advanced-query",
+      "slug": "2---back-end-7---advanced-query",
+      "title": "7 - Advanced Query",
+      "programSlug": "2---back-end",
+      "githubPath": "2 - Back End/7 - Advanced Query"
+    },
+    {
+      "id": "2---back-end-8---auth-and-rbac",
+      "slug": "2---back-end-8---auth-and-rbac",
+      "title": "8 - Auth and RBAC",
+      "programSlug": "2---back-end",
+      "githubPath": "2 - Back End/8 - Auth and RBAC"
+    },
+    {
+      "id": "2---back-end-9---cors-multer-etc",
+      "slug": "2---back-end-9---cors-multer-etc",
+      "title": "9 - CORS Multer Etc",
+      "programSlug": "2---back-end",
+      "githubPath": "2 - Back End/9 - CORS Multer Etc"
+    },
+    {
+      "id": "3---front-end-1---react-components",
+      "slug": "3---front-end-1---react-components",
+      "title": "1 - React Components",
+      "programSlug": "3---front-end",
+      "githubPath": "3 - Front End/1 - React Components"
+    },
+    {
+      "id": "3---front-end-10---vercel-deployment",
+      "slug": "3---front-end-10---vercel-deployment",
+      "title": "10 - Vercel Deployment",
+      "programSlug": "3---front-end",
+      "githubPath": "3 - Front End/10 - Vercel Deployment"
+    },
+    {
+      "id": "3---front-end-11---study-case-part-1",
+      "slug": "3---front-end-11---study-case-part-1",
+      "title": "11 - Study Case Part 1",
+      "programSlug": "3---front-end",
+      "githubPath": "3 - Front End/11 - Study Case Part 1"
+    },
+    {
+      "id": "3---front-end-12---study-case-part-2",
+      "slug": "3---front-end-12---study-case-part-2",
+      "title": "12 - Study Case Part 2",
+      "programSlug": "3---front-end",
+      "githubPath": "3 - Front End/12 - Study Case Part 2"
+    },
+    {
+      "id": "3---front-end-2---event-handlers",
+      "slug": "3---front-end-2---event-handlers",
+      "title": "2 - Event Handlers",
+      "programSlug": "3---front-end",
+      "githubPath": "3 - Front End/2 - Event Handlers"
+    },
+    {
+      "id": "3---front-end-3---tailwindcss",
+      "slug": "3---front-end-3---tailwindcss",
+      "title": "3 - TailwindCSS",
+      "programSlug": "3---front-end",
+      "githubPath": "3 - Front End/3 - TailwindCSS"
+    },
+    {
+      "id": "3---front-end-4---react-hooks-and-fetch-api",
+      "slug": "3---front-end-4---react-hooks-and-fetch-api",
+      "title": "4 - React Hooks and Fetch API",
+      "programSlug": "3---front-end",
+      "githubPath": "3 - Front End/4 - React Hooks and Fetch API"
+    },
+    {
+      "id": "3---front-end-5---react-router-dom",
+      "slug": "3---front-end-5---react-router-dom",
+      "title": "5 - React Router DOM",
+      "programSlug": "3---front-end",
+      "githubPath": "3 - Front End/5 - React Router DOM"
+    },
+    {
+      "id": "3---front-end-6---crud-study-case",
+      "slug": "3---front-end-6---crud-study-case",
+      "title": "6 - CRUD Study Case",
+      "programSlug": "3---front-end",
+      "githubPath": "3 - Front End/6 - CRUD Study Case"
+    },
+    {
+      "id": "3---front-end-7---advanced-hooks",
+      "slug": "3---front-end-7---advanced-hooks",
+      "title": "7 - Advanced Hooks",
+      "programSlug": "3---front-end",
+      "githubPath": "3 - Front End/7 - Advanced Hooks"
+    },
+    {
+      "id": "3---front-end-8---auth-and-rbac",
+      "slug": "3---front-end-8---auth-and-rbac",
+      "title": "8 - Auth and RBAC",
+      "programSlug": "3---front-end",
+      "githubPath": "3 - Front End/8 - Auth and RBAC"
+    },
+    {
+      "id": "3---front-end-9---shadcnui-tanstackquery-zod-reacthookform",
+      "slug": "3---front-end-9---shadcnui-tanstackquery-zod-reacthookform",
+      "title": "9 - ShadcnUi TanStackQuery Zod ReactHookForm",
+      "programSlug": "3---front-end",
+      "githubPath": "3 - Front End/9 - ShadcnUi TanStackQuery Zod ReactHookForm"
+    },
+    {
+      "id": "4---typescript-1---pengenalan-typescript",
+      "slug": "4---typescript-1---pengenalan-typescript",
       "title": "1 - Pengenalan TypeScript",
-      "programSlug": "typescript",
-      "githubPath": "TypeScript/1 - Pengenalan TypeScript"
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/1 - Pengenalan TypeScript"
     },
     {
-      "id": "typescript-10---class-dan-oop-dasar",
-      "slug": "typescript-10---class-dan-oop-dasar",
+      "id": "4---typescript-10---class-dan-oop-dasar",
+      "slug": "4---typescript-10---class-dan-oop-dasar",
       "title": "10 - Class dan OOP Dasar",
-      "programSlug": "typescript",
-      "githubPath": "TypeScript/10 - Class dan OOP Dasar"
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/10 - Class dan OOP Dasar"
     },
     {
-      "id": "typescript-11---generic-dasar",
-      "slug": "typescript-11---generic-dasar",
+      "id": "4---typescript-11---generic-dasar",
+      "slug": "4---typescript-11---generic-dasar",
       "title": "11 - Generic Dasar",
-      "programSlug": "typescript",
-      "githubPath": "TypeScript/11 - Generic Dasar"
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/11 - Generic Dasar"
     },
     {
-      "id": "typescript-12---mini-project-typescript",
-      "slug": "typescript-12---mini-project-typescript",
+      "id": "4---typescript-12---mini-project-typescript",
+      "slug": "4---typescript-12---mini-project-typescript",
       "title": "12 - Mini Project TypeScript",
-      "programSlug": "typescript",
-      "githubPath": "TypeScript/12 - Mini Project TypeScript"
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/12 - Mini Project TypeScript"
     },
     {
-      "id": "typescript-2---basic-types",
-      "slug": "typescript-2---basic-types",
+      "id": "4---typescript-2---basic-types",
+      "slug": "4---typescript-2---basic-types",
       "title": "2 - Basic Types",
-      "programSlug": "typescript",
-      "githubPath": "TypeScript/2 - Basic Types"
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/2 - Basic Types"
     },
     {
-      "id": "typescript-3---variable-dan-type-annotation",
-      "slug": "typescript-3---variable-dan-type-annotation",
+      "id": "4---typescript-3---variable-dan-type-annotation",
+      "slug": "4---typescript-3---variable-dan-type-annotation",
       "title": "3 - Variable dan Type Annotation",
-      "programSlug": "typescript",
-      "githubPath": "TypeScript/3 - Variable dan Type Annotation"
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/3 - Variable dan Type Annotation"
     },
     {
-      "id": "typescript-4---function-pada-typescript",
-      "slug": "typescript-4---function-pada-typescript",
+      "id": "4---typescript-4---function-pada-typescript",
+      "slug": "4---typescript-4---function-pada-typescript",
       "title": "4 - Function pada TypeScript",
-      "programSlug": "typescript",
-      "githubPath": "TypeScript/4 - Function pada TypeScript"
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/4 - Function pada TypeScript"
     },
     {
-      "id": "typescript-5---array-dan-tuple",
-      "slug": "typescript-5---array-dan-tuple",
+      "id": "4---typescript-5---array-dan-tuple",
+      "slug": "4---typescript-5---array-dan-tuple",
       "title": "5 - Array dan Tuple",
-      "programSlug": "typescript",
-      "githubPath": "TypeScript/5 - Array dan Tuple"
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/5 - Array dan Tuple"
     },
     {
-      "id": "typescript-6---object-type",
-      "slug": "typescript-6---object-type",
+      "id": "4---typescript-6---object-type",
+      "slug": "4---typescript-6---object-type",
       "title": "6 - Object Type",
-      "programSlug": "typescript",
-      "githubPath": "TypeScript/6 - Object Type"
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/6 - Object Type"
     },
     {
-      "id": "typescript-7---type-alias",
-      "slug": "typescript-7---type-alias",
+      "id": "4---typescript-7---type-alias",
+      "slug": "4---typescript-7---type-alias",
       "title": "7 - Type Alias",
-      "programSlug": "typescript",
-      "githubPath": "TypeScript/7 - Type Alias"
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/7 - Type Alias"
     },
     {
-      "id": "typescript-8---interface",
-      "slug": "typescript-8---interface",
+      "id": "4---typescript-8---interface",
+      "slug": "4---typescript-8---interface",
       "title": "8 - Interface",
-      "programSlug": "typescript",
-      "githubPath": "TypeScript/8 - Interface"
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/8 - Interface"
     },
     {
-      "id": "typescript-9---enum-dan-utility-types",
-      "slug": "typescript-9---enum-dan-utility-types",
+      "id": "4---typescript-9---enum-dan-utility-types",
+      "slug": "4---typescript-9---enum-dan-utility-types",
       "title": "9 - Enum dan Utility Types",
-      "programSlug": "typescript",
-      "githubPath": "TypeScript/9 - Enum dan Utility Types"
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/9 - Enum dan Utility Types"
     },
     {
-      "id": "web-design-1---pengenalan-web-design-html-dan-css",
-      "slug": "web-design-1---pengenalan-web-design-html-dan-css",
+      "id": "5---web-design-1---pengenalan-web-design-html-dan-css",
+      "slug": "5---web-design-1---pengenalan-web-design-html-dan-css",
       "title": "1 - Pengenalan Web Design HTML dan CSS",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/1 - Pengenalan Web Design HTML dan CSS"
+      "programSlug": "5---web-design",
+      "githubPath": "5 - Web Design/1 - Pengenalan Web Design HTML dan CSS"
     },
     {
-      "id": "web-design-10---bootstrap-dan-tailwind-css",
-      "slug": "web-design-10---bootstrap-dan-tailwind-css",
+      "id": "5---web-design-10---bootstrap-dan-tailwind-css",
+      "slug": "5---web-design-10---bootstrap-dan-tailwind-css",
       "title": "10 - Bootstrap dan Tailwind CSS",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/10 - Bootstrap dan Tailwind CSS"
+      "programSlug": "5---web-design",
+      "githubPath": "5 - Web Design/10 - Bootstrap dan Tailwind CSS"
     },
     {
-      "id": "web-design-11---study-case-landing-page-website",
-      "slug": "web-design-11---study-case-landing-page-website",
+      "id": "5---web-design-11---study-case-landing-page-website",
+      "slug": "5---web-design-11---study-case-landing-page-website",
       "title": "11 - Study Case Landing Page Website",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/11 - Study Case Landing Page Website"
+      "programSlug": "5---web-design",
+      "githubPath": "5 - Web Design/11 - Study Case Landing Page Website"
     },
     {
-      "id": "web-design-12---study-case-company-profile-website-dan-presentasi-project",
-      "slug": "web-design-12---study-case-company-profile-website-dan-presentasi-project",
+      "id": "5---web-design-12---study-case-company-profile-website-dan-presentasi-project",
+      "slug": "5---web-design-12---study-case-company-profile-website-dan-presentasi-project",
       "title": "12 - Study Case Company Profile Website dan Presentasi Project",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/12 - Study Case Company Profile Website dan Presentasi Project"
+      "programSlug": "5---web-design",
+      "githubPath": "5 - Web Design/12 - Study Case Company Profile Website dan Presentasi Project"
     },
     {
-      "id": "web-design-2---struktur-html-dan-semantic-elements",
-      "slug": "web-design-2---struktur-html-dan-semantic-elements",
+      "id": "5---web-design-2---struktur-html-dan-semantic-elements",
+      "slug": "5---web-design-2---struktur-html-dan-semantic-elements",
       "title": "2 - Struktur HTML dan Semantic Elements",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/2 - Struktur HTML dan Semantic Elements"
+      "programSlug": "5---web-design",
+      "githubPath": "5 - Web Design/2 - Struktur HTML dan Semantic Elements"
     },
     {
-      "id": "web-design-3---css-selector-dan-styling-dasar",
-      "slug": "web-design-3---css-selector-dan-styling-dasar",
+      "id": "5---web-design-3---css-selector-dan-styling-dasar",
+      "slug": "5---web-design-3---css-selector-dan-styling-dasar",
       "title": "3 - CSS Selector dan Styling Dasar",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/3 - CSS Selector dan Styling Dasar"
+      "programSlug": "5---web-design",
+      "githubPath": "5 - Web Design/3 - CSS Selector dan Styling Dasar"
     },
     {
-      "id": "web-design-4---typography-color-dan-background",
-      "slug": "web-design-4---typography-color-dan-background",
+      "id": "5---web-design-4---typography-color-dan-background",
+      "slug": "5---web-design-4---typography-color-dan-background",
       "title": "4 - Typography, Color, dan Background",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/4 - Typography, Color, dan Background"
+      "programSlug": "5---web-design",
+      "githubPath": "5 - Web Design/4 - Typography, Color, dan Background"
     },
     {
-      "id": "web-design-5---box-model-margin-padding-dan-border",
-      "slug": "web-design-5---box-model-margin-padding-dan-border",
+      "id": "5---web-design-5---box-model-margin-padding-dan-border",
+      "slug": "5---web-design-5---box-model-margin-padding-dan-border",
       "title": "5 - Box Model, Margin, Padding, dan Border",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/5 - Box Model, Margin, Padding, dan Border"
+      "programSlug": "5---web-design",
+      "githubPath": "5 - Web Design/5 - Box Model, Margin, Padding, dan Border"
     },
     {
-      "id": "web-design-6---layout-1-kolom-2-kolom-dan-multi-kolom",
-      "slug": "web-design-6---layout-1-kolom-2-kolom-dan-multi-kolom",
+      "id": "5---web-design-6---layout-1-kolom-2-kolom-dan-multi-kolom",
+      "slug": "5---web-design-6---layout-1-kolom-2-kolom-dan-multi-kolom",
       "title": "6 - Layout 1 Kolom, 2 Kolom, dan Multi Kolom",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/6 - Layout 1 Kolom, 2 Kolom, dan Multi Kolom"
+      "programSlug": "5---web-design",
+      "githubPath": "5 - Web Design/6 - Layout 1 Kolom, 2 Kolom, dan Multi Kolom"
     },
     {
-      "id": "web-design-7---css-flexbox-dan-grid-layout",
-      "slug": "web-design-7---css-flexbox-dan-grid-layout",
+      "id": "5---web-design-7---css-flexbox-dan-grid-layout",
+      "slug": "5---web-design-7---css-flexbox-dan-grid-layout",
       "title": "7 - CSS Flexbox dan Grid Layout",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/7 - CSS Flexbox dan Grid Layout"
+      "programSlug": "5---web-design",
+      "githubPath": "5 - Web Design/7 - CSS Flexbox dan Grid Layout"
     },
     {
-      "id": "web-design-8---responsive-web-design-dan-media-query",
-      "slug": "web-design-8---responsive-web-design-dan-media-query",
+      "id": "5---web-design-8---responsive-web-design-dan-media-query",
+      "slug": "5---web-design-8---responsive-web-design-dan-media-query",
       "title": "8 - Responsive Web Design dan Media Query",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/8 - Responsive Web Design dan Media Query"
+      "programSlug": "5---web-design",
+      "githubPath": "5 - Web Design/8 - Responsive Web Design dan Media Query"
     },
     {
-      "id": "web-design-9---form-table-dan-navigation-design",
-      "slug": "web-design-9---form-table-dan-navigation-design",
+      "id": "5---web-design-9---form-table-dan-navigation-design",
+      "slug": "5---web-design-9---form-table-dan-navigation-design",
       "title": "9 - Form, Table, dan Navigation Design",
-      "programSlug": "web-design",
-      "githubPath": "Web Design/9 - Form, Table, dan Navigation Design"
-    },
-    {
-      "id": "javascript-10-es6-modern-javascript",
-      "slug": "javascript-10-es6-modern-javascript",
-      "title": "10-es6-modern-javascript",
-      "programSlug": "javascript",
-      "githubPath": "javascript/10-es6-modern-javascript"
-    },
-    {
-      "id": "javascript-11-array-methods",
-      "slug": "javascript-11-array-methods",
-      "title": "11-array-methods",
-      "programSlug": "javascript",
-      "githubPath": "javascript/11-array-methods"
-    },
-    {
-      "id": "javascript-12-mini-project-javascript",
-      "slug": "javascript-12-mini-project-javascript",
-      "title": "12-mini-project-javascript",
-      "programSlug": "javascript",
-      "githubPath": "javascript/12-mini-project-javascript"
-    },
-    {
-      "id": "javascript-1a-git-dan-github",
-      "slug": "javascript-1a-git-dan-github",
-      "title": "1a-git-dan-github",
-      "programSlug": "javascript",
-      "githubPath": "javascript/1a-git-dan-github"
-    },
-    {
-      "id": "javascript-1b-introduction-to-javascript",
-      "slug": "javascript-1b-introduction-to-javascript",
-      "title": "1b-introduction-to-javascript",
-      "programSlug": "javascript",
-      "githubPath": "javascript/1b-introduction-to-javascript"
-    },
-    {
-      "id": "javascript-2a-algoritma-pseudocode",
-      "slug": "javascript-2a-algoritma-pseudocode",
-      "title": "2a-algoritma-pseudocode",
-      "programSlug": "javascript",
-      "githubPath": "javascript/2a-algoritma-pseudocode"
-    },
-    {
-      "id": "javascript-2b-variables-data-type",
-      "slug": "javascript-2b-variables-data-type",
-      "title": "2b-variables-data-type",
-      "programSlug": "javascript",
-      "githubPath": "javascript/2b-variables-data-type"
-    },
-    {
-      "id": "javascript-3-variabel-dan-tipe-data",
-      "slug": "javascript-3-variabel-dan-tipe-data",
-      "title": "3-variabel-dan-tipe-data",
-      "programSlug": "javascript",
-      "githubPath": "javascript/3-variabel-dan-tipe-data"
-    },
-    {
-      "id": "javascript-4-operator-dan-expression",
-      "slug": "javascript-4-operator-dan-expression",
-      "title": "4-operator-dan-expression",
-      "programSlug": "javascript",
-      "githubPath": "javascript/4-operator-dan-expression"
-    },
-    {
-      "id": "javascript-5-conditional-statement",
-      "slug": "javascript-5-conditional-statement",
-      "title": "5-conditional-statement",
-      "programSlug": "javascript",
-      "githubPath": "javascript/5-conditional-statement"
-    },
-    {
-      "id": "javascript-6-looping",
-      "slug": "javascript-6-looping",
-      "title": "6-looping",
-      "programSlug": "javascript",
-      "githubPath": "javascript/6-looping"
-    },
-    {
-      "id": "javascript-7-function",
-      "slug": "javascript-7-function",
-      "title": "7-function",
-      "programSlug": "javascript",
-      "githubPath": "javascript/7-function"
-    },
-    {
-      "id": "javascript-8-array",
-      "slug": "javascript-8-array",
-      "title": "8-array",
-      "programSlug": "javascript",
-      "githubPath": "javascript/8-array"
-    },
-    {
-      "id": "javascript-9-object",
-      "slug": "javascript-9-object",
-      "title": "9-object",
-      "programSlug": "javascript",
-      "githubPath": "javascript/9-object"
-    },
-    {
-      "id": "typescript-1-pengenalan-typescript",
-      "slug": "typescript-1-pengenalan-typescript",
-      "title": "1-pengenalan-typescript",
-      "programSlug": "typescript",
-      "githubPath": "typescript/1-pengenalan-typescript"
-    },
-    {
-      "id": "typescript-10-class-dan-oop-dasar",
-      "slug": "typescript-10-class-dan-oop-dasar",
-      "title": "10-class-dan-oop-dasar",
-      "programSlug": "typescript",
-      "githubPath": "typescript/10-class-dan-oop-dasar"
-    },
-    {
-      "id": "typescript-11-generic-dasar",
-      "slug": "typescript-11-generic-dasar",
-      "title": "11-generic-dasar",
-      "programSlug": "typescript",
-      "githubPath": "typescript/11-generic-dasar"
-    },
-    {
-      "id": "typescript-12-mini-project-typescript",
-      "slug": "typescript-12-mini-project-typescript",
-      "title": "12-mini-project-typescript",
-      "programSlug": "typescript",
-      "githubPath": "typescript/12-mini-project-typescript"
-    },
-    {
-      "id": "typescript-2-basic-types",
-      "slug": "typescript-2-basic-types",
-      "title": "2-basic-types",
-      "programSlug": "typescript",
-      "githubPath": "typescript/2-basic-types"
-    },
-    {
-      "id": "typescript-3-variable-dan-type-annotation",
-      "slug": "typescript-3-variable-dan-type-annotation",
-      "title": "3-variable-dan-type-annotation",
-      "programSlug": "typescript",
-      "githubPath": "typescript/3-variable-dan-type-annotation"
-    },
-    {
-      "id": "typescript-4-function-pada-typescript",
-      "slug": "typescript-4-function-pada-typescript",
-      "title": "4-function-pada-typescript",
-      "programSlug": "typescript",
-      "githubPath": "typescript/4-function-pada-typescript"
-    },
-    {
-      "id": "typescript-5-array-dan-tuple",
-      "slug": "typescript-5-array-dan-tuple",
-      "title": "5-array-dan-tuple",
-      "programSlug": "typescript",
-      "githubPath": "typescript/5-array-dan-tuple"
-    },
-    {
-      "id": "typescript-6-object-type",
-      "slug": "typescript-6-object-type",
-      "title": "6-object-type",
-      "programSlug": "typescript",
-      "githubPath": "typescript/6-object-type"
-    },
-    {
-      "id": "typescript-7-type-alias",
-      "slug": "typescript-7-type-alias",
-      "title": "7-type-alias",
-      "programSlug": "typescript",
-      "githubPath": "typescript/7-type-alias"
-    },
-    {
-      "id": "typescript-8-interface",
-      "slug": "typescript-8-interface",
-      "title": "8-interface",
-      "programSlug": "typescript",
-      "githubPath": "typescript/8-interface"
-    },
-    {
-      "id": "typescript-9-enum-dan-utility-types",
-      "slug": "typescript-9-enum-dan-utility-types",
-      "title": "9-enum-dan-utility-types",
-      "programSlug": "typescript",
-      "githubPath": "typescript/9-enum-dan-utility-types"
+      "programSlug": "5---web-design",
+      "githubPath": "5 - Web Design/9 - Form, Table, dan Navigation Design"
     }
   ],
   "lessons": [
     {
-      "id": "back-end-1---nodejs-and-expressjs-library---ejs",
-      "slug": "back-end-1---nodejs-and-expressjs-library---ejs",
+      "id": "2---back-end-1---nodejs-and-expressjs-library---ejs",
+      "slug": "2---back-end-1---nodejs-and-expressjs-library---ejs",
       "title": "library - ejs",
-      "programSlug": "back-end",
-      "moduleSlug": "back-end-1---nodejs-and-expressjs",
-      "githubPath": "Back End/1 - Nodejs and Expressjs/lessons/library - ejs"
+      "programSlug": "2---back-end",
+      "moduleSlug": "2---back-end-1---nodejs-and-expressjs",
+      "githubPath": "2 - Back End/1 - Nodejs and Expressjs/lessons/library - ejs"
     },
     {
-      "id": "back-end-2---database-introduction-m-ployee",
-      "slug": "back-end-2---database-introduction-m-ployee",
+      "id": "2---back-end-2---database-introduction-m-ployee",
+      "slug": "2---back-end-2---database-introduction-m-ployee",
       "title": "M-ployee",
-      "programSlug": "back-end",
-      "moduleSlug": "back-end-2---database-introduction",
-      "githubPath": "Back End/2 - Database Introduction/lessons/M-ployee"
+      "programSlug": "2---back-end",
+      "moduleSlug": "2---back-end-2---database-introduction",
+      "githubPath": "2 - Back End/2 - Database Introduction/lessons/M-ployee"
     },
     {
-      "id": "front-end-1---react-components-byte-burger",
-      "slug": "front-end-1---react-components-byte-burger",
+      "id": "3---front-end-1---react-components-byte-burger",
+      "slug": "3---front-end-1---react-components-byte-burger",
       "title": "byte-burger",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-1---react-components",
-      "githubPath": "Front End/1 - React Components/lessons/byte-burger"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-1---react-components",
+      "githubPath": "3 - Front End/1 - React Components/lessons/byte-burger"
     },
     {
-      "id": "front-end-2---event-handlers-quantum-mart",
-      "slug": "front-end-2---event-handlers-quantum-mart",
-      "title": "quantum-mart",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-2---event-handlers",
-      "githubPath": "Front End/2 - Event Handlers/lessons/quantum-mart"
+      "id": "3---front-end-3---tailwindcss-inventory-master",
+      "slug": "3---front-end-3---tailwindcss-inventory-master",
+      "title": "inventory-master",
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-3---tailwindcss",
+      "githubPath": "3 - Front End/3 - TailwindCSS/lessons/inventory-master"
     },
     {
-      "id": "front-end-4---react-hooks-and-fetch-api-pineapple-stack",
-      "slug": "front-end-4---react-hooks-and-fetch-api-pineapple-stack",
+      "id": "3---front-end-4---react-hooks-and-fetch-api-pineapple-stack",
+      "slug": "3---front-end-4---react-hooks-and-fetch-api-pineapple-stack",
       "title": "pineapple-stack",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-4---react-hooks-and-fetch-api",
-      "githubPath": "Front End/4 - React Hooks and Fetch API/lessons/pineapple-stack"
-    },
-    {
-      "id": "typescript-1---pengenalan-typescript-mvc",
-      "slug": "typescript-1---pengenalan-typescript-mvc",
-      "title": "mvc",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-1---pengenalan-typescript",
-      "githubPath": "TypeScript/1 - Pengenalan TypeScript/lessons/mvc"
-    },
-    {
-      "id": "typescript-1---pengenalan-typescript-oop",
-      "slug": "typescript-1---pengenalan-typescript-oop",
-      "title": "oop",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-1---pengenalan-typescript",
-      "githubPath": "TypeScript/1 - Pengenalan TypeScript/lessons/oop"
-    },
-    {
-      "id": "typescript-2---basic-types-mvc",
-      "slug": "typescript-2---basic-types-mvc",
-      "title": "mvc",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-2---basic-types",
-      "githubPath": "TypeScript/2 - Basic Types/lessons/mvc"
-    },
-    {
-      "id": "typescript-2---basic-types-oop",
-      "slug": "typescript-2---basic-types-oop",
-      "title": "oop",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-2---basic-types",
-      "githubPath": "TypeScript/2 - Basic Types/lessons/oop"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-4---react-hooks-and-fetch-api",
+      "githubPath": "3 - Front End/4 - React Hooks and Fetch API/lessons/pineapple-stack"
     }
   ],
   "assignments": [
     {
-      "id": "back-end-1---nodejs-and-expressjs-theory",
-      "slug": "back-end-1---nodejs-and-expressjs-theory",
+      "id": "2---back-end-1---nodejs-and-expressjs-theory",
+      "slug": "2---back-end-1---nodejs-and-expressjs-theory",
       "title": "theory",
-      "programSlug": "back-end",
-      "moduleSlug": "back-end-1---nodejs-and-expressjs",
-      "githubPath": "Back End/1 - Nodejs and Expressjs/assignments/theory"
+      "programSlug": "2---back-end",
+      "moduleSlug": "2---back-end-1---nodejs-and-expressjs",
+      "githubPath": "2 - Back End/1 - Nodejs and Expressjs/assignments/theory"
     },
     {
-      "id": "back-end-2---database-introduction-employees-apps",
-      "slug": "back-end-2---database-introduction-employees-apps",
+      "id": "2---back-end-2---database-introduction-employees-apps",
+      "slug": "2---back-end-2---database-introduction-employees-apps",
       "title": "employees-apps",
-      "programSlug": "back-end",
-      "moduleSlug": "back-end-2---database-introduction",
-      "githubPath": "Back End/2 - Database Introduction/assignments/employees-apps"
+      "programSlug": "2---back-end",
+      "moduleSlug": "2---back-end-2---database-introduction",
+      "githubPath": "2 - Back End/2 - Database Introduction/assignments/employees-apps"
     },
     {
-      "id": "front-end-1---react-components-theory",
-      "slug": "front-end-1---react-components-theory",
+      "id": "3---front-end-1---react-components-theory",
+      "slug": "3---front-end-1---react-components-theory",
       "title": "theory",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-1---react-components",
-      "githubPath": "Front End/1 - React Components/assignments/theory"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-1---react-components",
+      "githubPath": "3 - Front End/1 - React Components/assignments/theory"
     },
     {
-      "id": "front-end-2---event-handlers-book-store",
-      "slug": "front-end-2---event-handlers-book-store",
+      "id": "3---front-end-2---event-handlers-book-store",
+      "slug": "3---front-end-2---event-handlers-book-store",
       "title": "book-store",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-2---event-handlers",
-      "githubPath": "Front End/2 - Event Handlers/assignments/book-store"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-2---event-handlers",
+      "githubPath": "3 - Front End/2 - Event Handlers/assignments/book-store"
     },
     {
-      "id": "front-end-3---tailwindcss-theory",
-      "slug": "front-end-3---tailwindcss-theory",
+      "id": "3---front-end-3---tailwindcss-theory",
+      "slug": "3---front-end-3---tailwindcss-theory",
       "title": "theory",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-3---tailwindcss",
-      "githubPath": "Front End/3 - TailwindCSS/assignments/theory"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-3---tailwindcss",
+      "githubPath": "3 - Front End/3 - TailwindCSS/assignments/theory"
     },
     {
-      "id": "front-end-6---crud-study-case-medieval-airbnb",
-      "slug": "front-end-6---crud-study-case-medieval-airbnb",
+      "id": "3---front-end-6---crud-study-case-medieval-airbnb",
+      "slug": "3---front-end-6---crud-study-case-medieval-airbnb",
       "title": "medieval-airbnb",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-6---crud-study-case",
-      "githubPath": "Front End/6 - CRUD Study Case/assignments/medieval-airbnb"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-6---crud-study-case",
+      "githubPath": "3 - Front End/6 - CRUD Study Case/assignments/medieval-airbnb"
     }
   ],
   "resources": [
     {
-      "id": "back-end1---nodejs-and-expressjsresourcesreadmemd",
-      "slug": "back-end1---nodejs-and-expressjsresourcesreadmemd",
+      "id": "1---javascript11---array-methodsresourcesreadmemd",
+      "slug": "1---javascript11---array-methodsresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "back-end",
-      "moduleSlug": "back-end-1---nodejs-and-expressjs",
-      "githubPath": "Back End/1 - Nodejs and Expressjs/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Back%20End/1%20-%20Nodejs%20and%20Expressjs/resources/README.md"
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-11---array-methods",
+      "githubPath": "1 - JavaScript/11 - Array Methods/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/11%20-%20Array%20Methods/resources/README.md"
     },
     {
-      "id": "back-end10---render-deploymentresourcesreadmemd",
-      "slug": "back-end10---render-deploymentresourcesreadmemd",
+      "id": "1---javascript12---mini-project-javascriptresourcesreadmemd",
+      "slug": "1---javascript12---mini-project-javascriptresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "back-end",
-      "moduleSlug": "back-end-10---render-deployment",
-      "githubPath": "Back End/10 - Render Deployment/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Back%20End/10%20-%20Render%20Deployment/resources/README.md"
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-12---mini-project-javascript",
+      "githubPath": "1 - JavaScript/12 - Mini Project JavaScript/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/12%20-%20Mini%20Project%20JavaScript/resources/README.md"
     },
     {
-      "id": "back-end11---study-case-part-1resourcesreadmemd",
-      "slug": "back-end11---study-case-part-1resourcesreadmemd",
+      "id": "1---javascript1a---git-dan-githubresourcesreadmemd",
+      "slug": "1---javascript1a---git-dan-githubresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "back-end",
-      "moduleSlug": "back-end-11---study-case-part-1",
-      "githubPath": "Back End/11 - Study Case Part 1/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Back%20End/11%20-%20Study%20Case%20Part%201/resources/README.md"
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1a---git-dan-github",
+      "githubPath": "1 - JavaScript/1a - Git dan GitHub/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/1a%20-%20Git%20dan%20GitHub/resources/README.md"
     },
     {
-      "id": "back-end12---study-case-part-2resourcesreadmemd",
-      "slug": "back-end12---study-case-part-2resourcesreadmemd",
+      "id": "1---javascript1b---introduction-to-javascriptresourcesreadmemd",
+      "slug": "1---javascript1b---introduction-to-javascriptresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "back-end",
-      "moduleSlug": "back-end-12---study-case-part-2",
-      "githubPath": "Back End/12 - Study Case Part 2/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Back%20End/12%20-%20Study%20Case%20Part%202/resources/README.md"
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1b---introduction-to-javascript",
+      "githubPath": "1 - JavaScript/1b - Introduction To JavaScript/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/1b%20-%20Introduction%20To%20JavaScript/resources/README.md"
     },
     {
-      "id": "back-end2---database-introductionresourcesreadmemd",
-      "slug": "back-end2---database-introductionresourcesreadmemd",
+      "id": "1---javascript2a---algoritma-pseudocoderesourcesreadmemd",
+      "slug": "1---javascript2a---algoritma-pseudocoderesourcesreadmemd",
       "title": "README.md",
-      "programSlug": "back-end",
-      "moduleSlug": "back-end-2---database-introduction",
-      "githubPath": "Back End/2 - Database Introduction/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Back%20End/2%20-%20Database%20Introduction/resources/README.md"
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2a---algoritma-pseudocode",
+      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/2a%20-%20Algoritma%20Pseudocode/resources/README.md"
     },
     {
-      "id": "back-end3---postgressql-and-sequelizeresourcesreadmemd",
-      "slug": "back-end3---postgressql-and-sequelizeresourcesreadmemd",
+      "id": "1---javascript2b---variables-data-typeresourcesreadmemd",
+      "slug": "1---javascript2b---variables-data-typeresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "back-end",
-      "moduleSlug": "back-end-3---postgressql-and-sequelize",
-      "githubPath": "Back End/3 - PostgresSQL and Sequelize/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Back%20End/3%20-%20PostgresSQL%20and%20Sequelize/resources/README.md"
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2b---variables-data-type",
+      "githubPath": "1 - JavaScript/2b - Variables Data Type/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/2b%20-%20Variables%20Data%20Type/resources/README.md"
     },
     {
-      "id": "back-end4---entity-relational-diagramresourcesreadmemd",
-      "slug": "back-end4---entity-relational-diagramresourcesreadmemd",
+      "id": "1---javascript4---operator-dan-expressionresourcesreadmemd",
+      "slug": "1---javascript4---operator-dan-expressionresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "back-end",
-      "moduleSlug": "back-end-4---entity-relational-diagram",
-      "githubPath": "Back End/4 - Entity Relational Diagram/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Back%20End/4%20-%20Entity%20Relational%20Diagram/resources/README.md"
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-4---operator-dan-expression",
+      "githubPath": "1 - JavaScript/4 - Operator dan Expression/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/4%20-%20Operator%20dan%20Expression/resources/README.md"
     },
     {
-      "id": "back-end5---crud-study-case-part-1resourcesreadmemd",
-      "slug": "back-end5---crud-study-case-part-1resourcesreadmemd",
+      "id": "1---javascript5---conditional-statementresourcesreadmemd",
+      "slug": "1---javascript5---conditional-statementresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "back-end",
-      "moduleSlug": "back-end-5---crud-study-case-part-1",
-      "githubPath": "Back End/5 - CRUD Study Case Part 1/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Back%20End/5%20-%20CRUD%20Study%20Case%20Part%201/resources/README.md"
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-5---conditional-statement",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/5%20-%20Conditional%20Statement/resources/README.md"
     },
     {
-      "id": "back-end6---crud-study-case-part-2resourcesreadmemd",
-      "slug": "back-end6---crud-study-case-part-2resourcesreadmemd",
+      "id": "1---javascript6---loopingresourcesreadmemd",
+      "slug": "1---javascript6---loopingresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "back-end",
-      "moduleSlug": "back-end-6---crud-study-case-part-2",
-      "githubPath": "Back End/6 - CRUD Study Case Part 2/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Back%20End/6%20-%20CRUD%20Study%20Case%20Part%202/resources/README.md"
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-6---looping",
+      "githubPath": "1 - JavaScript/6 - Looping/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/6%20-%20Looping/resources/README.md"
     },
     {
-      "id": "back-end7---advanced-queryresourcesreadmemd",
-      "slug": "back-end7---advanced-queryresourcesreadmemd",
+      "id": "1---javascript7---functionresourcesreadmemd",
+      "slug": "1---javascript7---functionresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "back-end",
-      "moduleSlug": "back-end-7---advanced-query",
-      "githubPath": "Back End/7 - Advanced Query/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Back%20End/7%20-%20Advanced%20Query/resources/README.md"
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-7---function",
+      "githubPath": "1 - JavaScript/7 - Function/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/7%20-%20Function/resources/README.md"
     },
     {
-      "id": "back-end8---auth-and-rbacresourcesreadmemd",
-      "slug": "back-end8---auth-and-rbacresourcesreadmemd",
+      "id": "1---javascript8---arrayresourcesreadmemd",
+      "slug": "1---javascript8---arrayresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "back-end",
-      "moduleSlug": "back-end-8---auth-and-rbac",
-      "githubPath": "Back End/8 - Auth and RBAC/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Back%20End/8%20-%20Auth%20and%20RBAC/resources/README.md"
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-8---array",
+      "githubPath": "1 - JavaScript/8 - Array/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/8%20-%20Array/resources/README.md"
     },
     {
-      "id": "back-end9---cors-multer-etcresourcesreadmemd",
-      "slug": "back-end9---cors-multer-etcresourcesreadmemd",
+      "id": "1---javascript9---objectresourcesreadmemd",
+      "slug": "1---javascript9---objectresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "back-end",
-      "moduleSlug": "back-end-9---cors-multer-etc",
-      "githubPath": "Back End/9 - CORS Multer Etc/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Back%20End/9%20-%20CORS%20Multer%20Etc/resources/README.md"
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-9---object",
+      "githubPath": "1 - JavaScript/9 - Object/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/9%20-%20Object/resources/README.md"
     },
     {
-      "id": "front-end1---react-componentsresourcesreadmemd",
-      "slug": "front-end1---react-componentsresourcesreadmemd",
+      "id": "2---back-end1---nodejs-and-expressjsresourcesreadmemd",
+      "slug": "2---back-end1---nodejs-and-expressjsresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-1---react-components",
-      "githubPath": "Front End/1 - React Components/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Front%20End/1%20-%20React%20Components/resources/README.md"
+      "programSlug": "2---back-end",
+      "moduleSlug": "2---back-end-1---nodejs-and-expressjs",
+      "githubPath": "2 - Back End/1 - Nodejs and Expressjs/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/2%20-%20Back%20End/1%20-%20Nodejs%20and%20Expressjs/resources/README.md"
     },
     {
-      "id": "front-end10---vercel-deploymentresourcesreadmemd",
-      "slug": "front-end10---vercel-deploymentresourcesreadmemd",
+      "id": "2---back-end10---render-deploymentresourcesreadmemd",
+      "slug": "2---back-end10---render-deploymentresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-10---vercel-deployment",
-      "githubPath": "Front End/10 - Vercel Deployment/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Front%20End/10%20-%20Vercel%20Deployment/resources/README.md"
+      "programSlug": "2---back-end",
+      "moduleSlug": "2---back-end-10---render-deployment",
+      "githubPath": "2 - Back End/10 - Render Deployment/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/2%20-%20Back%20End/10%20-%20Render%20Deployment/resources/README.md"
     },
     {
-      "id": "front-end11---study-case-part-1resourcesreadmemd",
-      "slug": "front-end11---study-case-part-1resourcesreadmemd",
+      "id": "2---back-end11---study-case-part-1resourcesreadmemd",
+      "slug": "2---back-end11---study-case-part-1resourcesreadmemd",
       "title": "README.md",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-11---study-case-part-1",
-      "githubPath": "Front End/11 - Study Case Part 1/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Front%20End/11%20-%20Study%20Case%20Part%201/resources/README.md"
+      "programSlug": "2---back-end",
+      "moduleSlug": "2---back-end-11---study-case-part-1",
+      "githubPath": "2 - Back End/11 - Study Case Part 1/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/2%20-%20Back%20End/11%20-%20Study%20Case%20Part%201/resources/README.md"
     },
     {
-      "id": "front-end12---study-case-part-2resourcesreadmemd",
-      "slug": "front-end12---study-case-part-2resourcesreadmemd",
+      "id": "2---back-end12---study-case-part-2resourcesreadmemd",
+      "slug": "2---back-end12---study-case-part-2resourcesreadmemd",
       "title": "README.md",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-12---study-case-part-2",
-      "githubPath": "Front End/12 - Study Case Part 2/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Front%20End/12%20-%20Study%20Case%20Part%202/resources/README.md"
+      "programSlug": "2---back-end",
+      "moduleSlug": "2---back-end-12---study-case-part-2",
+      "githubPath": "2 - Back End/12 - Study Case Part 2/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/2%20-%20Back%20End/12%20-%20Study%20Case%20Part%202/resources/README.md"
     },
     {
-      "id": "front-end2---event-handlersresourcesreadmemd",
-      "slug": "front-end2---event-handlersresourcesreadmemd",
+      "id": "2---back-end2---database-introductionresourcesreadmemd",
+      "slug": "2---back-end2---database-introductionresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-2---event-handlers",
-      "githubPath": "Front End/2 - Event Handlers/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Front%20End/2%20-%20Event%20Handlers/resources/README.md"
+      "programSlug": "2---back-end",
+      "moduleSlug": "2---back-end-2---database-introduction",
+      "githubPath": "2 - Back End/2 - Database Introduction/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/2%20-%20Back%20End/2%20-%20Database%20Introduction/resources/README.md"
     },
     {
-      "id": "front-end3---tailwindcssresourcesreadmemd",
-      "slug": "front-end3---tailwindcssresourcesreadmemd",
+      "id": "2---back-end3---postgressql-and-sequelizeresourcesreadmemd",
+      "slug": "2---back-end3---postgressql-and-sequelizeresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-3---tailwindcss",
-      "githubPath": "Front End/3 - TailwindCSS/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Front%20End/3%20-%20TailwindCSS/resources/README.md"
+      "programSlug": "2---back-end",
+      "moduleSlug": "2---back-end-3---postgressql-and-sequelize",
+      "githubPath": "2 - Back End/3 - PostgresSQL and Sequelize/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/2%20-%20Back%20End/3%20-%20PostgresSQL%20and%20Sequelize/resources/README.md"
     },
     {
-      "id": "front-end4---react-hooks-and-fetch-apiresourcesreadmemd",
-      "slug": "front-end4---react-hooks-and-fetch-apiresourcesreadmemd",
+      "id": "2---back-end4---entity-relational-diagramresourcesreadmemd",
+      "slug": "2---back-end4---entity-relational-diagramresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-4---react-hooks-and-fetch-api",
-      "githubPath": "Front End/4 - React Hooks and Fetch API/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Front%20End/4%20-%20React%20Hooks%20and%20Fetch%20API/resources/README.md"
+      "programSlug": "2---back-end",
+      "moduleSlug": "2---back-end-4---entity-relational-diagram",
+      "githubPath": "2 - Back End/4 - Entity Relational Diagram/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/2%20-%20Back%20End/4%20-%20Entity%20Relational%20Diagram/resources/README.md"
     },
     {
-      "id": "front-end5---react-router-domresourcesreadmemd",
-      "slug": "front-end5---react-router-domresourcesreadmemd",
+      "id": "2---back-end5---crud-study-case-part-1resourcesreadmemd",
+      "slug": "2---back-end5---crud-study-case-part-1resourcesreadmemd",
       "title": "README.md",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-5---react-router-dom",
-      "githubPath": "Front End/5 - React Router DOM/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Front%20End/5%20-%20React%20Router%20DOM/resources/README.md"
+      "programSlug": "2---back-end",
+      "moduleSlug": "2---back-end-5---crud-study-case-part-1",
+      "githubPath": "2 - Back End/5 - CRUD Study Case Part 1/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/2%20-%20Back%20End/5%20-%20CRUD%20Study%20Case%20Part%201/resources/README.md"
     },
     {
-      "id": "front-end6---crud-study-caseresourcesreadmemd",
-      "slug": "front-end6---crud-study-caseresourcesreadmemd",
+      "id": "2---back-end6---crud-study-case-part-2resourcesreadmemd",
+      "slug": "2---back-end6---crud-study-case-part-2resourcesreadmemd",
       "title": "README.md",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-6---crud-study-case",
-      "githubPath": "Front End/6 - CRUD Study Case/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Front%20End/6%20-%20CRUD%20Study%20Case/resources/README.md"
+      "programSlug": "2---back-end",
+      "moduleSlug": "2---back-end-6---crud-study-case-part-2",
+      "githubPath": "2 - Back End/6 - CRUD Study Case Part 2/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/2%20-%20Back%20End/6%20-%20CRUD%20Study%20Case%20Part%202/resources/README.md"
     },
     {
-      "id": "front-end7---advanced-hooksresourcesreadmemd",
-      "slug": "front-end7---advanced-hooksresourcesreadmemd",
+      "id": "2---back-end7---advanced-queryresourcesreadmemd",
+      "slug": "2---back-end7---advanced-queryresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-7---advanced-hooks",
-      "githubPath": "Front End/7 - Advanced Hooks/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Front%20End/7%20-%20Advanced%20Hooks/resources/README.md"
+      "programSlug": "2---back-end",
+      "moduleSlug": "2---back-end-7---advanced-query",
+      "githubPath": "2 - Back End/7 - Advanced Query/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/2%20-%20Back%20End/7%20-%20Advanced%20Query/resources/README.md"
     },
     {
-      "id": "front-end8---auth-and-rbacresourcesreadmemd",
-      "slug": "front-end8---auth-and-rbacresourcesreadmemd",
+      "id": "2---back-end8---auth-and-rbacresourcesreadmemd",
+      "slug": "2---back-end8---auth-and-rbacresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-8---auth-and-rbac",
-      "githubPath": "Front End/8 - Auth and RBAC/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Front%20End/8%20-%20Auth%20and%20RBAC/resources/README.md"
+      "programSlug": "2---back-end",
+      "moduleSlug": "2---back-end-8---auth-and-rbac",
+      "githubPath": "2 - Back End/8 - Auth and RBAC/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/2%20-%20Back%20End/8%20-%20Auth%20and%20RBAC/resources/README.md"
     },
     {
-      "id": "front-end9---shadcnui-tanstackquery-zod-reacthookformresourcesreadmemd",
-      "slug": "front-end9---shadcnui-tanstackquery-zod-reacthookformresourcesreadmemd",
+      "id": "2---back-end9---cors-multer-etcresourcesreadmemd",
+      "slug": "2---back-end9---cors-multer-etcresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "front-end",
-      "moduleSlug": "front-end-9---shadcnui-tanstackquery-zod-reacthookform",
-      "githubPath": "Front End/9 - ShadcnUi TanStackQuery Zod ReactHookForm/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Front%20End/9%20-%20ShadcnUi%20TanStackQuery%20Zod%20ReactHookForm/resources/README.md"
+      "programSlug": "2---back-end",
+      "moduleSlug": "2---back-end-9---cors-multer-etc",
+      "githubPath": "2 - Back End/9 - CORS Multer Etc/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/2%20-%20Back%20End/9%20-%20CORS%20Multer%20Etc/resources/README.md"
     },
     {
-      "id": "javascript10---es6-modern-javascriptresourcesreadmemd",
-      "slug": "javascript10---es6-modern-javascriptresourcesreadmemd",
+      "id": "3---front-end1---react-componentsresourcesreadmemd",
+      "slug": "3---front-end1---react-componentsresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-10---es6-modern-javascript",
-      "githubPath": "JavaScript/10 - ES6 Modern JavaScript/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/JavaScript/10%20-%20ES6%20Modern%20JavaScript/resources/README.md"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-1---react-components",
+      "githubPath": "3 - Front End/1 - React Components/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/3%20-%20Front%20End/1%20-%20React%20Components/resources/README.md"
     },
     {
-      "id": "javascript11---array-methodsresourcesreadmemd",
-      "slug": "javascript11---array-methodsresourcesreadmemd",
+      "id": "3---front-end10---vercel-deploymentresourcesreadmemd",
+      "slug": "3---front-end10---vercel-deploymentresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-11---array-methods",
-      "githubPath": "JavaScript/11 - Array Methods/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/JavaScript/11%20-%20Array%20Methods/resources/README.md"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-10---vercel-deployment",
+      "githubPath": "3 - Front End/10 - Vercel Deployment/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/3%20-%20Front%20End/10%20-%20Vercel%20Deployment/resources/README.md"
     },
     {
-      "id": "javascript12---mini-project-javascriptresourcesreadmemd",
-      "slug": "javascript12---mini-project-javascriptresourcesreadmemd",
+      "id": "3---front-end11---study-case-part-1resourcesreadmemd",
+      "slug": "3---front-end11---study-case-part-1resourcesreadmemd",
       "title": "README.md",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-12---mini-project-javascript",
-      "githubPath": "JavaScript/12 - Mini Project JavaScript/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/JavaScript/12%20-%20Mini%20Project%20JavaScript/resources/README.md"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-11---study-case-part-1",
+      "githubPath": "3 - Front End/11 - Study Case Part 1/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/3%20-%20Front%20End/11%20-%20Study%20Case%20Part%201/resources/README.md"
     },
     {
-      "id": "javascript1a---git-dan-githubresourcesreadmemd",
-      "slug": "javascript1a---git-dan-githubresourcesreadmemd",
+      "id": "3---front-end12---study-case-part-2resourcesreadmemd",
+      "slug": "3---front-end12---study-case-part-2resourcesreadmemd",
       "title": "README.md",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-1a---git-dan-github",
-      "githubPath": "JavaScript/1a - Git dan GitHub/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/JavaScript/1a%20-%20Git%20dan%20GitHub/resources/README.md"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-12---study-case-part-2",
+      "githubPath": "3 - Front End/12 - Study Case Part 2/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/3%20-%20Front%20End/12%20-%20Study%20Case%20Part%202/resources/README.md"
     },
     {
-      "id": "javascript1b---introduction-to-javascriptresourcesreadmemd",
-      "slug": "javascript1b---introduction-to-javascriptresourcesreadmemd",
+      "id": "3---front-end2---event-handlersresourcesreadmemd",
+      "slug": "3---front-end2---event-handlersresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-1b---introduction-to-javascript",
-      "githubPath": "JavaScript/1b - Introduction To JavaScript/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/JavaScript/1b%20-%20Introduction%20To%20JavaScript/resources/README.md"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-2---event-handlers",
+      "githubPath": "3 - Front End/2 - Event Handlers/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/3%20-%20Front%20End/2%20-%20Event%20Handlers/resources/README.md"
     },
     {
-      "id": "javascript2a---algoritma-pseudocoderesourcesreadmemd",
-      "slug": "javascript2a---algoritma-pseudocoderesourcesreadmemd",
+      "id": "3---front-end3---tailwindcssresourcesreadmemd",
+      "slug": "3---front-end3---tailwindcssresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-2a---algoritma-pseudocode",
-      "githubPath": "JavaScript/2a - Algoritma Pseudocode/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/JavaScript/2a%20-%20Algoritma%20Pseudocode/resources/README.md"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-3---tailwindcss",
+      "githubPath": "3 - Front End/3 - TailwindCSS/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/3%20-%20Front%20End/3%20-%20TailwindCSS/resources/README.md"
     },
     {
-      "id": "javascript2b---variables-data-typeresourcesreadmemd",
-      "slug": "javascript2b---variables-data-typeresourcesreadmemd",
+      "id": "3---front-end4---react-hooks-and-fetch-apiresourcesreadmemd",
+      "slug": "3---front-end4---react-hooks-and-fetch-apiresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-2b---variables-data-type",
-      "githubPath": "JavaScript/2b - Variables Data Type/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/JavaScript/2b%20-%20Variables%20Data%20Type/resources/README.md"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-4---react-hooks-and-fetch-api",
+      "githubPath": "3 - Front End/4 - React Hooks and Fetch API/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/3%20-%20Front%20End/4%20-%20React%20Hooks%20and%20Fetch%20API/resources/README.md"
     },
     {
-      "id": "javascript3---variabel-dan-tipe-dataresourcesreadmemd",
-      "slug": "javascript3---variabel-dan-tipe-dataresourcesreadmemd",
+      "id": "3---front-end5---react-router-domresourcesreadmemd",
+      "slug": "3---front-end5---react-router-domresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-3---variabel-dan-tipe-data",
-      "githubPath": "JavaScript/3 - Variabel dan Tipe Data/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/JavaScript/3%20-%20Variabel%20dan%20Tipe%20Data/resources/README.md"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-5---react-router-dom",
+      "githubPath": "3 - Front End/5 - React Router DOM/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/3%20-%20Front%20End/5%20-%20React%20Router%20DOM/resources/README.md"
     },
     {
-      "id": "javascript4---operator-dan-expressionresourcesreadmemd",
-      "slug": "javascript4---operator-dan-expressionresourcesreadmemd",
+      "id": "3---front-end6---crud-study-caseresourcesreadmemd",
+      "slug": "3---front-end6---crud-study-caseresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-4---operator-dan-expression",
-      "githubPath": "JavaScript/4 - Operator dan Expression/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/JavaScript/4%20-%20Operator%20dan%20Expression/resources/README.md"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-6---crud-study-case",
+      "githubPath": "3 - Front End/6 - CRUD Study Case/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/3%20-%20Front%20End/6%20-%20CRUD%20Study%20Case/resources/README.md"
     },
     {
-      "id": "javascript5---conditional-statementresourcesreadmemd",
-      "slug": "javascript5---conditional-statementresourcesreadmemd",
+      "id": "3---front-end7---advanced-hooksresourcesreadmemd",
+      "slug": "3---front-end7---advanced-hooksresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-5---conditional-statement",
-      "githubPath": "JavaScript/5 - Conditional Statement/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/JavaScript/5%20-%20Conditional%20Statement/resources/README.md"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-7---advanced-hooks",
+      "githubPath": "3 - Front End/7 - Advanced Hooks/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/3%20-%20Front%20End/7%20-%20Advanced%20Hooks/resources/README.md"
     },
     {
-      "id": "javascript6---loopingresourcesreadmemd",
-      "slug": "javascript6---loopingresourcesreadmemd",
+      "id": "3---front-end8---auth-and-rbacresourcesreadmemd",
+      "slug": "3---front-end8---auth-and-rbacresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-6---looping",
-      "githubPath": "JavaScript/6 - Looping/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/JavaScript/6%20-%20Looping/resources/README.md"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-8---auth-and-rbac",
+      "githubPath": "3 - Front End/8 - Auth and RBAC/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/3%20-%20Front%20End/8%20-%20Auth%20and%20RBAC/resources/README.md"
     },
     {
-      "id": "javascript7---functionresourcesreadmemd",
-      "slug": "javascript7---functionresourcesreadmemd",
+      "id": "3---front-end9---shadcnui-tanstackquery-zod-reacthookformresourcesreadmemd",
+      "slug": "3---front-end9---shadcnui-tanstackquery-zod-reacthookformresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-7---function",
-      "githubPath": "JavaScript/7 - Function/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/JavaScript/7%20-%20Function/resources/README.md"
+      "programSlug": "3---front-end",
+      "moduleSlug": "3---front-end-9---shadcnui-tanstackquery-zod-reacthookform",
+      "githubPath": "3 - Front End/9 - ShadcnUi TanStackQuery Zod ReactHookForm/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/3%20-%20Front%20End/9%20-%20ShadcnUi%20TanStackQuery%20Zod%20ReactHookForm/resources/README.md"
     },
     {
-      "id": "javascript8---arrayresourcesreadmemd",
-      "slug": "javascript8---arrayresourcesreadmemd",
+      "id": "4---typescript1---pengenalan-typescriptresourcesreadmemd",
+      "slug": "4---typescript1---pengenalan-typescriptresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-8---array",
-      "githubPath": "JavaScript/8 - Array/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/JavaScript/8%20-%20Array/resources/README.md"
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-1---pengenalan-typescript",
+      "githubPath": "4 - TypeScript/1 - Pengenalan TypeScript/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/1%20-%20Pengenalan%20TypeScript/resources/README.md"
     },
     {
-      "id": "javascript9---objectresourcesreadmemd",
-      "slug": "javascript9---objectresourcesreadmemd",
+      "id": "4---typescript10---class-dan-oop-dasarresourcesreadmemd",
+      "slug": "4---typescript10---class-dan-oop-dasarresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "javascript",
-      "moduleSlug": "javascript-9---object",
-      "githubPath": "JavaScript/9 - Object/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/JavaScript/9%20-%20Object/resources/README.md"
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-10---class-dan-oop-dasar",
+      "githubPath": "4 - TypeScript/10 - Class dan OOP Dasar/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/10%20-%20Class%20dan%20OOP%20Dasar/resources/README.md"
     },
     {
-      "id": "typescript1---pengenalan-typescriptresourcesreadmemd",
-      "slug": "typescript1---pengenalan-typescriptresourcesreadmemd",
+      "id": "4---typescript11---generic-dasarresourcesreadmemd",
+      "slug": "4---typescript11---generic-dasarresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-1---pengenalan-typescript",
-      "githubPath": "TypeScript/1 - Pengenalan TypeScript/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/TypeScript/1%20-%20Pengenalan%20TypeScript/resources/README.md"
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-11---generic-dasar",
+      "githubPath": "4 - TypeScript/11 - Generic Dasar/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/11%20-%20Generic%20Dasar/resources/README.md"
     },
     {
-      "id": "typescript10---class-dan-oop-dasarresourcesreadmemd",
-      "slug": "typescript10---class-dan-oop-dasarresourcesreadmemd",
+      "id": "4---typescript12---mini-project-typescriptresourcesreadmemd",
+      "slug": "4---typescript12---mini-project-typescriptresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-10---class-dan-oop-dasar",
-      "githubPath": "TypeScript/10 - Class dan OOP Dasar/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/TypeScript/10%20-%20Class%20dan%20OOP%20Dasar/resources/README.md"
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-12---mini-project-typescript",
+      "githubPath": "4 - TypeScript/12 - Mini Project TypeScript/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/12%20-%20Mini%20Project%20TypeScript/resources/README.md"
     },
     {
-      "id": "typescript11---generic-dasarresourcesreadmemd",
-      "slug": "typescript11---generic-dasarresourcesreadmemd",
+      "id": "4---typescript2---basic-typesresourcesreadmemd",
+      "slug": "4---typescript2---basic-typesresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-11---generic-dasar",
-      "githubPath": "TypeScript/11 - Generic Dasar/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/TypeScript/11%20-%20Generic%20Dasar/resources/README.md"
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-2---basic-types",
+      "githubPath": "4 - TypeScript/2 - Basic Types/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/2%20-%20Basic%20Types/resources/README.md"
     },
     {
-      "id": "typescript12---mini-project-typescriptresourcesreadmemd",
-      "slug": "typescript12---mini-project-typescriptresourcesreadmemd",
+      "id": "4---typescript3---variable-dan-type-annotationresourcesreadmemd",
+      "slug": "4---typescript3---variable-dan-type-annotationresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-12---mini-project-typescript",
-      "githubPath": "TypeScript/12 - Mini Project TypeScript/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/TypeScript/12%20-%20Mini%20Project%20TypeScript/resources/README.md"
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-3---variable-dan-type-annotation",
+      "githubPath": "4 - TypeScript/3 - Variable dan Type Annotation/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/3%20-%20Variable%20dan%20Type%20Annotation/resources/README.md"
     },
     {
-      "id": "typescript2---basic-typesresourcesreadmemd",
-      "slug": "typescript2---basic-typesresourcesreadmemd",
+      "id": "4---typescript4---function-pada-typescriptresourcesreadmemd",
+      "slug": "4---typescript4---function-pada-typescriptresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-2---basic-types",
-      "githubPath": "TypeScript/2 - Basic Types/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/TypeScript/2%20-%20Basic%20Types/resources/README.md"
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-4---function-pada-typescript",
+      "githubPath": "4 - TypeScript/4 - Function pada TypeScript/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/4%20-%20Function%20pada%20TypeScript/resources/README.md"
     },
     {
-      "id": "typescript3---variable-dan-type-annotationresourcesreadmemd",
-      "slug": "typescript3---variable-dan-type-annotationresourcesreadmemd",
+      "id": "4---typescript5---array-dan-tupleresourcesreadmemd",
+      "slug": "4---typescript5---array-dan-tupleresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-3---variable-dan-type-annotation",
-      "githubPath": "TypeScript/3 - Variable dan Type Annotation/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/TypeScript/3%20-%20Variable%20dan%20Type%20Annotation/resources/README.md"
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-5---array-dan-tuple",
+      "githubPath": "4 - TypeScript/5 - Array dan Tuple/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/5%20-%20Array%20dan%20Tuple/resources/README.md"
     },
     {
-      "id": "typescript4---function-pada-typescriptresourcesreadmemd",
-      "slug": "typescript4---function-pada-typescriptresourcesreadmemd",
+      "id": "4---typescript6---object-typeresourcesreadmemd",
+      "slug": "4---typescript6---object-typeresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-4---function-pada-typescript",
-      "githubPath": "TypeScript/4 - Function pada TypeScript/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/TypeScript/4%20-%20Function%20pada%20TypeScript/resources/README.md"
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-6---object-type",
+      "githubPath": "4 - TypeScript/6 - Object Type/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/6%20-%20Object%20Type/resources/README.md"
     },
     {
-      "id": "typescript5---array-dan-tupleresourcesreadmemd",
-      "slug": "typescript5---array-dan-tupleresourcesreadmemd",
+      "id": "4---typescript7---type-aliasresourcesreadmemd",
+      "slug": "4---typescript7---type-aliasresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-5---array-dan-tuple",
-      "githubPath": "TypeScript/5 - Array dan Tuple/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/TypeScript/5%20-%20Array%20dan%20Tuple/resources/README.md"
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-7---type-alias",
+      "githubPath": "4 - TypeScript/7 - Type Alias/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/7%20-%20Type%20Alias/resources/README.md"
     },
     {
-      "id": "typescript6---object-typeresourcesreadmemd",
-      "slug": "typescript6---object-typeresourcesreadmemd",
+      "id": "4---typescript8---interfaceresourcesreadmemd",
+      "slug": "4---typescript8---interfaceresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-6---object-type",
-      "githubPath": "TypeScript/6 - Object Type/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/TypeScript/6%20-%20Object%20Type/resources/README.md"
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-8---interface",
+      "githubPath": "4 - TypeScript/8 - Interface/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/8%20-%20Interface/resources/README.md"
     },
     {
-      "id": "typescript7---type-aliasresourcesreadmemd",
-      "slug": "typescript7---type-aliasresourcesreadmemd",
+      "id": "4---typescript9---enum-dan-utility-typesresourcesreadmemd",
+      "slug": "4---typescript9---enum-dan-utility-typesresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-7---type-alias",
-      "githubPath": "TypeScript/7 - Type Alias/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/TypeScript/7%20-%20Type%20Alias/resources/README.md"
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-9---enum-dan-utility-types",
+      "githubPath": "4 - TypeScript/9 - Enum dan Utility Types/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/9%20-%20Enum%20dan%20Utility%20Types/resources/README.md"
     },
     {
-      "id": "typescript8---interfaceresourcesreadmemd",
-      "slug": "typescript8---interfaceresourcesreadmemd",
+      "id": "5---web-design1---pengenalan-web-design-html-dan-cssresourcesreadmemd",
+      "slug": "5---web-design1---pengenalan-web-design-html-dan-cssresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-8---interface",
-      "githubPath": "TypeScript/8 - Interface/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/TypeScript/8%20-%20Interface/resources/README.md"
+      "programSlug": "5---web-design",
+      "moduleSlug": "5---web-design-1---pengenalan-web-design-html-dan-css",
+      "githubPath": "5 - Web Design/1 - Pengenalan Web Design HTML dan CSS/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/1%20-%20Pengenalan%20Web%20Design%20HTML%20dan%20CSS/resources/README.md"
     },
     {
-      "id": "typescript9---enum-dan-utility-typesresourcesreadmemd",
-      "slug": "typescript9---enum-dan-utility-typesresourcesreadmemd",
+      "id": "5---web-design10---bootstrap-dan-tailwind-cssresourcesreadmemd",
+      "slug": "5---web-design10---bootstrap-dan-tailwind-cssresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "typescript",
-      "moduleSlug": "typescript-9---enum-dan-utility-types",
-      "githubPath": "TypeScript/9 - Enum dan Utility Types/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/TypeScript/9%20-%20Enum%20dan%20Utility%20Types/resources/README.md"
+      "programSlug": "5---web-design",
+      "moduleSlug": "5---web-design-10---bootstrap-dan-tailwind-css",
+      "githubPath": "5 - Web Design/10 - Bootstrap dan Tailwind CSS/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/10%20-%20Bootstrap%20dan%20Tailwind%20CSS/resources/README.md"
     },
     {
-      "id": "web-design1---pengenalan-web-design-html-dan-cssresourcesreadmemd",
-      "slug": "web-design1---pengenalan-web-design-html-dan-cssresourcesreadmemd",
+      "id": "5---web-design11---study-case-landing-page-websiteresourcesreadmemd",
+      "slug": "5---web-design11---study-case-landing-page-websiteresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-1---pengenalan-web-design-html-dan-css",
-      "githubPath": "Web Design/1 - Pengenalan Web Design HTML dan CSS/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Web%20Design/1%20-%20Pengenalan%20Web%20Design%20HTML%20dan%20CSS/resources/README.md"
+      "programSlug": "5---web-design",
+      "moduleSlug": "5---web-design-11---study-case-landing-page-website",
+      "githubPath": "5 - Web Design/11 - Study Case Landing Page Website/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/11%20-%20Study%20Case%20Landing%20Page%20Website/resources/README.md"
     },
     {
-      "id": "web-design10---bootstrap-dan-tailwind-cssresourcesreadmemd",
-      "slug": "web-design10---bootstrap-dan-tailwind-cssresourcesreadmemd",
+      "id": "5---web-design12---study-case-company-profile-website-dan-presentasi-projectresourcesreadmemd",
+      "slug": "5---web-design12---study-case-company-profile-website-dan-presentasi-projectresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-10---bootstrap-dan-tailwind-css",
-      "githubPath": "Web Design/10 - Bootstrap dan Tailwind CSS/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Web%20Design/10%20-%20Bootstrap%20dan%20Tailwind%20CSS/resources/README.md"
+      "programSlug": "5---web-design",
+      "moduleSlug": "5---web-design-12---study-case-company-profile-website-dan-presentasi-project",
+      "githubPath": "5 - Web Design/12 - Study Case Company Profile Website dan Presentasi Project/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/12%20-%20Study%20Case%20Company%20Profile%20Website%20dan%20Presentasi%20Project/resources/README.md"
     },
     {
-      "id": "web-design11---study-case-landing-page-websiteresourcesreadmemd",
-      "slug": "web-design11---study-case-landing-page-websiteresourcesreadmemd",
+      "id": "5---web-design2---struktur-html-dan-semantic-elementsresourcesreadmemd",
+      "slug": "5---web-design2---struktur-html-dan-semantic-elementsresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-11---study-case-landing-page-website",
-      "githubPath": "Web Design/11 - Study Case Landing Page Website/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Web%20Design/11%20-%20Study%20Case%20Landing%20Page%20Website/resources/README.md"
+      "programSlug": "5---web-design",
+      "moduleSlug": "5---web-design-2---struktur-html-dan-semantic-elements",
+      "githubPath": "5 - Web Design/2 - Struktur HTML dan Semantic Elements/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/2%20-%20Struktur%20HTML%20dan%20Semantic%20Elements/resources/README.md"
     },
     {
-      "id": "web-design12---study-case-company-profile-website-dan-presentasi-projectresourcesreadmemd",
-      "slug": "web-design12---study-case-company-profile-website-dan-presentasi-projectresourcesreadmemd",
+      "id": "5---web-design3---css-selector-dan-styling-dasarresourcesreadmemd",
+      "slug": "5---web-design3---css-selector-dan-styling-dasarresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-12---study-case-company-profile-website-dan-presentasi-project",
-      "githubPath": "Web Design/12 - Study Case Company Profile Website dan Presentasi Project/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Web%20Design/12%20-%20Study%20Case%20Company%20Profile%20Website%20dan%20Presentasi%20Project/resources/README.md"
+      "programSlug": "5---web-design",
+      "moduleSlug": "5---web-design-3---css-selector-dan-styling-dasar",
+      "githubPath": "5 - Web Design/3 - CSS Selector dan Styling Dasar/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/3%20-%20CSS%20Selector%20dan%20Styling%20Dasar/resources/README.md"
     },
     {
-      "id": "web-design2---struktur-html-dan-semantic-elementsresourcesreadmemd",
-      "slug": "web-design2---struktur-html-dan-semantic-elementsresourcesreadmemd",
+      "id": "5---web-design4---typography-color-dan-backgroundresourcesreadmemd",
+      "slug": "5---web-design4---typography-color-dan-backgroundresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-2---struktur-html-dan-semantic-elements",
-      "githubPath": "Web Design/2 - Struktur HTML dan Semantic Elements/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Web%20Design/2%20-%20Struktur%20HTML%20dan%20Semantic%20Elements/resources/README.md"
+      "programSlug": "5---web-design",
+      "moduleSlug": "5---web-design-4---typography-color-dan-background",
+      "githubPath": "5 - Web Design/4 - Typography, Color, dan Background/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/4%20-%20Typography%2C%20Color%2C%20dan%20Background/resources/README.md"
     },
     {
-      "id": "web-design3---css-selector-dan-styling-dasarresourcesreadmemd",
-      "slug": "web-design3---css-selector-dan-styling-dasarresourcesreadmemd",
+      "id": "5---web-design5---box-model-margin-padding-dan-borderresourcesreadmemd",
+      "slug": "5---web-design5---box-model-margin-padding-dan-borderresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-3---css-selector-dan-styling-dasar",
-      "githubPath": "Web Design/3 - CSS Selector dan Styling Dasar/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Web%20Design/3%20-%20CSS%20Selector%20dan%20Styling%20Dasar/resources/README.md"
+      "programSlug": "5---web-design",
+      "moduleSlug": "5---web-design-5---box-model-margin-padding-dan-border",
+      "githubPath": "5 - Web Design/5 - Box Model, Margin, Padding, dan Border/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/5%20-%20Box%20Model%2C%20Margin%2C%20Padding%2C%20dan%20Border/resources/README.md"
     },
     {
-      "id": "web-design4---typography-color-dan-backgroundresourcesreadmemd",
-      "slug": "web-design4---typography-color-dan-backgroundresourcesreadmemd",
+      "id": "5---web-design6---layout-1-kolom-2-kolom-dan-multi-kolomresourcesreadmemd",
+      "slug": "5---web-design6---layout-1-kolom-2-kolom-dan-multi-kolomresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-4---typography-color-dan-background",
-      "githubPath": "Web Design/4 - Typography, Color, dan Background/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Web%20Design/4%20-%20Typography%2C%20Color%2C%20dan%20Background/resources/README.md"
+      "programSlug": "5---web-design",
+      "moduleSlug": "5---web-design-6---layout-1-kolom-2-kolom-dan-multi-kolom",
+      "githubPath": "5 - Web Design/6 - Layout 1 Kolom, 2 Kolom, dan Multi Kolom/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/6%20-%20Layout%201%20Kolom%2C%202%20Kolom%2C%20dan%20Multi%20Kolom/resources/README.md"
     },
     {
-      "id": "web-design5---box-model-margin-padding-dan-borderresourcesreadmemd",
-      "slug": "web-design5---box-model-margin-padding-dan-borderresourcesreadmemd",
+      "id": "5---web-design7---css-flexbox-dan-grid-layoutresourcesreadmemd",
+      "slug": "5---web-design7---css-flexbox-dan-grid-layoutresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-5---box-model-margin-padding-dan-border",
-      "githubPath": "Web Design/5 - Box Model, Margin, Padding, dan Border/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Web%20Design/5%20-%20Box%20Model%2C%20Margin%2C%20Padding%2C%20dan%20Border/resources/README.md"
+      "programSlug": "5---web-design",
+      "moduleSlug": "5---web-design-7---css-flexbox-dan-grid-layout",
+      "githubPath": "5 - Web Design/7 - CSS Flexbox dan Grid Layout/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/7%20-%20CSS%20Flexbox%20dan%20Grid%20Layout/resources/README.md"
     },
     {
-      "id": "web-design6---layout-1-kolom-2-kolom-dan-multi-kolomresourcesreadmemd",
-      "slug": "web-design6---layout-1-kolom-2-kolom-dan-multi-kolomresourcesreadmemd",
+      "id": "5---web-design8---responsive-web-design-dan-media-queryresourcesreadmemd",
+      "slug": "5---web-design8---responsive-web-design-dan-media-queryresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-6---layout-1-kolom-2-kolom-dan-multi-kolom",
-      "githubPath": "Web Design/6 - Layout 1 Kolom, 2 Kolom, dan Multi Kolom/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Web%20Design/6%20-%20Layout%201%20Kolom%2C%202%20Kolom%2C%20dan%20Multi%20Kolom/resources/README.md"
+      "programSlug": "5---web-design",
+      "moduleSlug": "5---web-design-8---responsive-web-design-dan-media-query",
+      "githubPath": "5 - Web Design/8 - Responsive Web Design dan Media Query/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/8%20-%20Responsive%20Web%20Design%20dan%20Media%20Query/resources/README.md"
     },
     {
-      "id": "web-design7---css-flexbox-dan-grid-layoutresourcesreadmemd",
-      "slug": "web-design7---css-flexbox-dan-grid-layoutresourcesreadmemd",
+      "id": "5---web-design9---form-table-dan-navigation-designresourcesreadmemd",
+      "slug": "5---web-design9---form-table-dan-navigation-designresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-7---css-flexbox-dan-grid-layout",
-      "githubPath": "Web Design/7 - CSS Flexbox dan Grid Layout/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Web%20Design/7%20-%20CSS%20Flexbox%20dan%20Grid%20Layout/resources/README.md"
-    },
-    {
-      "id": "web-design8---responsive-web-design-dan-media-queryresourcesreadmemd",
-      "slug": "web-design8---responsive-web-design-dan-media-queryresourcesreadmemd",
-      "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-8---responsive-web-design-dan-media-query",
-      "githubPath": "Web Design/8 - Responsive Web Design dan Media Query/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Web%20Design/8%20-%20Responsive%20Web%20Design%20dan%20Media%20Query/resources/README.md"
-    },
-    {
-      "id": "web-design9---form-table-dan-navigation-designresourcesreadmemd",
-      "slug": "web-design9---form-table-dan-navigation-designresourcesreadmemd",
-      "title": "README.md",
-      "programSlug": "web-design",
-      "moduleSlug": "web-design-9---form-table-dan-navigation-design",
-      "githubPath": "Web Design/9 - Form, Table, dan Navigation Design/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/Web%20Design/9%20-%20Form%2C%20Table%2C%20dan%20Navigation%20Design/resources/README.md"
+      "programSlug": "5---web-design",
+      "moduleSlug": "5---web-design-9---form-table-dan-navigation-design",
+      "githubPath": "5 - Web Design/9 - Form, Table, dan Navigation Design/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/9%20-%20Form%2C%20Table%2C%20dan%20Navigation%20Design/resources/README.md"
     }
   ]
 }
