@@ -23,7 +23,9 @@ export default async function ModuleDetailPage({
 }: ModuleDetailPageProps) {
   const { slug } = await params;
 
-  const programs = await GithubService.getPrograms();
+  const programs = (await GithubService.getPrograms()).filter(
+    (item: any) => item.type === "dir",
+  );
 
   let selectedModule = null;
 

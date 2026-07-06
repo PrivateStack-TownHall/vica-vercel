@@ -1,50 +1,51 @@
 import axios from "@/lib/axios";
-
-console.log("========== ENV ==========");
-
-console.log("OWNER:", process.env.NEXT_PUBLIC_GITHUB_OWNER);
-
-console.log("REPO:", process.env.NEXT_PUBLIC_GITHUB_REPO);
-
-console.log("BRANCH:", process.env.NEXT_PUBLIC_GITHUB_BRANCH);
+import { cache } from "react";
 
 const GITHUB_OWNER = process.env.NEXT_PUBLIC_GITHUB_OWNER!;
-
 const GITHUB_REPO = process.env.NEXT_PUBLIC_GITHUB_REPO!;
-
 const GITHUB_BRANCH = process.env.NEXT_PUBLIC_GITHUB_BRANCH || "main";
 
-// console.log("========== GITHUB CONST ==========");
-
-// console.log({
-//   GITHUB_OWNER,
-//   GITHUB_REPO,
-//   GITHUB_BRANCH,
-// });
 const BASE_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents`;
 
 class GithubService {
-  private static async request(path = "") {
+  private static request = cache(async (path = "") => {
     const url = `${BASE_URL}/${path}`;
 
-    console.log("========== REQUEST ==========");
+    try {
+      const response = await axios.get(url, {
+        params: {
+          ref: GITHUB_BRANCH,
+        },
+        headers: {
+          Accept: "application/vnd.github+json",
+        },
+      });
 
-    console.log({
+      return response.data;
+    } catch (error: any) {
+      throw new Error(
+        error?.response?.data?.message || `GitHub request failed: ${path}`,
+      );
+    }
+  });
+
+  private static requestRaw = cache(async (path: string) => {
+    const url = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${encodeURI(
       path,
-      url,
-    });
+    )}`;
 
-    const response = await axios.get(url, {
-      params: {
-        ref: GITHUB_BRANCH,
-      },
-      headers: {
-        Accept: "application/vnd.github+json",
-      },
-    });
-    console.log("SUCCESS:", url);
-    return response.data;
-  }
+    try {
+      const response = await axios.get(url, {
+        responseType: "text",
+      });
+
+      return response.data;
+    } catch (error: any) {
+      throw new Error(
+        error?.response?.data?.message || `Failed to load markdown: ${path}`,
+      );
+    }
+  });
 
   static async getPrograms() {
     return this.request();
@@ -56,19 +57,25 @@ class GithubService {
 
   static async getLessons(programName: string, moduleName: string) {
     return this.request(
-      `${encodeURIComponent(programName)}/${encodeURIComponent(moduleName)}/lessons`,
+      `${encodeURIComponent(programName)}/${encodeURIComponent(
+        moduleName,
+      )}/lessons`,
     );
   }
 
   static async getAssignments(programName: string, moduleName: string) {
     return this.request(
-      `${encodeURIComponent(programName)}/${encodeURIComponent(moduleName)}/assignments`,
+      `${encodeURIComponent(programName)}/${encodeURIComponent(
+        moduleName,
+      )}/assignments`,
     );
   }
 
   static async getResources(programName: string, moduleName: string) {
     return this.request(
-      `${encodeURIComponent(programName)}/${encodeURIComponent(moduleName)}/resources`,
+      `${encodeURIComponent(programName)}/${encodeURIComponent(
+        moduleName,
+      )}/resources`,
     );
   }
 
@@ -77,27 +84,23 @@ class GithubService {
   }
 
   static async getMarkdown(path: string): Promise<string> {
-    const file = await this.request(path);
-
-    if (!file.download_url) {
-      throw new Error("Markdown file not found");
-    }
-
-    const response = await fetch(file.download_url, {
-      cache: "no-store",
-    });
-
-    return response.text();
+    return this.requestRaw(path);
   }
 
   static async getDownloadUrl(path: string): Promise<string> {
     const file = await this.request(path);
 
+    if (!file?.download_url) {
+      throw new Error(`Download URL not found: ${path}`);
+    }
+
     return file.download_url;
   }
 
   static getRawUrl(path: string) {
-    return `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${path}`;
+    return `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${encodeURI(
+      path,
+    )}`;
   }
 }
 

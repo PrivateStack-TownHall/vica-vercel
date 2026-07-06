@@ -15,14 +15,7 @@ export default async function LessonPage({ params }: LessonPageProps) {
   const { slug } = await params;
 
   const lessons = await getLessons();
-
-  const lesson = lessons.find((item) => item.slug === slug);
-
-  if (!lesson) {
-    notFound();
-  }
-
+  const lesson = lessons[0];
   const markdown = await getLessonMarkdown(lesson.githubPath);
-
   return <LessonContent lesson={lesson} markdown={markdown} />;
 }

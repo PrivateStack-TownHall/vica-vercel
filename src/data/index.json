@@ -31,10 +31,16 @@
       "githubPath": "4 - TypeScript"
     },
     {
-      "id": "5---web-design",
-      "slug": "5---web-design",
-      "title": "5 - Web Design",
-      "githubPath": "5 - Web Design"
+      "id": "5---oop-mvc",
+      "slug": "5---oop-mvc",
+      "title": "5 - OOP MVC",
+      "githubPath": "5 - OOP MVC"
+    },
+    {
+      "id": "6---web-design",
+      "slug": "6---web-design",
+      "title": "6 - Web Design",
+      "githubPath": "6 - Web Design"
     }
   ],
   "modules": [
@@ -326,267 +332,164 @@
       "githubPath": "3 - Front End/9 - ShadcnUi TanStackQuery Zod ReactHookForm"
     },
     {
-      "id": "4---typescript-1---pengenalan-typescript",
-      "slug": "4---typescript-1---pengenalan-typescript",
-      "title": "1 - Pengenalan TypeScript",
-      "programSlug": "4---typescript",
-      "githubPath": "4 - TypeScript/1 - Pengenalan TypeScript"
+      "id": "5---oop-mvc-1---pengenalan-oop",
+      "slug": "5---oop-mvc-1---pengenalan-oop",
+      "title": "1 - Pengenalan OOP",
+      "programSlug": "5---oop-mvc",
+      "githubPath": "5 - OOP MVC/1 - Pengenalan OOP"
     },
     {
-      "id": "4---typescript-10---class-dan-oop-dasar",
-      "slug": "4---typescript-10---class-dan-oop-dasar",
-      "title": "10 - Class dan OOP Dasar",
-      "programSlug": "4---typescript",
-      "githubPath": "4 - TypeScript/10 - Class dan OOP Dasar"
+      "id": "5---oop-mvc-2---teori-oop",
+      "slug": "5---oop-mvc-2---teori-oop",
+      "title": "2 - Teori OOP",
+      "programSlug": "5---oop-mvc",
+      "githubPath": "5 - OOP MVC/2 - Teori OOP"
     },
     {
-      "id": "4---typescript-11---generic-dasar",
-      "slug": "4---typescript-11---generic-dasar",
-      "title": "11 - Generic Dasar",
-      "programSlug": "4---typescript",
-      "githubPath": "4 - TypeScript/11 - Generic Dasar"
+      "id": "5---oop-mvc-3---pengenalan-mvc",
+      "slug": "5---oop-mvc-3---pengenalan-mvc",
+      "title": "3 - Pengenalan MVC",
+      "programSlug": "5---oop-mvc",
+      "githubPath": "5 - OOP MVC/3 - Pengenalan MVC"
     },
     {
-      "id": "4---typescript-12---mini-project-typescript",
-      "slug": "4---typescript-12---mini-project-typescript",
-      "title": "12 - Mini Project TypeScript",
-      "programSlug": "4---typescript",
-      "githubPath": "4 - TypeScript/12 - Mini Project TypeScript"
+      "id": "5---oop-mvc-4---study-case-mvc",
+      "slug": "5---oop-mvc-4---study-case-mvc",
+      "title": "4 - Study Case MVC",
+      "programSlug": "5---oop-mvc",
+      "githubPath": "5 - OOP MVC/4 - Study Case MVC"
     },
     {
-      "id": "4---typescript-2---basic-types",
-      "slug": "4---typescript-2---basic-types",
-      "title": "2 - Basic Types",
-      "programSlug": "4---typescript",
-      "githubPath": "4 - TypeScript/2 - Basic Types"
-    },
-    {
-      "id": "4---typescript-3---variable-dan-type-annotation",
-      "slug": "4---typescript-3---variable-dan-type-annotation",
-      "title": "3 - Variable dan Type Annotation",
-      "programSlug": "4---typescript",
-      "githubPath": "4 - TypeScript/3 - Variable dan Type Annotation"
-    },
-    {
-      "id": "4---typescript-4---function-pada-typescript",
-      "slug": "4---typescript-4---function-pada-typescript",
-      "title": "4 - Function pada TypeScript",
-      "programSlug": "4---typescript",
-      "githubPath": "4 - TypeScript/4 - Function pada TypeScript"
-    },
-    {
-      "id": "4---typescript-5---array-dan-tuple",
-      "slug": "4---typescript-5---array-dan-tuple",
-      "title": "5 - Array dan Tuple",
-      "programSlug": "4---typescript",
-      "githubPath": "4 - TypeScript/5 - Array dan Tuple"
-    },
-    {
-      "id": "4---typescript-6---object-type",
-      "slug": "4---typescript-6---object-type",
-      "title": "6 - Object Type",
-      "programSlug": "4---typescript",
-      "githubPath": "4 - TypeScript/6 - Object Type"
-    },
-    {
-      "id": "4---typescript-7---type-alias",
-      "slug": "4---typescript-7---type-alias",
-      "title": "7 - Type Alias",
-      "programSlug": "4---typescript",
-      "githubPath": "4 - TypeScript/7 - Type Alias"
-    },
-    {
-      "id": "4---typescript-8---interface",
-      "slug": "4---typescript-8---interface",
-      "title": "8 - Interface",
-      "programSlug": "4---typescript",
-      "githubPath": "4 - TypeScript/8 - Interface"
-    },
-    {
-      "id": "4---typescript-9---enum-dan-utility-types",
-      "slug": "4---typescript-9---enum-dan-utility-types",
-      "title": "9 - Enum dan Utility Types",
-      "programSlug": "4---typescript",
-      "githubPath": "4 - TypeScript/9 - Enum dan Utility Types"
-    },
-    {
-      "id": "5---web-design-1---pengenalan-web-design-html-dan-css",
-      "slug": "5---web-design-1---pengenalan-web-design-html-dan-css",
+      "id": "6---web-design-1---pengenalan-web-design-html-dan-css",
+      "slug": "6---web-design-1---pengenalan-web-design-html-dan-css",
       "title": "1 - Pengenalan Web Design HTML dan CSS",
-      "programSlug": "5---web-design",
-      "githubPath": "5 - Web Design/1 - Pengenalan Web Design HTML dan CSS"
+      "programSlug": "6---web-design",
+      "githubPath": "6 - Web Design/1 - Pengenalan Web Design HTML dan CSS"
     },
     {
-      "id": "5---web-design-10---bootstrap-dan-tailwind-css",
-      "slug": "5---web-design-10---bootstrap-dan-tailwind-css",
+      "id": "6---web-design-10---bootstrap-dan-tailwind-css",
+      "slug": "6---web-design-10---bootstrap-dan-tailwind-css",
       "title": "10 - Bootstrap dan Tailwind CSS",
-      "programSlug": "5---web-design",
-      "githubPath": "5 - Web Design/10 - Bootstrap dan Tailwind CSS"
+      "programSlug": "6---web-design",
+      "githubPath": "6 - Web Design/10 - Bootstrap dan Tailwind CSS"
     },
     {
-      "id": "5---web-design-11---study-case-landing-page-website",
-      "slug": "5---web-design-11---study-case-landing-page-website",
+      "id": "6---web-design-11---study-case-landing-page-website",
+      "slug": "6---web-design-11---study-case-landing-page-website",
       "title": "11 - Study Case Landing Page Website",
-      "programSlug": "5---web-design",
-      "githubPath": "5 - Web Design/11 - Study Case Landing Page Website"
+      "programSlug": "6---web-design",
+      "githubPath": "6 - Web Design/11 - Study Case Landing Page Website"
     },
     {
-      "id": "5---web-design-12---study-case-company-profile-website-dan-presentasi-project",
-      "slug": "5---web-design-12---study-case-company-profile-website-dan-presentasi-project",
+      "id": "6---web-design-12---study-case-company-profile-website-dan-presentasi-project",
+      "slug": "6---web-design-12---study-case-company-profile-website-dan-presentasi-project",
       "title": "12 - Study Case Company Profile Website dan Presentasi Project",
-      "programSlug": "5---web-design",
-      "githubPath": "5 - Web Design/12 - Study Case Company Profile Website dan Presentasi Project"
+      "programSlug": "6---web-design",
+      "githubPath": "6 - Web Design/12 - Study Case Company Profile Website dan Presentasi Project"
     },
     {
-      "id": "5---web-design-2---struktur-html-dan-semantic-elements",
-      "slug": "5---web-design-2---struktur-html-dan-semantic-elements",
+      "id": "6---web-design-2---struktur-html-dan-semantic-elements",
+      "slug": "6---web-design-2---struktur-html-dan-semantic-elements",
       "title": "2 - Struktur HTML dan Semantic Elements",
-      "programSlug": "5---web-design",
-      "githubPath": "5 - Web Design/2 - Struktur HTML dan Semantic Elements"
+      "programSlug": "6---web-design",
+      "githubPath": "6 - Web Design/2 - Struktur HTML dan Semantic Elements"
     },
     {
-      "id": "5---web-design-3---css-selector-dan-styling-dasar",
-      "slug": "5---web-design-3---css-selector-dan-styling-dasar",
+      "id": "6---web-design-3---css-selector-dan-styling-dasar",
+      "slug": "6---web-design-3---css-selector-dan-styling-dasar",
       "title": "3 - CSS Selector dan Styling Dasar",
-      "programSlug": "5---web-design",
-      "githubPath": "5 - Web Design/3 - CSS Selector dan Styling Dasar"
+      "programSlug": "6---web-design",
+      "githubPath": "6 - Web Design/3 - CSS Selector dan Styling Dasar"
     },
     {
-      "id": "5---web-design-4---typography-color-dan-background",
-      "slug": "5---web-design-4---typography-color-dan-background",
+      "id": "6---web-design-4---typography-color-dan-background",
+      "slug": "6---web-design-4---typography-color-dan-background",
       "title": "4 - Typography, Color, dan Background",
-      "programSlug": "5---web-design",
-      "githubPath": "5 - Web Design/4 - Typography, Color, dan Background"
+      "programSlug": "6---web-design",
+      "githubPath": "6 - Web Design/4 - Typography, Color, dan Background"
     },
     {
-      "id": "5---web-design-5---box-model-margin-padding-dan-border",
-      "slug": "5---web-design-5---box-model-margin-padding-dan-border",
+      "id": "6---web-design-5---box-model-margin-padding-dan-border",
+      "slug": "6---web-design-5---box-model-margin-padding-dan-border",
       "title": "5 - Box Model, Margin, Padding, dan Border",
-      "programSlug": "5---web-design",
-      "githubPath": "5 - Web Design/5 - Box Model, Margin, Padding, dan Border"
+      "programSlug": "6---web-design",
+      "githubPath": "6 - Web Design/5 - Box Model, Margin, Padding, dan Border"
     },
     {
-      "id": "5---web-design-6---layout-1-kolom-2-kolom-dan-multi-kolom",
-      "slug": "5---web-design-6---layout-1-kolom-2-kolom-dan-multi-kolom",
+      "id": "6---web-design-6---layout-1-kolom-2-kolom-dan-multi-kolom",
+      "slug": "6---web-design-6---layout-1-kolom-2-kolom-dan-multi-kolom",
       "title": "6 - Layout 1 Kolom, 2 Kolom, dan Multi Kolom",
-      "programSlug": "5---web-design",
-      "githubPath": "5 - Web Design/6 - Layout 1 Kolom, 2 Kolom, dan Multi Kolom"
+      "programSlug": "6---web-design",
+      "githubPath": "6 - Web Design/6 - Layout 1 Kolom, 2 Kolom, dan Multi Kolom"
     },
     {
-      "id": "5---web-design-7---css-flexbox-dan-grid-layout",
-      "slug": "5---web-design-7---css-flexbox-dan-grid-layout",
+      "id": "6---web-design-7---css-flexbox-dan-grid-layout",
+      "slug": "6---web-design-7---css-flexbox-dan-grid-layout",
       "title": "7 - CSS Flexbox dan Grid Layout",
-      "programSlug": "5---web-design",
-      "githubPath": "5 - Web Design/7 - CSS Flexbox dan Grid Layout"
+      "programSlug": "6---web-design",
+      "githubPath": "6 - Web Design/7 - CSS Flexbox dan Grid Layout"
     },
     {
-      "id": "5---web-design-8---responsive-web-design-dan-media-query",
-      "slug": "5---web-design-8---responsive-web-design-dan-media-query",
+      "id": "6---web-design-8---responsive-web-design-dan-media-query",
+      "slug": "6---web-design-8---responsive-web-design-dan-media-query",
       "title": "8 - Responsive Web Design dan Media Query",
-      "programSlug": "5---web-design",
-      "githubPath": "5 - Web Design/8 - Responsive Web Design dan Media Query"
+      "programSlug": "6---web-design",
+      "githubPath": "6 - Web Design/8 - Responsive Web Design dan Media Query"
     },
     {
-      "id": "5---web-design-9---form-table-dan-navigation-design",
-      "slug": "5---web-design-9---form-table-dan-navigation-design",
+      "id": "6---web-design-9---form-table-dan-navigation-design",
+      "slug": "6---web-design-9---form-table-dan-navigation-design",
       "title": "9 - Form, Table, dan Navigation Design",
-      "programSlug": "5---web-design",
-      "githubPath": "5 - Web Design/9 - Form, Table, dan Navigation Design"
+      "programSlug": "6---web-design",
+      "githubPath": "6 - Web Design/9 - Form, Table, dan Navigation Design"
     }
   ],
   "lessons": [
     {
-      "id": "2---back-end-1---nodejs-and-expressjs-library---ejs",
-      "slug": "2---back-end-1---nodejs-and-expressjs-library---ejs",
-      "title": "library - ejs",
-      "programSlug": "2---back-end",
-      "moduleSlug": "2---back-end-1---nodejs-and-expressjs",
-      "githubPath": "2 - Back End/1 - Nodejs and Expressjs/lessons/library - ejs"
+      "id": "1---javascript-1a---git-dan-github-git-dan-github",
+      "slug": "1---javascript-1a---git-dan-github-git-dan-github",
+      "title": "Git dan Github",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1a---git-dan-github",
+      "githubPath": "1 - JavaScript/1a - Git dan GitHub/lessons/Git dan Github"
     },
     {
-      "id": "2---back-end-2---database-introduction-m-ployee",
-      "slug": "2---back-end-2---database-introduction-m-ployee",
-      "title": "M-ployee",
-      "programSlug": "2---back-end",
-      "moduleSlug": "2---back-end-2---database-introduction",
-      "githubPath": "2 - Back End/2 - Database Introduction/lessons/M-ployee"
-    },
-    {
-      "id": "3---front-end-1---react-components-byte-burger",
-      "slug": "3---front-end-1---react-components-byte-burger",
-      "title": "byte-burger",
-      "programSlug": "3---front-end",
-      "moduleSlug": "3---front-end-1---react-components",
-      "githubPath": "3 - Front End/1 - React Components/lessons/byte-burger"
-    },
-    {
-      "id": "3---front-end-3---tailwindcss-inventory-master",
-      "slug": "3---front-end-3---tailwindcss-inventory-master",
-      "title": "inventory-master",
-      "programSlug": "3---front-end",
-      "moduleSlug": "3---front-end-3---tailwindcss",
-      "githubPath": "3 - Front End/3 - TailwindCSS/lessons/inventory-master"
-    },
-    {
-      "id": "3---front-end-4---react-hooks-and-fetch-api-pineapple-stack",
-      "slug": "3---front-end-4---react-hooks-and-fetch-api-pineapple-stack",
-      "title": "pineapple-stack",
-      "programSlug": "3---front-end",
-      "moduleSlug": "3---front-end-4---react-hooks-and-fetch-api",
-      "githubPath": "3 - Front End/4 - React Hooks and Fetch API/lessons/pineapple-stack"
+      "id": "1---javascript-1b---introduction-to-javascript-javascript-lessons",
+      "slug": "1---javascript-1b---introduction-to-javascript-javascript-lessons",
+      "title": "Javascript Lessons",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1b---introduction-to-javascript",
+      "githubPath": "1 - JavaScript/1b - Introduction To JavaScript/lessons/Javascript Lessons"
     }
   ],
   "assignments": [
     {
-      "id": "2---back-end-1---nodejs-and-expressjs-theory",
-      "slug": "2---back-end-1---nodejs-and-expressjs-theory",
-      "title": "theory",
-      "programSlug": "2---back-end",
-      "moduleSlug": "2---back-end-1---nodejs-and-expressjs",
-      "githubPath": "2 - Back End/1 - Nodejs and Expressjs/assignments/theory"
+      "id": "1---javascript-1a---git-dan-github-git-dan-github",
+      "slug": "1---javascript-1a---git-dan-github-git-dan-github",
+      "title": "Git dan GitHub",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1a---git-dan-github",
+      "githubPath": "1 - JavaScript/1a - Git dan GitHub/assignments/Git dan GitHub"
     },
     {
-      "id": "2---back-end-2---database-introduction-employees-apps",
-      "slug": "2---back-end-2---database-introduction-employees-apps",
-      "title": "employees-apps",
-      "programSlug": "2---back-end",
-      "moduleSlug": "2---back-end-2---database-introduction",
-      "githubPath": "2 - Back End/2 - Database Introduction/assignments/employees-apps"
-    },
-    {
-      "id": "3---front-end-1---react-components-theory",
-      "slug": "3---front-end-1---react-components-theory",
-      "title": "theory",
-      "programSlug": "3---front-end",
-      "moduleSlug": "3---front-end-1---react-components",
-      "githubPath": "3 - Front End/1 - React Components/assignments/theory"
-    },
-    {
-      "id": "3---front-end-2---event-handlers-book-store",
-      "slug": "3---front-end-2---event-handlers-book-store",
-      "title": "book-store",
-      "programSlug": "3---front-end",
-      "moduleSlug": "3---front-end-2---event-handlers",
-      "githubPath": "3 - Front End/2 - Event Handlers/assignments/book-store"
-    },
-    {
-      "id": "3---front-end-3---tailwindcss-theory",
-      "slug": "3---front-end-3---tailwindcss-theory",
-      "title": "theory",
-      "programSlug": "3---front-end",
-      "moduleSlug": "3---front-end-3---tailwindcss",
-      "githubPath": "3 - Front End/3 - TailwindCSS/assignments/theory"
-    },
-    {
-      "id": "3---front-end-6---crud-study-case-medieval-airbnb",
-      "slug": "3---front-end-6---crud-study-case-medieval-airbnb",
-      "title": "medieval-airbnb",
-      "programSlug": "3---front-end",
-      "moduleSlug": "3---front-end-6---crud-study-case",
-      "githubPath": "3 - Front End/6 - CRUD Study Case/assignments/medieval-airbnb"
+      "id": "1---javascript-1b---introduction-to-javascript-javascript-assignments",
+      "slug": "1---javascript-1b---introduction-to-javascript-javascript-assignments",
+      "title": "Javascript Assignments",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1b---introduction-to-javascript",
+      "githubPath": "1 - JavaScript/1b - Introduction To JavaScript/assignments/Javascript Assignments"
     }
   ],
   "resources": [
+    {
+      "id": "1---javascript10---es6-modern-javascriptresourcesreadmemd",
+      "slug": "1---javascript10---es6-modern-javascriptresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-10---es6-modern-javascript",
+      "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/10%20-%20ES6%20Modern%20JavaScript/resources/README.md"
+    },
     {
       "id": "1---javascript11---array-methodsresourcesreadmemd",
       "slug": "1---javascript11---array-methodsresourcesreadmemd",
@@ -642,6 +545,15 @@
       "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/2b%20-%20Variables%20Data%20Type/resources/README.md"
     },
     {
+      "id": "1---javascript3---variables-dan-tipe-data-tambahanresourcesreadmemd",
+      "slug": "1---javascript3---variables-dan-tipe-data-tambahanresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-3---variables-dan-tipe-data-tambahan",
+      "githubPath": "1 - JavaScript/3 - Variables dan Tipe Data (tambahan)/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/3%20-%20Variables%20dan%20Tipe%20Data%20(tambahan)/resources/README.md"
+    },
+    {
       "id": "1---javascript4---operator-dan-expressionresourcesreadmemd",
       "slug": "1---javascript4---operator-dan-expressionresourcesreadmemd",
       "title": "README.md",
@@ -685,15 +597,6 @@
       "moduleSlug": "1---javascript-8---array",
       "githubPath": "1 - JavaScript/8 - Array/resources/README.md",
       "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/8%20-%20Array/resources/README.md"
-    },
-    {
-      "id": "1---javascript9---objectresourcesreadmemd",
-      "slug": "1---javascript9---objectresourcesreadmemd",
-      "title": "README.md",
-      "programSlug": "1---javascript",
-      "moduleSlug": "1---javascript-9---object",
-      "githubPath": "1 - JavaScript/9 - Object/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/9%20-%20Object/resources/README.md"
     },
     {
       "id": "2---back-end1---nodejs-and-expressjsresourcesreadmemd",
@@ -912,220 +815,139 @@
       "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/3%20-%20Front%20End/9%20-%20ShadcnUi%20TanStackQuery%20Zod%20ReactHookForm/resources/README.md"
     },
     {
-      "id": "4---typescript1---pengenalan-typescriptresourcesreadmemd",
-      "slug": "4---typescript1---pengenalan-typescriptresourcesreadmemd",
+      "id": "5---oop-mvc1---pengenalan-oopresourcesreadmemd",
+      "slug": "5---oop-mvc1---pengenalan-oopresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "4---typescript",
-      "moduleSlug": "4---typescript-1---pengenalan-typescript",
-      "githubPath": "4 - TypeScript/1 - Pengenalan TypeScript/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/1%20-%20Pengenalan%20TypeScript/resources/README.md"
+      "programSlug": "5---oop-mvc",
+      "moduleSlug": "5---oop-mvc-1---pengenalan-oop",
+      "githubPath": "5 - OOP MVC/1 - Pengenalan OOP/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20OOP%20MVC/1%20-%20Pengenalan%20OOP/resources/README.md"
     },
     {
-      "id": "4---typescript10---class-dan-oop-dasarresourcesreadmemd",
-      "slug": "4---typescript10---class-dan-oop-dasarresourcesreadmemd",
+      "id": "5---oop-mvc3---pengenalan-mvcresourcesreadmemd",
+      "slug": "5---oop-mvc3---pengenalan-mvcresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "4---typescript",
-      "moduleSlug": "4---typescript-10---class-dan-oop-dasar",
-      "githubPath": "4 - TypeScript/10 - Class dan OOP Dasar/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/10%20-%20Class%20dan%20OOP%20Dasar/resources/README.md"
+      "programSlug": "5---oop-mvc",
+      "moduleSlug": "5---oop-mvc-3---pengenalan-mvc",
+      "githubPath": "5 - OOP MVC/3 - Pengenalan MVC/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20OOP%20MVC/3%20-%20Pengenalan%20MVC/resources/README.md"
     },
     {
-      "id": "4---typescript11---generic-dasarresourcesreadmemd",
-      "slug": "4---typescript11---generic-dasarresourcesreadmemd",
+      "id": "5---oop-mvc4---study-case-mvcresourcesreadmemd",
+      "slug": "5---oop-mvc4---study-case-mvcresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "4---typescript",
-      "moduleSlug": "4---typescript-11---generic-dasar",
-      "githubPath": "4 - TypeScript/11 - Generic Dasar/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/11%20-%20Generic%20Dasar/resources/README.md"
+      "programSlug": "5---oop-mvc",
+      "moduleSlug": "5---oop-mvc-4---study-case-mvc",
+      "githubPath": "5 - OOP MVC/4 - Study Case MVC/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20OOP%20MVC/4%20-%20Study%20Case%20MVC/resources/README.md"
     },
     {
-      "id": "4---typescript12---mini-project-typescriptresourcesreadmemd",
-      "slug": "4---typescript12---mini-project-typescriptresourcesreadmemd",
+      "id": "6---web-design1---pengenalan-web-design-html-dan-cssresourcesreadmemd",
+      "slug": "6---web-design1---pengenalan-web-design-html-dan-cssresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "4---typescript",
-      "moduleSlug": "4---typescript-12---mini-project-typescript",
-      "githubPath": "4 - TypeScript/12 - Mini Project TypeScript/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/12%20-%20Mini%20Project%20TypeScript/resources/README.md"
+      "programSlug": "6---web-design",
+      "moduleSlug": "6---web-design-1---pengenalan-web-design-html-dan-css",
+      "githubPath": "6 - Web Design/1 - Pengenalan Web Design HTML dan CSS/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/6%20-%20Web%20Design/1%20-%20Pengenalan%20Web%20Design%20HTML%20dan%20CSS/resources/README.md"
     },
     {
-      "id": "4---typescript2---basic-typesresourcesreadmemd",
-      "slug": "4---typescript2---basic-typesresourcesreadmemd",
+      "id": "6---web-design10---bootstrap-dan-tailwind-cssresourcesreadmemd",
+      "slug": "6---web-design10---bootstrap-dan-tailwind-cssresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "4---typescript",
-      "moduleSlug": "4---typescript-2---basic-types",
-      "githubPath": "4 - TypeScript/2 - Basic Types/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/2%20-%20Basic%20Types/resources/README.md"
+      "programSlug": "6---web-design",
+      "moduleSlug": "6---web-design-10---bootstrap-dan-tailwind-css",
+      "githubPath": "6 - Web Design/10 - Bootstrap dan Tailwind CSS/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/6%20-%20Web%20Design/10%20-%20Bootstrap%20dan%20Tailwind%20CSS/resources/README.md"
     },
     {
-      "id": "4---typescript3---variable-dan-type-annotationresourcesreadmemd",
-      "slug": "4---typescript3---variable-dan-type-annotationresourcesreadmemd",
+      "id": "6---web-design11---study-case-landing-page-websiteresourcesreadmemd",
+      "slug": "6---web-design11---study-case-landing-page-websiteresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "4---typescript",
-      "moduleSlug": "4---typescript-3---variable-dan-type-annotation",
-      "githubPath": "4 - TypeScript/3 - Variable dan Type Annotation/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/3%20-%20Variable%20dan%20Type%20Annotation/resources/README.md"
+      "programSlug": "6---web-design",
+      "moduleSlug": "6---web-design-11---study-case-landing-page-website",
+      "githubPath": "6 - Web Design/11 - Study Case Landing Page Website/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/6%20-%20Web%20Design/11%20-%20Study%20Case%20Landing%20Page%20Website/resources/README.md"
     },
     {
-      "id": "4---typescript4---function-pada-typescriptresourcesreadmemd",
-      "slug": "4---typescript4---function-pada-typescriptresourcesreadmemd",
+      "id": "6---web-design12---study-case-company-profile-website-dan-presentasi-projectresourcesreadmemd",
+      "slug": "6---web-design12---study-case-company-profile-website-dan-presentasi-projectresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "4---typescript",
-      "moduleSlug": "4---typescript-4---function-pada-typescript",
-      "githubPath": "4 - TypeScript/4 - Function pada TypeScript/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/4%20-%20Function%20pada%20TypeScript/resources/README.md"
+      "programSlug": "6---web-design",
+      "moduleSlug": "6---web-design-12---study-case-company-profile-website-dan-presentasi-project",
+      "githubPath": "6 - Web Design/12 - Study Case Company Profile Website dan Presentasi Project/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/6%20-%20Web%20Design/12%20-%20Study%20Case%20Company%20Profile%20Website%20dan%20Presentasi%20Project/resources/README.md"
     },
     {
-      "id": "4---typescript5---array-dan-tupleresourcesreadmemd",
-      "slug": "4---typescript5---array-dan-tupleresourcesreadmemd",
+      "id": "6---web-design2---struktur-html-dan-semantic-elementsresourcesreadmemd",
+      "slug": "6---web-design2---struktur-html-dan-semantic-elementsresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "4---typescript",
-      "moduleSlug": "4---typescript-5---array-dan-tuple",
-      "githubPath": "4 - TypeScript/5 - Array dan Tuple/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/5%20-%20Array%20dan%20Tuple/resources/README.md"
+      "programSlug": "6---web-design",
+      "moduleSlug": "6---web-design-2---struktur-html-dan-semantic-elements",
+      "githubPath": "6 - Web Design/2 - Struktur HTML dan Semantic Elements/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/6%20-%20Web%20Design/2%20-%20Struktur%20HTML%20dan%20Semantic%20Elements/resources/README.md"
     },
     {
-      "id": "4---typescript6---object-typeresourcesreadmemd",
-      "slug": "4---typescript6---object-typeresourcesreadmemd",
+      "id": "6---web-design3---css-selector-dan-styling-dasarresourcesreadmemd",
+      "slug": "6---web-design3---css-selector-dan-styling-dasarresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "4---typescript",
-      "moduleSlug": "4---typescript-6---object-type",
-      "githubPath": "4 - TypeScript/6 - Object Type/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/6%20-%20Object%20Type/resources/README.md"
+      "programSlug": "6---web-design",
+      "moduleSlug": "6---web-design-3---css-selector-dan-styling-dasar",
+      "githubPath": "6 - Web Design/3 - CSS Selector dan Styling Dasar/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/6%20-%20Web%20Design/3%20-%20CSS%20Selector%20dan%20Styling%20Dasar/resources/README.md"
     },
     {
-      "id": "4---typescript7---type-aliasresourcesreadmemd",
-      "slug": "4---typescript7---type-aliasresourcesreadmemd",
+      "id": "6---web-design4---typography-color-dan-backgroundresourcesreadmemd",
+      "slug": "6---web-design4---typography-color-dan-backgroundresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "4---typescript",
-      "moduleSlug": "4---typescript-7---type-alias",
-      "githubPath": "4 - TypeScript/7 - Type Alias/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/7%20-%20Type%20Alias/resources/README.md"
+      "programSlug": "6---web-design",
+      "moduleSlug": "6---web-design-4---typography-color-dan-background",
+      "githubPath": "6 - Web Design/4 - Typography, Color, dan Background/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/6%20-%20Web%20Design/4%20-%20Typography%2C%20Color%2C%20dan%20Background/resources/README.md"
     },
     {
-      "id": "4---typescript8---interfaceresourcesreadmemd",
-      "slug": "4---typescript8---interfaceresourcesreadmemd",
+      "id": "6---web-design5---box-model-margin-padding-dan-borderresourcesreadmemd",
+      "slug": "6---web-design5---box-model-margin-padding-dan-borderresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "4---typescript",
-      "moduleSlug": "4---typescript-8---interface",
-      "githubPath": "4 - TypeScript/8 - Interface/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/8%20-%20Interface/resources/README.md"
+      "programSlug": "6---web-design",
+      "moduleSlug": "6---web-design-5---box-model-margin-padding-dan-border",
+      "githubPath": "6 - Web Design/5 - Box Model, Margin, Padding, dan Border/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/6%20-%20Web%20Design/5%20-%20Box%20Model%2C%20Margin%2C%20Padding%2C%20dan%20Border/resources/README.md"
     },
     {
-      "id": "4---typescript9---enum-dan-utility-typesresourcesreadmemd",
-      "slug": "4---typescript9---enum-dan-utility-typesresourcesreadmemd",
+      "id": "6---web-design6---layout-1-kolom-2-kolom-dan-multi-kolomresourcesreadmemd",
+      "slug": "6---web-design6---layout-1-kolom-2-kolom-dan-multi-kolomresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "4---typescript",
-      "moduleSlug": "4---typescript-9---enum-dan-utility-types",
-      "githubPath": "4 - TypeScript/9 - Enum dan Utility Types/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/9%20-%20Enum%20dan%20Utility%20Types/resources/README.md"
+      "programSlug": "6---web-design",
+      "moduleSlug": "6---web-design-6---layout-1-kolom-2-kolom-dan-multi-kolom",
+      "githubPath": "6 - Web Design/6 - Layout 1 Kolom, 2 Kolom, dan Multi Kolom/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/6%20-%20Web%20Design/6%20-%20Layout%201%20Kolom%2C%202%20Kolom%2C%20dan%20Multi%20Kolom/resources/README.md"
     },
     {
-      "id": "5---web-design1---pengenalan-web-design-html-dan-cssresourcesreadmemd",
-      "slug": "5---web-design1---pengenalan-web-design-html-dan-cssresourcesreadmemd",
+      "id": "6---web-design7---css-flexbox-dan-grid-layoutresourcesreadmemd",
+      "slug": "6---web-design7---css-flexbox-dan-grid-layoutresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "5---web-design",
-      "moduleSlug": "5---web-design-1---pengenalan-web-design-html-dan-css",
-      "githubPath": "5 - Web Design/1 - Pengenalan Web Design HTML dan CSS/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/1%20-%20Pengenalan%20Web%20Design%20HTML%20dan%20CSS/resources/README.md"
+      "programSlug": "6---web-design",
+      "moduleSlug": "6---web-design-7---css-flexbox-dan-grid-layout",
+      "githubPath": "6 - Web Design/7 - CSS Flexbox dan Grid Layout/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/6%20-%20Web%20Design/7%20-%20CSS%20Flexbox%20dan%20Grid%20Layout/resources/README.md"
     },
     {
-      "id": "5---web-design10---bootstrap-dan-tailwind-cssresourcesreadmemd",
-      "slug": "5---web-design10---bootstrap-dan-tailwind-cssresourcesreadmemd",
+      "id": "6---web-design8---responsive-web-design-dan-media-queryresourcesreadmemd",
+      "slug": "6---web-design8---responsive-web-design-dan-media-queryresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "5---web-design",
-      "moduleSlug": "5---web-design-10---bootstrap-dan-tailwind-css",
-      "githubPath": "5 - Web Design/10 - Bootstrap dan Tailwind CSS/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/10%20-%20Bootstrap%20dan%20Tailwind%20CSS/resources/README.md"
+      "programSlug": "6---web-design",
+      "moduleSlug": "6---web-design-8---responsive-web-design-dan-media-query",
+      "githubPath": "6 - Web Design/8 - Responsive Web Design dan Media Query/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/6%20-%20Web%20Design/8%20-%20Responsive%20Web%20Design%20dan%20Media%20Query/resources/README.md"
     },
     {
-      "id": "5---web-design11---study-case-landing-page-websiteresourcesreadmemd",
-      "slug": "5---web-design11---study-case-landing-page-websiteresourcesreadmemd",
+      "id": "6---web-design9---form-table-dan-navigation-designresourcesreadmemd",
+      "slug": "6---web-design9---form-table-dan-navigation-designresourcesreadmemd",
       "title": "README.md",
-      "programSlug": "5---web-design",
-      "moduleSlug": "5---web-design-11---study-case-landing-page-website",
-      "githubPath": "5 - Web Design/11 - Study Case Landing Page Website/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/11%20-%20Study%20Case%20Landing%20Page%20Website/resources/README.md"
-    },
-    {
-      "id": "5---web-design12---study-case-company-profile-website-dan-presentasi-projectresourcesreadmemd",
-      "slug": "5---web-design12---study-case-company-profile-website-dan-presentasi-projectresourcesreadmemd",
-      "title": "README.md",
-      "programSlug": "5---web-design",
-      "moduleSlug": "5---web-design-12---study-case-company-profile-website-dan-presentasi-project",
-      "githubPath": "5 - Web Design/12 - Study Case Company Profile Website dan Presentasi Project/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/12%20-%20Study%20Case%20Company%20Profile%20Website%20dan%20Presentasi%20Project/resources/README.md"
-    },
-    {
-      "id": "5---web-design2---struktur-html-dan-semantic-elementsresourcesreadmemd",
-      "slug": "5---web-design2---struktur-html-dan-semantic-elementsresourcesreadmemd",
-      "title": "README.md",
-      "programSlug": "5---web-design",
-      "moduleSlug": "5---web-design-2---struktur-html-dan-semantic-elements",
-      "githubPath": "5 - Web Design/2 - Struktur HTML dan Semantic Elements/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/2%20-%20Struktur%20HTML%20dan%20Semantic%20Elements/resources/README.md"
-    },
-    {
-      "id": "5---web-design3---css-selector-dan-styling-dasarresourcesreadmemd",
-      "slug": "5---web-design3---css-selector-dan-styling-dasarresourcesreadmemd",
-      "title": "README.md",
-      "programSlug": "5---web-design",
-      "moduleSlug": "5---web-design-3---css-selector-dan-styling-dasar",
-      "githubPath": "5 - Web Design/3 - CSS Selector dan Styling Dasar/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/3%20-%20CSS%20Selector%20dan%20Styling%20Dasar/resources/README.md"
-    },
-    {
-      "id": "5---web-design4---typography-color-dan-backgroundresourcesreadmemd",
-      "slug": "5---web-design4---typography-color-dan-backgroundresourcesreadmemd",
-      "title": "README.md",
-      "programSlug": "5---web-design",
-      "moduleSlug": "5---web-design-4---typography-color-dan-background",
-      "githubPath": "5 - Web Design/4 - Typography, Color, dan Background/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/4%20-%20Typography%2C%20Color%2C%20dan%20Background/resources/README.md"
-    },
-    {
-      "id": "5---web-design5---box-model-margin-padding-dan-borderresourcesreadmemd",
-      "slug": "5---web-design5---box-model-margin-padding-dan-borderresourcesreadmemd",
-      "title": "README.md",
-      "programSlug": "5---web-design",
-      "moduleSlug": "5---web-design-5---box-model-margin-padding-dan-border",
-      "githubPath": "5 - Web Design/5 - Box Model, Margin, Padding, dan Border/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/5%20-%20Box%20Model%2C%20Margin%2C%20Padding%2C%20dan%20Border/resources/README.md"
-    },
-    {
-      "id": "5---web-design6---layout-1-kolom-2-kolom-dan-multi-kolomresourcesreadmemd",
-      "slug": "5---web-design6---layout-1-kolom-2-kolom-dan-multi-kolomresourcesreadmemd",
-      "title": "README.md",
-      "programSlug": "5---web-design",
-      "moduleSlug": "5---web-design-6---layout-1-kolom-2-kolom-dan-multi-kolom",
-      "githubPath": "5 - Web Design/6 - Layout 1 Kolom, 2 Kolom, dan Multi Kolom/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/6%20-%20Layout%201%20Kolom%2C%202%20Kolom%2C%20dan%20Multi%20Kolom/resources/README.md"
-    },
-    {
-      "id": "5---web-design7---css-flexbox-dan-grid-layoutresourcesreadmemd",
-      "slug": "5---web-design7---css-flexbox-dan-grid-layoutresourcesreadmemd",
-      "title": "README.md",
-      "programSlug": "5---web-design",
-      "moduleSlug": "5---web-design-7---css-flexbox-dan-grid-layout",
-      "githubPath": "5 - Web Design/7 - CSS Flexbox dan Grid Layout/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/7%20-%20CSS%20Flexbox%20dan%20Grid%20Layout/resources/README.md"
-    },
-    {
-      "id": "5---web-design8---responsive-web-design-dan-media-queryresourcesreadmemd",
-      "slug": "5---web-design8---responsive-web-design-dan-media-queryresourcesreadmemd",
-      "title": "README.md",
-      "programSlug": "5---web-design",
-      "moduleSlug": "5---web-design-8---responsive-web-design-dan-media-query",
-      "githubPath": "5 - Web Design/8 - Responsive Web Design dan Media Query/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/8%20-%20Responsive%20Web%20Design%20dan%20Media%20Query/resources/README.md"
-    },
-    {
-      "id": "5---web-design9---form-table-dan-navigation-designresourcesreadmemd",
-      "slug": "5---web-design9---form-table-dan-navigation-designresourcesreadmemd",
-      "title": "README.md",
-      "programSlug": "5---web-design",
-      "moduleSlug": "5---web-design-9---form-table-dan-navigation-design",
-      "githubPath": "5 - Web Design/9 - Form, Table, dan Navigation Design/resources/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20Web%20Design/9%20-%20Form%2C%20Table%2C%20dan%20Navigation%20Design/resources/README.md"
+      "programSlug": "6---web-design",
+      "moduleSlug": "6---web-design-9---form-table-dan-navigation-design",
+      "githubPath": "6 - Web Design/9 - Form, Table, dan Navigation Design/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/6%20-%20Web%20Design/9%20-%20Form%2C%20Table%2C%20dan%20Navigation%20Design/resources/README.md"
     }
   ]
 }
