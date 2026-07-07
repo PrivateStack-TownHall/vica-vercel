@@ -332,6 +332,90 @@
       "githubPath": "3 - Front End/9 - ShadcnUi TanStackQuery Zod ReactHookForm"
     },
     {
+      "id": "4---typescript-1---pengenalan-typescript",
+      "slug": "4---typescript-1---pengenalan-typescript",
+      "title": "1 - Pengenalan TypeScript",
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/1 - Pengenalan TypeScript"
+    },
+    {
+      "id": "4---typescript-10---class-dan-oop-dasar",
+      "slug": "4---typescript-10---class-dan-oop-dasar",
+      "title": "10 - Class dan OOP Dasar",
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/10 - Class dan OOP Dasar"
+    },
+    {
+      "id": "4---typescript-11---generic-dasar",
+      "slug": "4---typescript-11---generic-dasar",
+      "title": "11 - Generic Dasar",
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/11 - Generic Dasar"
+    },
+    {
+      "id": "4---typescript-12---mini-project-typescript",
+      "slug": "4---typescript-12---mini-project-typescript",
+      "title": "12 - Mini Project TypeScript",
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/12 - Mini Project TypeScript"
+    },
+    {
+      "id": "4---typescript-2---basic-types",
+      "slug": "4---typescript-2---basic-types",
+      "title": "2 - Basic Types",
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/2 - Basic Types"
+    },
+    {
+      "id": "4---typescript-3---variable-dan-type-annotation",
+      "slug": "4---typescript-3---variable-dan-type-annotation",
+      "title": "3 - Variable dan Type Annotation",
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/3 - Variable dan Type Annotation"
+    },
+    {
+      "id": "4---typescript-4---function-pada-typescript",
+      "slug": "4---typescript-4---function-pada-typescript",
+      "title": "4 - Function pada TypeScript",
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/4 - Function pada TypeScript"
+    },
+    {
+      "id": "4---typescript-5---array-dan-tuple",
+      "slug": "4---typescript-5---array-dan-tuple",
+      "title": "5 - Array dan Tuple",
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/5 - Array dan Tuple"
+    },
+    {
+      "id": "4---typescript-6---object-type",
+      "slug": "4---typescript-6---object-type",
+      "title": "6 - Object Type",
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/6 - Object Type"
+    },
+    {
+      "id": "4---typescript-7---type-alias",
+      "slug": "4---typescript-7---type-alias",
+      "title": "7 - Type Alias",
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/7 - Type Alias"
+    },
+    {
+      "id": "4---typescript-8---interface",
+      "slug": "4---typescript-8---interface",
+      "title": "8 - Interface",
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/8 - Interface"
+    },
+    {
+      "id": "4---typescript-9---enum-dan-utility-types",
+      "slug": "4---typescript-9---enum-dan-utility-types",
+      "title": "9 - Enum dan Utility Types",
+      "programSlug": "4---typescript",
+      "githubPath": "4 - TypeScript/9 - Enum dan Utility Types"
+    },
+    {
       "id": "5---oop-mvc-1---pengenalan-oop",
       "slug": "5---oop-mvc-1---pengenalan-oop",
       "title": "1 - Pengenalan OOP",
@@ -464,6 +548,222 @@
   ],
   "assignments": [
     {
+      "id": "1---javascript-10---es6-modern-javascript-arrow-function",
+      "slug": "1---javascript-10---es6-modern-javascript-arrow-function",
+      "title": "Arrow Function",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-10---es6-modern-javascript",
+      "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/Arrow Function"
+    },
+    {
+      "id": "1---javascript-10---es6-modern-javascript-default-rest-parameter",
+      "slug": "1---javascript-10---es6-modern-javascript-default-rest-parameter",
+      "title": "Default & Rest Parameter",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-10---es6-modern-javascript",
+      "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/Default & Rest Parameter"
+    },
+    {
+      "id": "1---javascript-10---es6-modern-javascript-destructuring-dengan-renaming",
+      "slug": "1---javascript-10---es6-modern-javascript-destructuring-dengan-renaming",
+      "title": "Destructuring dengan Renaming",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-10---es6-modern-javascript",
+      "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/Destructuring dengan Renaming"
+    },
+    {
+      "id": "1---javascript-10---es6-modern-javascript-destructuring",
+      "slug": "1---javascript-10---es6-modern-javascript-destructuring",
+      "title": "Destructuring",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-10---es6-modern-javascript",
+      "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/Destructuring"
+    },
+    {
+      "id": "1---javascript-10---es6-modern-javascript-merge-object-dengan-spread",
+      "slug": "1---javascript-10---es6-modern-javascript-merge-object-dengan-spread",
+      "title": "Merge Object dengan Spread",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-10---es6-modern-javascript",
+      "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/Merge Object dengan Spread"
+    },
+    {
+      "id": "1---javascript-10---es6-modern-javascript-spread-operator-pada-array",
+      "slug": "1---javascript-10---es6-modern-javascript-spread-operator-pada-array",
+      "title": "Spread Operator pada Array",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-10---es6-modern-javascript",
+      "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/Spread Operator pada Array"
+    },
+    {
+      "id": "1---javascript-10---es6-modern-javascript-template-literal",
+      "slug": "1---javascript-10---es6-modern-javascript-template-literal",
+      "title": "Template Literal",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-10---es6-modern-javascript",
+      "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/Template Literal"
+    },
+    {
+      "id": "1---javascript-10---es6-modern-javascript-letconst-vs-var",
+      "slug": "1---javascript-10---es6-modern-javascript-letconst-vs-var",
+      "title": "letconst vs var",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-10---es6-modern-javascript",
+      "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/letconst vs var"
+    },
+    {
+      "id": "1---javascript-11---array-methods-grouping-dengan-reduce",
+      "slug": "1---javascript-11---array-methods-grouping-dengan-reduce",
+      "title": "Grouping dengan reduce",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-11---array-methods",
+      "githubPath": "1 - JavaScript/11 - Array Methods/assignments/Grouping dengan reduce"
+    },
+    {
+      "id": "1---javascript-11---array-methods-concat",
+      "slug": "1---javascript-11---array-methods-concat",
+      "title": "concat",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-11---array-methods",
+      "githubPath": "1 - JavaScript/11 - Array Methods/assignments/concat"
+    },
+    {
+      "id": "1---javascript-11---array-methods-filter",
+      "slug": "1---javascript-11---array-methods-filter",
+      "title": "filter",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-11---array-methods",
+      "githubPath": "1 - JavaScript/11 - Array Methods/assignments/filter"
+    },
+    {
+      "id": "1---javascript-11---array-methods-find-dan-findindex",
+      "slug": "1---javascript-11---array-methods-find-dan-findindex",
+      "title": "find dan findIndex",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-11---array-methods",
+      "githubPath": "1 - JavaScript/11 - Array Methods/assignments/find dan findIndex"
+    },
+    {
+      "id": "1---javascript-11---array-methods-foreach",
+      "slug": "1---javascript-11---array-methods-foreach",
+      "title": "forEach",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-11---array-methods",
+      "githubPath": "1 - JavaScript/11 - Array Methods/assignments/forEach"
+    },
+    {
+      "id": "1---javascript-11---array-methods-map-filter",
+      "slug": "1---javascript-11---array-methods-map-filter",
+      "title": "map + filter",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-11---array-methods",
+      "githubPath": "1 - JavaScript/11 - Array Methods/assignments/map + filter"
+    },
+    {
+      "id": "1---javascript-11---array-methods-map-vs-foreach",
+      "slug": "1---javascript-11---array-methods-map-vs-foreach",
+      "title": "map vs forEach",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-11---array-methods",
+      "githubPath": "1 - JavaScript/11 - Array Methods/assignments/map vs forEach"
+    },
+    {
+      "id": "1---javascript-11---array-methods-reduce-untuk-total",
+      "slug": "1---javascript-11---array-methods-reduce-untuk-total",
+      "title": "reduce untuk Total",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-11---array-methods",
+      "githubPath": "1 - JavaScript/11 - Array Methods/assignments/reduce untuk Total"
+    },
+    {
+      "id": "1---javascript-12---mini-project-javascript-crud-data-buku",
+      "slug": "1---javascript-12---mini-project-javascript-crud-data-buku",
+      "title": "CRUD Data Buku",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-12---mini-project-javascript",
+      "githubPath": "1 - JavaScript/12 - Mini Project JavaScript/assignments/CRUD Data Buku"
+    },
+    {
+      "id": "1---javascript-12---mini-project-javascript-cek-bilangan-prima",
+      "slug": "1---javascript-12---mini-project-javascript-cek-bilangan-prima",
+      "title": "Cek Bilangan Prima",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-12---mini-project-javascript",
+      "githubPath": "1 - JavaScript/12 - Mini Project JavaScript/assignments/Cek Bilangan Prima"
+    },
+    {
+      "id": "1---javascript-12---mini-project-javascript-kalkulator-kasir",
+      "slug": "1---javascript-12---mini-project-javascript-kalkulator-kasir",
+      "title": "Kalkulator Kasir",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-12---mini-project-javascript",
+      "githubPath": "1 - JavaScript/12 - Mini Project JavaScript/assignments/Kalkulator Kasir"
+    },
+    {
+      "id": "1---javascript-12---mini-project-javascript-konversi-nilai-ke-grade",
+      "slug": "1---javascript-12---mini-project-javascript-konversi-nilai-ke-grade",
+      "title": "Konversi Nilai ke Grade",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-12---mini-project-javascript",
+      "githubPath": "1 - JavaScript/12 - Mini Project JavaScript/assignments/Konversi Nilai ke Grade"
+    },
+    {
+      "id": "1---javascript-12---mini-project-javascript-konversi-suhu",
+      "slug": "1---javascript-12---mini-project-javascript-konversi-suhu",
+      "title": "Konversi Suhu",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-12---mini-project-javascript",
+      "githubPath": "1 - JavaScript/12 - Mini Project JavaScript/assignments/Konversi Suhu"
+    },
+    {
+      "id": "1---javascript-12---mini-project-javascript-pencarian-buku",
+      "slug": "1---javascript-12---mini-project-javascript-pencarian-buku",
+      "title": "Pencarian Buku",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-12---mini-project-javascript",
+      "githubPath": "1 - JavaScript/12 - Mini Project JavaScript/assignments/Pencarian Buku"
+    },
+    {
+      "id": "1---javascript-12---mini-project-javascript-to-do-list-sederhana",
+      "slug": "1---javascript-12---mini-project-javascript-to-do-list-sederhana",
+      "title": "To-Do List Sederhana",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-12---mini-project-javascript",
+      "githubPath": "1 - JavaScript/12 - Mini Project JavaScript/assignments/To-Do List Sederhana"
+    },
+    {
+      "id": "1---javascript-12---mini-project-javascript-total-belanja-dengan-diskon",
+      "slug": "1---javascript-12---mini-project-javascript-total-belanja-dengan-diskon",
+      "title": "Total Belanja dengan Diskon",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-12---mini-project-javascript",
+      "githubPath": "1 - JavaScript/12 - Mini Project JavaScript/assignments/Total Belanja dengan Diskon"
+    },
+    {
+      "id": "1---javascript-1a---git-dan-github-branching",
+      "slug": "1---javascript-1a---git-dan-github-branching",
+      "title": "Branching",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1a---git-dan-github",
+      "githubPath": "1 - JavaScript/1a - Git dan GitHub/assignments/Branching"
+    },
+    {
+      "id": "1---javascript-1a---git-dan-github-cek-status-dan-riwayat",
+      "slug": "1---javascript-1a---git-dan-github-cek-status-dan-riwayat",
+      "title": "Cek Status dan Riwayat",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1a---git-dan-github",
+      "githubPath": "1 - JavaScript/1a - Git dan GitHub/assignments/Cek Status dan Riwayat"
+    },
+    {
+      "id": "1---javascript-1a---git-dan-github-clone-repository",
+      "slug": "1---javascript-1a---git-dan-github-clone-repository",
+      "title": "Clone Repository",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1a---git-dan-github",
+      "githubPath": "1 - JavaScript/1a - Git dan GitHub/assignments/Clone Repository"
+    },
+    {
       "id": "1---javascript-1a---git-dan-github-git-dan-github",
       "slug": "1---javascript-1a---git-dan-github-git-dan-github",
       "title": "Git dan GitHub",
@@ -472,12 +772,1460 @@
       "githubPath": "1 - JavaScript/1a - Git dan GitHub/assignments/Git dan GitHub"
     },
     {
+      "id": "1---javascript-1a---git-dan-github-inisialisasi-repository",
+      "slug": "1---javascript-1a---git-dan-github-inisialisasi-repository",
+      "title": "Inisialisasi Repository",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1a---git-dan-github",
+      "githubPath": "1 - JavaScript/1a - Git dan GitHub/assignments/Inisialisasi Repository"
+    },
+    {
+      "id": "1---javascript-1a---git-dan-github-membuat-gitignore",
+      "slug": "1---javascript-1a---git-dan-github-membuat-gitignore",
+      "title": "Membuat .gitignore",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1a---git-dan-github",
+      "githubPath": "1 - JavaScript/1a - Git dan GitHub/assignments/Membuat .gitignore"
+    },
+    {
+      "id": "1---javascript-1a---git-dan-github-menyelesaikan-merge-conflict",
+      "slug": "1---javascript-1a---git-dan-github-menyelesaikan-merge-conflict",
+      "title": "Menyelesaikan Merge Conflict",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1a---git-dan-github",
+      "githubPath": "1 - JavaScript/1a - Git dan GitHub/assignments/Menyelesaikan Merge Conflict"
+    },
+    {
+      "id": "1---javascript-1a---git-dan-github-merge-branch",
+      "slug": "1---javascript-1a---git-dan-github-merge-branch",
+      "title": "Merge Branch",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1a---git-dan-github",
+      "githubPath": "1 - JavaScript/1a - Git dan GitHub/assignments/Merge Branch"
+    },
+    {
+      "id": "1---javascript-1a---git-dan-github-staging-dan-commit-pertama",
+      "slug": "1---javascript-1a---git-dan-github-staging-dan-commit-pertama",
+      "title": "Staging dan Commit Pertama",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1a---git-dan-github",
+      "githubPath": "1 - JavaScript/1a - Git dan GitHub/assignments/Staging dan Commit Pertama"
+    },
+    {
+      "id": "1---javascript-1b---introduction-to-javascript-asynchronous-sederhana",
+      "slug": "1---javascript-1b---introduction-to-javascript-asynchronous-sederhana",
+      "title": "Asynchronous Sederhana",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1b---introduction-to-javascript",
+      "githubPath": "1 - JavaScript/1b - Introduction To JavaScript/assignments/Asynchronous Sederhana"
+    },
+    {
+      "id": "1---javascript-1b---introduction-to-javascript-client-side-vs-server-side",
+      "slug": "1---javascript-1b---introduction-to-javascript-client-side-vs-server-side",
+      "title": "Client-side vs Server-side",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1b---introduction-to-javascript",
+      "githubPath": "1 - JavaScript/1b - Introduction To JavaScript/assignments/Client-side vs Server-side"
+    },
+    {
+      "id": "1---javascript-1b---introduction-to-javascript-data-type-check",
+      "slug": "1---javascript-1b---introduction-to-javascript-data-type-check",
+      "title": "Data Type Check",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1b---introduction-to-javascript",
+      "githubPath": "1 - JavaScript/1b - Introduction To JavaScript/assignments/Data Type Check"
+    },
+    {
+      "id": "1---javascript-1b---introduction-to-javascript-deklarasi-variabel",
+      "slug": "1---javascript-1b---introduction-to-javascript-deklarasi-variabel",
+      "title": "Deklarasi Variabel",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1b---introduction-to-javascript",
+      "githubPath": "1 - JavaScript/1b - Introduction To JavaScript/assignments/Deklarasi Variabel"
+    },
+    {
+      "id": "1---javascript-1b---introduction-to-javascript-hello-world",
+      "slug": "1---javascript-1b---introduction-to-javascript-hello-world",
+      "title": "Hello World",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1b---introduction-to-javascript",
+      "githubPath": "1 - JavaScript/1b - Introduction To JavaScript/assignments/Hello World"
+    },
+    {
       "id": "1---javascript-1b---introduction-to-javascript-javascript-assignments",
       "slug": "1---javascript-1b---introduction-to-javascript-javascript-assignments",
       "title": "Javascript Assignments",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-1b---introduction-to-javascript",
       "githubPath": "1 - JavaScript/1b - Introduction To JavaScript/assignments/Javascript Assignments"
+    },
+    {
+      "id": "1---javascript-1b---introduction-to-javascript-komentar-kode",
+      "slug": "1---javascript-1b---introduction-to-javascript-komentar-kode",
+      "title": "Komentar Kode",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1b---introduction-to-javascript",
+      "githubPath": "1 - JavaScript/1b - Introduction To JavaScript/assignments/Komentar Kode"
+    },
+    {
+      "id": "1---javascript-1b---introduction-to-javascript-statement-vs-expression",
+      "slug": "1---javascript-1b---introduction-to-javascript-statement-vs-expression",
+      "title": "Statement vs Expression",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1b---introduction-to-javascript",
+      "githubPath": "1 - JavaScript/1b - Introduction To JavaScript/assignments/Statement vs Expression"
+    },
+    {
+      "id": "1---javascript-1b---introduction-to-javascript-var-vs-let-vs-const",
+      "slug": "1---javascript-1b---introduction-to-javascript-var-vs-let-vs-const",
+      "title": "var vs let vs const",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-1b---introduction-to-javascript",
+      "githubPath": "1 - JavaScript/1b - Introduction To JavaScript/assignments/var vs let vs const"
+    },
+    {
+      "id": "1---javascript-2a---algoritma-pseudocode-bubble-sort",
+      "slug": "1---javascript-2a---algoritma-pseudocode-bubble-sort",
+      "title": "Bubble Sort",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2a---algoritma-pseudocode",
+      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Bubble Sort"
+    },
+    {
+      "id": "1---javascript-2a---algoritma-pseudocode-cek-ganjil-genap",
+      "slug": "1---javascript-2a---algoritma-pseudocode-cek-ganjil-genap",
+      "title": "Cek Ganjil Genap",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2a---algoritma-pseudocode",
+      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Cek Ganjil Genap"
+    },
+    {
+      "id": "1---javascript-2a---algoritma-pseudocode-definisi-algoritma",
+      "slug": "1---javascript-2a---algoritma-pseudocode-definisi-algoritma",
+      "title": "Definisi Algoritma",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2a---algoritma-pseudocode",
+      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Definisi Algoritma"
+    },
+    {
+      "id": "1---javascript-2a---algoritma-pseudocode-flowchart-vs-pseudocode",
+      "slug": "1---javascript-2a---algoritma-pseudocode-flowchart-vs-pseudocode",
+      "title": "Flowchart vs Pseudocode",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2a---algoritma-pseudocode",
+      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Flowchart vs Pseudocode"
+    },
+    {
+      "id": "1---javascript-2a---algoritma-pseudocode-kelulusan-siswa",
+      "slug": "1---javascript-2a---algoritma-pseudocode-kelulusan-siswa",
+      "title": "Kelulusan Siswa",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2a---algoritma-pseudocode",
+      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Kelulusan Siswa"
+    },
+    {
+      "id": "1---javascript-2a---algoritma-pseudocode-nilai-terbesar-dari-3-angka",
+      "slug": "1---javascript-2a---algoritma-pseudocode-nilai-terbesar-dari-3-angka",
+      "title": "Nilai Terbesar Dari 3 Angka",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2a---algoritma-pseudocode",
+      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Nilai Terbesar Dari 3 Angka"
+    },
+    {
+      "id": "1---javascript-2a---algoritma-pseudocode-penjumlahan-dua-angka",
+      "slug": "1---javascript-2a---algoritma-pseudocode-penjumlahan-dua-angka",
+      "title": "Penjumlahan Dua Angka",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2a---algoritma-pseudocode",
+      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Penjumlahan Dua Angka"
+    },
+    {
+      "id": "1---javascript-2a---algoritma-pseudocode-total-dari-1-hingga-n",
+      "slug": "1---javascript-2a---algoritma-pseudocode-total-dari-1-hingga-n",
+      "title": "Total Dari 1 Hingga N",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2a---algoritma-pseudocode",
+      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Total Dari 1 Hingga N"
+    },
+    {
+      "id": "1---javascript-2b---variables-data-type-cek-typeof",
+      "slug": "1---javascript-2b---variables-data-type-cek-typeof",
+      "title": "Cek typeof",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2b---variables-data-type",
+      "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/Cek typeof"
+    },
+    {
+      "id": "1---javascript-2b---variables-data-type-deklarasi-bertipe-data",
+      "slug": "1---javascript-2b---variables-data-type-deklarasi-bertipe-data",
+      "title": "Deklarasi Bertipe Data",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2b---variables-data-type",
+      "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/Deklarasi Bertipe Data"
+    },
+    {
+      "id": "1---javascript-2b---variables-data-type-implicit-type-coercion",
+      "slug": "1---javascript-2b---variables-data-type-implicit-type-coercion",
+      "title": "Implicit Type Coercion",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2b---variables-data-type",
+      "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/Implicit Type Coercion"
+    },
+    {
+      "id": "1---javascript-2b---variables-data-type-mengecek-tipe-data",
+      "slug": "1---javascript-2b---variables-data-type-mengecek-tipe-data",
+      "title": "Mengecek Tipe Data",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2b---variables-data-type",
+      "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/Mengecek Tipe Data"
+    },
+    {
+      "id": "1---javascript-2b---variables-data-type-operasi-campuran-tipe-data",
+      "slug": "1---javascript-2b---variables-data-type-operasi-campuran-tipe-data",
+      "title": "Operasi Campuran Tipe Data",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2b---variables-data-type",
+      "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/Operasi Campuran Tipe Data"
+    },
+    {
+      "id": "1---javascript-2b---variables-data-type-perbandingan-vs-",
+      "slug": "1---javascript-2b---variables-data-type-perbandingan-vs-",
+      "title": "Perbandingan == vs ===",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2b---variables-data-type",
+      "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/Perbandingan == vs ==="
+    },
+    {
+      "id": "1---javascript-2b---variables-data-type-tipe-data-primitif",
+      "slug": "1---javascript-2b---variables-data-type-tipe-data-primitif",
+      "title": "Tipe Data Primitif",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2b---variables-data-type",
+      "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/Tipe Data Primitif"
+    },
+    {
+      "id": "1---javascript-2b---variables-data-type-null-vs-undefined",
+      "slug": "1---javascript-2b---variables-data-type-null-vs-undefined",
+      "title": "null vs undefined",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2b---variables-data-type",
+      "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/null vs undefined"
+    },
+    {
+      "id": "1---javascript-3---variables-dan-tipe-data-tambahan-block-scope-dalam-loop",
+      "slug": "1---javascript-3---variables-dan-tipe-data-tambahan-block-scope-dalam-loop",
+      "title": "Block Scope dalam Loop",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-3---variables-dan-tipe-data-tambahan",
+      "githubPath": "1 - JavaScript/3 - Variables dan Tipe Data (tambahan)/assignments/Block Scope dalam Loop"
+    },
+    {
+      "id": "1---javascript-3---variables-dan-tipe-data-tambahan-deklarasi-variabel-nama-umur",
+      "slug": "1---javascript-3---variables-dan-tipe-data-tambahan-deklarasi-variabel-nama-umur",
+      "title": "Deklarasi Variabel Nama & Umur",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-3---variables-dan-tipe-data-tambahan",
+      "githubPath": "1 - JavaScript/3 - Variables dan Tipe Data (tambahan)/assignments/Deklarasi Variabel Nama & Umur"
+    },
+    {
+      "id": "1---javascript-3---variables-dan-tipe-data-tambahan-hoisting-var",
+      "slug": "1---javascript-3---variables-dan-tipe-data-tambahan-hoisting-var",
+      "title": "Hoisting var",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-3---variables-dan-tipe-data-tambahan",
+      "githubPath": "1 - JavaScript/3 - Variables dan Tipe Data (tambahan)/assignments/Hoisting var"
+    },
+    {
+      "id": "1---javascript-3---variables-dan-tipe-data-tambahan-multi-deklarasi",
+      "slug": "1---javascript-3---variables-dan-tipe-data-tambahan-multi-deklarasi",
+      "title": "Multi Deklarasi",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-3---variables-dan-tipe-data-tambahan",
+      "githubPath": "1 - JavaScript/3 - Variables dan Tipe Data (tambahan)/assignments/Multi Deklarasi"
+    },
+    {
+      "id": "1---javascript-3---variables-dan-tipe-data-tambahan-scope-var-let-const",
+      "slug": "1---javascript-3---variables-dan-tipe-data-tambahan-scope-var-let-const",
+      "title": "Scope var, let, const",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-3---variables-dan-tipe-data-tambahan",
+      "githubPath": "1 - JavaScript/3 - Variables dan Tipe Data (tambahan)/assignments/Scope var, let, const"
+    },
+    {
+      "id": "1---javascript-3---variables-dan-tipe-data-tambahan-temporal-dead-zone",
+      "slug": "1---javascript-3---variables-dan-tipe-data-tambahan-temporal-dead-zone",
+      "title": "Temporal Dead Zone",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-3---variables-dan-tipe-data-tambahan",
+      "githubPath": "1 - JavaScript/3 - Variables dan Tipe Data (tambahan)/assignments/Temporal Dead Zone"
+    },
+    {
+      "id": "1---javascript-3---variables-dan-tipe-data-tambahan-tipe-data-objek",
+      "slug": "1---javascript-3---variables-dan-tipe-data-tambahan-tipe-data-objek",
+      "title": "Tipe Data Objek",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-3---variables-dan-tipe-data-tambahan",
+      "githubPath": "1 - JavaScript/3 - Variables dan Tipe Data (tambahan)/assignments/Tipe Data Objek"
+    },
+    {
+      "id": "1---javascript-3---variables-dan-tipe-data-tambahan-let-vs-const",
+      "slug": "1---javascript-3---variables-dan-tipe-data-tambahan-let-vs-const",
+      "title": "let vs const",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-3---variables-dan-tipe-data-tambahan",
+      "githubPath": "1 - JavaScript/3 - Variables dan Tipe Data (tambahan)/assignments/let vs const"
+    },
+    {
+      "id": "1---javascript-4---operator-dan-expression--vs-",
+      "slug": "1---javascript-4---operator-dan-expression--vs-",
+      "title": "== vs ===",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-4---operator-dan-expression",
+      "githubPath": "1 - JavaScript/4 - Operator dan Expression/assignments/== vs ==="
+    },
+    {
+      "id": "1---javascript-4---operator-dan-expression-increment-prefix-vs-postfix",
+      "slug": "1---javascript-4---operator-dan-expression-increment-prefix-vs-postfix",
+      "title": "Increment Prefix vs Postfix",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-4---operator-dan-expression",
+      "githubPath": "1 - JavaScript/4 - Operator dan Expression/assignments/Increment Prefix vs Postfix"
+    },
+    {
+      "id": "1---javascript-4---operator-dan-expression-modulus",
+      "slug": "1---javascript-4---operator-dan-expression-modulus",
+      "title": "Modulus",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-4---operator-dan-expression",
+      "githubPath": "1 - JavaScript/4 - Operator dan Expression/assignments/Modulus"
+    },
+    {
+      "id": "1---javascript-4---operator-dan-expression-operator-aritmatika",
+      "slug": "1---javascript-4---operator-dan-expression-operator-aritmatika",
+      "title": "Operator Aritmatika",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-4---operator-dan-expression",
+      "githubPath": "1 - JavaScript/4 - Operator dan Expression/assignments/Operator Aritmatika"
+    },
+    {
+      "id": "1---javascript-4---operator-dan-expression-operator-logika",
+      "slug": "1---javascript-4---operator-dan-expression-operator-logika",
+      "title": "Operator Logika",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-4---operator-dan-expression",
+      "githubPath": "1 - JavaScript/4 - Operator dan Expression/assignments/Operator Logika"
+    },
+    {
+      "id": "1---javascript-4---operator-dan-expression-operator-precedence",
+      "slug": "1---javascript-4---operator-dan-expression-operator-precedence",
+      "title": "Operator Precedence",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-4---operator-dan-expression",
+      "githubPath": "1 - JavaScript/4 - Operator dan Expression/assignments/Operator Precedence"
+    },
+    {
+      "id": "1---javascript-4---operator-dan-expression-operator-ternary",
+      "slug": "1---javascript-4---operator-dan-expression-operator-ternary",
+      "title": "Operator Ternary",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-4---operator-dan-expression",
+      "githubPath": "1 - JavaScript/4 - Operator dan Expression/assignments/Operator Ternary"
+    },
+    {
+      "id": "1---javascript-4---operator-dan-expression-ternary-untuk-cek-dewasa",
+      "slug": "1---javascript-4---operator-dan-expression-ternary-untuk-cek-dewasa",
+      "title": "Ternary untuk Cek Dewasa",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-4---operator-dan-expression",
+      "githubPath": "1 - JavaScript/4 - Operator dan Expression/assignments/Ternary untuk Cek Dewasa"
+    },
+    {
+      "id": "1---javascript-5---conditional-statement-habis-dibagi-2-dan-3",
+      "slug": "1---javascript-5---conditional-statement-habis-dibagi-2-dan-3",
+      "title": "Habis Dibagi 2 dan 3",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-5---conditional-statement",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Habis Dibagi 2 dan 3"
+    },
+    {
+      "id": "1---javascript-5---conditional-statement-if-tanpa-else",
+      "slug": "1---javascript-5---conditional-statement-if-tanpa-else",
+      "title": "If Tanpa Else",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-5---conditional-statement",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/If Tanpa Else"
+    },
+    {
+      "id": "1---javascript-5---conditional-statement-if-else-ke-switch-case",
+      "slug": "1---javascript-5---conditional-statement-if-else-ke-switch-case",
+      "title": "If-Else ke Switch Case",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-5---conditional-statement",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/If-Else ke Switch Case"
+    },
+    {
+      "id": "1---javascript-5---conditional-statement-jumlah-hari-dalam-bulan",
+      "slug": "1---javascript-5---conditional-statement-jumlah-hari-dalam-bulan",
+      "title": "Jumlah Hari dalam Bulan",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-5---conditional-statement",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Jumlah Hari dalam Bulan"
+    },
+    {
+      "id": "1---javascript-5---conditional-statement-kategori-nilai",
+      "slug": "1---javascript-5---conditional-statement-kategori-nilai",
+      "title": "Kategori Nilai",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-5---conditional-statement",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Kategori Nilai"
+    },
+    {
+      "id": "1---javascript-5---conditional-statement-nested-if",
+      "slug": "1---javascript-5---conditional-statement-nested-if",
+      "title": "Nested If",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-5---conditional-statement",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Nested If"
+    },
+    {
+      "id": "1---javascript-5---conditional-statement-positif-negatif-nol",
+      "slug": "1---javascript-5---conditional-statement-positif-negatif-nol",
+      "title": "Positif Negatif Nol",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-5---conditional-statement",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Positif Negatif Nol"
+    },
+    {
+      "id": "1---javascript-5---conditional-statement-switch-hari",
+      "slug": "1---javascript-5---conditional-statement-switch-hari",
+      "title": "Switch Hari",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-5---conditional-statement",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Switch Hari"
+    },
+    {
+      "id": "1---javascript-6---looping-angka-genap-1-20",
+      "slug": "1---javascript-6---looping-angka-genap-1-20",
+      "title": "Angka Genap 1-20",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-6---looping",
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/Angka Genap 1-20"
+    },
+    {
+      "id": "1---javascript-6---looping-break-loop",
+      "slug": "1---javascript-6---looping-break-loop",
+      "title": "Break Loop",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-6---looping",
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/Break Loop"
+    },
+    {
+      "id": "1---javascript-6---looping-cetak-angka-1-10",
+      "slug": "1---javascript-6---looping-cetak-angka-1-10",
+      "title": "Cetak Angka 1-10",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-6---looping",
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/Cetak Angka 1-10"
+    },
+    {
+      "id": "1---javascript-6---looping-continue-loop",
+      "slug": "1---javascript-6---looping-continue-loop",
+      "title": "Continue Loop",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-6---looping",
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/Continue Loop"
+    },
+    {
+      "id": "1---javascript-6---looping-piramida-angka",
+      "slug": "1---javascript-6---looping-piramida-angka",
+      "title": "Piramida Angka",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-6---looping",
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/Piramida Angka"
+    },
+    {
+      "id": "1---javascript-6---looping-pola-segitiga-bintang",
+      "slug": "1---javascript-6---looping-pola-segitiga-bintang",
+      "title": "Pola Segitiga Bintang",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-6---looping",
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/Pola Segitiga Bintang"
+    },
+    {
+      "id": "1---javascript-6---looping-total-kelipatan-3",
+      "slug": "1---javascript-6---looping-total-kelipatan-3",
+      "title": "Total Kelipatan 3",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-6---looping",
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/Total Kelipatan 3"
+    },
+    {
+      "id": "1---javascript-6---looping-while-vs-do-while",
+      "slug": "1---javascript-6---looping-while-vs-do-while",
+      "title": "While vs Do-While",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-6---looping",
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/While vs Do-While"
+    },
+    {
+      "id": "1---javascript-7---function-arrow-function",
+      "slug": "1---javascript-7---function-arrow-function",
+      "title": "Arrow Function",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-7---function",
+      "githubPath": "1 - JavaScript/7 - Function/assignments/Arrow Function"
+    },
+    {
+      "id": "1---javascript-7---function-closure-counter",
+      "slug": "1---javascript-7---function-closure-counter",
+      "title": "Closure Counter",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-7---function",
+      "githubPath": "1 - JavaScript/7 - Function/assignments/Closure Counter"
+    },
+    {
+      "id": "1---javascript-7---function-default-parameter",
+      "slug": "1---javascript-7---function-default-parameter",
+      "title": "Default Parameter",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-7---function",
+      "githubPath": "1 - JavaScript/7 - Function/assignments/Default Parameter"
+    },
+    {
+      "id": "1---javascript-7---function-function-declaration-vs-expression",
+      "slug": "1---javascript-7---function-function-declaration-vs-expression",
+      "title": "Function Declaration vs Expression",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-7---function",
+      "githubPath": "1 - JavaScript/7 - Function/assignments/Function Declaration vs Expression"
+    },
+    {
+      "id": "1---javascript-7---function-function-declaration",
+      "slug": "1---javascript-7---function-function-declaration",
+      "title": "Function Declaration",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-7---function",
+      "githubPath": "1 - JavaScript/7 - Function/assignments/Function Declaration"
+    },
+    {
+      "id": "1---javascript-7---function-function-penjumlahan",
+      "slug": "1---javascript-7---function-function-penjumlahan",
+      "title": "Function Penjumlahan",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-7---function",
+      "githubPath": "1 - JavaScript/7 - Function/assignments/Function Penjumlahan"
+    },
+    {
+      "id": "1---javascript-7---function-parameter-dan-argument",
+      "slug": "1---javascript-7---function-parameter-dan-argument",
+      "title": "Parameter dan Argument",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-7---function",
+      "githubPath": "1 - JavaScript/7 - Function/assignments/Parameter dan Argument"
+    },
+    {
+      "id": "1---javascript-7---function-rest-parameter",
+      "slug": "1---javascript-7---function-rest-parameter",
+      "title": "Rest Parameter",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-7---function",
+      "githubPath": "1 - JavaScript/7 - Function/assignments/Rest Parameter"
+    },
+    {
+      "id": "1---javascript-8---array-akses-elemen-array",
+      "slug": "1---javascript-8---array-akses-elemen-array",
+      "title": "Akses Elemen Array",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-8---array",
+      "githubPath": "1 - JavaScript/8 - Array/assignments/Akses Elemen Array"
+    },
+    {
+      "id": "1---javascript-8---array-hapus-duplikat-manual",
+      "slug": "1---javascript-8---array-hapus-duplikat-manual",
+      "title": "Hapus Duplikat Manual",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-8---array",
+      "githubPath": "1 - JavaScript/8 - Array/assignments/Hapus Duplikat Manual"
+    },
+    {
+      "id": "1---javascript-8---array-membalik-array-manual",
+      "slug": "1---javascript-8---array-membalik-array-manual",
+      "title": "Membalik Array Manual",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-8---array",
+      "githubPath": "1 - JavaScript/8 - Array/assignments/Membalik Array Manual"
+    },
+    {
+      "id": "1---javascript-8---array-membuat-array",
+      "slug": "1---javascript-8---array-membuat-array",
+      "title": "Membuat Array",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-8---array",
+      "githubPath": "1 - JavaScript/8 - Array/assignments/Membuat Array"
+    },
+    {
+      "id": "1---javascript-8---array-nilai-terbesar-dan-terkecil",
+      "slug": "1---javascript-8---array-nilai-terbesar-dan-terkecil",
+      "title": "Nilai Terbesar dan Terkecil",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-8---array",
+      "githubPath": "1 - JavaScript/8 - Array/assignments/Nilai Terbesar dan Terkecil"
+    },
+    {
+      "id": "1---javascript-8---array-panjang-array",
+      "slug": "1---javascript-8---array-panjang-array",
+      "title": "Panjang Array",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-8---array",
+      "githubPath": "1 - JavaScript/8 - Array/assignments/Panjang Array"
+    },
+    {
+      "id": "1---javascript-8---array-push-dan-pop",
+      "slug": "1---javascript-8---array-push-dan-pop",
+      "title": "Push dan Pop",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-8---array",
+      "githubPath": "1 - JavaScript/8 - Array/assignments/Push dan Pop"
+    },
+    {
+      "id": "1---javascript-8---array-shift-dan-unshift",
+      "slug": "1---javascript-8---array-shift-dan-unshift",
+      "title": "Shift dan Unshift",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-8---array",
+      "githubPath": "1 - JavaScript/8 - Array/assignments/Shift dan Unshift"
+    },
+    {
+      "id": "1---javascript-9---object-deep-clone-manual",
+      "slug": "1---javascript-9---object-deep-clone-manual",
+      "title": "Deep Clone Manual",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-9---object",
+      "githubPath": "1 - JavaScript/9 - Object/assignments/Deep Clone Manual"
+    },
+    {
+      "id": "1---javascript-9---object-dot-vs-bracket-notation",
+      "slug": "1---javascript-9---object-dot-vs-bracket-notation",
+      "title": "Dot vs Bracket Notation",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-9---object",
+      "githubPath": "1 - JavaScript/9 - Object/assignments/Dot vs Bracket Notation"
+    },
+    {
+      "id": "1---javascript-9---object-menambah-properti",
+      "slug": "1---javascript-9---object-menambah-properti",
+      "title": "Menambah Properti",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-9---object",
+      "githubPath": "1 - JavaScript/9 - Object/assignments/Menambah Properti"
+    },
+    {
+      "id": "1---javascript-9---object-menghapus-properti",
+      "slug": "1---javascript-9---object-menghapus-properti",
+      "title": "Menghapus Properti",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-9---object",
+      "githubPath": "1 - JavaScript/9 - Object/assignments/Menghapus Properti"
+    },
+    {
+      "id": "1---javascript-9---object-object-literal",
+      "slug": "1---javascript-9---object-object-literal",
+      "title": "Object Literal",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-9---object",
+      "githubPath": "1 - JavaScript/9 - Object/assignments/Object Literal"
+    },
+    {
+      "id": "1---javascript-9---object-object-dengan-method",
+      "slug": "1---javascript-9---object-object-dengan-method",
+      "title": "Object dengan Method",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-9---object",
+      "githubPath": "1 - JavaScript/9 - Object/assignments/Object dengan Method"
+    },
+    {
+      "id": "1---javascript-9---object-objectkeys",
+      "slug": "1---javascript-9---object-objectkeys",
+      "title": "Object.keys()",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-9---object",
+      "githubPath": "1 - JavaScript/9 - Object/assignments/Object.keys()"
+    },
+    {
+      "id": "1---javascript-9---object-keys-values-entries",
+      "slug": "1---javascript-9---object-keys-values-entries",
+      "title": "keys, values, entries",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-9---object",
+      "githubPath": "1 - JavaScript/9 - Object/assignments/keys, values, entries"
+    },
+    {
+      "id": "4---typescript-1---pengenalan-typescript-compile-otomatis",
+      "slug": "4---typescript-1---pengenalan-typescript-compile-otomatis",
+      "title": "Compile Otomatis",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-1---pengenalan-typescript",
+      "githubPath": "4 - TypeScript/1 - Pengenalan TypeScript/assignments/Compile Otomatis"
+    },
+    {
+      "id": "4---typescript-1---pengenalan-typescript-hello-world-typescript",
+      "slug": "4---typescript-1---pengenalan-typescript-hello-world-typescript",
+      "title": "Hello World TypeScript",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-1---pengenalan-typescript",
+      "githubPath": "4 - TypeScript/1 - Pengenalan TypeScript/assignments/Hello World TypeScript"
+    },
+    {
+      "id": "4---typescript-1---pengenalan-typescript-instalasi-typescript",
+      "slug": "4---typescript-1---pengenalan-typescript-instalasi-typescript",
+      "title": "Instalasi TypeScript",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-1---pengenalan-typescript",
+      "githubPath": "4 - TypeScript/1 - Pengenalan TypeScript/assignments/Instalasi TypeScript"
+    },
+    {
+      "id": "4---typescript-1---pengenalan-typescript-konfigurasi-tsconfigjson",
+      "slug": "4---typescript-1---pengenalan-typescript-konfigurasi-tsconfigjson",
+      "title": "Konfigurasi tsconfig.json",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-1---pengenalan-typescript",
+      "githubPath": "4 - TypeScript/1 - Pengenalan TypeScript/assignments/Konfigurasi tsconfig.json"
+    },
+    {
+      "id": "4---typescript-1---pengenalan-typescript-konversi-js-ke-ts",
+      "slug": "4---typescript-1---pengenalan-typescript-konversi-js-ke-ts",
+      "title": "Konversi JS ke TS",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-1---pengenalan-typescript",
+      "githubPath": "4 - TypeScript/1 - Pengenalan TypeScript/assignments/Konversi JS ke TS"
+    },
+    {
+      "id": "4---typescript-1---pengenalan-typescript-static-typing-sederhana",
+      "slug": "4---typescript-1---pengenalan-typescript-static-typing-sederhana",
+      "title": "Static Typing Sederhana",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-1---pengenalan-typescript",
+      "githubPath": "4 - TypeScript/1 - Pengenalan TypeScript/assignments/Static Typing Sederhana"
+    },
+    {
+      "id": "4---typescript-1---pengenalan-typescript-type-inference",
+      "slug": "4---typescript-1---pengenalan-typescript-type-inference",
+      "title": "Type Inference",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-1---pengenalan-typescript",
+      "githubPath": "4 - TypeScript/1 - Pengenalan TypeScript/assignments/Type Inference"
+    },
+    {
+      "id": "4---typescript-1---pengenalan-typescript-any-vs-unknown",
+      "slug": "4---typescript-1---pengenalan-typescript-any-vs-unknown",
+      "title": "any vs unknown",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-1---pengenalan-typescript",
+      "githubPath": "4 - TypeScript/1 - Pengenalan TypeScript/assignments/any vs unknown"
+    },
+    {
+      "id": "4---typescript-10---class-dan-oop-dasar-abstract-class",
+      "slug": "4---typescript-10---class-dan-oop-dasar-abstract-class",
+      "title": "Abstract Class",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-10---class-dan-oop-dasar",
+      "githubPath": "4 - TypeScript/10 - Class dan OOP Dasar/assignments/Abstract Class"
+    },
+    {
+      "id": "4---typescript-10---class-dan-oop-dasar-access-modifier-private",
+      "slug": "4---typescript-10---class-dan-oop-dasar-access-modifier-private",
+      "title": "Access Modifier private",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-10---class-dan-oop-dasar",
+      "githubPath": "4 - TypeScript/10 - Class dan OOP Dasar/assignments/Access Modifier private"
+    },
+    {
+      "id": "4---typescript-10---class-dan-oop-dasar-access-modifier-protected",
+      "slug": "4---typescript-10---class-dan-oop-dasar-access-modifier-protected",
+      "title": "Access Modifier protected",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-10---class-dan-oop-dasar",
+      "githubPath": "4 - TypeScript/10 - Class dan OOP Dasar/assignments/Access Modifier protected"
+    },
+    {
+      "id": "4---typescript-10---class-dan-oop-dasar-class-sederhana",
+      "slug": "4---typescript-10---class-dan-oop-dasar-class-sederhana",
+      "title": "Class Sederhana",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-10---class-dan-oop-dasar",
+      "githubPath": "4 - TypeScript/10 - Class dan OOP Dasar/assignments/Class Sederhana"
+    },
+    {
+      "id": "4---typescript-10---class-dan-oop-dasar-implements-interface",
+      "slug": "4---typescript-10---class-dan-oop-dasar-implements-interface",
+      "title": "Implements Interface",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-10---class-dan-oop-dasar",
+      "githubPath": "4 - TypeScript/10 - Class dan OOP Dasar/assignments/Implements Interface"
+    },
+    {
+      "id": "4---typescript-10---class-dan-oop-dasar-inheritance-dengan-super",
+      "slug": "4---typescript-10---class-dan-oop-dasar-inheritance-dengan-super",
+      "title": "Inheritance dengan super",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-10---class-dan-oop-dasar",
+      "githubPath": "4 - TypeScript/10 - Class dan OOP Dasar/assignments/Inheritance dengan super"
+    },
+    {
+      "id": "4---typescript-10---class-dan-oop-dasar-method-pada-class",
+      "slug": "4---typescript-10---class-dan-oop-dasar-method-pada-class",
+      "title": "Method pada Class",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-10---class-dan-oop-dasar",
+      "githubPath": "4 - TypeScript/10 - Class dan OOP Dasar/assignments/Method pada Class"
+    },
+    {
+      "id": "4---typescript-10---class-dan-oop-dasar-static-property-dan-method",
+      "slug": "4---typescript-10---class-dan-oop-dasar-static-property-dan-method",
+      "title": "Static Property dan Method",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-10---class-dan-oop-dasar",
+      "githubPath": "4 - TypeScript/10 - Class dan OOP Dasar/assignments/Static Property dan Method"
+    },
+    {
+      "id": "4---typescript-11---generic-dasar-function-generic-sederhana",
+      "slug": "4---typescript-11---generic-dasar-function-generic-sederhana",
+      "title": "Function Generic Sederhana",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-11---generic-dasar",
+      "githubPath": "4 - TypeScript/11 - Generic Dasar/assignments/Function Generic Sederhana"
+    },
+    {
+      "id": "4---typescript-11---generic-dasar-generic-class",
+      "slug": "4---typescript-11---generic-dasar-generic-class",
+      "title": "Generic Class",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-11---generic-dasar",
+      "githubPath": "4 - TypeScript/11 - Generic Dasar/assignments/Generic Class"
+    },
+    {
+      "id": "4---typescript-11---generic-dasar-generic-constraint",
+      "slug": "4---typescript-11---generic-dasar-generic-constraint",
+      "title": "Generic Constraint",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-11---generic-dasar",
+      "githubPath": "4 - TypeScript/11 - Generic Dasar/assignments/Generic Constraint"
+    },
+    {
+      "id": "4---typescript-11---generic-dasar-generic-interface",
+      "slug": "4---typescript-11---generic-dasar-generic-interface",
+      "title": "Generic Interface",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-11---generic-dasar",
+      "githubPath": "4 - TypeScript/11 - Generic Dasar/assignments/Generic Interface"
+    },
+    {
+      "id": "4---typescript-11---generic-dasar-generic-type-alias",
+      "slug": "4---typescript-11---generic-dasar-generic-type-alias",
+      "title": "Generic Type Alias",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-11---generic-dasar",
+      "githubPath": "4 - TypeScript/11 - Generic Dasar/assignments/Generic Type Alias"
+    },
+    {
+      "id": "4---typescript-11---generic-dasar-generic-dengan-default-type",
+      "slug": "4---typescript-11---generic-dasar-generic-dengan-default-type",
+      "title": "Generic dengan Default Type",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-11---generic-dasar",
+      "githubPath": "4 - TypeScript/11 - Generic Dasar/assignments/Generic dengan Default Type"
+    },
+    {
+      "id": "4---typescript-11---generic-dasar-generic-dengan-dua-parameter",
+      "slug": "4---typescript-11---generic-dasar-generic-dengan-dua-parameter",
+      "title": "Generic dengan Dua Parameter",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-11---generic-dasar",
+      "githubPath": "4 - TypeScript/11 - Generic Dasar/assignments/Generic dengan Dua Parameter"
+    },
+    {
+      "id": "4---typescript-11---generic-dasar-generic-pada-array",
+      "slug": "4---typescript-11---generic-dasar-generic-pada-array",
+      "title": "Generic pada Array",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-11---generic-dasar",
+      "githubPath": "4 - TypeScript/11 - Generic Dasar/assignments/Generic pada Array"
+    },
+    {
+      "id": "4---typescript-12---mini-project-typescript-crud-data-buku-dengan-interface",
+      "slug": "4---typescript-12---mini-project-typescript-crud-data-buku-dengan-interface",
+      "title": "CRUD Data Buku dengan Interface",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-12---mini-project-typescript",
+      "githubPath": "4 - TypeScript/12 - Mini Project TypeScript/assignments/CRUD Data Buku dengan Interface"
+    },
+    {
+      "id": "4---typescript-12---mini-project-typescript-class-produk-dengan-method",
+      "slug": "4---typescript-12---mini-project-typescript-class-produk-dengan-method",
+      "title": "Class Produk dengan Method",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-12---mini-project-typescript",
+      "githubPath": "4 - TypeScript/12 - Mini Project TypeScript/assignments/Class Produk dengan Method"
+    },
+    {
+      "id": "4---typescript-12---mini-project-typescript-enum-status-pesanan",
+      "slug": "4---typescript-12---mini-project-typescript-enum-status-pesanan",
+      "title": "Enum Status Pesanan",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-12---mini-project-typescript",
+      "githubPath": "4 - TypeScript/12 - Mini Project TypeScript/assignments/Enum Status Pesanan"
+    },
+    {
+      "id": "4---typescript-12---mini-project-typescript-function-generic-untuk-filter",
+      "slug": "4---typescript-12---mini-project-typescript-function-generic-untuk-filter",
+      "title": "Function Generic untuk Filter",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-12---mini-project-typescript",
+      "githubPath": "4 - TypeScript/12 - Mini Project TypeScript/assignments/Function Generic untuk Filter"
+    },
+    {
+      "id": "4---typescript-12---mini-project-typescript-generic-repository-sederhana",
+      "slug": "4---typescript-12---mini-project-typescript-generic-repository-sederhana",
+      "title": "Generic Repository Sederhana",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-12---mini-project-typescript",
+      "githubPath": "4 - TypeScript/12 - Mini Project TypeScript/assignments/Generic Repository Sederhana"
+    },
+    {
+      "id": "4---typescript-12---mini-project-typescript-interface-produk",
+      "slug": "4---typescript-12---mini-project-typescript-interface-produk",
+      "title": "Interface Produk",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-12---mini-project-typescript",
+      "githubPath": "4 - TypeScript/12 - Mini Project TypeScript/assignments/Interface Produk"
+    },
+    {
+      "id": "4---typescript-12---mini-project-typescript-konversi-suhu-dengan-tipe",
+      "slug": "4---typescript-12---mini-project-typescript-konversi-suhu-dengan-tipe",
+      "title": "Konversi Suhu dengan Tipe",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-12---mini-project-typescript",
+      "githubPath": "4 - TypeScript/12 - Mini Project TypeScript/assignments/Konversi Suhu dengan Tipe"
+    },
+    {
+      "id": "4---typescript-12---mini-project-typescript-mini-project-kasir-type-safe",
+      "slug": "4---typescript-12---mini-project-typescript-mini-project-kasir-type-safe",
+      "title": "Mini Project Kasir Type-Safe",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-12---mini-project-typescript",
+      "githubPath": "4 - TypeScript/12 - Mini Project TypeScript/assignments/Mini Project Kasir Type-Safe"
+    },
+    {
+      "id": "4---typescript-2---basic-types-tipe-array",
+      "slug": "4---typescript-2---basic-types-tipe-array",
+      "title": "Tipe Array",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-2---basic-types",
+      "githubPath": "4 - TypeScript/2 - Basic Types/assignments/Tipe Array"
+    },
+    {
+      "id": "4---typescript-2---basic-types-tipe-string-number-boolean",
+      "slug": "4---typescript-2---basic-types-tipe-string-number-boolean",
+      "title": "Tipe String, Number, Boolean",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-2---basic-types",
+      "githubPath": "4 - TypeScript/2 - Basic Types/assignments/Tipe String, Number, Boolean"
+    },
+    {
+      "id": "4---typescript-2---basic-types-tuple",
+      "slug": "4---typescript-2---basic-types-tuple",
+      "title": "Tuple",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-2---basic-types",
+      "githubPath": "4 - TypeScript/2 - Basic Types/assignments/Tuple"
+    },
+    {
+      "id": "4---typescript-2---basic-types-union-type-dasar",
+      "slug": "4---typescript-2---basic-types-union-type-dasar",
+      "title": "Union Type Dasar",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-2---basic-types",
+      "githubPath": "4 - TypeScript/2 - Basic Types/assignments/Union Type Dasar"
+    },
+    {
+      "id": "4---typescript-2---basic-types-union-type-kompleks",
+      "slug": "4---typescript-2---basic-types-union-type-kompleks",
+      "title": "Union Type Kompleks",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-2---basic-types",
+      "githubPath": "4 - TypeScript/2 - Basic Types/assignments/Union Type Kompleks"
+    },
+    {
+      "id": "4---typescript-2---basic-types-any-vs-unknown",
+      "slug": "4---typescript-2---basic-types-any-vs-unknown",
+      "title": "any vs unknown",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-2---basic-types",
+      "githubPath": "4 - TypeScript/2 - Basic Types/assignments/any vs unknown"
+    },
+    {
+      "id": "4---typescript-2---basic-types-null-dan-undefined",
+      "slug": "4---typescript-2---basic-types-null-dan-undefined",
+      "title": "null dan undefined",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-2---basic-types",
+      "githubPath": "4 - TypeScript/2 - Basic Types/assignments/null dan undefined"
+    },
+    {
+      "id": "4---typescript-2---basic-types-void-pada-function",
+      "slug": "4---typescript-2---basic-types-void-pada-function",
+      "title": "void pada Function",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-2---basic-types",
+      "githubPath": "4 - TypeScript/2 - Basic Types/assignments/void pada Function"
+    },
+    {
+      "id": "4---typescript-3---variable-dan-type-annotation-deklarasi-tanpa-nilai-awal",
+      "slug": "4---typescript-3---variable-dan-type-annotation-deklarasi-tanpa-nilai-awal",
+      "title": "Deklarasi Tanpa Nilai Awal",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-3---variable-dan-type-annotation",
+      "githubPath": "4 - TypeScript/3 - Variable dan Type Annotation/assignments/Deklarasi Tanpa Nilai Awal"
+    },
+    {
+      "id": "4---typescript-3---variable-dan-type-annotation-kombinasi-literal-type-dan-union",
+      "slug": "4---typescript-3---variable-dan-type-annotation-kombinasi-literal-type-dan-union",
+      "title": "Kombinasi Literal Type dan Union",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-3---variable-dan-type-annotation",
+      "githubPath": "4 - TypeScript/3 - Variable dan Type Annotation/assignments/Kombinasi Literal Type dan Union"
+    },
+    {
+      "id": "4---typescript-3---variable-dan-type-annotation-literal-type",
+      "slug": "4---typescript-3---variable-dan-type-annotation-literal-type",
+      "title": "Literal Type",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-3---variable-dan-type-annotation",
+      "githubPath": "4 - TypeScript/3 - Variable dan Type Annotation/assignments/Literal Type"
+    },
+    {
+      "id": "4---typescript-3---variable-dan-type-annotation-multiple-variable-dengan-tipe-berbeda",
+      "slug": "4---typescript-3---variable-dan-type-annotation-multiple-variable-dengan-tipe-berbeda",
+      "title": "Multiple Variable dengan Tipe Berbeda",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-3---variable-dan-type-annotation",
+      "githubPath": "4 - TypeScript/3 - Variable dan Type Annotation/assignments/Multiple Variable dengan Tipe Berbeda"
+    },
+    {
+      "id": "4---typescript-3---variable-dan-type-annotation-type-annotation-dasar",
+      "slug": "4---typescript-3---variable-dan-type-annotation-type-annotation-dasar",
+      "title": "Type Annotation Dasar",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-3---variable-dan-type-annotation",
+      "githubPath": "4 - TypeScript/3 - Variable dan Type Annotation/assignments/Type Annotation Dasar"
+    },
+    {
+      "id": "4---typescript-3---variable-dan-type-annotation-type-annotation-pada-object",
+      "slug": "4---typescript-3---variable-dan-type-annotation-type-annotation-pada-object",
+      "title": "Type Annotation pada Object",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-3---variable-dan-type-annotation",
+      "githubPath": "4 - TypeScript/3 - Variable dan Type Annotation/assignments/Type Annotation pada Object"
+    },
+    {
+      "id": "4---typescript-3---variable-dan-type-annotation-type-inference",
+      "slug": "4---typescript-3---variable-dan-type-annotation-type-inference",
+      "title": "Type Inference",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-3---variable-dan-type-annotation",
+      "githubPath": "4 - TypeScript/3 - Variable dan Type Annotation/assignments/Type Inference"
+    },
+    {
+      "id": "4---typescript-3---variable-dan-type-annotation-const-assertion",
+      "slug": "4---typescript-3---variable-dan-type-annotation-const-assertion",
+      "title": "const Assertion",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-3---variable-dan-type-annotation",
+      "githubPath": "4 - TypeScript/3 - Variable dan Type Annotation/assignments/const Assertion"
+    },
+    {
+      "id": "4---typescript-4---function-pada-typescript-arrow-function-dengan-tipe",
+      "slug": "4---typescript-4---function-pada-typescript-arrow-function-dengan-tipe",
+      "title": "Arrow Function dengan Tipe",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-4---function-pada-typescript",
+      "githubPath": "4 - TypeScript/4 - Function pada TypeScript/assignments/Arrow Function dengan Tipe"
+    },
+    {
+      "id": "4---typescript-4---function-pada-typescript-default-parameter",
+      "slug": "4---typescript-4---function-pada-typescript-default-parameter",
+      "title": "Default Parameter",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-4---function-pada-typescript",
+      "githubPath": "4 - TypeScript/4 - Function pada TypeScript/assignments/Default Parameter"
+    },
+    {
+      "id": "4---typescript-4---function-pada-typescript-function-overload",
+      "slug": "4---typescript-4---function-pada-typescript-function-overload",
+      "title": "Function Overload",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-4---function-pada-typescript",
+      "githubPath": "4 - TypeScript/4 - Function pada TypeScript/assignments/Function Overload"
+    },
+    {
+      "id": "4---typescript-4---function-pada-typescript-function-type-sebagai-variabel",
+      "slug": "4---typescript-4---function-pada-typescript-function-type-sebagai-variabel",
+      "title": "Function Type sebagai Variabel",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-4---function-pada-typescript",
+      "githubPath": "4 - TypeScript/4 - Function pada TypeScript/assignments/Function Type sebagai Variabel"
+    },
+    {
+      "id": "4---typescript-4---function-pada-typescript-function-dengan-tipe-parameter",
+      "slug": "4---typescript-4---function-pada-typescript-function-dengan-tipe-parameter",
+      "title": "Function dengan Tipe Parameter",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-4---function-pada-typescript",
+      "githubPath": "4 - TypeScript/4 - Function pada TypeScript/assignments/Function dengan Tipe Parameter"
+    },
+    {
+      "id": "4---typescript-4---function-pada-typescript-optional-parameter",
+      "slug": "4---typescript-4---function-pada-typescript-optional-parameter",
+      "title": "Optional Parameter",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-4---function-pada-typescript",
+      "githubPath": "4 - TypeScript/4 - Function pada TypeScript/assignments/Optional Parameter"
+    },
+    {
+      "id": "4---typescript-4---function-pada-typescript-rest-parameter-dengan-tipe",
+      "slug": "4---typescript-4---function-pada-typescript-rest-parameter-dengan-tipe",
+      "title": "Rest Parameter dengan Tipe",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-4---function-pada-typescript",
+      "githubPath": "4 - TypeScript/4 - Function pada TypeScript/assignments/Rest Parameter dengan Tipe"
+    },
+    {
+      "id": "4---typescript-4---function-pada-typescript-void-vs-never",
+      "slug": "4---typescript-4---function-pada-typescript-void-vs-never",
+      "title": "Void vs Never",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-4---function-pada-typescript",
+      "githubPath": "4 - TypeScript/4 - Function pada TypeScript/assignments/Void vs Never"
+    },
+    {
+      "id": "4---typescript-5---array-dan-tuple-array-bertipe-number",
+      "slug": "4---typescript-5---array-dan-tuple-array-bertipe-number",
+      "title": "Array bertipe Number",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-5---array-dan-tuple",
+      "githubPath": "4 - TypeScript/5 - Array dan Tuple/assignments/Array bertipe Number"
+    },
+    {
+      "id": "4---typescript-5---array-dan-tuple-array-bertipe-string",
+      "slug": "4---typescript-5---array-dan-tuple-array-bertipe-string",
+      "title": "Array bertipe String",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-5---array-dan-tuple",
+      "githubPath": "4 - TypeScript/5 - Array dan Tuple/assignments/Array bertipe String"
+    },
+    {
+      "id": "4---typescript-5---array-dan-tuple-array-dengan-generic-arrayt",
+      "slug": "4---typescript-5---array-dan-tuple-array-dengan-generic-arrayt",
+      "title": "Array dengan Generic ArrayT",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-5---array-dan-tuple",
+      "githubPath": "4 - TypeScript/5 - Array dan Tuple/assignments/Array dengan Generic ArrayT"
+    },
+    {
+      "id": "4---typescript-5---array-dan-tuple-array-of-tuple",
+      "slug": "4---typescript-5---array-dan-tuple-array-of-tuple",
+      "title": "Array of Tuple",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-5---array-dan-tuple",
+      "githubPath": "4 - TypeScript/5 - Array dan Tuple/assignments/Array of Tuple"
+    },
+    {
+      "id": "4---typescript-5---array-dan-tuple-readonly-array",
+      "slug": "4---typescript-5---array-dan-tuple-readonly-array",
+      "title": "Readonly Array",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-5---array-dan-tuple",
+      "githubPath": "4 - TypeScript/5 - Array dan Tuple/assignments/Readonly Array"
+    },
+    {
+      "id": "4---typescript-5---array-dan-tuple-tuple-sederhana",
+      "slug": "4---typescript-5---array-dan-tuple-tuple-sederhana",
+      "title": "Tuple Sederhana",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-5---array-dan-tuple",
+      "githubPath": "4 - TypeScript/5 - Array dan Tuple/assignments/Tuple Sederhana"
+    },
+    {
+      "id": "4---typescript-5---array-dan-tuple-tuple-dengan-optional-element",
+      "slug": "4---typescript-5---array-dan-tuple-tuple-dengan-optional-element",
+      "title": "Tuple dengan Optional Element",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-5---array-dan-tuple",
+      "githubPath": "4 - TypeScript/5 - Array dan Tuple/assignments/Tuple dengan Optional Element"
+    },
+    {
+      "id": "4---typescript-5---array-dan-tuple-tuple-dengan-rest-element",
+      "slug": "4---typescript-5---array-dan-tuple-tuple-dengan-rest-element",
+      "title": "Tuple dengan Rest Element",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-5---array-dan-tuple",
+      "githubPath": "4 - TypeScript/5 - Array dan Tuple/assignments/Tuple dengan Rest Element"
+    },
+    {
+      "id": "4---typescript-6---object-type-function-sebagai-properti-object",
+      "slug": "4---typescript-6---object-type-function-sebagai-properti-object",
+      "title": "Function sebagai Properti Object",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-6---object-type",
+      "githubPath": "4 - TypeScript/6 - Object Type/assignments/Function sebagai Properti Object"
+    },
+    {
+      "id": "4---typescript-6---object-type-index-signature",
+      "slug": "4---typescript-6---object-type-index-signature",
+      "title": "Index Signature",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-6---object-type",
+      "githubPath": "4 - TypeScript/6 - Object Type/assignments/Index Signature"
+    },
+    {
+      "id": "4---typescript-6---object-type-kombinasi-optional-dan-readonly",
+      "slug": "4---typescript-6---object-type-kombinasi-optional-dan-readonly",
+      "title": "Kombinasi Optional dan Readonly",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-6---object-type",
+      "githubPath": "4 - TypeScript/6 - Object Type/assignments/Kombinasi Optional dan Readonly"
+    },
+    {
+      "id": "4---typescript-6---object-type-nested-object-type",
+      "slug": "4---typescript-6---object-type-nested-object-type",
+      "title": "Nested Object Type",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-6---object-type",
+      "githubPath": "4 - TypeScript/6 - Object Type/assignments/Nested Object Type"
+    },
+    {
+      "id": "4---typescript-6---object-type-object-type-inline",
+      "slug": "4---typescript-6---object-type-object-type-inline",
+      "title": "Object Type Inline",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-6---object-type",
+      "githubPath": "4 - TypeScript/6 - Object Type/assignments/Object Type Inline"
+    },
+    {
+      "id": "4---typescript-6---object-type-object-type-kompleks",
+      "slug": "4---typescript-6---object-type-object-type-kompleks",
+      "title": "Object Type Kompleks",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-6---object-type",
+      "githubPath": "4 - TypeScript/6 - Object Type/assignments/Object Type Kompleks"
+    },
+    {
+      "id": "4---typescript-6---object-type-optional-property",
+      "slug": "4---typescript-6---object-type-optional-property",
+      "title": "Optional Property",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-6---object-type",
+      "githubPath": "4 - TypeScript/6 - Object Type/assignments/Optional Property"
+    },
+    {
+      "id": "4---typescript-6---object-type-readonly-property",
+      "slug": "4---typescript-6---object-type-readonly-property",
+      "title": "Readonly Property",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-6---object-type",
+      "githubPath": "4 - TypeScript/6 - Object Type/assignments/Readonly Property"
+    },
+    {
+      "id": "4---typescript-7---type-alias-intersection-type",
+      "slug": "4---typescript-7---type-alias-intersection-type",
+      "title": "Intersection Type",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-7---type-alias",
+      "githubPath": "4 - TypeScript/7 - Type Alias/assignments/Intersection Type"
+    },
+    {
+      "id": "4---typescript-7---type-alias-kombinasi-union-dan-intersection",
+      "slug": "4---typescript-7---type-alias-kombinasi-union-dan-intersection",
+      "title": "Kombinasi Union dan Intersection",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-7---type-alias",
+      "githubPath": "4 - TypeScript/7 - Type Alias/assignments/Kombinasi Union dan Intersection"
+    },
+    {
+      "id": "4---typescript-7---type-alias-menggunakan-type-alias-pada-array",
+      "slug": "4---typescript-7---type-alias-menggunakan-type-alias-pada-array",
+      "title": "Menggunakan Type Alias pada Array",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-7---type-alias",
+      "githubPath": "4 - TypeScript/7 - Type Alias/assignments/Menggunakan Type Alias pada Array"
+    },
+    {
+      "id": "4---typescript-7---type-alias-type-alias-sederhana",
+      "slug": "4---typescript-7---type-alias-type-alias-sederhana",
+      "title": "Type Alias Sederhana",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-7---type-alias",
+      "githubPath": "4 - TypeScript/7 - Type Alias/assignments/Type Alias Sederhana"
+    },
+    {
+      "id": "4---typescript-7---type-alias-type-alias-union-literal",
+      "slug": "4---typescript-7---type-alias-type-alias-union-literal",
+      "title": "Type Alias Union Literal",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-7---type-alias",
+      "githubPath": "4 - TypeScript/7 - Type Alias/assignments/Type Alias Union Literal"
+    },
+    {
+      "id": "4---typescript-7---type-alias-type-alias-untuk-function",
+      "slug": "4---typescript-7---type-alias-type-alias-untuk-function",
+      "title": "Type Alias untuk Function",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-7---type-alias",
+      "githubPath": "4 - TypeScript/7 - Type Alias/assignments/Type Alias untuk Function"
+    },
+    {
+      "id": "4---typescript-7---type-alias-type-alias-untuk-object",
+      "slug": "4---typescript-7---type-alias-type-alias-untuk-object",
+      "title": "Type Alias untuk Object",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-7---type-alias",
+      "githubPath": "4 - TypeScript/7 - Type Alias/assignments/Type Alias untuk Object"
+    },
+    {
+      "id": "4---typescript-7---type-alias-type-alias-vs-interface",
+      "slug": "4---typescript-7---type-alias-type-alias-vs-interface",
+      "title": "Type Alias vs Interface",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-7---type-alias",
+      "githubPath": "4 - TypeScript/7 - Type Alias/assignments/Type Alias vs Interface"
+    },
+    {
+      "id": "4---typescript-8---interface-declaration-merging",
+      "slug": "4---typescript-8---interface-declaration-merging",
+      "title": "Declaration Merging",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-8---interface",
+      "githubPath": "4 - TypeScript/8 - Interface/assignments/Declaration Merging"
+    },
+    {
+      "id": "4---typescript-8---interface-extends-pada-interface",
+      "slug": "4---typescript-8---interface-extends-pada-interface",
+      "title": "Extends pada Interface",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-8---interface",
+      "githubPath": "4 - TypeScript/8 - Interface/assignments/Extends pada Interface"
+    },
+    {
+      "id": "4---typescript-8---interface-interface-sederhana",
+      "slug": "4---typescript-8---interface-interface-sederhana",
+      "title": "Interface Sederhana",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-8---interface",
+      "githubPath": "4 - TypeScript/8 - Interface/assignments/Interface Sederhana"
+    },
+    {
+      "id": "4---typescript-8---interface-interface-dengan-method",
+      "slug": "4---typescript-8---interface-interface-dengan-method",
+      "title": "Interface dengan Method",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-8---interface",
+      "githubPath": "4 - TypeScript/8 - Interface/assignments/Interface dengan Method"
+    },
+    {
+      "id": "4---typescript-8---interface-interface-untuk-array-of-object",
+      "slug": "4---typescript-8---interface-interface-untuk-array-of-object",
+      "title": "Interface untuk Array of Object",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-8---interface",
+      "githubPath": "4 - TypeScript/8 - Interface/assignments/Interface untuk Array of Object"
+    },
+    {
+      "id": "4---typescript-8---interface-interface-untuk-function",
+      "slug": "4---typescript-8---interface-interface-untuk-function",
+      "title": "Interface untuk Function",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-8---interface",
+      "githubPath": "4 - TypeScript/8 - Interface/assignments/Interface untuk Function"
+    },
+    {
+      "id": "4---typescript-8---interface-optional-property-pada-interface",
+      "slug": "4---typescript-8---interface-optional-property-pada-interface",
+      "title": "Optional Property pada Interface",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-8---interface",
+      "githubPath": "4 - TypeScript/8 - Interface/assignments/Optional Property pada Interface"
+    },
+    {
+      "id": "4---typescript-8---interface-readonly-property-pada-interface",
+      "slug": "4---typescript-8---interface-readonly-property-pada-interface",
+      "title": "Readonly Property pada Interface",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-8---interface",
+      "githubPath": "4 - TypeScript/8 - Interface/assignments/Readonly Property pada Interface"
+    },
+    {
+      "id": "4---typescript-9---enum-dan-utility-types-enum-dengan-function",
+      "slug": "4---typescript-9---enum-dan-utility-types-enum-dengan-function",
+      "title": "Enum dengan Function",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-9---enum-dan-utility-types",
+      "githubPath": "4 - TypeScript/9 - Enum dan Utility Types/assignments/Enum dengan Function"
+    },
+    {
+      "id": "4---typescript-9---enum-dan-utility-types-kombinasi-enum-dan-utility-types",
+      "slug": "4---typescript-9---enum-dan-utility-types-kombinasi-enum-dan-utility-types",
+      "title": "Kombinasi Enum dan Utility Types",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-9---enum-dan-utility-types",
+      "githubPath": "4 - TypeScript/9 - Enum dan Utility Types/assignments/Kombinasi Enum dan Utility Types"
+    },
+    {
+      "id": "4---typescript-9---enum-dan-utility-types-numeric-enum",
+      "slug": "4---typescript-9---enum-dan-utility-types-numeric-enum",
+      "title": "Numeric Enum",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-9---enum-dan-utility-types",
+      "githubPath": "4 - TypeScript/9 - Enum dan Utility Types/assignments/Numeric Enum"
+    },
+    {
+      "id": "4---typescript-9---enum-dan-utility-types-omit-utility-type",
+      "slug": "4---typescript-9---enum-dan-utility-types-omit-utility-type",
+      "title": "Omit Utility Type",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-9---enum-dan-utility-types",
+      "githubPath": "4 - TypeScript/9 - Enum dan Utility Types/assignments/Omit Utility Type"
+    },
+    {
+      "id": "4---typescript-9---enum-dan-utility-types-partial-utility-type",
+      "slug": "4---typescript-9---enum-dan-utility-types-partial-utility-type",
+      "title": "Partial Utility Type",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-9---enum-dan-utility-types",
+      "githubPath": "4 - TypeScript/9 - Enum dan Utility Types/assignments/Partial Utility Type"
+    },
+    {
+      "id": "4---typescript-9---enum-dan-utility-types-pick-utility-type",
+      "slug": "4---typescript-9---enum-dan-utility-types-pick-utility-type",
+      "title": "Pick Utility Type",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-9---enum-dan-utility-types",
+      "githubPath": "4 - TypeScript/9 - Enum dan Utility Types/assignments/Pick Utility Type"
+    },
+    {
+      "id": "4---typescript-9---enum-dan-utility-types-readonly-utility-type",
+      "slug": "4---typescript-9---enum-dan-utility-types-readonly-utility-type",
+      "title": "Readonly Utility Type",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-9---enum-dan-utility-types",
+      "githubPath": "4 - TypeScript/9 - Enum dan Utility Types/assignments/Readonly Utility Type"
+    },
+    {
+      "id": "4---typescript-9---enum-dan-utility-types-string-enum",
+      "slug": "4---typescript-9---enum-dan-utility-types-string-enum",
+      "title": "String Enum",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-9---enum-dan-utility-types",
+      "githubPath": "4 - TypeScript/9 - Enum dan Utility Types/assignments/String Enum"
     }
   ],
   "resources": [
@@ -597,6 +2345,15 @@
       "moduleSlug": "1---javascript-8---array",
       "githubPath": "1 - JavaScript/8 - Array/resources/README.md",
       "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/8%20-%20Array/resources/README.md"
+    },
+    {
+      "id": "1---javascript9---objectresourcesreadmemd",
+      "slug": "1---javascript9---objectresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-9---object",
+      "githubPath": "1 - JavaScript/9 - Object/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/1%20-%20JavaScript/9%20-%20Object/resources/README.md"
     },
     {
       "id": "2---back-end1---nodejs-and-expressjsresourcesreadmemd",
@@ -815,6 +2572,114 @@
       "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/3%20-%20Front%20End/9%20-%20ShadcnUi%20TanStackQuery%20Zod%20ReactHookForm/resources/README.md"
     },
     {
+      "id": "4---typescript1---pengenalan-typescriptresourcesreadmemd",
+      "slug": "4---typescript1---pengenalan-typescriptresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-1---pengenalan-typescript",
+      "githubPath": "4 - TypeScript/1 - Pengenalan TypeScript/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/1%20-%20Pengenalan%20TypeScript/resources/README.md"
+    },
+    {
+      "id": "4---typescript10---class-dan-oop-dasarresourcesreadmemd",
+      "slug": "4---typescript10---class-dan-oop-dasarresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-10---class-dan-oop-dasar",
+      "githubPath": "4 - TypeScript/10 - Class dan OOP Dasar/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/10%20-%20Class%20dan%20OOP%20Dasar/resources/README.md"
+    },
+    {
+      "id": "4---typescript11---generic-dasarresourcesreadmemd",
+      "slug": "4---typescript11---generic-dasarresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-11---generic-dasar",
+      "githubPath": "4 - TypeScript/11 - Generic Dasar/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/11%20-%20Generic%20Dasar/resources/README.md"
+    },
+    {
+      "id": "4---typescript12---mini-project-typescriptresourcesreadmemd",
+      "slug": "4---typescript12---mini-project-typescriptresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-12---mini-project-typescript",
+      "githubPath": "4 - TypeScript/12 - Mini Project TypeScript/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/12%20-%20Mini%20Project%20TypeScript/resources/README.md"
+    },
+    {
+      "id": "4---typescript2---basic-typesresourcesreadmemd",
+      "slug": "4---typescript2---basic-typesresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-2---basic-types",
+      "githubPath": "4 - TypeScript/2 - Basic Types/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/2%20-%20Basic%20Types/resources/README.md"
+    },
+    {
+      "id": "4---typescript3---variable-dan-type-annotationresourcesreadmemd",
+      "slug": "4---typescript3---variable-dan-type-annotationresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-3---variable-dan-type-annotation",
+      "githubPath": "4 - TypeScript/3 - Variable dan Type Annotation/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/3%20-%20Variable%20dan%20Type%20Annotation/resources/README.md"
+    },
+    {
+      "id": "4---typescript4---function-pada-typescriptresourcesreadmemd",
+      "slug": "4---typescript4---function-pada-typescriptresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-4---function-pada-typescript",
+      "githubPath": "4 - TypeScript/4 - Function pada TypeScript/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/4%20-%20Function%20pada%20TypeScript/resources/README.md"
+    },
+    {
+      "id": "4---typescript5---array-dan-tupleresourcesreadmemd",
+      "slug": "4---typescript5---array-dan-tupleresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-5---array-dan-tuple",
+      "githubPath": "4 - TypeScript/5 - Array dan Tuple/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/5%20-%20Array%20dan%20Tuple/resources/README.md"
+    },
+    {
+      "id": "4---typescript6---object-typeresourcesreadmemd",
+      "slug": "4---typescript6---object-typeresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-6---object-type",
+      "githubPath": "4 - TypeScript/6 - Object Type/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/6%20-%20Object%20Type/resources/README.md"
+    },
+    {
+      "id": "4---typescript7---type-aliasresourcesreadmemd",
+      "slug": "4---typescript7---type-aliasresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-7---type-alias",
+      "githubPath": "4 - TypeScript/7 - Type Alias/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/7%20-%20Type%20Alias/resources/README.md"
+    },
+    {
+      "id": "4---typescript8---interfaceresourcesreadmemd",
+      "slug": "4---typescript8---interfaceresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-8---interface",
+      "githubPath": "4 - TypeScript/8 - Interface/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/8%20-%20Interface/resources/README.md"
+    },
+    {
+      "id": "4---typescript9---enum-dan-utility-typesresourcesreadmemd",
+      "slug": "4---typescript9---enum-dan-utility-typesresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "4---typescript",
+      "moduleSlug": "4---typescript-9---enum-dan-utility-types",
+      "githubPath": "4 - TypeScript/9 - Enum dan Utility Types/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/4%20-%20TypeScript/9%20-%20Enum%20dan%20Utility%20Types/resources/README.md"
+    },
+    {
       "id": "5---oop-mvc1---pengenalan-oopresourcesreadmemd",
       "slug": "5---oop-mvc1---pengenalan-oopresourcesreadmemd",
       "title": "README.md",
@@ -822,6 +2687,15 @@
       "moduleSlug": "5---oop-mvc-1---pengenalan-oop",
       "githubPath": "5 - OOP MVC/1 - Pengenalan OOP/resources/README.md",
       "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20OOP%20MVC/1%20-%20Pengenalan%20OOP/resources/README.md"
+    },
+    {
+      "id": "5---oop-mvc2---teori-oopresourcesreadmemd",
+      "slug": "5---oop-mvc2---teori-oopresourcesreadmemd",
+      "title": "README.md",
+      "programSlug": "5---oop-mvc",
+      "moduleSlug": "5---oop-mvc-2---teori-oop",
+      "githubPath": "5 - OOP MVC/2 - Teori OOP/resources/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/PrivateStack-TownHall/Syllabus/master/5%20-%20OOP%20MVC/2%20-%20Teori%20OOP/resources/README.md"
     },
     {
       "id": "5---oop-mvc3---pengenalan-mvcresourcesreadmemd",
