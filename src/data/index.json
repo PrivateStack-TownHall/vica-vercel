@@ -564,6 +564,14 @@
       "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/Default & Rest Parameter"
     },
     {
+      "id": "1---javascript-10---es6-modern-javascript-default-parameter",
+      "slug": "1---javascript-10---es6-modern-javascript-default-parameter",
+      "title": "Default Parameter",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-10---es6-modern-javascript",
+      "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/Default Parameter"
+    },
+    {
       "id": "1---javascript-10---es6-modern-javascript-destructuring-dengan-renaming",
       "slug": "1---javascript-10---es6-modern-javascript-destructuring-dengan-renaming",
       "title": "Destructuring dengan Renaming",
@@ -572,12 +580,12 @@
       "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/Destructuring dengan Renaming"
     },
     {
-      "id": "1---javascript-10---es6-modern-javascript-destructuring",
-      "slug": "1---javascript-10---es6-modern-javascript-destructuring",
-      "title": "Destructuring",
+      "id": "1---javascript-10---es6-modern-javascript-enhanced-object-literal",
+      "slug": "1---javascript-10---es6-modern-javascript-enhanced-object-literal",
+      "title": "Enhanced Object Literal",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-10---es6-modern-javascript",
-      "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/Destructuring"
+      "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/Enhanced Object Literal"
     },
     {
       "id": "1---javascript-10---es6-modern-javascript-merge-object-dengan-spread",
@@ -586,6 +594,22 @@
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-10---es6-modern-javascript",
       "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/Merge Object dengan Spread"
+    },
+    {
+      "id": "1---javascript-10---es6-modern-javascript-object-destructuring",
+      "slug": "1---javascript-10---es6-modern-javascript-object-destructuring",
+      "title": "Object Destructuring",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-10---es6-modern-javascript",
+      "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/Object Destructuring"
+    },
+    {
+      "id": "1---javascript-10---es6-modern-javascript-object-dengan-method",
+      "slug": "1---javascript-10---es6-modern-javascript-object-dengan-method",
+      "title": "Object dengan Method",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-10---es6-modern-javascript",
+      "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/Object dengan Method"
     },
     {
       "id": "1---javascript-10---es6-modern-javascript-spread-operator-pada-array",
@@ -602,14 +626,6 @@
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-10---es6-modern-javascript",
       "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/Template Literal"
-    },
-    {
-      "id": "1---javascript-10---es6-modern-javascript-letconst-vs-var",
-      "slug": "1---javascript-10---es6-modern-javascript-letconst-vs-var",
-      "title": "letconst vs var",
-      "programSlug": "1---javascript",
-      "moduleSlug": "1---javascript-10---es6-modern-javascript",
-      "githubPath": "1 - JavaScript/10 - ES6 Modern JavaScript/assignments/letconst vs var"
     },
     {
       "id": "1---javascript-11---array-methods-grouping-dengan-reduce",
@@ -884,22 +900,6 @@
       "githubPath": "1 - JavaScript/1b - Introduction To JavaScript/assignments/var vs let vs const"
     },
     {
-      "id": "1---javascript-2a---algoritma-pseudocode-bubble-sort",
-      "slug": "1---javascript-2a---algoritma-pseudocode-bubble-sort",
-      "title": "Bubble Sort",
-      "programSlug": "1---javascript",
-      "moduleSlug": "1---javascript-2a---algoritma-pseudocode",
-      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Bubble Sort"
-    },
-    {
-      "id": "1---javascript-2a---algoritma-pseudocode-cek-ganjil-genap",
-      "slug": "1---javascript-2a---algoritma-pseudocode-cek-ganjil-genap",
-      "title": "Cek Ganjil Genap",
-      "programSlug": "1---javascript",
-      "moduleSlug": "1---javascript-2a---algoritma-pseudocode",
-      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Cek Ganjil Genap"
-    },
-    {
       "id": "1---javascript-2a---algoritma-pseudocode-definisi-algoritma",
       "slug": "1---javascript-2a---algoritma-pseudocode-definisi-algoritma",
       "title": "Definisi Algoritma",
@@ -916,20 +916,28 @@
       "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Flowchart vs Pseudocode"
     },
     {
-      "id": "1---javascript-2a---algoritma-pseudocode-kelulusan-siswa",
-      "slug": "1---javascript-2a---algoritma-pseudocode-kelulusan-siswa",
-      "title": "Kelulusan Siswa",
+      "id": "1---javascript-2a---algoritma-pseudocode-keliling-lingkaran",
+      "slug": "1---javascript-2a---algoritma-pseudocode-keliling-lingkaran",
+      "title": "Keliling Lingkaran",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-2a---algoritma-pseudocode",
-      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Kelulusan Siswa"
+      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Keliling Lingkaran"
     },
     {
-      "id": "1---javascript-2a---algoritma-pseudocode-nilai-terbesar-dari-3-angka",
-      "slug": "1---javascript-2a---algoritma-pseudocode-nilai-terbesar-dari-3-angka",
-      "title": "Nilai Terbesar Dari 3 Angka",
+      "id": "1---javascript-2a---algoritma-pseudocode-luas-permukaan-kubus",
+      "slug": "1---javascript-2a---algoritma-pseudocode-luas-permukaan-kubus",
+      "title": "Luas Permukaan Kubus",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-2a---algoritma-pseudocode",
-      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Nilai Terbesar Dari 3 Angka"
+      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Luas Permukaan Kubus"
+    },
+    {
+      "id": "1---javascript-2a---algoritma-pseudocode-luas-segitiga",
+      "slug": "1---javascript-2a---algoritma-pseudocode-luas-segitiga",
+      "title": "Luas Segitiga",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2a---algoritma-pseudocode",
+      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Luas Segitiga"
     },
     {
       "id": "1---javascript-2a---algoritma-pseudocode-penjumlahan-dua-angka",
@@ -940,12 +948,28 @@
       "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Penjumlahan Dua Angka"
     },
     {
-      "id": "1---javascript-2a---algoritma-pseudocode-total-dari-1-hingga-n",
-      "slug": "1---javascript-2a---algoritma-pseudocode-total-dari-1-hingga-n",
-      "title": "Total Dari 1 Hingga N",
+      "id": "1---javascript-2a---algoritma-pseudocode-volume-bola",
+      "slug": "1---javascript-2a---algoritma-pseudocode-volume-bola",
+      "title": "Volume Bola",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-2a---algoritma-pseudocode",
-      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Total Dari 1 Hingga N"
+      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Volume Bola"
+    },
+    {
+      "id": "1---javascript-2a---algoritma-pseudocode-volume-tabung",
+      "slug": "1---javascript-2a---algoritma-pseudocode-volume-tabung",
+      "title": "Volume Tabung",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2a---algoritma-pseudocode",
+      "githubPath": "1 - JavaScript/2a - Algoritma Pseudocode/assignments/Volume Tabung"
+    },
+    {
+      "id": "1---javascript-2b---variables-data-type-angka-acak",
+      "slug": "1---javascript-2b---variables-data-type-angka-acak",
+      "title": "Angka Acak",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2b---variables-data-type",
+      "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/Angka Acak"
     },
     {
       "id": "1---javascript-2b---variables-data-type-cek-typeof",
@@ -980,12 +1004,36 @@
       "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/Mengecek Tipe Data"
     },
     {
+      "id": "1---javascript-2b---variables-data-type-menghitung-jumlah-karakter",
+      "slug": "1---javascript-2b---variables-data-type-menghitung-jumlah-karakter",
+      "title": "Menghitung Jumlah Karakter",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2b---variables-data-type",
+      "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/Menghitung Jumlah Karakter"
+    },
+    {
+      "id": "1---javascript-2b---variables-data-type-menghitung-massa-jenis",
+      "slug": "1---javascript-2b---variables-data-type-menghitung-massa-jenis",
+      "title": "Menghitung Massa Jenis",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2b---variables-data-type",
+      "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/Menghitung Massa Jenis"
+    },
+    {
       "id": "1---javascript-2b---variables-data-type-operasi-campuran-tipe-data",
       "slug": "1---javascript-2b---variables-data-type-operasi-campuran-tipe-data",
       "title": "Operasi Campuran Tipe Data",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-2b---variables-data-type",
       "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/Operasi Campuran Tipe Data"
+    },
+    {
+      "id": "1---javascript-2b---variables-data-type-operator-logika-dan-perbandingan",
+      "slug": "1---javascript-2b---variables-data-type-operator-logika-dan-perbandingan",
+      "title": "Operator Logika dan Perbandingan",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2b---variables-data-type",
+      "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/Operator Logika dan Perbandingan"
     },
     {
       "id": "1---javascript-2b---variables-data-type-perbandingan-vs-",
@@ -1004,20 +1052,20 @@
       "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/Tipe Data Primitif"
     },
     {
+      "id": "1---javascript-2b---variables-data-type-variable-pada-string",
+      "slug": "1---javascript-2b---variables-data-type-variable-pada-string",
+      "title": "Variable pada String",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-2b---variables-data-type",
+      "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/Variable pada String"
+    },
+    {
       "id": "1---javascript-2b---variables-data-type-null-vs-undefined",
       "slug": "1---javascript-2b---variables-data-type-null-vs-undefined",
       "title": "null vs undefined",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-2b---variables-data-type",
       "githubPath": "1 - JavaScript/2b - Variables Data Type/assignments/null vs undefined"
-    },
-    {
-      "id": "1---javascript-3---variables-dan-tipe-data-tambahan-block-scope-dalam-loop",
-      "slug": "1---javascript-3---variables-dan-tipe-data-tambahan-block-scope-dalam-loop",
-      "title": "Block Scope dalam Loop",
-      "programSlug": "1---javascript",
-      "moduleSlug": "1---javascript-3---variables-dan-tipe-data-tambahan",
-      "githubPath": "1 - JavaScript/3 - Variables dan Tipe Data (tambahan)/assignments/Block Scope dalam Loop"
     },
     {
       "id": "1---javascript-3---variables-dan-tipe-data-tambahan-deklarasi-variabel-nama-umur",
@@ -1060,28 +1108,12 @@
       "githubPath": "1 - JavaScript/3 - Variables dan Tipe Data (tambahan)/assignments/Temporal Dead Zone"
     },
     {
-      "id": "1---javascript-3---variables-dan-tipe-data-tambahan-tipe-data-objek",
-      "slug": "1---javascript-3---variables-dan-tipe-data-tambahan-tipe-data-objek",
-      "title": "Tipe Data Objek",
-      "programSlug": "1---javascript",
-      "moduleSlug": "1---javascript-3---variables-dan-tipe-data-tambahan",
-      "githubPath": "1 - JavaScript/3 - Variables dan Tipe Data (tambahan)/assignments/Tipe Data Objek"
-    },
-    {
       "id": "1---javascript-3---variables-dan-tipe-data-tambahan-let-vs-const",
       "slug": "1---javascript-3---variables-dan-tipe-data-tambahan-let-vs-const",
       "title": "let vs const",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-3---variables-dan-tipe-data-tambahan",
       "githubPath": "1 - JavaScript/3 - Variables dan Tipe Data (tambahan)/assignments/let vs const"
-    },
-    {
-      "id": "1---javascript-4---operator-dan-expression--vs-",
-      "slug": "1---javascript-4---operator-dan-expression--vs-",
-      "title": "== vs ===",
-      "programSlug": "1---javascript",
-      "moduleSlug": "1---javascript-4---operator-dan-expression",
-      "githubPath": "1 - JavaScript/4 - Operator dan Expression/assignments/== vs ==="
     },
     {
       "id": "1---javascript-4---operator-dan-expression-increment-prefix-vs-postfix",
@@ -1124,28 +1156,12 @@
       "githubPath": "1 - JavaScript/4 - Operator dan Expression/assignments/Operator Precedence"
     },
     {
-      "id": "1---javascript-4---operator-dan-expression-operator-ternary",
-      "slug": "1---javascript-4---operator-dan-expression-operator-ternary",
-      "title": "Operator Ternary",
-      "programSlug": "1---javascript",
-      "moduleSlug": "1---javascript-4---operator-dan-expression",
-      "githubPath": "1 - JavaScript/4 - Operator dan Expression/assignments/Operator Ternary"
-    },
-    {
-      "id": "1---javascript-4---operator-dan-expression-ternary-untuk-cek-dewasa",
-      "slug": "1---javascript-4---operator-dan-expression-ternary-untuk-cek-dewasa",
-      "title": "Ternary untuk Cek Dewasa",
-      "programSlug": "1---javascript",
-      "moduleSlug": "1---javascript-4---operator-dan-expression",
-      "githubPath": "1 - JavaScript/4 - Operator dan Expression/assignments/Ternary untuk Cek Dewasa"
-    },
-    {
-      "id": "1---javascript-5---conditional-statement-habis-dibagi-2-dan-3",
-      "slug": "1---javascript-5---conditional-statement-habis-dibagi-2-dan-3",
-      "title": "Habis Dibagi 2 dan 3",
+      "id": "1---javascript-5---conditional-statement-cek-ganjil-genap",
+      "slug": "1---javascript-5---conditional-statement-cek-ganjil-genap",
+      "title": "Cek Ganjil Genap",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-5---conditional-statement",
-      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Habis Dibagi 2 dan 3"
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Cek Ganjil Genap"
     },
     {
       "id": "1---javascript-5---conditional-statement-if-tanpa-else",
@@ -1180,12 +1196,36 @@
       "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Kategori Nilai"
     },
     {
+      "id": "1---javascript-5---conditional-statement-kelipatan-3-dan-5",
+      "slug": "1---javascript-5---conditional-statement-kelipatan-3-dan-5",
+      "title": "Kelipatan 3 dan 5",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-5---conditional-statement",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Kelipatan 3 dan 5"
+    },
+    {
+      "id": "1---javascript-5---conditional-statement-kelulusan-siswa",
+      "slug": "1---javascript-5---conditional-statement-kelulusan-siswa",
+      "title": "Kelulusan Siswa",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-5---conditional-statement",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Kelulusan Siswa"
+    },
+    {
       "id": "1---javascript-5---conditional-statement-nested-if",
       "slug": "1---javascript-5---conditional-statement-nested-if",
       "title": "Nested If",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-5---conditional-statement",
       "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Nested If"
+    },
+    {
+      "id": "1---javascript-5---conditional-statement-operator-ternary",
+      "slug": "1---javascript-5---conditional-statement-operator-ternary",
+      "title": "Operator Ternary",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-5---conditional-statement",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Operator Ternary"
     },
     {
       "id": "1---javascript-5---conditional-statement-positif-negatif-nol",
@@ -1196,12 +1236,44 @@
       "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Positif Negatif Nol"
     },
     {
+      "id": "1---javascript-5---conditional-statement-program-promo-harbolnas",
+      "slug": "1---javascript-5---conditional-statement-program-promo-harbolnas",
+      "title": "Program Promo Harbolnas",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-5---conditional-statement",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Program Promo Harbolnas"
+    },
+    {
+      "id": "1---javascript-5---conditional-statement-sistem-penilaian-mobil-bekas",
+      "slug": "1---javascript-5---conditional-statement-sistem-penilaian-mobil-bekas",
+      "title": "Sistem Penilaian Mobil Bekas",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-5---conditional-statement",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Sistem Penilaian Mobil Bekas"
+    },
+    {
+      "id": "1---javascript-5---conditional-statement-status-keasaman-larutan",
+      "slug": "1---javascript-5---conditional-statement-status-keasaman-larutan",
+      "title": "Status Keasaman Larutan",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-5---conditional-statement",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Status Keasaman Larutan"
+    },
+    {
       "id": "1---javascript-5---conditional-statement-switch-hari",
       "slug": "1---javascript-5---conditional-statement-switch-hari",
       "title": "Switch Hari",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-5---conditional-statement",
       "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Switch Hari"
+    },
+    {
+      "id": "1---javascript-5---conditional-statement-ternary-untuk-cek-dewasa",
+      "slug": "1---javascript-5---conditional-statement-ternary-untuk-cek-dewasa",
+      "title": "Ternary untuk Cek Dewasa",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-5---conditional-statement",
+      "githubPath": "1 - JavaScript/5 - Conditional Statement/assignments/Ternary untuk Cek Dewasa"
     },
     {
       "id": "1---javascript-6---looping-angka-genap-1-20",
@@ -1212,6 +1284,22 @@
       "githubPath": "1 - JavaScript/6 - Looping/assignments/Angka Genap 1-20"
     },
     {
+      "id": "1---javascript-6---looping-bilangan-prima",
+      "slug": "1---javascript-6---looping-bilangan-prima",
+      "title": "Bilangan Prima",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-6---looping",
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/Bilangan Prima"
+    },
+    {
+      "id": "1---javascript-6---looping-block-scope-dalam-loop",
+      "slug": "1---javascript-6---looping-block-scope-dalam-loop",
+      "title": "Block Scope dalam Loop",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-6---looping",
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/Block Scope dalam Loop"
+    },
+    {
       "id": "1---javascript-6---looping-break-loop",
       "slug": "1---javascript-6---looping-break-loop",
       "title": "Break Loop",
@@ -1220,12 +1308,12 @@
       "githubPath": "1 - JavaScript/6 - Looping/assignments/Break Loop"
     },
     {
-      "id": "1---javascript-6---looping-cetak-angka-1-10",
-      "slug": "1---javascript-6---looping-cetak-angka-1-10",
-      "title": "Cetak Angka 1-10",
+      "id": "1---javascript-6---looping-cetak-angka-ganjil-dari-1-10",
+      "slug": "1---javascript-6---looping-cetak-angka-ganjil-dari-1-10",
+      "title": "Cetak Angka Ganjil Dari 1-10",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-6---looping",
-      "githubPath": "1 - JavaScript/6 - Looping/assignments/Cetak Angka 1-10"
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/Cetak Angka Ganjil Dari 1-10"
     },
     {
       "id": "1---javascript-6---looping-continue-loop",
@@ -1234,6 +1322,30 @@
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-6---looping",
       "githubPath": "1 - JavaScript/6 - Looping/assignments/Continue Loop"
+    },
+    {
+      "id": "1---javascript-6---looping-kotak",
+      "slug": "1---javascript-6---looping-kotak",
+      "title": "Kotak",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-6---looping",
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/Kotak"
+    },
+    {
+      "id": "1---javascript-6---looping-menentukan-faktor-bilangan",
+      "slug": "1---javascript-6---looping-menentukan-faktor-bilangan",
+      "title": "Menentukan Faktor Bilangan",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-6---looping",
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/Menentukan Faktor Bilangan"
+    },
+    {
+      "id": "1---javascript-6---looping-nilai-terbesar-dari-3-angka",
+      "slug": "1---javascript-6---looping-nilai-terbesar-dari-3-angka",
+      "title": "Nilai Terbesar Dari 3 Angka",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-6---looping",
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/Nilai Terbesar Dari 3 Angka"
     },
     {
       "id": "1---javascript-6---looping-piramida-angka",
@@ -1252,12 +1364,28 @@
       "githubPath": "1 - JavaScript/6 - Looping/assignments/Pola Segitiga Bintang"
     },
     {
-      "id": "1---javascript-6---looping-total-kelipatan-3",
-      "slug": "1---javascript-6---looping-total-kelipatan-3",
-      "title": "Total Kelipatan 3",
+      "id": "1---javascript-6---looping-segitiga-siku-siku",
+      "slug": "1---javascript-6---looping-segitiga-siku-siku",
+      "title": "Segitiga Siku Siku",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-6---looping",
-      "githubPath": "1 - JavaScript/6 - Looping/assignments/Total Kelipatan 3"
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/Segitiga Siku Siku"
+    },
+    {
+      "id": "1---javascript-6---looping-total-dari-1-hingga-n",
+      "slug": "1---javascript-6---looping-total-dari-1-hingga-n",
+      "title": "Total Dari 1 Hingga N",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-6---looping",
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/Total Dari 1 Hingga N"
+    },
+    {
+      "id": "1---javascript-6---looping-total-kelipatan-3-dan-5",
+      "slug": "1---javascript-6---looping-total-kelipatan-3-dan-5",
+      "title": "Total Kelipatan 3 dan 5",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-6---looping",
+      "githubPath": "1 - JavaScript/6 - Looping/assignments/Total Kelipatan 3 dan 5"
     },
     {
       "id": "1---javascript-6---looping-while-vs-do-while",
@@ -1274,6 +1402,14 @@
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-7---function",
       "githubPath": "1 - JavaScript/7 - Function/assignments/Arrow Function"
+    },
+    {
+      "id": "1---javascript-7---function-cek-bilangan-genap",
+      "slug": "1---javascript-7---function-cek-bilangan-genap",
+      "title": "Cek Bilangan Genap",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-7---function",
+      "githubPath": "1 - JavaScript/7 - Function/assignments/Cek Bilangan Genap"
     },
     {
       "id": "1---javascript-7---function-closure-counter",
@@ -1308,12 +1444,20 @@
       "githubPath": "1 - JavaScript/7 - Function/assignments/Function Declaration"
     },
     {
-      "id": "1---javascript-7---function-function-penjumlahan",
-      "slug": "1---javascript-7---function-function-penjumlahan",
-      "title": "Function Penjumlahan",
+      "id": "1---javascript-7---function-function-return-value",
+      "slug": "1---javascript-7---function-function-return-value",
+      "title": "Function Return Value",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-7---function",
-      "githubPath": "1 - JavaScript/7 - Function/assignments/Function Penjumlahan"
+      "githubPath": "1 - JavaScript/7 - Function/assignments/Function Return Value"
+    },
+    {
+      "id": "1---javascript-7---function-jumlah-dua-angka",
+      "slug": "1---javascript-7---function-jumlah-dua-angka",
+      "title": "Jumlah Dua Angka",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-7---function",
+      "githubPath": "1 - JavaScript/7 - Function/assignments/Jumlah Dua Angka"
     },
     {
       "id": "1---javascript-7---function-parameter-dan-argument",
@@ -1332,6 +1476,22 @@
       "githubPath": "1 - JavaScript/7 - Function/assignments/Rest Parameter"
     },
     {
+      "id": "1---javascript-7---function-teks-huruf-capital",
+      "slug": "1---javascript-7---function-teks-huruf-capital",
+      "title": "Teks Huruf Capital",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-7---function",
+      "githubPath": "1 - JavaScript/7 - Function/assignments/Teks Huruf Capital"
+    },
+    {
+      "id": "1---javascript-7---function-urutan-kata-dalam-kalimat",
+      "slug": "1---javascript-7---function-urutan-kata-dalam-kalimat",
+      "title": "Urutan Kata Dalam Kalimat",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-7---function",
+      "githubPath": "1 - JavaScript/7 - Function/assignments/Urutan Kata Dalam Kalimat"
+    },
+    {
       "id": "1---javascript-8---array-akses-elemen-array",
       "slug": "1---javascript-8---array-akses-elemen-array",
       "title": "Akses Elemen Array",
@@ -1340,12 +1500,28 @@
       "githubPath": "1 - JavaScript/8 - Array/assignments/Akses Elemen Array"
     },
     {
-      "id": "1---javascript-8---array-hapus-duplikat-manual",
-      "slug": "1---javascript-8---array-hapus-duplikat-manual",
-      "title": "Hapus Duplikat Manual",
+      "id": "1---javascript-8---array-bubble-sort",
+      "slug": "1---javascript-8---array-bubble-sort",
+      "title": "Bubble Sort",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-8---array",
-      "githubPath": "1 - JavaScript/8 - Array/assignments/Hapus Duplikat Manual"
+      "githubPath": "1 - JavaScript/8 - Array/assignments/Bubble Sort"
+    },
+    {
+      "id": "1---javascript-8---array-hapus-duplikat",
+      "slug": "1---javascript-8---array-hapus-duplikat",
+      "title": "Hapus Duplikat",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-8---array",
+      "githubPath": "1 - JavaScript/8 - Array/assignments/Hapus Duplikat"
+    },
+    {
+      "id": "1---javascript-8---array-jumlah-elemen-array",
+      "slug": "1---javascript-8---array-jumlah-elemen-array",
+      "title": "Jumlah Elemen Array",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-8---array",
+      "githubPath": "1 - JavaScript/8 - Array/assignments/Jumlah Elemen Array"
     },
     {
       "id": "1---javascript-8---array-membalik-array-manual",
@@ -1364,12 +1540,20 @@
       "githubPath": "1 - JavaScript/8 - Array/assignments/Membuat Array"
     },
     {
-      "id": "1---javascript-8---array-nilai-terbesar-dan-terkecil",
-      "slug": "1---javascript-8---array-nilai-terbesar-dan-terkecil",
-      "title": "Nilai Terbesar dan Terkecil",
+      "id": "1---javascript-8---array-menampilkan-angka-genap",
+      "slug": "1---javascript-8---array-menampilkan-angka-genap",
+      "title": "Menampilkan Angka Genap",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-8---array",
-      "githubPath": "1 - JavaScript/8 - Array/assignments/Nilai Terbesar dan Terkecil"
+      "githubPath": "1 - JavaScript/8 - Array/assignments/Menampilkan Angka Genap"
+    },
+    {
+      "id": "1---javascript-8---array-nilai-terbesar-dalam-array",
+      "slug": "1---javascript-8---array-nilai-terbesar-dalam-array",
+      "title": "Nilai Terbesar Dalam Array",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-8---array",
+      "githubPath": "1 - JavaScript/8 - Array/assignments/Nilai Terbesar Dalam Array"
     },
     {
       "id": "1---javascript-8---array-panjang-array",
@@ -1386,6 +1570,14 @@
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-8---array",
       "githubPath": "1 - JavaScript/8 - Array/assignments/Push dan Pop"
+    },
+    {
+      "id": "1---javascript-8---array-selisih-nilai-terbesar-dan-terkecil",
+      "slug": "1---javascript-8---array-selisih-nilai-terbesar-dan-terkecil",
+      "title": "Selisih Nilai Terbesar Dan Terkecil",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-8---array",
+      "githubPath": "1 - JavaScript/8 - Array/assignments/Selisih Nilai Terbesar Dan Terkecil"
     },
     {
       "id": "1---javascript-8---array-shift-dan-unshift",
@@ -1412,12 +1604,28 @@
       "githubPath": "1 - JavaScript/9 - Object/assignments/Dot vs Bracket Notation"
     },
     {
+      "id": "1---javascript-9---object-membuat-object-sederhana",
+      "slug": "1---javascript-9---object-membuat-object-sederhana",
+      "title": "Membuat Object Sederhana",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-9---object",
+      "githubPath": "1 - JavaScript/9 - Object/assignments/Membuat Object Sederhana"
+    },
+    {
       "id": "1---javascript-9---object-menambah-properti",
       "slug": "1---javascript-9---object-menambah-properti",
       "title": "Menambah Properti",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-9---object",
       "githubPath": "1 - JavaScript/9 - Object/assignments/Menambah Properti"
+    },
+    {
+      "id": "1---javascript-9---object-mengakses-properti-object",
+      "slug": "1---javascript-9---object-mengakses-properti-object",
+      "title": "Mengakses Properti Object",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-9---object",
+      "githubPath": "1 - JavaScript/9 - Object/assignments/Mengakses Properti Object"
     },
     {
       "id": "1---javascript-9---object-menghapus-properti",
@@ -1444,12 +1652,20 @@
       "githubPath": "1 - JavaScript/9 - Object/assignments/Object dengan Method"
     },
     {
-      "id": "1---javascript-9---object-objectkeys",
-      "slug": "1---javascript-9---object-objectkeys",
-      "title": "Object.keys()",
+      "id": "1---javascript-9---object-perulangan-pada-object",
+      "slug": "1---javascript-9---object-perulangan-pada-object",
+      "title": "Perulangan pada Object",
       "programSlug": "1---javascript",
       "moduleSlug": "1---javascript-9---object",
-      "githubPath": "1 - JavaScript/9 - Object/assignments/Object.keys()"
+      "githubPath": "1 - JavaScript/9 - Object/assignments/Perulangan pada Object"
+    },
+    {
+      "id": "1---javascript-9---object-tipe-data-objek",
+      "slug": "1---javascript-9---object-tipe-data-objek",
+      "title": "Tipe Data Objek",
+      "programSlug": "1---javascript",
+      "moduleSlug": "1---javascript-9---object",
+      "githubPath": "1 - JavaScript/9 - Object/assignments/Tipe Data Objek"
     },
     {
       "id": "1---javascript-9---object-keys-values-entries",

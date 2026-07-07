@@ -2,6 +2,9 @@
 
 import { useRouter } from "next/navigation";
 
+import { motion } from "framer-motion";
+
+import { Badge } from "@/components/ui/badge";
 import {
   Table,
   TableBody,
@@ -22,74 +25,163 @@ export default function ResourceTable({ resources }: ResourceTableProps) {
   const router = useRouter();
 
   return (
-    <div
+    <motion.div
+      initial={{
+        opacity: 0,
+        y: 16,
+      }}
+      animate={{
+        opacity: 1,
+        y: 0,
+      }}
+      transition={{
+        duration: 0.3,
+      }}
       className="
         overflow-hidden
         rounded-2xl
         border
         border-[#D9E2F2]
         bg-white
+        shadow-sm
       "
     >
       <Table>
         <TableHeader>
-          <TableRow>
-            <TableHead>Resource</TableHead>
+          <TableRow className="bg-[#F8FAFF] hover:bg-[#F8FAFF]">
+            <TableHead
+              className="
+                h-14
+                font-semibold
+                text-[#0D1B2A]
+              "
+            >
+              Resource
+            </TableHead>
 
-            <TableHead>Type</TableHead>
+            <TableHead
+              className="
+                font-semibold
+                text-[#0D1B2A]
+              "
+            >
+              Type
+            </TableHead>
 
-            <TableHead>Size</TableHead>
+            <TableHead
+              className="
+                font-semibold
+                text-[#0D1B2A]
+              "
+            >
+              Size
+            </TableHead>
 
-            <TableHead>Created</TableHead>
+            <TableHead
+              className="
+                font-semibold
+                text-[#0D1B2A]
+              "
+            >
+              Created
+            </TableHead>
           </TableRow>
         </TableHeader>
 
         <TableBody>
-          {resources.map((resource) => {
+          {resources.map((resource, index) => {
             const { Icon, color } = getResourceIcon(resource.type);
 
             return (
-              <TableRow
+              <motion.tr
                 key={resource.id}
-                className="cursor-pointer"
-                onClick={() => router.push(`/resources/${resource.slug}`)}
+                initial={{
+                  opacity: 0,
+                  y: 10,
+                }}
+                animate={{
+                  opacity: 1,
+                  y: 0,
+                }}
+                transition={{
+                  delay: index * 0.04,
+                  duration: 0.25,
+                }}
+                className="contents"
               >
-                <TableCell>
-                  <div className="flex items-center gap-3">
-                    <Icon size={32} className={color} />
-
-                    <div>
-                      <p
+                <TableRow
+                  onClick={() => router.push(`/resources/${resource.slug}`)}
+                  className="
+                    cursor-pointer
+                    transition-all
+                    duration-200
+                    hover:bg-[#EDF2FF]
+                  "
+                >
+                  <TableCell>
+                    <div className="flex items-center gap-3">
+                      <div
                         className="
-                          font-medium
-                          text-[#0D1B2A]
+                          flex
+                          h-10
+                          w-10
+                          items-center
+                          justify-center
+                          rounded-lg
+                          bg-[#EDF2FF]
                         "
                       >
-                        {resource.title}
-                      </p>
+                        <Icon size={20} className={color} />
+                      </div>
 
-                      <p
-                        className="
-                          text-xs
-                          text-slate-500
-                        "
-                      >
-                        {resource.description}
-                      </p>
+                      <div>
+                        <p
+                          className="
+                            font-semibold
+                            text-[#0D1B2A]
+                          "
+                        >
+                          {resource.title}
+                        </p>
+
+                        <p
+                          className="
+                            text-xs
+                            text-slate-500
+                          "
+                        >
+                          {resource.description || "Learning Resource"}
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                </TableCell>
+                  </TableCell>
 
-                <TableCell>{resource.type.toUpperCase()}</TableCell>
+                  <TableCell>
+                    <Badge
+                      variant="outline"
+                      className="
+                        border-[#5477A6]
+                        bg-[#EDF2FF]
+                        text-[#5477A6]
+                      "
+                    >
+                      {resource.type.toUpperCase()}
+                    </Badge>
+                  </TableCell>
 
-                <TableCell>{resource.size}</TableCell>
+                  <TableCell className="text-slate-700">
+                    {resource.size}
+                  </TableCell>
 
-                <TableCell>{resource.createdAt}</TableCell>
-              </TableRow>
+                  <TableCell className="text-slate-500">
+                    {resource.createdAt || "-"}
+                  </TableCell>
+                </TableRow>
+              </motion.tr>
             );
           })}
         </TableBody>
       </Table>
-    </div>
+    </motion.div>
   );
 }
